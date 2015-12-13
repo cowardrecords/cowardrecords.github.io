@@ -19,6 +19,7 @@ links:
  - title: blog
    url: /blog
 
+permalink: /:categories/:title
 # Build settings
 markdown: kramdown
 
