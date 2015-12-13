@@ -21,10 +21,11 @@ layout: default
 				<hr>
 				{% include socialshare.html %}
 			</div>
-				
-			<div class="show-for-medium-down"><hr></div>
 			
 			<div class="large-4 medium-12 small-12 columns" id="itemimages">
+				
+				<div class="show-for-medium-down"><hr></div>
+
 				<a class="th" target="_blank" href=" /img/{{ page.image }}" alt="{{page.image}} ">
 					<img src=" /img/{{ page.image }}" alt="{{page.image}}">
 				</a>	
@@ -56,7 +57,11 @@ layout: default
 				</ul>
 				
 				{% endif %}
+
+				<div class="show-for-medium-down"><hr></div>
 			</div>
+			
+			
 
 			<div class="large-4 medium-12 small-12 columns">
 				{% if page.sound  %}

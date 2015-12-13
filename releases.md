@@ -17,7 +17,7 @@ permalink: /releases/
 			          <a href="{{ post.url | prepend: site.baseurl }}">
 				          <h4>{{ post.title }}</h4>
 				          <p>{{ post.artist }}</p>
-				          <img src="/img/{{ post.image }}" alt="{{ post.name }}"/>
+				          <img class="th" src="/img/{{ post.image }}" alt="{{ post.name }}"/>
 			          </a>
 			          <br>
 			          {% include paypall-button-shop.html %}

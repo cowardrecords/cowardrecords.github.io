@@ -14,8 +14,11 @@ layout: default
           {% if post.category == "blog" %} <!-- do nothing -->
             {% else if %}
               <li>
-                <a href="{{ post.url | prepend: site.baseurl }}"><h4>{{ post.title }}</h4><p>{{post.artist}}</p></a>
-                <img src="/img/{{ post.image }}" alt="{{ post.name }}"/>
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                  <h4 class="text-center">{{ post.title }}</h4>
+                  <p class="text-center">{{post.artist}}</p>
+                  <img class="th" src="/img/{{ post.image }}" alt="{{ post.name }}"/>
+                </a>
                 <br>
               </li> 
           {% endif %} 
