@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div id="blogHeader"{% if page.bgimage %} style="background-image: url(/img/{{ page.bgimage }})" {% endif %}>
+	
+	<div class="testata">
+		<h2>{{ page.title }}</h2>
+
+		<i>{{ page.date | date: "%b %-d, %Y" }}</i>
+		{% if page.author %}
+		<h4>{{ page.author}}</h4>
+		
+		{% endif %}
+
+	</div>
+
+</div>
+
+<div class="small-12 columns">
+	<div class="small-12 columns">
+		{{ content }}
+		<br>
+		{% include socialshare.html %}
+	</div>
+</div>

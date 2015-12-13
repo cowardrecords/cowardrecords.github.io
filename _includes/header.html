@@ -1,0 +1,40 @@
+<header>
+  <div class="contain-to-grid sticky">
+    <nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large">
+
+      <ul class="title-area">
+
+        <li class="name">
+          <h1><a href="{{ site.baseurl }}/">  <img id="logo" src="/img/logo.png" alt="{{ site.title }}"> </a></h1>
+        </li>
+         <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+      </ul>
+
+      <section class="top-bar-section">
+        <!-- Right Nav Section -->
+        <ul class="left">
+          {% for my_page in site.pages %}
+           {% if my_page.title %}
+             <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+
+        <!-- Left Nav Section -->
+        <ul class="right">
+          <li>
+            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+              <input type="hidden" name="cmd" value="_cart">
+              <input type="hidden" name="business" value="KCA8HXP3HVFEN">
+              <input type="hidden" name="display" value="1">
+              <input type="image" src="{{ "/img/shopping-cart.png" | prepend: site.baseurl }}" border="0" name="submit" alt="PayPal Cart" >
+              <img alt="" border="0" src="https://www.paypalobjects.com/it_IT/i/scr/pixel.gif" width="1" height="1">
+            </form>
+          </li>
+        </ul>
+
+      </section>
+    </nav>
+  </div>
+</header>

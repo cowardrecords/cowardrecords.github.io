@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<div class="fullWidth">
+  <br>
+  <h4 class="text-center">news</h4>
+  <hr>
+  <div class="small-12 columns">
+    <div class="small-12 medium-8 large-9 columns">
+
+      <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
+        {% for post in site.posts limit: 8%}
+          {% if post.category == "blog" %} <!-- do nothing -->
+            {% else if %}
+              <li>
+                <a href="{{ post.url | prepend: site.baseurl }}"><h4>{{ post.title }}</h4><p>{{post.artist}}</p></a>
+                <img src="/img/{{ post.image }}" alt="{{ post.name }}"/>
+                <br>
+              </li> 
+          {% endif %} 
+        {% endfor %}
+      </ul>
+      <a id="underline" href="/releases"><p class="text-center">all releases</p></a>
+    </div>
+
+    <div class="small-12 medium-4 large-3 columns">
+      {% for post in site.categories.blog limit: 3 %}
+        <a href="{{ post.url | prepend: site.baseurl }}"><h4>{{ post.title }}</h4></a>
+        <i>{{ post.date | date: "%b %-d, %Y" }}</i>
+        <img src="/img/{{ post.image }}" alt="{{ post.name }}"/>
+        <br>
+        <p class="text-justify">{{ post.content | strip_html | truncatewords:20 }} <a id="underline" href="{{ post.url | prepend: site.baseurl }}">more >></a></p>
+      {% endfor %}
+      <a id="underline" href="/blog"><p class="text-center">all blog entries</p></a>
+    </div>
+  </div>
+</div>

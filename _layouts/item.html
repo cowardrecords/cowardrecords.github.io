@@ -1,0 +1,73 @@
+---
+layout: default
+---
+
+<div class="fullWidth row item" {% if page.bgimage %} style="background-image: url(/img/{{ page.bgimage }})" {% endif %}>
+
+		<div class="small-12 columns">
+			<div class="large-4 medium-12 small-12 columns" id="text">
+				<h2>{{page.title}}</h2>
+				<p>{{page.artist}}</p>
+		  		<h5>{{page.subtitle}}</h5>
+		  		{% if page.author %}
+		  			<i>{{page.code}}</i>
+		  		{% endif%}
+
+		  		<hr>
+				
+					{{ content }}
+				<br>
+				{% include paypall-button-item.html %}
+				<hr>
+				{% include socialshare.html %}
+			</div>
+				
+			<div class="show-for-medium-down"><hr></div>
+			
+			<div class="large-4 medium-12 small-12 columns" id="itemimages">
+				<a class="th" target="_blank" href=" /img/{{ page.image }}" alt="{{page.image}} ">
+					<img src=" /img/{{ page.image }}" alt="{{page.image}}">
+				</a>	
+				{% if page.imagethumb1  %}
+				<hr>
+				<ul class="large-block-grid-3 medium-block-grid-3 small-block-grid-1">
+				    <li>
+					  	<a class="th" target="_blank" href=" /img/{{ page.imagethumb1 }}" alt="{{page.imagethumb1}} ">
+	  						<img src=" /img/{{ page.imagethumb1 }}" alt="{{page.imagethumb1}}">
+						</a>
+					</li>
+
+					{% if page.imagethumb2  %}
+					<li>
+						<a class="th" target="_blank" href=" /img/{{ page.imagethumb2 }}" alt="{{page.imagethumb2}}">
+	  						<img src=" /img/{{ page.imagethumb2 }}" alt="{{page.imagethumb2}}">
+						</a>
+					</li>
+					{% endif %}
+
+					{% if page.imagethumb3  %}
+					<li>
+						<a class="th" target="_blank" href=" /img/{{ page.imagethumb3 }}" alt="{{page.imagethumb3}}">
+	  						<img src=" /img/{{ page.imagethumb3 }}" alt="{{page.imagethumb3}}">
+						</a>
+					</li>
+					{% endif %}
+
+				</ul>
+				
+				{% endif %}
+			</div>
+
+			<div class="large-4 medium-12 small-12 columns">
+				{% if page.sound  %}
+					<iframe width="100%" height="166" scrolling="no" frameborder="no" src={{ page.sound }}></iframe>	
+					<hr>
+				{% endif %}
+				{% if page.video  %}
+					<div class="videoWrapper">
+						<iframe width="100%" height="auto" src={{page.video}} frameborder="0" allowfullscreen></iframe>
+					</div>
+				{% endif %}
+			</div>
+		</div>
+</div>

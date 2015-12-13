@@ -1,0 +1,30 @@
+<footer>
+ <div class="footer">
+ 	<div class="row">
+ 	<div class="large-2 small-12 medium-12 show-for-large-up columns">
+ 		<img id="footerlogo" src=" /img/logo_vert.png" alt="{{ site.title }}">
+ 		<img src=" /img/io.gif" >
+
+ 	</div>
+ 	<div class="large-4 small-12 medium-12 columns">
+ 	  <h5> contacts</h5>
+ 	  <hr>
+	  <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+	  <p>{{ site.description }}</p>
+	</div>
+
+	<div class="large-6 small-12 medium-12 columns">
+	   <h5> newsletter</h5>
+ 	   <hr>
+	   <form style="padding:3px;text-align:left;" action="https://tinyletter.com/coward_records" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/coward_records', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+
+		   	<p>
+		   		<input type="text" style="width:100%" name="email" id="tlemail" placeholder="Enter your email address"/>
+		   	</p>
+		   	<input type="hidden" value="1" name="embed"/>
+		   	<input  class="button tiny" type="submit" value="Subscribe" />
+	   	</form>
+   	</div>
+   	</div>
+ </div>        
+</footer>
