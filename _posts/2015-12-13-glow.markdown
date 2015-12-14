@@ -8,7 +8,7 @@ price: "12.00"
 date: 2015-12-13 01:16:17 +0100
 bgimage: glow.jpg
 image: glow_zine.png
-
+thumbnail: glow_zine_thumbnail.png
 imagethumb1:
 imagethumb2:
 imagethumb3:
