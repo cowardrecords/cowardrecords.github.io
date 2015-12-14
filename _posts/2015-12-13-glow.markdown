@@ -2,7 +2,7 @@
 layout: item
 title: "Glow"
 artist: "Be Forest"
-subtitle: zine + flexy 7"
+subtitle: zine + flexi 7"
 code: CWRD 01
 price: "12.00"
 date: 2015-12-13 01:16:17 +0100
@@ -20,10 +20,10 @@ video: "https://www.youtube.com/embed/7IKeGfRrEZY?rel=0&amp;controls=0&amp;showi
 Limited edition of 150 copies\\
 Photographic zine with previously unreleased tracks on flexi 7" format
 
-Recorded, Mixed & Mastered by *Steve*\\
+Recorded, Mixed & Mastered by *Steve Scanu*\\
 Video directed by *Erica Terenzi*
 
 November/December 2015
 
 This item is on  **Preorder**, you can order your copy,
-we'll start to ship on Genuary 22th 2016
+we'll start to ship on January 22th 2016
