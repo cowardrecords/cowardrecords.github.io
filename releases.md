@@ -19,8 +19,6 @@ permalink: /releases/
 				          <p>{{ post.artist }}</p>
 				          <img class="th" src="/img/{{ post.image }}" alt="{{ post.name }}"/>
 			          </a>
-			          <br>
-			          {% include paypall-button-shop.html %}
 			        </li> 
 		   		{% endif %}   
 		      {% endfor %}

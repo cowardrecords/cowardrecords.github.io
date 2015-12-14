@@ -11,11 +11,19 @@ permalink: /shippingpaymentinfo/
 		<div class="small-12 columns">
 			<div class="large-6 small-12 columns">
 				<h2>italy</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, tenetur hic soluta nulla. Tenetur, nam consequuntur magnam corrupti necessitatibus dolore asperiores odio deleniti nemo ipsum soluta cupiditate, ratione exercitationem aut velit officiis nesciunt facilis maxime illum, quis repudiandae consequatur ex rem placeat itaque. Nam, consequuntur dolorem rerum maxime vel id quia, adipisci nulla laboriosam quis voluptatum optio dolores fugit odit.</p>
+				<h4>10.00 €</h4>
+				<p>Delivery in 1 working day, Registered mail. <br>
+				 If youre interested in buyng more than 3 item please contact us before pay.
+				<a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
 			</div>
 			<div class="large-6 small-12 columns">
 				<h2>worldwide</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, tenetur hic soluta nulla. Tenetur, nam consequuntur magnam corrupti necessitatibus dolore asperiores odio deleniti nemo ipsum soluta cupiditate, ratione exercitationem aut velit officiis nesciunt facilis maxime illum, quis repudiandae consequatur ex rem placeat itaque. Nam, consequuntur dolorem rerum maxime vel id quia, adipisci nulla laboriosam quis voluptatum optio dolores fugit odit.</p>
+				<h4>10.00 €</h4>
+				<p>Delivery in 3 working days for Europe, more for the rest of the world.<br>
+				If youre interested in buyng more than 3 item please contact us before pay.
+				<a href="mailto:{{ site.email }}">{{ site.email }}</a>
+			</p>
+				</p>
 			</div>
 	    	
 		</div>
