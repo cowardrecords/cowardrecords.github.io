@@ -9780,29 +9780,34 @@ body a:hover {
   padding: 0px;
 }
 
-/* line 51, ../_scss/_custom.scss */
+/* line 49, ../_scss/_custom.scss */
+.soldout {
+  text-decoration: line-through;
+}
+
+/* line 54, ../_scss/_custom.scss */
 .contain-to-grid .top-bar {
   margin: 0px auto;
   max-width: 1280px;
 }
-/* line 54, ../_scss/_custom.scss */
+/* line 57, ../_scss/_custom.scss */
 .contain-to-grid .top-bar li a {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   text-decoration: none;
 }
-/* line 64, ../_scss/_custom.scss */
+/* line 67, ../_scss/_custom.scss */
 .contain-to-grid .top-bar #logo {
   width: auto;
   max-height: 35px;
 }
 
-/* line 73, ../_scss/_custom.scss */
+/* line 76, ../_scss/_custom.scss */
 #underline {
   text-decoration: underline;
 }
 
-/* line 79, ../_scss/_custom.scss */
+/* line 82, ../_scss/_custom.scss */
 #blogHeader {
   padding: 195px 30px 65px;
   background-image: url("../img/bg-defauolt.jpg");
@@ -9815,13 +9820,13 @@ body a:hover {
   background-size: cover;
   margin-bottom: 30px;
 }
-/* line 91, ../_scss/_custom.scss */
+/* line 94, ../_scss/_custom.scss */
 #blogHeader .testata {
   margin-right: auto;
   margin-left: auto;
 }
 
-/* line 100, ../_scss/_custom.scss */
+/* line 103, ../_scss/_custom.scss */
 .item {
   width: 100%;
   height: auto;
@@ -9838,14 +9843,14 @@ body a:hover {
   background-position: center top;
 }
 
-/* line 118, ../_scss/_custom.scss */
+/* line 121, ../_scss/_custom.scss */
 #text {
   background: white;
   color: black;
   padding: 50px;
 }
 
-/* line 125, ../_scss/_custom.scss */
+/* line 128, ../_scss/_custom.scss */
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
@@ -9854,7 +9859,7 @@ body a:hover {
   height: 0;
 }
 
-/* line 131, ../_scss/_custom.scss */
+/* line 134, ../_scss/_custom.scss */
 .videoWrapper iframe {
   position: absolute;
   top: 0;
@@ -9863,28 +9868,28 @@ body a:hover {
   height: 100%;
 }
 
-/* line 141, ../_scss/_custom.scss */
+/* line 144, ../_scss/_custom.scss */
 .footer {
   padding-top: 20px;
   word-break: break-all;
   background: black;
   margin: 0px;
 }
-/* line 148, ../_scss/_custom.scss */
+/* line 151, ../_scss/_custom.scss */
 .footer img {
   max-width: 100px;
 }
 
-/* line 155, ../_scss/_custom.scss */
+/* line 158, ../_scss/_custom.scss */
 .share-page {
   color: inherit;
 }
-/* line 158, ../_scss/_custom.scss */
+/* line 161, ../_scss/_custom.scss */
 .share-page a {
   font-weight: 700;
   color: inherit;
 }
-/* line 162, ../_scss/_custom.scss */
+/* line 165, ../_scss/_custom.scss */
 .share-page a:hover {
   border-bottom: 1px dashed inherit;
 }

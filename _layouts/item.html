@@ -17,9 +17,12 @@ layout: default
 				
 					{{ content }}
 				<br>
-				<h6 class="text-center">{{ page.price }} €</h6>
-				{% include paypall-button-item.html %}
-			
+				{% if page.soldout == true %}
+					<h6 class="text-center soldout">sold out</h6>
+					{% else if %}
+					<h6 class="text-center">{{ page.price }} €</h6>
+					{% include paypall-button-item.html %}
+				{% endif %}
 				<hr>
 				{% include socialshare.html %}
 			</div>
