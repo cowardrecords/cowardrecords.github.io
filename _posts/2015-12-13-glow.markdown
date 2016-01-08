@@ -5,7 +5,7 @@ artist: "Be Forest"
 subtitle: zine + flexi 7"
 code: CWRD 01
 price: "12.00"
-soldout: false
+soldout: true
 date: 2015-12-13 01:16:17 +0100
 bgimage: glow.jpg
 image: glow_zine.png
