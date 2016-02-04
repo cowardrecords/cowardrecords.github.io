@@ -9826,7 +9826,110 @@ body a:hover {
   margin-left: auto;
 }
 
+/* line 101, ../_scss/_custom.scss */
+.recent-post a {
+  text-decoration: none;
+}
 /* line 103, ../_scss/_custom.scss */
+.recent-post a h4 {
+  text-decoration: underline;
+  color: grey;
+}
+/* line 107, ../_scss/_custom.scss */
+.recent-post a img {
+  display: none;
+}
+/* line 110, ../_scss/_custom.scss */
+.recent-post a p {
+  color: grey;
+}
+/* line 112, ../_scss/_custom.scss */
+.recent-post a p i {
+  display: none;
+  color: grey;
+}
+/* line 117, ../_scss/_custom.scss */
+.recent-post a strong {
+  text-decoration: underline;
+  color: grey;
+}
+
+/* line 125, ../_scss/_custom.scss */
+.recent-post a:hover h4 {
+  animation: anim 0.2s;
+  -o-animation: anim 0.2s;
+  -ms-animation: anim 0.2s;
+  -webkit-animation: anim 0.2s;
+  -moz-animation: anim 0.2s;
+  color: white;
+}
+
+/* line 134, ../_scss/_custom.scss */
+.recent-post a:hover i {
+  display: block;
+  animation: anim 0.2s;
+  -o-animation: anim 0.2s;
+  -ms-animation: anim 0.2s;
+  -webkit-animation: anim 0.2s;
+  -moz-animation: anim 0.2s;
+  color: white;
+}
+
+/* line 143, ../_scss/_custom.scss */
+.recent-post a:hover img {
+  display: block;
+  animation: anim_top 0.3s;
+  -o-animation: anim_top 0.3s;
+  -ms-animation: anim_top 0.3s;
+  -webkit-animation: anim_top 0.3s;
+  -moz-animation: anim_top 0.3s;
+}
+
+/* line 151, ../_scss/_custom.scss */
+.recent-post a:hover p {
+  animation: anim 0.4s;
+  -o-animation: anim 0.4s;
+  -ms-animation: anim 0.4s;
+  -webkit-animation: anim 0.4s;
+  -moz-animation: anim 0.4s;
+  color: white;
+}
+
+/* line 159, ../_scss/_custom.scss */
+.recent-post a:hover p strong {
+  animation: anim 0.9s;
+  -o-animation: anim 0.9s;
+  -ms-animation: anim 0.9s;
+  -webkit-animation: anim 0.9s;
+  -moz-animation: anim 0.9s;
+  color: white;
+}
+
+@keyframes anim {
+  from {
+    opacity: 0;
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes anim_top {
+  from {
+    opacity: 0;
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+/* line 197, ../_scss/_custom.scss */
 .item {
   width: 100%;
   height: auto;
@@ -9843,14 +9946,14 @@ body a:hover {
   background-position: center top;
 }
 
-/* line 121, ../_scss/_custom.scss */
+/* line 215, ../_scss/_custom.scss */
 #text {
   background: white;
   color: black;
   padding: 50px;
 }
 
-/* line 128, ../_scss/_custom.scss */
+/* line 222, ../_scss/_custom.scss */
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
@@ -9859,7 +9962,7 @@ body a:hover {
   height: 0;
 }
 
-/* line 134, ../_scss/_custom.scss */
+/* line 228, ../_scss/_custom.scss */
 .videoWrapper iframe {
   position: absolute;
   top: 0;
@@ -9868,28 +9971,28 @@ body a:hover {
   height: 100%;
 }
 
-/* line 144, ../_scss/_custom.scss */
+/* line 238, ../_scss/_custom.scss */
 .footer {
   padding-top: 20px;
   word-break: break-all;
   background: black;
   margin: 0px;
 }
-/* line 151, ../_scss/_custom.scss */
+/* line 245, ../_scss/_custom.scss */
 .footer img {
   max-width: 100px;
 }
 
-/* line 158, ../_scss/_custom.scss */
+/* line 252, ../_scss/_custom.scss */
 .share-page {
   color: inherit;
 }
-/* line 161, ../_scss/_custom.scss */
+/* line 255, ../_scss/_custom.scss */
 .share-page a {
   font-weight: 700;
   color: inherit;
 }
-/* line 165, ../_scss/_custom.scss */
+/* line 259, ../_scss/_custom.scss */
 .share-page a:hover {
   border-bottom: 1px dashed inherit;
 }

@@ -13,12 +13,13 @@ permalink: /blog/
 		    <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
 		      {% for post in site.posts %}
 				{% if post.categories contains 'blog' %}
-				<li>
-			      <a href="{{ post.url | prepend: site.baseurl }}"><h4>{{ post.title }}</h4></a>
-			      <i>{{ post.date | date: "%b %-d, %Y" }}</i>
+				<li class="recent-post">
+			      <a href="{{ post.url | prepend: site.baseurl }}">
+			      <h4>{{ post.title }}</h4>
+			      <p><i>{{ post.date | date: "%b %-d, %Y" }}</i></p>
 			      <img src="/img/{{ post.image }}" alt="{{ post.name }}"/>
 			      <br>
-			      <p class="text-justify">{{ post.content | strip_html | truncatewords:20 }} <a id="underline" href="{{ post.url | prepend: site.baseurl }}">more >></a></p>
+			      <p class="text-justify">{{ post.content | strip_html | truncatewords:20 }} <strong>more</strong> </p>
 			    </li> 
 		   		{% endif %}   
 		      {% endfor %}
