@@ -22,7 +22,7 @@ permalink: /about/
 			<br><br>
 			per come la vediamo noi il valore della fedeltà del suono è solo uno dei tanti aspetti che compongono l’oggetto che potreste avere per le mani, nulla più di una delle variabili presenti all’interno di un improbabile rapporto che comprende tra i tanti elementi cose come la voglia di sperimentare, un buon numero di polimeri più o meno plastici, il neofitismo più estremo applicato alla più alta forma di Tecnologia Oscura, e altre cose di questo tipo. il tutto legato in maniera indissolubile ed imprescindibile all’affetto e alla stima che proviamo per tutti gli artisti e amici con cui abbiamo deciso e decideremo di creare qualcosa assieme.
 			<br><br>			
-			sincerely,<br>
+			<br>
 			<i>coward records</i>
 			</p>
 			
