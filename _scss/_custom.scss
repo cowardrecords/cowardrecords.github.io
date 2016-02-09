@@ -78,6 +78,13 @@ body{
 }
 
 // BLOG
+.blog{
+
+	@media only screen and (min-width: 64.063em) {
+	max-width: 80%;
+    margin-right: auto;
+	margin-left: auto;}	
+}
 
 #blogHeader{
 	padding: 195px 30px 65px;
@@ -92,6 +99,11 @@ body{
 	margin-bottom: 30px;
 
 	.testata {
+		text-align:center;
+		@media only screen and (min-width: 64.063em) {
+		max-width: 80%;
+		}
+
 		margin-right: auto;
 		margin-left: auto;
 	}

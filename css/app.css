@@ -9807,7 +9807,16 @@ body a:hover {
   text-decoration: underline;
 }
 
-/* line 82, ../_scss/_custom.scss */
+@media only screen and (min-width: 64.063em) {
+  /* line 81, ../_scss/_custom.scss */
+  .blog {
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+/* line 89, ../_scss/_custom.scss */
 #blogHeader {
   padding: 195px 30px 65px;
   background-image: url("../img/bg-defauolt.jpg");
@@ -9820,41 +9829,48 @@ body a:hover {
   background-size: cover;
   margin-bottom: 30px;
 }
-/* line 94, ../_scss/_custom.scss */
+/* line 101, ../_scss/_custom.scss */
 #blogHeader .testata {
+  text-align: center;
   margin-right: auto;
   margin-left: auto;
 }
+@media only screen and (min-width: 64.063em) {
+  /* line 101, ../_scss/_custom.scss */
+  #blogHeader .testata {
+    max-width: 80%;
+  }
+}
 
-/* line 101, ../_scss/_custom.scss */
+/* line 113, ../_scss/_custom.scss */
 .recent-post a {
   text-decoration: none;
 }
-/* line 103, ../_scss/_custom.scss */
+/* line 115, ../_scss/_custom.scss */
 .recent-post a h4 {
   text-decoration: underline;
   color: grey;
 }
-/* line 107, ../_scss/_custom.scss */
+/* line 119, ../_scss/_custom.scss */
 .recent-post a img {
   display: none;
 }
-/* line 110, ../_scss/_custom.scss */
+/* line 122, ../_scss/_custom.scss */
 .recent-post a p {
   color: grey;
 }
-/* line 112, ../_scss/_custom.scss */
+/* line 124, ../_scss/_custom.scss */
 .recent-post a p i {
   display: none;
   color: grey;
 }
-/* line 117, ../_scss/_custom.scss */
+/* line 129, ../_scss/_custom.scss */
 .recent-post a strong {
   text-decoration: underline;
   color: grey;
 }
 
-/* line 125, ../_scss/_custom.scss */
+/* line 137, ../_scss/_custom.scss */
 .recent-post a:hover h4 {
   animation: anim 0.2s;
   -o-animation: anim 0.2s;
@@ -9864,7 +9880,7 @@ body a:hover {
   color: white;
 }
 
-/* line 134, ../_scss/_custom.scss */
+/* line 146, ../_scss/_custom.scss */
 .recent-post a:hover i {
   display: block;
   animation: anim 0.2s;
@@ -9875,7 +9891,7 @@ body a:hover {
   color: white;
 }
 
-/* line 143, ../_scss/_custom.scss */
+/* line 155, ../_scss/_custom.scss */
 .recent-post a:hover img {
   display: block;
   animation: anim_top 0.3s;
@@ -9885,7 +9901,7 @@ body a:hover {
   -moz-animation: anim_top 0.3s;
 }
 
-/* line 151, ../_scss/_custom.scss */
+/* line 163, ../_scss/_custom.scss */
 .recent-post a:hover p {
   animation: anim 0.4s;
   -o-animation: anim 0.4s;
@@ -9895,7 +9911,7 @@ body a:hover {
   color: white;
 }
 
-/* line 159, ../_scss/_custom.scss */
+/* line 171, ../_scss/_custom.scss */
 .recent-post a:hover p strong {
   animation: anim 0.9s;
   -o-animation: anim 0.9s;
@@ -9929,7 +9945,7 @@ body a:hover {
     transform: translateY(0);
   }
 }
-/* line 197, ../_scss/_custom.scss */
+/* line 209, ../_scss/_custom.scss */
 .item {
   width: 100%;
   height: auto;
@@ -9946,14 +9962,14 @@ body a:hover {
   background-position: center top;
 }
 
-/* line 215, ../_scss/_custom.scss */
+/* line 227, ../_scss/_custom.scss */
 #text {
   background: white;
   color: black;
   padding: 50px;
 }
 
-/* line 222, ../_scss/_custom.scss */
+/* line 234, ../_scss/_custom.scss */
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
@@ -9962,7 +9978,7 @@ body a:hover {
   height: 0;
 }
 
-/* line 228, ../_scss/_custom.scss */
+/* line 240, ../_scss/_custom.scss */
 .videoWrapper iframe {
   position: absolute;
   top: 0;
@@ -9971,28 +9987,28 @@ body a:hover {
   height: 100%;
 }
 
-/* line 238, ../_scss/_custom.scss */
+/* line 250, ../_scss/_custom.scss */
 .footer {
   padding-top: 20px;
   word-break: break-all;
   background: black;
   margin: 0px;
 }
-/* line 245, ../_scss/_custom.scss */
+/* line 257, ../_scss/_custom.scss */
 .footer img {
   max-width: 100px;
 }
 
-/* line 252, ../_scss/_custom.scss */
+/* line 264, ../_scss/_custom.scss */
 .share-page {
   color: inherit;
 }
-/* line 255, ../_scss/_custom.scss */
+/* line 267, ../_scss/_custom.scss */
 .share-page a {
   font-weight: 700;
   color: inherit;
 }
-/* line 259, ../_scss/_custom.scss */
+/* line 271, ../_scss/_custom.scss */
 .share-page a:hover {
   border-bottom: 1px dashed inherit;
 }

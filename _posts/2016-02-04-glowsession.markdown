@@ -22,6 +22,9 @@ We can change
 Or stay the same  
 We are all  
 Stars.*
+
+november 2015, 
+photo by [Luca Zamagna](https://www.flickr.com/photos/lucazamagna/){:target="_blank"} aka [Errata Disain](http://erratadisain.tumblr.com/){:target="_blank"}
 {: style=" text-align: none;"}
 
 

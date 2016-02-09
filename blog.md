@@ -10,7 +10,7 @@ permalink: /blog/
   <hr>
 	<div class="small-12 columns">
 		<div class="small-12 columns">
-		    <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
+		    <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4">
 		      {% for post in site.posts %}
 				{% if post.categories contains 'blog' %}
 				<li class="recent-post">
