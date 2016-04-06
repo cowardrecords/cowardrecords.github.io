@@ -18,10 +18,10 @@ sound: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks
 video: "https://www.youtube.com/embed/7IKeGfRrEZY?rel=0&amp;controls=0&amp;showinfo=0"
 ---
 
-Limited edition of 150 copies\\ 
+Limited edition of 150 copies \\
 Photographic zine with previously unreleased tracks on flexi 7" format
 
-Recorded, mixed & mastered by *Steve Scanu*\\ 
+Recorded, mixed & mastered by *Steve Scanu* \\
 Video directed by *Erica Terenzi*
 
 November/December 2015

@@ -10,9 +10,9 @@ permalink: /releases/
   	<hr>
 	<div class="small-12 columns">
 		<div class="small-12 columns">
-	    	<ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
+	    	<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4">
 		      {% for post in site.posts %}
-				{% if post.categories contains 'zine' or post.categories contains 'flexy' %}
+				{% if post.categories contains 'zine' or post.categories contains 'flexy' or post.categories contains 'vinyl' %}
 			        <li>
 			          <a href="{{ post.url | prepend: site.baseurl }}">
 				          <h4>{{ post.title }}</h4>
