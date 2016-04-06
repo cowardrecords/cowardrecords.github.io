@@ -6,7 +6,7 @@ subtitle: 7"
 code: CWRD 02
 price: "15.00"
 soldout: false
-date: 2015-12-13 01:16:17 +0100
+date: 2016-04-06 01:16:17 +0100
 bgimage: infernoarottadicollo.jpg
 image: infernoarottadicollo_vinyl.jpg
 thumbnail: infernoarottadicollo_thumbnail.png
