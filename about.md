@@ -23,11 +23,18 @@ permalink: /about/
 			<br><br>
 			in our opinion, the value of sound fidelity is just one of the multiple aspects that the object you’re holding in your hands is made up of, nothing more than one of the variables involved in the relationship among several elements like the will to experiment, the large amount of polymers, plastic or not, the most extreme neophytism applied to the highest form of Obscure Technology, and things like these. Everything is linked in an essential and inextricable way by the love and esteem we feel for the artists and friends we decided to create something with.
 			<br><br>	
-			sincerely,		
-			<br><br>
-			<i>coward records</i>
+			sincerely,
 			</p>
-			
+			<pre>
+   _________ _      _____   ___  ___
+  / ___/ __ \ | /| / / _ | / _ \/ _ \
+ / /__/ /_/ / |/ |/ / __ |/ , _/ // /
+ \___/\____/|__/|__/_/ |_/_/|_/____/
+    ___  _____________  ___  ___  ____
+   / _ \/ __/ ___/ __ \/ _ \/ _ \/ __/
+  / , _/ _// /__/ /_/ / , _/ // /\ \
+ /_/|_/___/\___/\____/_/|_/____/___/
+            </pre>
 		</div>
 		<div class="large-6 medium-12 small-12 columns">
 		    <img src=" /img/rolling.gif" >
