@@ -15,9 +15,9 @@ layout: default
             {% else if %}
               <li>
                 <a href="{{ post.url | prepend: site.baseurl }}">
-                  <h4 class="text-center">{{ post.title }}</h4>
-                  <p class="text-center">{{post.artist}}</p>
                   <img class="th" src="/img/{{ post.image }}" alt="{{ post.name }}"/>
+                  <h5 class="text-center">{{ post.title | strip_html | truncatewords:20  }}</h5>
+                  <p class="text-center">{{post.artist}}</p>
                 </a>
                 <br>
               </li> 

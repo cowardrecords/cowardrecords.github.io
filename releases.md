@@ -15,9 +15,9 @@ permalink: /releases/
 				{% if post.categories contains 'zine' or post.categories contains 'flexy' or post.categories contains 'vinyl' %}
 			        <li>
 			          <a href="{{ post.url | prepend: site.baseurl }}">
-				          <h4>{{ post.title }}</h4>
-				          <p>{{ post.artist }}</p>
-				          <img class="th" src="/img/{{ post.image }}" alt="{{ post.name }}"/>
+			          	  <img class="th" src="/img/{{ post.image }}" alt="{{ post.name }}"/>
+				          <h5>{{ post.title }}</h5>
+				          <p>{{ post.artist }}</p>  
 			          </a>
 			        </li> 
 		   		{% endif %}   

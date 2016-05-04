@@ -8,7 +8,7 @@ price: "12.00"
 soldout: true
 date: 2015-12-13 01:16:17 +0100
 bgimage: glow.jpg
-image: glow_zine.png
+image: glow_zine.jpg
 thumbnail: glow_zine_thumbnail.png
 imagethumb1:
 imagethumb2:
