@@ -9,12 +9,13 @@ soldout: false
 date: 2016-05-13 01:19:17 +0100
 bgimage:
 image: matilde_flexi.jpg
-thumbnail: infernoarottadicollo_vinyl_thumbnail.png
+thumbnail: matilde_flexi.jpg
 imagethumb1:
 imagethumb2:
 imagethumb3:
 category: [vinyl, 7"]
 sound:
+video: "https://www.youtube.com/embed/4LIMN8klPsg?rel=0&amp;showinfo=0"
 ---
 
 Limited edition of 25 copies\\
