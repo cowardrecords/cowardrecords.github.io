@@ -14,8 +14,10 @@ layout: default
 		  		{% endif %}
 
 		  		<hr>
-		  		
+		  		<div class="longdescriptionbox">
 					{{ content }}
+				</div>
+					
 				<br>
 				{% if page.soldout == true %}
 					<h6 class="text-center soldout">sold out</h6>
@@ -43,10 +45,10 @@ layout: default
                   <img class="th" src="/img/{{ page.image }}" alt="{{ page.name }}"/>
               	{% endif %}
 				
-				
+				{% if page.imagethumb1 %}	
 					<hr>
 					<ul class="clearing-thumbs small-block-grid-3" data-clearing >
-				{% if page.imagethumb1 %}	
+
 				    <li>
 				    	{% if page.imagethumb1 contains 'http' %}
 					  		<a class="th" href=" {{ page.imagethumb1 }}" alt="{{page.imagethumb1}} ">
@@ -58,9 +60,9 @@ layout: default
 							</a>
 	  					{% endif %}			
 					</li>
-                {% endif %}
+                    {% endif %}
 					
-			    {% if page.imagethumb2 %}
+					{% if page.imagethumb2 %}
 					<li>
 						{% if page.imagethumb2 contains 'http' %}
 					  		<a class="th" href=" {{ page.imagethumb2 }}" alt="{{page.imagethumb2}} ">
@@ -72,9 +74,9 @@ layout: default
 							</a>
 	  					{% endif %}
 					</li>
-				{% endif %}
+					{% endif %}
 
-				{% if page.imagethumb3 %}
+					{% if page.imagethumb3 %}
 					<li>
 						{% if page.imagethumb3 contains 'http' %}
 					  		<a class="th" href=" {{ page.imagethumb3 }}" alt="{{page.imagethumb3}} ">
@@ -86,9 +88,9 @@ layout: default
 							</a>
 	  					{% endif %}
 					</li>
-				{% endif %}
+					{% endif %}
 					
-				{% if page.imagethumb4 %}
+					{% if page.imagethumb4 %}
 					<li>
 						{% if page.imagethumb4 contains 'http' %}
 					  		<a class="th" href=" {{ page.imagethumb4 }}" alt="{{page.imagethumb4}} ">
@@ -100,9 +102,9 @@ layout: default
 							</a>
 	  					{% endif %}
 					</li>
-       			{% endif %}
+       				{% endif %}
 
-				{% if page.imagethumb5 %}
+					{% if page.imagethumb5 %}
 					<li>
 						{% if page.imagethumb5 contains 'http' %}
 					  		<a class="th" href=" {{ page.imagethumb5 }}" alt="{{page.imagethumb5}} ">
@@ -114,9 +116,9 @@ layout: default
 							</a>
 	  					{% endif %}
 					</li>
-				{% endif %}
+					{% endif %}
 
-				{% if page.imagethumb6 %}
+					{% if page.imagethumb6 %}
 					<li>
 						{% if page.imagethumb1 contains 'http' %}
 					  		<a class="th" href=" {{ page.imagethumb6 }}" alt="{{page.imagethumb6}} ">

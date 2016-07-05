@@ -1,10 +1,10 @@
 ---
 layout: blog
 title: "Sud e Magia"
-bgimage: bg-sudemagia.jpg
+bgimage: https://c7.staticflickr.com/8/7355/27394859190_6364d83583_o.jpg
 date: 2016-04-22 00:00:00 +0100
-image: sudemagia.jpg
-thumbnail: sudemagia.jpg
+image: https://c2.staticflickr.com/2/1469/26012897873_a89762666a_o.png
+thumbnail: https://c2.staticflickr.com/2/1469/26012897873_a89762666a_o.png
 author: cwrd
 category: blog
 ---

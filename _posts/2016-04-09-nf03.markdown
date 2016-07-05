@@ -1,0 +1,25 @@
+---
+layout: itemdistro
+title: "NO FRIENDS (maga)zine #03"
+subtitle: Zine + Flexi 7" w/ Violence Creeps - Shockwaves - TV Slime - Bleeding Gums
+code: NF #03
+price: "8.50"
+soldout:
+date: 2016-04-09 01:16:17 +0100
+bgimage:
+image: https://nofriendszine-assets.s3.amazonaws.com/images/issues/3/cover.jpg
+thumbnail: https://nofriendszine-assets.s3.amazonaws.com/images/issues/3/cover.jpg
+imagethumb1:
+imagethumb2:
+imagethumb3:
+category: [zine, flexi, distro]
+---
+
+Issue #3 has interviews with Oakland art-damaged, weirdo punks Violence Creeps, bleak Icelandic post-punks Börn, Los Angeles (by way of Chicago) stand-up comedian Kyle Kinane, ringleader behind Halo of Flies Records and Protestant -- Corey Von Bohlen, angular’n’dancey English punks Shopping, the composer of the soundtrack to the film It Follows – Disasterpeace, Vermont’s queer-centric record label Stickshift Records, comedian Caitlin Gill, long running zine editor and cartoonist Robin Bougie of Cinema Sewer fanzine, international DIY documentarian John Yingling of the World Underground series – focusing on East Asian DIY music and arts communites, Buffalo, NY’s one-woman lo-fi punk powerhouse Jamie and the Debt.
+
+Plus tons of columns, hundreds of music reviews, and articles about stuff like how to go skateboarding in North Korea, 120 pages of some of the most interesting and most entertaining DIY punk/hardcore/whatever coverage you’re gonna find these days.
+
+And as always, every copy of the zine comes with a 7” flexi record. Issue #3 will come with exclusive tracks from Oakland’s Violence Creeps, the straight-ahead screech and riffs of Brooklyn, NY’s Shockwaves, Chicago’s weirdo-punk noiseniks TV Slime, and the best goddamn teenaged punk band the city of Bellwood has to offer, Bleeding Gums.
+
+
+[more info](https://nofriendszine.com){:target="_blank"}

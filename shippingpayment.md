@@ -10,20 +10,21 @@ permalink: /shippingpaymentinfo/
 	<div class="small-12 columns">
 		<div class="small-12 columns">
 			<div class="large-6 small-12 columns">
-				<h2>italy</h2>
-				<h3>10.00 €</h3>
-				<p>Delivery in 1 working day afeter shipping, Registered mail.<br>
-				 If youre interested in buying more than 3 items or just want to customize your shipping please contact us before pay.
-				<a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+				<h2>BUY NOW button</h2>
+				<h4>1 single item</h4>
+				<p>how does it works: <br>
+				using the button <i>"buy now"</i> you can immediately pay ( via paypall/credit card ) a single object including its shipping costs.<br>
+				when we'll display the payment we'll send you a notification and a shipping confirmation. Delivery depends on your location. <br>
+				We use registered mail.<br>		
+				</p>		 
 			</div>
 			<div class="large-6 small-12 columns">
-				<h2>worldwide</h2>
-				<h3>10.00 €</h3>
-				<p>Delivery in 3-5 working days for Europe, more for the rest of the world.<br>
-				If youre interested in buying more than 3 items or just want to customize your shipping please contact us before pay.
-				<a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+				<h2>MAILORDER</h2>
+				<h4>combined items</h4>
+				<p>how does it works: <br>
+				<a href="mailto:{{ site.email }}">you send us an email</a> with the list of available items present in our site that you choose, then we calculate postage by the total of the weight of all items and quickly respond you with an email of request of payment ( via paypall/credit card )<br>
+				When we get the payment you’ll get a notification and in few days you items are on their way.</p>
 			</div>
-	    	
 		</div>
 	</div>
 </div>

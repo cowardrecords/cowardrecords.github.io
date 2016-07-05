@@ -26,8 +26,13 @@ body{
 		color: inherit;
 		text-decoration: underline;
 	}
+	
 	a:hover{
 		color: inherit;
+	}
+
+	a:visited{
+	    color: inherit;
 	}
 }
 
@@ -37,6 +42,13 @@ body{
    margin-right: auto;
  
    margin: 0px;
+}
+
+.nomargin{
+	padding-left: 0px;
+	padding-right: 0px;
+	matgin-left: 0px;
+	margin-right: 0px;
 }
 
 .generalconten{
@@ -73,6 +85,8 @@ body{
 
 // INDEX 
 
+
+
 #underline{
 	text-decoration: underline;
 }
@@ -91,7 +105,7 @@ body{
 	background-image: url("../img/bg-defauolt.jpg");
 	background-position: center top;
 	background-repeat: no-repeat;
-	background-color: #F4F0ED;
+	background-color: #0000;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -245,11 +259,17 @@ body{
 	height: 100%;
 }
 
+// THANKS
+.blocktext {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 400px;
+}
+
 // FOOTER
 
 .footer{
 	padding-top: 20px;
-	word-break: break-all;
 	background: black;
 	margin:0px;
 
@@ -258,6 +278,12 @@ body{
 	max-width: 100px;
 	}
 }
+
+.longdescriptionbox{
+	height:250px;
+	overflow:auto;
+}
+
 
 // SOCIAL SHARE
 
@@ -272,4 +298,28 @@ body{
             border-bottom: 1px dashed inherit;
         }
     }
+}
+
+// TYPE JS
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }

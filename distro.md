@@ -1,21 +1,23 @@
 ---
 layout: default
-title: Releases
-permalink: /releases/
+title: Distro
+permalink: /distro/
 ---
+
+
 <br>
 
 <div class="grid-section">
+
    <div class="content grid-container">
   
    <div class="filters-container contain-to-grid sticky">
 
       <ul class="media-boxes-filter text-center" id="filter">
         <li><a class="selected" href="#" data-filter="*">All</a></li>
-        <li><a href="#" data-filter=".Category1">7"</a></li>
+        <li><a href="#" data-filter=".Category1">zine</a></li>
         <li><a href="#" data-filter=".Category2">flexi</a></li>
-        <li><a href="#" data-filter=".Category3">zine</a></li>
-        <li><input type="text" id="search" class="media-boxes-search" placeholder="Search By Keyword" style="margin-bottom: -0.7rem; height: 2rem;"></li>
+        <li><input type="text" id="search" class="media-boxes-search" placeholder="Search By Keyword" style="margin-bottom: -0.7rem; height: 2rem;"></li>  
       </ul>
 
    </div>      
@@ -24,26 +26,19 @@ permalink: /releases/
 
   <div id="grid">
   {% for post in site.posts %}      
-   {%  if post.subcategory != "distro" and  post.category != "blog" %}   
-   {% unless post.category contains "distro"  %}
+   {%  if post.category contains "distro" %}   
     <div class="media-box 
-     {% if post.categories contains '7"' %} 
-       Category1 
-     {% else %}
-     {% endif %}
-     
-     {% if post.categories contains 'flexi' %} 
-       Category2 
-     {% else %}
-     {% endif %}
-     
      {% if post.categories contains 'zine' %} 
-       Category3 
+       Category1
+     {% else %}
+     {% endif %}
+     {% if post.categories contains 'flexi' %} 
+       Category2
      {% else %}
      {% endif %}">
         
       <a href="{{ post.url | prepend: site.baseurl }}">
-        <div class="maintitle">
+      	<div class="maintitle">
 	        <h6>{{ post.title }}</h6>
 	        <p>{{ post.artist }}</p>
         </div>
@@ -63,10 +58,8 @@ permalink: /releases/
        {% endif %}
       </a>
 
-    </div>
-
-   {% endunless %}
-   {% endif %}
+    </div>  
+    {% endif %}
   {% endfor %}
   </div>
 

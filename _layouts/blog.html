@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div id="blogHeader"{% if page.bgimage %} style="background-image: url(/img/{{ page.bgimage }})" {% endif %}>
+<div id="blogHeader"{% if page.bgimage contains 'http' %} style="background-image: url({{ page.bgimage }})" {% else %} style="background-image: url(/img/{{ page.bgimage }})" {% endif %}>
 	
 	<div class="testata">
 		<h2>{{ page.title }}</h2>

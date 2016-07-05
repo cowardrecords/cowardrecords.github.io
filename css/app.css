@@ -9774,41 +9774,49 @@ body a:hover {
 }
 
 /* line 42, ../_scss/_custom.scss */
+.nomargin {
+  padding-left: 0px;
+  padding-right: 0px;
+  matgin-left: 0px;
+  margin-right: 0px;
+}
+
+/* line 49, ../_scss/_custom.scss */
 .generalconten {
   height: auto;
   margin: 0px;
   padding: 0px;
 }
 
-/* line 49, ../_scss/_custom.scss */
+/* line 56, ../_scss/_custom.scss */
 .soldout {
   text-decoration: line-through;
 }
 
-/* line 54, ../_scss/_custom.scss */
+/* line 61, ../_scss/_custom.scss */
 .contain-to-grid .top-bar {
   margin: 0px auto;
   max-width: 1280px;
 }
-/* line 57, ../_scss/_custom.scss */
+/* line 64, ../_scss/_custom.scss */
 .contain-to-grid .top-bar li a {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   text-decoration: none;
 }
-/* line 67, ../_scss/_custom.scss */
+/* line 74, ../_scss/_custom.scss */
 .contain-to-grid .top-bar #logo {
   width: auto;
   max-height: 35px;
 }
 
-/* line 76, ../_scss/_custom.scss */
+/* line 85, ../_scss/_custom.scss */
 #underline {
   text-decoration: underline;
 }
 
 @media only screen and (min-width: 64.063em) {
-  /* line 81, ../_scss/_custom.scss */
+  /* line 90, ../_scss/_custom.scss */
   .blog {
     max-width: 80%;
     margin-right: auto;
@@ -9816,61 +9824,61 @@ body a:hover {
   }
 }
 
-/* line 89, ../_scss/_custom.scss */
+/* line 98, ../_scss/_custom.scss */
 #blogHeader {
   padding: 195px 30px 65px;
   background-image: url("../img/bg-defauolt.jpg");
   background-position: center top;
   background-repeat: no-repeat;
-  background-color: #F4F0ED;
+  background-color: #0000;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   margin-bottom: 30px;
 }
-/* line 101, ../_scss/_custom.scss */
+/* line 110, ../_scss/_custom.scss */
 #blogHeader .testata {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 101, ../_scss/_custom.scss */
+  /* line 110, ../_scss/_custom.scss */
   #blogHeader .testata {
     max-width: 80%;
   }
 }
 
-/* line 113, ../_scss/_custom.scss */
+/* line 122, ../_scss/_custom.scss */
 .recent-post a {
   text-decoration: none;
 }
-/* line 115, ../_scss/_custom.scss */
+/* line 124, ../_scss/_custom.scss */
 .recent-post a h4 {
   text-decoration: underline;
   color: grey;
 }
-/* line 119, ../_scss/_custom.scss */
+/* line 128, ../_scss/_custom.scss */
 .recent-post a img {
   display: none;
 }
-/* line 122, ../_scss/_custom.scss */
+/* line 131, ../_scss/_custom.scss */
 .recent-post a p {
   color: grey;
 }
-/* line 124, ../_scss/_custom.scss */
+/* line 133, ../_scss/_custom.scss */
 .recent-post a p i {
   display: none;
   color: grey;
 }
-/* line 129, ../_scss/_custom.scss */
+/* line 138, ../_scss/_custom.scss */
 .recent-post a strong {
   text-decoration: underline;
   color: grey;
 }
 
-/* line 137, ../_scss/_custom.scss */
+/* line 146, ../_scss/_custom.scss */
 .recent-post a:hover h4 {
   animation: anim 0.2s;
   -o-animation: anim 0.2s;
@@ -9880,7 +9888,7 @@ body a:hover {
   color: white;
 }
 
-/* line 146, ../_scss/_custom.scss */
+/* line 155, ../_scss/_custom.scss */
 .recent-post a:hover i {
   display: block;
   animation: anim 0.2s;
@@ -9891,7 +9899,7 @@ body a:hover {
   color: white;
 }
 
-/* line 155, ../_scss/_custom.scss */
+/* line 164, ../_scss/_custom.scss */
 .recent-post a:hover img {
   display: block;
   animation: anim_top 0.3s;
@@ -9901,7 +9909,7 @@ body a:hover {
   -moz-animation: anim_top 0.3s;
 }
 
-/* line 163, ../_scss/_custom.scss */
+/* line 172, ../_scss/_custom.scss */
 .recent-post a:hover p {
   animation: anim 0.4s;
   -o-animation: anim 0.4s;
@@ -9911,7 +9919,7 @@ body a:hover {
   color: white;
 }
 
-/* line 171, ../_scss/_custom.scss */
+/* line 180, ../_scss/_custom.scss */
 .recent-post a:hover p strong {
   animation: anim 0.9s;
   -o-animation: anim 0.9s;
@@ -9945,7 +9953,7 @@ body a:hover {
     transform: translateY(0);
   }
 }
-/* line 209, ../_scss/_custom.scss */
+/* line 218, ../_scss/_custom.scss */
 .item {
   width: 100%;
   height: auto;
@@ -9962,14 +9970,14 @@ body a:hover {
   background-position: center top;
 }
 
-/* line 227, ../_scss/_custom.scss */
+/* line 236, ../_scss/_custom.scss */
 #text {
   background: white;
   color: black;
   padding: 50px;
 }
 
-/* line 234, ../_scss/_custom.scss */
+/* line 243, ../_scss/_custom.scss */
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
@@ -9978,7 +9986,7 @@ body a:hover {
   height: 0;
 }
 
-/* line 240, ../_scss/_custom.scss */
+/* line 249, ../_scss/_custom.scss */
 .videoWrapper iframe {
   position: absolute;
   top: 0;
@@ -9987,28 +9995,82 @@ body a:hover {
   height: 100%;
 }
 
-/* line 250, ../_scss/_custom.scss */
+/* line 258, ../_scss/_custom.scss */
+.blocktext {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+}
+
+/* line 266, ../_scss/_custom.scss */
 .footer {
   padding-top: 20px;
-  word-break: break-all;
   background: black;
   margin: 0px;
 }
-/* line 257, ../_scss/_custom.scss */
+/* line 272, ../_scss/_custom.scss */
 .footer img {
   max-width: 100px;
 }
 
-/* line 264, ../_scss/_custom.scss */
+/* line 277, ../_scss/_custom.scss */
+.longdescriptionbox {
+  height: 250px;
+  overflow: auto;
+}
+
+/* line 285, ../_scss/_custom.scss */
 .share-page {
   color: inherit;
 }
-/* line 267, ../_scss/_custom.scss */
+/* line 288, ../_scss/_custom.scss */
 .share-page a {
   font-weight: 700;
   color: inherit;
 }
-/* line 271, ../_scss/_custom.scss */
+/* line 292, ../_scss/_custom.scss */
 .share-page a:hover {
   border-bottom: 1px dashed inherit;
+}
+
+/* line 300, ../_scss/_custom.scss */
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

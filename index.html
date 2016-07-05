@@ -4,18 +4,23 @@ layout: default
 
 <div class="fullWidth">
   <br>
-  <h4 class="text-center">news</h4>
+  <h4 class="text-center">LATEST RELEASES</h4>
   <hr>
   <div class="small-12 columns">
-    <div class="small-12 medium-8 large-9 columns">
+    <div class="small-12 medium-12 large-8 columns text-center">
 
+      <br>
       <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4">
-        {% for post in site.posts limit: 8%}
-          {% if post.category == "blog" %} <!-- do nothing -->
+        {% for post in site.posts limit: 24%}
+          {% if post.category == "blog" or post.category contains "distro"  %} <!-- do nothing -->
             {% else if %}
               <li>
                 <a href="{{ post.url | prepend: site.baseurl }}">
-                  <img class="th" src="/img/{{ post.image }}" alt="{{ post.name }}"/>
+                  {% if post.image contains 'http' %}
+                      <img class="th" src="{{ post.image }}" alt="{{ post.name }}"/>
+                    {% else %}
+                      <img class="th" src="/img/{{ post.image }}" alt="{{ post.name }}"/>
+                  {% endif %}
                   <h5 class="text-center">{{ post.title | strip_html | truncatewords:20  }}</h5>
                   <p class="text-center">{{post.artist}}</p>
                 </a>
@@ -27,13 +32,35 @@ layout: default
       <a id="underline" href="/releases"><p class="text-center">all releases</p></a>
     </div>
 
-    <div class="small-12 medium-4 large-3 columns">
+    <div class="small-12 medium-12 large-2 columns">
+      <h6 class="text-center">DISTRO</h6>
+      <hr>
+      {% for post in site.categories.distro limit: 3%}   
+          <a href="{{ post.url | prepend: site.baseurl }}">
+            <h4>{{ post.title }}</h4>
+            {% if post.image contains 'http' %}
+                <img class="th" src="{{ post.image }}" alt="{{ post.name }}"/>
+                {% else %}
+                <img class="th" src="/img/{{ post.image }}" alt="{{ post.name }}"/>
+            {% endif %}
+          </a>
+      {% endfor %}
+      <a id="underline" href="/distro"><p class="text-center">all distro</p></a>
+    </div>
+
+    <div class="small-12 medium-12 large-2 columns">
+      <h6 class="text-center">BLOG</h6>
+      <hr>
       {% for post in site.categories.blog limit: 3 %}    
         <div class="recent-post">
           <a href="{{ post.url | prepend: site.baseurl }}">
             <h4>{{ post.title }}</h4>
             <p><i>{{ post.date | date: "%b %-d, %Y" }}</i></p>
-            <img src="/img/{{ post.image }}" alt="{{ post.name }}"/>
+            {% if post.image contains 'http' %}
+                <img class="th" src="{{ post.image }}" alt="{{ post.name }}"/>
+                {% else %}
+                <img class="th" src="/img/{{ post.image }}" alt="{{ post.name }}"/>
+            {% endif %}
             <br>
             <p class="text-justify">{{ post.content | strip_html | truncatewords:20 }} <strong>more</strong> >></p>
           </a>
@@ -41,6 +68,7 @@ layout: default
       {% endfor %}
       <a id="underline" href="/blog"><p class="text-center">all blog entries</p></a>
     </div>
+
 
   </div>
 </div>

@@ -20,6 +20,10 @@ links:
    url: /blog
  - title: about
    url: /about
+ - title: distro
+   url: /distro
+
+
 
 permalink: /:categories/:title
 # Build settings
