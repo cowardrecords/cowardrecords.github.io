@@ -1,2 +1,2 @@
 <meta content="{{page.title}} - {{page.artist}}" property="og:title">
-<meta property="og:image" content='{% if page.thumbnail contains 'http' %}<img class="th" src="{{ page.thumbnail }}" alt="{{ page.name }}"/>{% else %}<img class="th" src="{{site.url}}/img/{{ page.thumbnail }}" alt="{{ page.name }}"/>{% endif %}'>
+<meta property="og:image:url" content='{% if page.thumbnail contains 'http' %}<img class="th" src="{{ page.thumbnail }}" alt="{{ page.name }}"/>{% else %}<img class="th" src="{{site.url}}/img/{{ page.thumbnail }}" alt="{{ page.name }}"/>{% endif %}'>
