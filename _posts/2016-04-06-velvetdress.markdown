@@ -19,7 +19,7 @@ video:
 ---
 
 Limited edition of 25 copies\\
-7" square pictur disc | one sided
+7" square picture disc | one sided
 
 M!R!M is the solo project of Jack Milwaukee
 
