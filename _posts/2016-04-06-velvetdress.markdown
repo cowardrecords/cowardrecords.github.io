@@ -9,7 +9,7 @@ soldout: false
 date: 2016-05-13 01:16:17 +0100
 bgimage:
 image: velvetdress_flexi.jpg
-thumbnail: elvetdress_flexi.jpg
+thumbnail: velvetdress_flexi.jpg
 imagethumb1:
 imagethumb2:
 imagethumb3:
