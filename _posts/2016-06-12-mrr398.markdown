@@ -3,7 +3,7 @@ layout: itemdistro
 title: "Maximum Rocknroll #398"
 subtitle: July 2016
 code: MRR #398
-price: "5.00"
+price: "5.50"
 soldout:
 date: 2016-06-12 01:16:17 +0100
 bgimage:
