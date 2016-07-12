@@ -17,6 +17,7 @@ permalink: /distro/
         <li><a class="selected" href="#" data-filter="*">All</a></li>
         <li><a href="#" data-filter=".Category1">zine</a></li>
         <li><a href="#" data-filter=".Category2">flexi</a></li>
+        <li><a href="#" data-filter=".Category3">shirt</a></li>
         <li><input type="text" id="search" class="media-boxes-search" placeholder="Search By Keyword" style="margin-bottom: -0.7rem; height: 2rem;"></li>  
       </ul>
 
@@ -35,6 +36,11 @@ permalink: /distro/
      {% if post.categories contains 'flexi' %} 
        Category2
      {% else %}
+     {% endif %}
+     {% if post.categories contains 'shirt' %} 
+       Category3
+     {% else %}
+     
      {% endif %}">
         
       <a href="{{ post.url | prepend: site.baseurl }}">
