@@ -15,7 +15,7 @@ imagethumb2:
 imagethumb3:
 category: [vinyl, 7"]
 sound:
-video:
+video: "https://www.youtube.com/embed/GfF8UdrDNEs"
 ---
 
 Limited edition of 25 copies\\
