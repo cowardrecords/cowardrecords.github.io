@@ -26,5 +26,7 @@ M!R!M is the solo project of Jack Milwaukee
 recorded, mixed & mastered by M!R!M\\
 Summer 2016
 
+Velvet Dress single has a twin called [Matilde]({{site.url}}/vinyl/7"/matilde){:target="_blank”}
+
 This item is on  **Preorder**, you can order your copy,
 we'll start to ship on July 22th 2016
