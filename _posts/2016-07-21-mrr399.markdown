@@ -1,0 +1,20 @@
+---
+layout: itemdistro
+title: "Maximum Rocknroll #399"
+subtitle: august 2016
+code: MRR #399
+price: "5.50"
+soldout:
+date: 2016-07-21 01:16:17 +0100
+bgimage:
+image: http://www.maximumrocknroll.com/wp-content/uploads/2016/07/mrr_399_cvr.jpg
+thumbnail: http://www.maximumrocknroll.com/wp-content/uploads/2016/07/mrr_399_cvr.jpg
+imagethumb1:
+imagethumb2:
+imagethumb3:
+category: [zine, distro]
+---
+
+This issue of the planet’s greatest punk fanzine features a revelatory peek under the mask with St. Louis rocker [BLACK PANTIES](https://blackpanties.bandcamp.com/){:target="_blank"}, a photo essay on [ABC No Rio](http://www.abcnorio.org/){:target="_blank"} as it faces the demolition of its current location and the construction of a new building, and an interview with [PSYCHO SQUATT](http://psychosquatt.fr/){:target="_blank"} and [Maloka Records](https://malokadistro.com/){:target="_blank"} covering 30 years of French punk history. If that’s not enough, we also have features covering the standout dark punk of Australia’s [MASSES](https://massesmelbourne.bandcamp.com/){:target="_blank"}, the Pacific Northwest-based [Skate Witches](http://theskatewitches.bigcartel.com/){:target="_blank"} collective discussing projects like Skate Like a Girl and preeminent skate punk band [SKITCH](https://skitchxoxo.bandcamp.com/){:target="_blank"}, Richmond hardcore ensemble [FRIED EGG](https://friedeggva.bandcamp.com/){:target="_blank"}, Berlin punk/emo group [FRIEND CRUSH](https://friendcrush.bandcamp.com/releases){:target="_blank"}, Oi!-influenced French punk from [SYNDROME 81](https://syndrome81.bandcamp.com/){:target="_blank"}, the melodic punk of Chicago’s [BOILERMAN](https://boilerman.bandcamp.com/){:target="_blank"}, Virginia’s [RHDP](https://rhdp.bandcamp.com/){:target="_blank"} (that stands for Red Horse Drunk Punks, FYI), and Finnish punk photographer [Jussi Janis](http://www.maximumrocknroll.com/monday-photo-blog-jussi-janis/){:target="_blank"}. That ain’t it: MRR #399 also includes photo spreads from Total Attack Fest #6 and a special Moscow Madness edition of the MRR Presents gig series, an Australian tour diary from Singapore’s [LUBRICANT](https://lubricant.bandcamp.com/){:target="_blank"}, and a scene report from North Texas. All this, plus the biggest reviews section in the world of Serious Music Criticism and over a dozen reports from your favorite columnists; it’s all here, and it’s all happening.\\
+\\
+[more info](http://www.maximumrocknroll.com){:target="_blank"}
