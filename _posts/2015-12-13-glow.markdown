@@ -12,7 +12,7 @@ image: glow_zine.jpg
 thumbnail: glow_zine_thumbnail.png
 imagethumb1: https://c1.staticflickr.com/8/7454/27658179752_fabfe6bd7b_o.jpg
 imagethumb2: https://c5.staticflickr.com/8/7336/27146619404_264192f29c_o.jpg
-imagethumb3: https://c5.staticflickr.com/8/7336/27146619404_264192f29c_o.jpg
+imagethumb3: https://c3.staticflickr.com/8/7414/27146624354_f2d4bc5430_c.jpg
 category: [flexi, zine]
 sound: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/237634097&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
 video: "https://www.youtube.com/embed/7IKeGfRrEZY?rel=0&amp;controls=0&amp;showinfo=0"
