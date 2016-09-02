@@ -15,6 +15,7 @@ permalink: /releases/
         <li><a href="#" data-filter=".Category1">7"</a></li>
         <li><a href="#" data-filter=".Category2">flexi</a></li>
         <li><a href="#" data-filter=".Category3">zine</a></li>
+        <li><a href="#" data-filter=".Category4">tape</a></li>
         <li><input type="text" id="search" class="media-boxes-search" placeholder="Search By Keyword" style="margin-bottom: -0.7rem; height: 2rem;"></li>
       </ul>
 
@@ -39,6 +40,11 @@ permalink: /releases/
      
      {% if post.categories contains 'zine' %} 
        Category3 
+     {% else %}
+     {% endif %}>
+
+     {% if post.categories contains 'tape' %} 
+       Category4
      {% else %}
      {% endif %}">
         

@@ -15,7 +15,7 @@ permalink: /shippingpaymentinfo/
 				<p>how does it works: <br>
 				using the button <i>"buy now"</i> you can immediately pay ( via paypall/credit card ) a single object including its shipping costs.<br>
 				when we'll display the payment we'll send you a notification and a shipping confirmation. Delivery depends on your location. <br>
-				We use registered mail.<br>		
+				We usually use registered mail.<br>		
 				</p>		 
 			</div>
 			<div class="large-6 small-12 columns">

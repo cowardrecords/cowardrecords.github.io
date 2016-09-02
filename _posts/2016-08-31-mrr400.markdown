@@ -1,0 +1,21 @@
+---
+layout: itemdistro
+title: "Maximum Rocknroll #400"
+subtitle: september 2016
+code: MRR #400
+price: "5.50"
+soldout:
+date: 2016-08-31 01:16:17 +0100
+bgimage:
+image: http://www.maximumrocknroll.com/wp-content/uploads/2016/08/mrr_400_cvr.jpg
+thumbnail: http://www.maximumrocknroll.com/wp-content/uploads/2016/08/mrr_400_cvr.jpg
+imagethumb1:
+imagethumb2:
+imagethumb3:
+category: [zine, distro]
+---
+
+
+the September 2016 issue, Maximum Rocknroll #400. It’s hard to believe we’ve been at it for this long, so this time we’re turning back to reflect on the people that make it happen every month: our shitworkers. Every band featured in this issue features at least one volunteer or contributor to the mag. We’ve got the Welsh-Greek-Cypriot maelstrom that is London’s [EFIALTIS](https://staticshockrecords.bandcamp.com/album/efialtis){:target="_blank"}, Oklahoma City’s [AMERICAN HATE](https://americanhate.bandcamp.com/){:target="_blank"} and Chicago’s [the BUG](https://notnormaltapes.bandcamp.com/album/nnt-069-the-bug-room-44-sessions){:target="_blank"} scrambling the signals of Midwestern hardcore, the uncompromising melodic punk of the Bay Area’s own [SYNDICATE](https://syndicate-oakland.bandcamp.com/){:target="_blank"} and [SILENT ERA](http://silenterabayarea.bandcamp.com/){:target="_blank"} (perhaps the only all-MRR-shitworker band?), and [NORMS](https://normsbp.bandcamp.com/){:target="_blank"} out of Budapest offering their perspective on punk life in an unforgiving modern landscape. On top of that, we have interviews with Evolution of a Race Riot zinester and scholar [Mimi Thi Nguyen](http://mimithinguyen.com/home.html){:target="_blank"} as well as former MRR coordinator Arwen Curry discussing her upcoming documentary [Worlds of Ursula K. Le Guin](http://worldsofukl.com/){:target="_blank"}. We also have current shitworkers revealing their work inside and outside of the pages of MRR: San Francisco/Los Angeles based journalist [Oscar Gutierrez](http://xpress.sfsu.edu/xpressmagazine/author/ogutierrez/){:target="_blank"}, Washington’s [Farrah Skeiky](http://farrahskeiky.com/){:target="_blank"} (official photographer of the NWODCHC?), and the Bay Area’s [Scream Queens](http://screamqueensradio.tumblr.com/){:target="_blank"} giving us the dirt on their eponymous radio show and their upcoming magazine. If that weren’t enough, we’ve also got a photo spreads and commentary from Copenhagen’s [K-Town Hardcore Fest](http://ktownhardcorefest.org/){:target="_blank"}, hundreds of reviews, all of your favorite columnists, and—get this—a table of contents. That’s right, this issue debuts a fresh new look for MRR. It only took us 400 issues to get page numbers, who knows what the future may hold?\\
+\\
+[more info](http://www.maximumrocknroll.com){:target="_blank"}
