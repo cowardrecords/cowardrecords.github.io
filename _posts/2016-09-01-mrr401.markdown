@@ -1,0 +1,21 @@
+---
+layout: itemdistro
+title: "Maximum Rocknroll #401"
+subtitle: october 2016
+code: MRR #401
+price: "5.50"
+soldout:
+date: 2016-09-01 01:16:17 +0100
+bgimage:
+image: http://www.maximumrocknroll.com/wp-content/uploads/2016/09/mrr_401_cvr.jpg
+thumbnail: http://www.maximumrocknroll.com/wp-content/uploads/2016/09/mrr_401_cvr.jpg
+imagethumb1:
+imagethumb2:
+imagethumb3:
+category: [zine, distro]
+---
+
+
+Here it is, Maximum Rocknroll #401, October 2016. This special edition is our **ART ISSUE**—how much can you take? We’ve got an interview with **Olivia Gibb**, who came all the way out from Kansas City as our very first MRR artist-in-residence to design this issue’s cover, and conversations between Tokyo photographer **Chiro Yoshikawa** and Los Angeles artist/designer **Sonya Sombreuil** (of Come Tees renown) as well as between Toronto’s **Lia Lepre** and **Sebbe Melbourne**. Plus: interviews with Los Angeles-based artist **Jess Scott**, New Orleanian comics artist **Ben Passmore**, and Indiana’s **Alex Micallef**; a convo between **Osa Atoe** and video artist **Perry Holstein**; and a feature on the **“This Record Changed My Life”** exhibition at Copenhagen’s K-Town Hardcore Fest. Other artists represented in this issue include **Sarah Sequoia, Ashley Hohman, Apolo Cacho, Sam Wallman, Shitboy Face, Trevor 32, Mónica Di Francesco, Luke Kislak, Aaron Demuth, Cecilia Calidera, Joseph Heuermann, Keith Caves, Josh Feigert**, and **Rael Brian Rau**. On top of all that, we’ve got a photo spread from a gig at the **Casa Club Ramones** museum on the outskirts of Mexico City, the latest dirt from our columnists, and more reviews than you can handle.\\
+\\
+[more info](http://www.maximumrocknroll.com){:target="_blank"}

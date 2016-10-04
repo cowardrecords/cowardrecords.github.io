@@ -5,7 +5,7 @@ artist: "Lantern"
 subtitle: 7" clear disc
 code: CWRD 02
 price: "15.00"
-soldout: false
+soldout: true
 date: 2016-04-06 01:16:17 +0100
 bgimage: https://c8.staticflickr.com/8/7787/27062920343_3429a11642_o.jpg
 image: infernoarottadicollo_vinyl.jpg
