@@ -15,7 +15,7 @@ imagethumb2:
 imagethumb3:
 category: [flexi, zine]
 sound: 
-video:
+video: "https://www.youtube.com/embed/dcmhadw0CY0"
 ---
 
 Limited edition of 35 copies \\
