@@ -19,6 +19,7 @@ video: "https://www.youtube.com/embed/b8xqw5ULXMw"
 
 Limited edition of 30 copies
 
+A middle of spastic rage and dementia.\\
 Live session recording and mixing: Francesco Castrovilli 
 
 Skingarov are: Edoardo,Sabino and Marco
