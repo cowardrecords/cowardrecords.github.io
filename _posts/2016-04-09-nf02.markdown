@@ -5,7 +5,7 @@ subtitle: Zine + Flexi 7" w/ Siamese Twins - Plastic Mace - Ufux
 code: NF #02
 price: "8.50"
 soldout:
-date: 2015-04-09 01:16:17 +0100
+date: 2016-04-09 01:16:17 +0100
 bgimage:
 image: https://nofriendszine-assets.s3.amazonaws.com/images/issues/2/cover.jpg
 thumbnail: https://nofriendszine-assets.s3.amazonaws.com/images/issues/2/cover.jpg
