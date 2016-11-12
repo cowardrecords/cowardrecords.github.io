@@ -17,12 +17,40 @@ layout: default
 
 </div>
 
-<div class="small-12 columns">
+<div class="small-10 columns">
 	<div class="small-12 columns">
 		<div class="blog">
+		   <section id="main-content" class="main-content">
 			{{ content }}
 			<br>
 			{% include socialshare.html %}
+		   </section>
 		</div>
 	</div>
+</div>
+
+<div class="events-press-cta stickyside small-2 columns" id="sidebar">
+    <br>
+    <br>
+    <br>
+	<h6>Archive</h6>
+		<ul class="no-bullet">
+		  {% for post in site.posts %}
+		 	 {% if post.categories contains 'blog' %}
+			    {% unless post.next %}
+
+			      {{ post.date | date: '%Y %b' }}
+			    {% else %}
+			      {% capture year %}{{ post.date | date: '%Y %b' }}{% endcapture %}
+			      {% capture nyear %}{{ post.next.date | date: '%Y %b' }}{% endcapture %}
+			      {% if year != nyear %}
+			        {{ post.date | date: '%Y %b' }}
+			      {% endif %}
+			    {% endunless %}
+
+			    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+			 {% endif %}
+		  {% endfor %}
+		</ul>
+
 </div>
