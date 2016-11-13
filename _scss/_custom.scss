@@ -43,6 +43,54 @@ body{
   top: 0; 
 }
 
+// BREACKFST CLUB
+
+.absolutepanel{
+	position: absolute;
+	padding: 20px;
+	text-align: right;
+	float: right;
+}
+
+.content_panel{
+	padding: 10px;
+	color: black;
+    position: absolute;
+	margin-right: auto;
+	margin-left: auto;
+    max-width: 500px;
+    height: auto;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, 0);
+	background: white;
+}
+
+.footer_breack{
+	padding-top: 20px;
+	background: white;
+	margin:0px;
+
+    color: black;
+
+	img{
+	max-width: 100px;
+	}
+}
+
+.main{
+    z-index: 99;
+	padding: 10px;
+	position: fixed;
+
+	#logo{
+	 width: auto;
+	 max-height: 35px;
+	}   
+}
+
+//
+
 
 .fullWidth {
    width: 100%;
@@ -71,6 +119,7 @@ body{
 }
 
 // NAVBAR
+
 .contain-to-grid .top-bar {
  
  li{

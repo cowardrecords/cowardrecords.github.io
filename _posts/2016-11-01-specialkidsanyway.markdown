@@ -24,4 +24,4 @@ Live session recording and mixing: Francesco Castrovilli
 
 Skingarov are: Edoardo,Sabino and Marco
 
-Autumn 2016
+Autumn 201
