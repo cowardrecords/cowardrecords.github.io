@@ -3,7 +3,11 @@
 
     {% include header_breakfastclub.html %}
 
-        <div id="container">
+        <div id="container" class="hide-for-small-only">
+            {{ content }}
+        </div>
+
+         <div id="container_small" class="show-for-small-only">
             {{ content }}
         </div>
     
