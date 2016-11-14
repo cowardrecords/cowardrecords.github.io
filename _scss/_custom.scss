@@ -52,19 +52,55 @@ body{
 	float: right;
 }
 
-.content_panel{
-	padding: 10px;
-	color: black;
-    position: absolute;
-	margin-right: auto;
-	margin-left: auto;
-    max-width: 500px;
-    height: auto;
-    left: 50%;
-    top: 30%;
-    transform: translate(-50%, 0);
-	background: white;
+.header.panel {
+  position: absolute;
+  margin-top: 8rem;
+  border: 2px solid #444;
+  background: #fff;
+  opacity: 0.95;
+
+  
+
+  p {
+    font: 1rem "Avenir Next";
+    padding: 1rem 2rem 2rem 2rem;
+    margin-top: -3.25rem;
+
+    span {
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 75%;
+      font-weight: bold;
+    }
+  }
+  
+
+  .sign {
+    background: white;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #444;
+    position: relative;
+    top: -5rem;
+    margin: auto;
+    
+    h1 {
+      text-transform: uppercase;
+      font: bolder 0.875rem "Avenir Next";
+      letter-spacing: 3px;
+      color: #666;
+      font-size: 70%;
+      text-align: center;
+      line-height: 2rem;
+    }
+  }
 }
+
+#map_canvas {
+    padding: 1rem 2rem 2rem 2rem;
+    position: relative;
+}
+
 
 .footer_breack{
 	padding-top: 20px;
