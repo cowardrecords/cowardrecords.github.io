@@ -9776,11 +9776,17 @@ body a:visited {
 }
 
 /* line 48, ../_scss/_custom.scss */
-#container_small {
-  min-height: 800px;
+#container {
+  background: white;
+}
+@media only screen and (max-width: 40em) {
+  /* line 48, ../_scss/_custom.scss */
+  #container {
+    min-height: 700px;
+  }
 }
 
-/* line 52, ../_scss/_custom.scss */
+/* line 56, ../_scss/_custom.scss */
 .absolutepanel {
   position: absolute;
   padding: 20px;
@@ -9788,7 +9794,7 @@ body a:visited {
   float: right;
 }
 
-/* line 59, ../_scss/_custom.scss */
+/* line 63, ../_scss/_custom.scss */
 .header.panel {
   position: absolute;
   margin-top: 8rem;
@@ -9796,20 +9802,20 @@ body a:visited {
   background: #fff;
   opacity: 0.95;
 }
-/* line 68, ../_scss/_custom.scss */
+/* line 70, ../_scss/_custom.scss */
 .header.panel p {
   font: 1rem "Avenir Next";
   padding: 1rem 2rem 2rem 2rem;
   margin-top: -3.25rem;
 }
-/* line 73, ../_scss/_custom.scss */
+/* line 75, ../_scss/_custom.scss */
 .header.panel p span {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 75%;
   font-weight: bold;
 }
-/* line 82, ../_scss/_custom.scss */
+/* line 84, ../_scss/_custom.scss */
 .header.panel .sign {
   background: white;
   width: 100px;
@@ -9819,7 +9825,7 @@ body a:visited {
   top: -5rem;
   margin: auto;
 }
-/* line 91, ../_scss/_custom.scss */
+/* line 93, ../_scss/_custom.scss */
 .header.panel .sign h1 {
   text-transform: uppercase;
   font: bolder 0.875rem "Avenir Next";
@@ -9830,37 +9836,37 @@ body a:visited {
   line-height: 2rem;
 }
 
-/* line 103, ../_scss/_custom.scss */
+/* line 105, ../_scss/_custom.scss */
 #map_canvas {
   padding: 1rem 2rem 2rem 2rem;
   position: relative;
 }
 
-/* line 109, ../_scss/_custom.scss */
+/* line 111, ../_scss/_custom.scss */
 .footer_breack {
   padding-top: 20px;
   background: white;
   margin: 0px;
   color: black;
 }
-/* line 116, ../_scss/_custom.scss */
+/* line 118, ../_scss/_custom.scss */
 .footer_breack img {
   max-width: 100px;
 }
 
-/* line 121, ../_scss/_custom.scss */
+/* line 123, ../_scss/_custom.scss */
 .main {
   z-index: 99;
   padding: 10px;
   position: fixed;
 }
-/* line 126, ../_scss/_custom.scss */
+/* line 128, ../_scss/_custom.scss */
 .main #logo {
   width: auto;
   max-height: 35px;
 }
 
-/* line 135, ../_scss/_custom.scss */
+/* line 137, ../_scss/_custom.scss */
 .fullWidth {
   width: 100%;
   margin-left: auto;
@@ -9868,7 +9874,7 @@ body a:visited {
   margin: 0px;
 }
 
-/* line 143, ../_scss/_custom.scss */
+/* line 145, ../_scss/_custom.scss */
 .nomargin {
   padding-left: 0px;
   padding-right: 0px;
@@ -9876,42 +9882,42 @@ body a:visited {
   margin-right: 0px;
 }
 
-/* line 150, ../_scss/_custom.scss */
+/* line 152, ../_scss/_custom.scss */
 .generalconten {
   height: auto;
   margin: 0px;
   padding: 0px;
 }
 
-/* line 157, ../_scss/_custom.scss */
+/* line 159, ../_scss/_custom.scss */
 .soldout {
   text-decoration: line-through;
 }
 
-/* line 163, ../_scss/_custom.scss */
+/* line 165, ../_scss/_custom.scss */
 .contain-to-grid .top-bar {
   margin: 0px auto;
   max-width: 1280px;
 }
-/* line 166, ../_scss/_custom.scss */
+/* line 168, ../_scss/_custom.scss */
 .contain-to-grid .top-bar li a {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   text-decoration: none;
 }
-/* line 176, ../_scss/_custom.scss */
+/* line 178, ../_scss/_custom.scss */
 .contain-to-grid .top-bar #logo {
   width: auto;
   max-height: 35px;
 }
 
-/* line 187, ../_scss/_custom.scss */
+/* line 189, ../_scss/_custom.scss */
 #underline {
   text-decoration: underline;
 }
 
 @media only screen and (min-width: 64.063em) {
-  /* line 192, ../_scss/_custom.scss */
+  /* line 194, ../_scss/_custom.scss */
   .blog {
     max-width: 80%;
     margin-right: auto;
@@ -9919,7 +9925,7 @@ body a:visited {
   }
 }
 
-/* line 200, ../_scss/_custom.scss */
+/* line 202, ../_scss/_custom.scss */
 #blogHeader {
   padding: 195px 30px 65px;
   background-image: url("../img/bg-defauolt.jpg");
@@ -9932,48 +9938,48 @@ body a:visited {
   background-size: cover;
   margin-bottom: 30px;
 }
-/* line 212, ../_scss/_custom.scss */
+/* line 214, ../_scss/_custom.scss */
 #blogHeader .testata {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 212, ../_scss/_custom.scss */
+  /* line 214, ../_scss/_custom.scss */
   #blogHeader .testata {
     max-width: 80%;
   }
 }
 
-/* line 224, ../_scss/_custom.scss */
+/* line 226, ../_scss/_custom.scss */
 .recent-post a {
   text-decoration: none;
 }
-/* line 226, ../_scss/_custom.scss */
+/* line 228, ../_scss/_custom.scss */
 .recent-post a h4 {
   text-decoration: underline;
   color: grey;
 }
-/* line 230, ../_scss/_custom.scss */
+/* line 232, ../_scss/_custom.scss */
 .recent-post a img {
   display: none;
 }
-/* line 233, ../_scss/_custom.scss */
+/* line 235, ../_scss/_custom.scss */
 .recent-post a p {
   color: grey;
 }
-/* line 235, ../_scss/_custom.scss */
+/* line 237, ../_scss/_custom.scss */
 .recent-post a p i {
   display: none;
   color: grey;
 }
-/* line 240, ../_scss/_custom.scss */
+/* line 242, ../_scss/_custom.scss */
 .recent-post a strong {
   text-decoration: underline;
   color: grey;
 }
 
-/* line 248, ../_scss/_custom.scss */
+/* line 250, ../_scss/_custom.scss */
 .recent-post a:hover h4 {
   animation: anim 0.2s;
   -o-animation: anim 0.2s;
@@ -9983,7 +9989,7 @@ body a:visited {
   color: white;
 }
 
-/* line 257, ../_scss/_custom.scss */
+/* line 259, ../_scss/_custom.scss */
 .recent-post a:hover i {
   display: block;
   animation: anim 0.2s;
@@ -9994,7 +10000,7 @@ body a:visited {
   color: white;
 }
 
-/* line 266, ../_scss/_custom.scss */
+/* line 268, ../_scss/_custom.scss */
 .recent-post a:hover img {
   display: block;
   animation: anim_top 0.3s;
@@ -10004,7 +10010,7 @@ body a:visited {
   -moz-animation: anim_top 0.3s;
 }
 
-/* line 274, ../_scss/_custom.scss */
+/* line 276, ../_scss/_custom.scss */
 .recent-post a:hover p {
   animation: anim 0.4s;
   -o-animation: anim 0.4s;
@@ -10014,7 +10020,7 @@ body a:visited {
   color: white;
 }
 
-/* line 282, ../_scss/_custom.scss */
+/* line 284, ../_scss/_custom.scss */
 .recent-post a:hover p strong {
   animation: anim 0.9s;
   -o-animation: anim 0.9s;
@@ -10048,7 +10054,7 @@ body a:visited {
     transform: translateY(0);
   }
 }
-/* line 320, ../_scss/_custom.scss */
+/* line 322, ../_scss/_custom.scss */
 .item {
   width: 100%;
   height: auto;
@@ -10065,14 +10071,14 @@ body a:visited {
   background-position: center top;
 }
 
-/* line 338, ../_scss/_custom.scss */
+/* line 340, ../_scss/_custom.scss */
 #text {
   background: white;
   color: black;
   padding: 50px;
 }
 
-/* line 345, ../_scss/_custom.scss */
+/* line 347, ../_scss/_custom.scss */
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
@@ -10081,7 +10087,7 @@ body a:visited {
   height: 0;
 }
 
-/* line 351, ../_scss/_custom.scss */
+/* line 353, ../_scss/_custom.scss */
 .videoWrapper iframe {
   position: absolute;
   top: 0;
@@ -10090,45 +10096,45 @@ body a:visited {
   height: 100%;
 }
 
-/* line 360, ../_scss/_custom.scss */
+/* line 362, ../_scss/_custom.scss */
 .blocktext {
   margin-left: auto;
   margin-right: auto;
   max-width: 400px;
 }
 
-/* line 368, ../_scss/_custom.scss */
+/* line 370, ../_scss/_custom.scss */
 .footer {
   padding-top: 20px;
   background: black;
   margin: 0px;
 }
-/* line 374, ../_scss/_custom.scss */
+/* line 376, ../_scss/_custom.scss */
 .footer img {
   max-width: 100px;
 }
 
-/* line 379, ../_scss/_custom.scss */
+/* line 381, ../_scss/_custom.scss */
 .longdescriptionbox {
   height: 250px;
   overflow: auto;
 }
 
-/* line 387, ../_scss/_custom.scss */
+/* line 389, ../_scss/_custom.scss */
 .share-page {
   color: inherit;
 }
-/* line 390, ../_scss/_custom.scss */
+/* line 392, ../_scss/_custom.scss */
 .share-page a {
   font-weight: 700;
   color: inherit;
 }
-/* line 394, ../_scss/_custom.scss */
+/* line 396, ../_scss/_custom.scss */
 .share-page a:hover {
   border-bottom: 1px dashed inherit;
 }
 
-/* line 402, ../_scss/_custom.scss */
+/* line 404, ../_scss/_custom.scss */
 .typed-cursor {
   opacity: 1;
   -webkit-animation: blink 0.7s infinite;

@@ -45,9 +45,13 @@ body{
 
 // BREACKFST CLUB
 
-#container_small{
-	min-height: 800px;
+#container{
+	background: white;
+	@media only screen and (max-width: 40em) { 
+	min-height: 700px;
+	} 
 }
+
 
 .absolutepanel{
 	position: absolute;
@@ -63,8 +67,6 @@ body{
   background: #fff;
   opacity: 0.95;
 
-  
-
   p {
     font: 1rem "Avenir Next";
     padding: 1rem 2rem 2rem 2rem;
@@ -76,7 +78,7 @@ body{
       font-size: 75%;
       font-weight: bold;
     }
-  }
+}
   
 
   .sign {
