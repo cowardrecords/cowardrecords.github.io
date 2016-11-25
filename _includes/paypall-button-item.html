@@ -240,3 +240,19 @@
 {% endif %}
 </div>
 
+<div class="text-center">
+	{% if page.title == "Yourselfie" %}
+	<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+	<input type="hidden" name="cmd" value="_s-xclick">
+	<input type="hidden" name="hosted_button_id" value="DP4LRTY9Z8DZY">
+	<input type="hidden" name="on0" value="Ship to">Ship to</td></tr><tr><td><select name="os0">
+		<option value="Italy">Italy €9,00 EUR</option>
+		<option value="Europe">Europe €10,00 EUR</option>
+		<option value="Rest of the world">Rest of the world €11,00 EUR</option>
+	</select> 
+	<input type="hidden" name="currency_code" value="EUR">
+	<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_buynow_SM.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+	<img alt="" border="0" src="https://www.paypalobjects.com/it_IT/i/scr/pixel.gif" width="1" height="1">
+	</form>
+   {% endif %}
+</div>
