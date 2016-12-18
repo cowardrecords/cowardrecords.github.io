@@ -43,122 +43,9 @@ body{
   top: 0; 
 }
 
-// BREACKFST CLUB
-
-#container{
-	background: white;
-	@media only screen and (max-width: 40em) { 
-	min-height: 700px;
-	} 
-}
 
 
-.absolutepanel{
-	position: absolute;
-	padding: 20px;
-	text-align: right;
-	float: right;
-}
 
-.header.panel {
-  position: absolute;
-  margin-top: 8rem;
-  border: 2px solid #444;
-  background: #fff;
-  opacity: 0.95;
-
-  p {
-    font: 1rem "Avenir Next";
-    padding: 1rem 2rem 2rem 2rem;
-    margin-top: -3.25rem;
-
-    span {
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      font-size: 75%;
-      font-weight: bold;
-    }
-}
-  
-
-  .sign {
-    background: white;
-    width: 100px;
-    height: 100px;
-    border: 2px solid #444;
-    position: relative;
-    top: -5rem;
-    margin: auto;
-    
-    h1 {
-      text-transform: uppercase;
-      font: bolder 0.875rem "Avenir Next";
-      letter-spacing: 3px;
-      color: #666;
-      font-size: 70%;
-      text-align: center;
-      line-height: 2rem;
-    }
-  }
-}
-
-#map_canvas {
-    padding: 1rem 2rem 2rem 2rem;
-    position: relative;
-}
-
-
-.footer_breack{
-	padding-top: 20px;
-	background: white;
-	margin:0px;
-
-    color: black;
-
-	img{
-	max-width: 100px;
-	}
-}
-
-.main{
-    z-index: 99;
-	padding: 10px;
-	position: fixed;
-
-	#logo{
-	 width: auto;
-	 max-height: 35px;
-	}   
-}
-
-//
-
-
-.fullWidth {
-   width: 100%;
-   margin-left: auto;
-   margin-right: auto;
- 
-   margin: 0px;
-}
-
-.nomargin{
-	padding-left: 0px;
-	padding-right: 0px;
-	matgin-left: 0px;
-	margin-right: 0px;
-}
-
-.generalconten{
-	height: auto;
-
-	margin: 0px;
-	padding: 0px;
-}
-
-.soldout{
-	text-decoration: line-through;
-}
 
 // NAVBAR
 
@@ -179,8 +66,18 @@ body{
  width: auto;
  max-height: 35px;
  }
-    
+   
+ .right{
+   li{
+	  a{
+		text-decoration: underline;
+	   }
+     }	 		
+ }  
+
 }
+
+
 
 // INDEX 
 
@@ -383,6 +280,12 @@ body{
 	overflow:auto;
 }
 
+.nomargin{
+	padding-left: 0px;
+	padding-right: 0px;
+	matgin-left: 0px;
+	margin-right: 0px;
+}
 
 // SOCIAL SHARE
 
