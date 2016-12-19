@@ -7,8 +7,8 @@ exclude: true
 
 <div class="small-10 medium-8 large-7 small-centered columns">
  <div class=" row headblock">
-    <div class="small-6 medium-5 large-2 logo_header columns"><img src="/img/logo_breakfastclub.png" alt="breakfast club"></div>
-    <div class="small-6 medium-7 large-5 columns text_header "><h2 class="text-right"><strong>DOMENICA <br>8 GENNAIO</strong></h2></div>
+    <div class="small-5 medium-5 large-2 logo_header columns"><img src="/img/logo_breakfastclub.png" alt="breakfast club"></div>
+    <div class="small-7 medium-7 large-5 columns text_header "><h2 class="text-right"><strong>DOMENICA <br>8 GENNAIO</strong></h2></div>
      <div class="small-12 medium-12 large-5 columns"><h5 class="large-text-right">spazio popolare malarlevét <br class="show-for-large-up">via leoncavallo n.15<br class="show-for-large-up"> pesaro</h5></div>
     <hr>
  </div>
