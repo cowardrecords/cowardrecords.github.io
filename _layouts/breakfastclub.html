@@ -32,6 +32,7 @@
 	  .headblock {padding-top: 40px;}
 	  .headblock hr{ height: 5px; margin-left:0.91rem; margin-right: 0.91rem; padding-top: 5px; background-color: #000000;}
       .logo_header img{max-width: 100px; float:left; margin-bottom: 20px;}
+      .text_header {}
 	  #googlemap_wrap  {position: relative; padding-bottom: 65.25%; padding-top: 30px; height: 0; overflow: hidden;}
 	  #googlemap_wrap #map {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
 	  .segnalibro {position: fixed; margin-top: 3px; margin-left: 15px;}
@@ -69,7 +70,7 @@
 		  letter-spacing: .15em;
 		  text-shadow: 1px -1px 0 #767676, -1px 2px 1px #737272, -2px 4px 1px #767474, -3px 6px 1px #787777, -4px 8px 1px #7b7a7a, -5px 10px 1px #7f7d7d, -6px 12px 1px #828181, -7px 14px 1px #868585, -8px 16px 1px #8b8a89, -9px 18px 1px #8f8e8d, -10px 20px 1px #949392, -11px 22px 1px #999897, -12px 24px 1px #9e9c9c, -13px 26px 1px #a3a1a1, -14px 28px 1px #a8a6a6, -15px 30px 1px #adabab, -16px 32px 1px #b2b1b0; }
 	    
-        h2{font-size: 1.3rem;} 
+        h2{font-size: 1.9rem; padding-left: -5px;} 
 
         .segnalibro {position: absolute; margin-top: 3px; margin-left: 15px;}
         
@@ -136,11 +137,11 @@
 	 	  <h5>contatti</h5>
 	 	  
 	 	  <hr>
-	 	  <div class="small-4  large-6 columns nomargin">
+	 	  <div class="small-12  large-6 columns nomargin">
 			  <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-			  <p>{{ site.description }}</p>
+			  <p class="hide-for-small-only">{{ site.description }}</p>
 		  </div>
-		  <div class="small-6 large-6 columns">
+		  <div class="small-12 large-6 columns nomargin">
 		        <div id="typed-strings">
 		          <p>ciao...</p>
 		          <p>se vuoi rimanere aggiornato</p>
