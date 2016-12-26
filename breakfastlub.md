@@ -16,7 +16,7 @@ exclude: true
   <h1 class="elegantshadow"><strong>SOVIET<br>SOVIET</strong><br>*<br><strong>BE<br>FOREST</strong><br>*<br><strong>TANTE<br>ANNA</strong></h1>
   <br>
   <h5><strong class="underline">i concerti incominciano alle 9:30 del mattino</strong></h5>
-  <p class="text-justify">lo spazio popolere malarlevét (ex csa oltrefrontiera) si trova a pesaro in via leoncavallo n. 15 <strong class="underline">l’entrata ai concerti è a offerta libera</strong> all’interno dello spazio ci sarà la possibilità di fare colazione con bevande calde e dolcetti</p>
+  <p class="text-justify">lo spazio popolare malarlevét (ex csa oltrefrontiera) si trova a pesaro in via leoncavallo n. 15 <strong class="underline">l’entrata ai concerti è a offerta libera</strong> all’interno dello spazio ci sarà la possibilità di fare colazione con bevande calde e dolcetti</p>
 
   <br>
   <br>
