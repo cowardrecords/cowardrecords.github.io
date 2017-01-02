@@ -10,9 +10,9 @@ date: 2016-11-02 01:16:17 +0100
 bgimage: https://c2.staticflickr.com/6/5828/30662573001_99efb081e1_b.jpg
 image: pw_zine.jpg
 thumbnail: pw_zine_thumbnail.png
-imagethumb1:
-imagethumb2:
-imagethumb3:
+imagethumb1: https://c1.staticflickr.com/1/420/31674804840_0f186a6425.jpg
+imagethumb2: https://c7.staticflickr.com/1/360/32010641206_33b8e00d05.jpg
+imagethumb3: https://c1.staticflickr.com/1/509/32010632416_fb33797b68.jpg
 category: [flexi, zine]
 sound: 
 video: "https://www.youtube.com/embed/dcmhadw0CY0"
