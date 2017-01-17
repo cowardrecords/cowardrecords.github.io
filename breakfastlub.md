@@ -7,5 +7,5 @@ exclude: true
 ---
 
 <div class="small-12">
-  <img src="/img/breakfastclub.jpg" class="cover" alt"breakfastclub"/>
+  <img src="/img/breakfastclub.jpg" class="cover" alt="breakfastclub"/>
 </div>
