@@ -53,22 +53,7 @@ permalink: /blog/
 			</ul>
 		
 
-			<!-- tentativo di organizzare archivio con dropdown per anni e mesi
-			<div id="blog-archives">
-				{% for post in site.posts reverse %}
-				 {% if post.categories contains 'blog' %}
-					{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-					{% unless year == this_year %}
-					  {% assign year = this_year %}
-					  <h6><a name="{{ year }}"></a>{{ year }}</h6>
-					{% endunless %}
-					<ul class="no-bullet">
-					  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-					</ul>
-				 {% endif %}
-				{% endfor %}
-			</div>
-			-->
+			
 
         </div>
 	</div>

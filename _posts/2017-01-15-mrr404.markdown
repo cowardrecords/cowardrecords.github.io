@@ -1,0 +1,20 @@
+---
+layout: itemdistro
+title: "Maximum Rocknroll #404"
+subtitle: january 2017
+code: MRR #404
+price: "5.50"
+soldout:
+date: 2017-01-15 01:16:17 +0100
+bgimage:
+image: http://www.maximumrocknroll.com/wp-content/uploads/2016/12/mrr_404_cvr.jpg
+thumbnail: http://www.maximumrocknroll.com/wp-content/uploads/2016/12/mrr_404_cvr.jpg
+imagethumb1:
+imagethumb2:
+imagethumb3:
+category: [zine, distro]
+---
+
+the January 2017 issue is here! In light of the impending Trump presidency, we have a very useful guide to basic **cybersecurity**, revolutionary **reading lists**, Q&A’s from **Transgress Fest**, and more. We have photo spreads from **Static Shock Fest** and the current **Mexico City punk scene**, plus interviews with Copenhagen/worldwide queer art punks **PRISON**, Kansas City freaks **PHANTOM HEAD**, and everyone’s favorite Berlin-based phenomenon **DIÄT**. Dublin post-punkers the **BLOW INS** talk about carving out space for Polish punks in a new country, Baltimore’s **QUITTER** share the trials and tribulations of gas station food and sweaty jumpsuits, and Oakland’s **HARD LEFT** can’t decide if they are hard mod or utopian Oi! (maybe Turbo can help?). It all wraps up with Canadian raw punk band **PARASYTES**, a joint interview with **LAKES** and **TOL** (two Australian bands that share members), and Scottish vegan straightedge riot grrrls **BRATAKUS**. Get it today!\\
+\\
+[more info](http://www.maximumrocknroll.com){:target="_blank"}

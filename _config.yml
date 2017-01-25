@@ -25,7 +25,9 @@ links:
 
 
 
-permalink: /:categories/:title
+permalink: /:categories/:title/
 # Build settings
 markdown: kramdown
+
+exclude: [node_modules, gulpfile.js]
 
