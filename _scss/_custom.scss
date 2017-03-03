@@ -1,5 +1,19 @@
 // GENERAL
 
+@font-face {
+	font-family: 'NeueHaasGroteskText Pro Md';
+	src: url('../font/NHaasGroteskTXPro-65Md.eot');
+	src: url('../font/NHaasGroteskTXPro-65Md.eot?#iefix') format('embedded-opentype'),
+		url('../font/NHaasGroteskTXPro-65Md.woff2') format('woff2'),
+		url('../font/NHaasGroteskTXPro-65Md.woff') format('woff'),
+		url('../font/NHaasGroteskTXPro-65Md.ttf') format('truetype'),
+		url('../font/NHaasGroteskTXPro-65Md.svg#NHaasGroteskTXPro-65Md') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+
+
 $row-maxwidth: 1280px;
 img{
 .cover{
@@ -20,17 +34,18 @@ body{
 		color: white;
 	}
 
-	font-family: 'Inconsolata', ;
-	
+	/*font-family: 'Inconsolata', ;*/
+	font-family: 'Work Sans', sans-serif;
 	h1, h2, h3, h4, h5, h6 {
 		color: inherit;
-		font-family: 'Montserrat', sans-serif;
+		/*font-family: 'Montserrat', sans-serif;*/
+		font-family: 'NeueHaasGroteskText Pro Md';
 		text-transform: uppercase;
 	}
 
 	a{
 		color: inherit;
-		text-decoration: underline;
+		text-decoration: none;
 	}
 	
 	a:hover{
@@ -59,7 +74,7 @@ body{
  
  li{
  	a{
- 		font-family: 'Montserrat', sans-serif;
+ 		font-family: 'NeueHaasGroteskText Pro Md';
 		text-transform: uppercase;
 		text-decoration: none;
 	 }
@@ -87,7 +102,9 @@ body{
 
 // INDEX 
 
-
+.tileblock{
+	min-height: 90px;
+}
 
 #underline{
 	text-decoration: underline;
@@ -100,12 +117,24 @@ body{
 	max-width: 80%;
     margin-right: auto;
 	margin-left: auto;}	
+
+}
+
+.blogtext{
+	h1,h2,h3,h4,h5,h6{
+		text-decoration: none;
+		text-transform: none;
+	}
+	p{
+	font-family: 'Crimson Text', serif;
+	font-size: 17px;
+    }
 }
 
 #blogHeader{
 	padding: 195px 30px 65px;
 	background-image: url("../img/bg-defauolt.jpg");
-	background-position: center top;
+	background-position: center center;
 	background-repeat: no-repeat;
 	background-color: #0000;
 	-webkit-background-size: cover;
@@ -125,100 +154,22 @@ body{
 	}
 }
 
-.recent-post{
-	a{
-		text-decoration: none;
-			h4{
-				text-decoration: underline;
-				color: grey;
-			}
-			img{
-				display: none;
-			}
-			p{
-				color: grey;
-				i{
-					display: none;
-					color: grey;
-				}
-			}
-			strong{
-				text-decoration: underline;
-				color: grey;
-			}
+.imageblockBlog{
+	overflow: hidden;
+    max-height: 140px;
+	img{
+
 	}
 }
 
-	
-.recent-post a:hover h4{
-	animation: anim 0.2s;
-	-o-animation: anim 0.2s;
-	-ms-animation: anim 0.2s;
-	-webkit-animation: anim 0.2s;
-	-moz-animation:anim 0.2s;
-	color: white;
+.imageblockDistro{
+	overflow: hidden;
+    max-height: 250px;
 
-}
-.recent-post a:hover i {
-	display: block;
-	animation: anim 0.2s;
-	-o-animation: anim 0.2s;
-	-ms-animation: anim 0.2s;
-	-webkit-animation: anim 0.2s;
-	-moz-animation:anim 0.2s;
-	color: white;
-}
-.recent-post a:hover img {
-	display: block;
-	animation: anim_top 0.3s;
-	-o-animation: anim_top 0.3s;
-	-ms-animation: anim_top 0.3s;
-	-webkit-animation: anim_top 0.3s;
-	-moz-animation:anim_top 0.3s;
-}
-.recent-post a:hover p {
-	animation: anim 0.4s;
-	-o-animation: anim 0.4s;
-	-ms-animation: anim 0.4s;
-	-webkit-animation: anim 0.4s;
-	-moz-animation:anim 0.4s;
-	color: white;
-}
-.recent-post a:hover p strong {
-	animation: anim 0.9s;
-	-o-animation: anim 0.9s;
-	-ms-animation: anim 0.9s;
-	-webkit-animation: anim 0.9s;
-	-moz-animation:anim 0.9s;
-	color: white;
-}
-@keyframes anim {
-	from {
-		opacity: 0;			
-        -ms-transform: translateX(-100%);
-        transform: translateX(-100%);
-		}
-	to {
-		opacity: 1;
-		-ms-transform: translateX(0);
-        transform: translateX(0);
-		}
-}
+	img{
 
-
-@keyframes anim_top {
-		from {
-			opacity: 0;
-			-ms-transform: translateY(100%);
-            transform: translateY(100%);
-			}
-		to {
-			opacity: 1;
-			-ms-transform: translateY(0);
-            transform: translateY(0);
-			}
 	}
-
+}
 
 // ITEM
 
@@ -240,12 +191,9 @@ body{
 
 }
 
-#text{
-	background: white;
-	color: black;
-	padding: 50px;
+.buttonPaypall{
+	max-height: 35px
 }
-
 
 .videoWrapper {
 	position: relative;
@@ -271,9 +219,8 @@ body{
 // FOOTER
 
 .footer{
-	padding-top: 20px;
-	background: black;
-	margin:0px;
+
+	padding-top: 25px;
 
 
 	img{

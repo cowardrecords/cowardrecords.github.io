@@ -5,6 +5,16 @@ layout: default
 <div class="fullWidth  item" {% if page.bgimage contains 'http' %} style="background-image: url({{ page.bgimage }})" {% else %} style="background-image: url(/img/{{ page.bgimage }})" {% endif %}>
 
 		<div class="small-12 columns">
+			<div class="row">
+			<div class="small-12 columns">
+				<div class="small-12 medium-12 large-8 columns">
+				  <hr>
+				</div>
+				<div class="large-4 columns show-for-medium-up">
+				  <hr>
+				</div>
+			</div>
+			</div>
 			<div class="large-4 medium-12 small-12 columns" id="text">
 				<h2>{{page.title}}</h2>
 				<p>{{page.artist}}</p>
@@ -40,9 +50,9 @@ layout: default
 				<div class="show-for-medium-down"><hr></div>
 
 				{% if page.image contains 'http' %}
-                  <img class="th" src="{{ page.image }}" alt="{{ page.name }}"/>
+                  <img  src="{{ page.image }}" alt="{{ page.name }}"/>
                 {% else %}
-                  <img class="th" src="/img/{{ page.image }}" alt="{{ page.name }}"/>
+                  <img  src="/img/{{ page.image }}" alt="{{ page.name }}"/>
               	{% endif %}
 				
 				{% if page.imagethumb1 %}	
@@ -51,11 +61,11 @@ layout: default
 
 				    <li>
 				    	{% if page.imagethumb1 contains 'http' %}
-					  		<a class="th" href=" {{ page.imagethumb1 }}" alt="{{page.imagethumb1}} ">
+					  		<a href=" {{ page.imagethumb1 }}" alt="{{page.imagethumb1}} ">
 	  						<img src=" {{ page.imagethumb1 }}" alt="{{page.imagethumb1}}">
 	  						</a>
 	  					{% else %}
-	  						<a class="th" href=" /img/{{ page.imagethumb1 }}" alt="{{page.imagethumb1}} ">
+	  						<a href=" /img/{{ page.imagethumb1 }}" alt="{{page.imagethumb1}} ">
 	  						<img src=" /img/{{ page.imagethumb1 }}" alt="{{page.imagethumb1}}">
 							</a>
 	  					{% endif %}			
@@ -65,11 +75,11 @@ layout: default
 					{% if page.imagethumb2 %}
 					<li>
 						{% if page.imagethumb2 contains 'http' %}
-					  		<a class="th" href=" {{ page.imagethumb2 }}" alt="{{page.imagethumb2}} ">
+					  		<a href=" {{ page.imagethumb2 }}" alt="{{page.imagethumb2}} ">
 	  						<img src=" {{ page.imagethumb2 }}" alt="{{page.imagethumb2}}">
 	  						</a>
 	  					{% else %}
-	  						<a class="th" href=" /img/{{ page.imagethumb2 }}" alt="{{page.imagethumb2}} ">
+	  						<a href=" /img/{{ page.imagethumb2 }}" alt="{{page.imagethumb2}} ">
 	  						<img src=" /img/{{ page.imagethumb2 }}" alt="{{page.imagethumb2}}">
 							</a>
 	  					{% endif %}
@@ -79,11 +89,11 @@ layout: default
 					{% if page.imagethumb3 %}
 					<li>
 						{% if page.imagethumb3 contains 'http' %}
-					  		<a class="th" href=" {{ page.imagethumb3 }}" alt="{{page.imagethumb3}} ">
+					  		<a href=" {{ page.imagethumb3 }}" alt="{{page.imagethumb3}} ">
 	  						<img src=" {{ page.imagethumb3 }}" alt="{{page.imagethumb3}}">
 	  						</a>
 	  					{% else %}
-	  						<a class="th" href=" /img/{{ page.imagethumb3 }}" alt="{{page.imagethumb3}} ">
+	  						<a href=" /img/{{ page.imagethumb3 }}" alt="{{page.imagethumb3}} ">
 	  						<img src=" /img/{{ page.imagethumb3 }}" alt="{{page.imagethumb3}}">
 							</a>
 	  					{% endif %}
@@ -93,11 +103,11 @@ layout: default
 					{% if page.imagethumb4 %}
 					<li>
 						{% if page.imagethumb4 contains 'http' %}
-					  		<a class="th" href=" {{ page.imagethumb4 }}" alt="{{page.imagethumb4}} ">
+					  		<a href=" {{ page.imagethumb4 }}" alt="{{page.imagethumb4}} ">
 	  						<img src=" {{ page.imagethumb4 }}" alt="{{page.imagethumb4}}">
 	  						</a>
 	  					{% else %}
-	  						<a class="th" href=" /img/{{ page.imagethumb4 }}" alt="{{page.imagethumb4}} ">
+	  						<a href=" /img/{{ page.imagethumb4 }}" alt="{{page.imagethumb4}} ">
 	  						<img src=" /img/{{ page.imagethumb4 }}" alt="{{page.imagethumb4}}">
 							</a>
 	  					{% endif %}
@@ -107,11 +117,11 @@ layout: default
 					{% if page.imagethumb5 %}
 					<li>
 						{% if page.imagethumb5 contains 'http' %}
-					  		<a class="th" href=" {{ page.imagethumb5 }}" alt="{{page.imagethumb5}} ">
+					  		<a href=" {{ page.imagethumb5 }}" alt="{{page.imagethumb5}} ">
 	  						<img src=" {{ page.imagethumb5 }}" alt="{{page.imagethumb5}}">
 	  						</a>
 	  					{% else %}
-	  						<a class="th" href=" /img/{{ page.imagethumb5 }}" alt="{{page.imagethumb5}} ">
+	  						<a href=" /img/{{ page.imagethumb5 }}" alt="{{page.imagethumb5}} ">
 	  						<img src=" /img/{{ page.imagethumb5 }}" alt="{{page.imagethumb5}}">
 							</a>
 	  					{% endif %}
@@ -121,35 +131,50 @@ layout: default
 					{% if page.imagethumb6 %}
 					<li>
 						{% if page.imagethumb1 contains 'http' %}
-					  		<a class="th" href=" {{ page.imagethumb6 }}" alt="{{page.imagethumb6}} ">
+					  		<a href=" {{ page.imagethumb6 }}" alt="{{page.imagethumb6}} ">
 	  						<img src=" {{ page.imagethumb6 }}" alt="{{page.imagethumb6}}">
 	  						</a>
 	  					{% else %}
-	  						<a class="th" href=" /img/{{ page.imagethumb6 }}" alt="{{page.imagethumb6}} ">
+	  						<a href=" /img/{{ page.imagethumb6 }}" alt="{{page.imagethumb6}} ">
 	  						<img src=" /img/{{ page.imagethumb6 }}" alt="{{page.imagethumb6}}">
 							</a>
 	  					{% endif %}
 					</li>
 				{% endif %}
 				</ul>
-				
-			
 
 				<div class="show-for-medium-down"><hr></div>
 			</div>
 			
-			
-
-			<div class="large-4 medium-12 small-12 columns">
-				{% if page.sound  %}
-					<iframe width="100%" height="166" scrolling="no" frameborder="no" src={{ page.sound }}></iframe>	
-					<hr>
-				{% endif %}
-				{% if page.video  %}
-					<div class="videoWrapper">
-						<iframe width="100%" height="auto" src={{page.video}} frameborder="0" allowfullscreen></iframe>
-					</div>
-				{% endif %}
+			<div class="small-12 medium-12 large-4 columns show-for-medium-up">
+			<h6>LATEST RELEASES</h6>
+			<ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-2">
+			  {% for post in site.posts limit:12 %}
+			    {% if post.category == "blog" or post.category contains "distro"  %} <!-- do nothing -->
+			      {% else if %}
+			        <li>
+			          <hr>
+			          <a href="{{ post.url | prepend: site.baseurl }}">
+			            <div class="tileblock">
+			              <h5>{{ post.title | strip_html | truncatewords:20  }}</h5>
+			              <p>{{post.artist}}</p>
+			            </div>
+			            {% if post.image contains 'http' %}
+			                <img src="{{ post.image }}" alt="{{ post.name }}"/>
+			              {% else %}
+			                <img src="/img/{{ post.image }}" alt="{{ post.name }}"/>
+			            {% endif %} 
+			          </a>
+			          <br>
+			        </li> 
+			    {% endif %} 
+			  {% endfor %}
+			</ul>
+			<a id="underline" href="/releases"><p>all releases</p></a>
 			</div>
+
+
+
+
 		</div>
 </div>

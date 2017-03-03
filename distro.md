@@ -44,6 +44,7 @@ permalink: /distro/
      {% endif %}">
         
       <a href="{{ post.url | prepend: site.baseurl }}">
+      <hr>
       	<div class="maintitle">
 	        <h6>{{ post.title }}</h6>
 	        <p>{{ post.artist }}</p>
@@ -51,12 +52,13 @@ permalink: /distro/
       </a>
 
       <a href="{{ post.url | prepend: site.baseurl }}">
+        <div class="imageblockDistro">
         {% if post.image contains 'http' %}
-            <img class="th" src="{{ post.image }}" alt="{{ post.name }}"/>
+            <img src="{{ post.image }}" alt="{{ post.name }}"/>
           {% else %}
-            <img class="th" src="/img/{{ post.image }}" alt="{{ post.name }}"/>
+            <img src="/img/{{ post.image }}" alt="{{ post.name }}"/>
         {% endif %}
-      
+        </div>
        {% if post.soldout == true %}
         <p class="text-center soldout">sold out</p>
         {% else %}

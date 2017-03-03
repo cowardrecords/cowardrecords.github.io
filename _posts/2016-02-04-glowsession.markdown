@@ -9,7 +9,7 @@ author: cwrd
 category: blog
 ---
 
-*I can change or stay the same  
+I can change or stay the same  
 and everytime i try to start again  
 Cause it's never too late to be whoever you want to be  
 it's never too late to be a dancing star.  
@@ -21,10 +21,10 @@ Please stop and look around
 We can change  
 Or stay the same  
 We are all  
-Stars.*
+Stars.
 
-november 2015, 
-photo by [Luca Zamagna](https://www.flickr.com/photos/lucazamagna/){:target="_blank"} aka [Errata Disain](http://erratadisain.tumblr.com/){:target="_blank"}
+*november 2015,* 
+###### photo by [Luca Zamagna](https://www.flickr.com/photos/lucazamagna/){:target="_blank"} aka [Errata Disain](http://erratadisain.tumblr.com/){:target="_blank"}
 {: style=" text-align: none;"}
 
 

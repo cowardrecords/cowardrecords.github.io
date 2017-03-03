@@ -6,11 +6,12 @@ permalink: /about/
 
 <div class="fullWidth">
   <br>
-  <h4 class="text-center">{{ page.title}}</h4>
-  <hr>
+
+
 	<div class="small-12 columns">
 		<div class="large-6 medium-12 small-12 columns">
-			
+	        <h4>{{ page.title}}</h4> 
+	        <hr>		
 		    <h5>Codardo</h5>
 		    <br>
 			<p class="text-justify">
@@ -44,6 +45,8 @@ permalink: /about/
             </pre>
 		</div>
 		<div class="large-6 medium-12 small-12 columns">
+		<h4><br></h4> 
+		<hr>
 		    <img src=" /img/rolling.gif" >
 		</div>
 	</div>

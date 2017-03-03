@@ -1,49 +1,53 @@
-<footer class="hide-for-small-only">
- <div class="footer">
- 	<div class="row">
- 	<hr>
- 	<div class="large-2 small-12 medium-12 show-for-large-up columns">
- 		<div class="small-6 columns"><img id="footerlogo" src=" /img/logo_vert.png" alt="{{ site.title }}"></div>
- 		<div class="small-6 columns"><img src=" /img/rolling.gif" ></div>
+<div class="footer">
+  <div class="small-12 columns">
 
- 	</div>
- 	<div class="large-4 small-12 medium-6  columns">
- 	  <h5>contacts</h5>
- 	  
- 	  <hr>
- 	  <div class="small-4  large-6 columns nomargin">
-		  <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-		  <p>{{ site.description }}</p>
-	  </div>
-	  <div class="small-6 large-6 columns">
-	        <div id="typed-strings">
-	          <p>hi, it's nice to see you here</p>
-	          <p>feel free to write us for any questions...</p>
-	          <p>if you wanna stay update</p>
-	          <p>sign up for our newsletter --> </p>
-	        </div>
-        	<span id="typed"></span>
-	  </div>
-	</div>  
+   	<div class="large-2 small-12 medium-12 columns show-for-large-up">
+    <h5><br></h5>
+    <hr>
+    <div class="text-center">
+   	 <img src=" /img/rolling.gif" >
+    </div>
 
-	<div class="large-6 small-12 medium-6 columns">
-	   <h5>newsletter</h5>
-	   
- 	   <hr>
-	   <form style="padding:3px;text-align:left;" action="https://tinyletter.com/coward" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/coward_records', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-
-		   	<div class="small-8 columns nomargin">
-		   		<input type="text" style="width:100%" name="email" id="tlemail" placeholder="Enter your email address"/>
-		   	</div>
-		   	<div class="small-4 columns">
-		   	<input type="hidden" value="1" name="embed"/>
-		   	<input  class="button tiny"  style="width:100%" type="submit" value="Subscribe" />
-		   </div>
-	   	</form>
    	</div>
-   	</div>
- </div>        
-</footer>
+   	<div class="large-4 small-12 medium-6  columns">
+   	  <h5>contacts</h5>
+   	  
+   	  <hr>
+   	  <div class="small-4  large-6 columns nomargin">
+  		  <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+  		  <p>{{ site.description }}</p>
+  	  </div>
+  	  <div class="small-6 large-6 columns show-for-large-up">
+  	        <div id="typed-strings">
+  	          <p>hi, it's nice to see you here</p>
+  	          <p>feel free to write us for any questions...</p>
+  	          <p>if you wanna stay update</p>
+  	          <p>sign up for our newsletter --> </p>
+  	        </div>
+          	<span id="typed"></span>
+  	  </div>
+  	</div>  
+
+  	<div class="large-6 small-12 medium-6 columns">
+  	   <h5>newsletter</h5>
+  	   
+   	   <hr>
+  	   <form style="padding:3px;text-align:left;" action="https://tinyletter.com/coward" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/coward_records', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+
+  		   	<div class="small-8 columns nomargin">
+  		   		<input type="text" style="width:100%" name="email" id="tlemail" placeholder="Enter your email address"/>
+  		   	</div>
+  		   	<div class="small-4 columns">
+  		   	<input type="hidden" value="1" name="embed"/>
+  		   	<input  class="button tiny"  style="width:100%; background-color: black; ;font-size: 200%; margin-left: 0p; padding:0;" type="submit" value="Subscribe" />
+  		    </div>
+  	   </form>
+    </div>
+
+  </div>
+</div>       
+
+
 
 <script src="{{ "/bower_components/jquery/dist/jquery.min.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/bower_components/foundation/js/foundation.min.js" | prepend: site.baseurl }}"></script>
