@@ -25,9 +25,11 @@ img{
 body{
 	background: black;
 	color: white;
+
 	.row {
 	    max-width: $row-maxwidth;
-
+	    
+	    
 	}
 
 	hr{
@@ -60,7 +62,6 @@ body{
 .stickyside {
 
   position: relative;
-
   top: 0; 
 }
 
