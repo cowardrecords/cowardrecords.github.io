@@ -4,7 +4,6 @@ title: Distro
 permalink: /distro/
 ---
 
-
 <br>
 
 <div class="grid-section">
@@ -25,7 +24,7 @@ permalink: /distro/
 
    <br>
 
-  <div id="grid">
+  <div id="grid" style="padding: 30px">
   {% for post in site.posts %}      
    {%  if post.category contains "distro" %}   
     <div class="media-box 
