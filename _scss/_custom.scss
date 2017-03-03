@@ -178,7 +178,7 @@ body{
 	width: 100%;
 	height: auto;
 	min-width: 100%;
-	padding: 20px;
+
 	min-height: 800px;
 	background: black;
 	background-size: cover;
@@ -229,7 +229,7 @@ body{
 }
 
 .longdescriptionbox{
-	height:250px;
+	max-height:250px;
 	overflow:auto;
 }
 

@@ -24,7 +24,7 @@ permalink: /distro/
 
    <br>
 
-  <div id="grid" style="padding: 30px">
+  <div id="grid" style="padding: 20px">
   {% for post in site.posts %}      
    {%  if post.category contains "distro" %}   
     <div class="media-box 

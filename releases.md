@@ -23,7 +23,7 @@ permalink: /releases/
 
    <br>
 
-  <div id="grid" style="padding: 30px">
+  <div id="grid" style="padding: 20px">
   {% for post in site.posts %}      
    {%  if post.subcategory != "distro" and  post.category != "blog" %}   
    {% unless post.category contains "distro"  %}
