@@ -4,174 +4,174 @@ layout: default
 
 <div class="fullWidth  item" {% if page.bgimage contains 'http' %} style="background-image: url({{ page.bgimage }})" {% else %} style="background-image: url(/img/{{ page.bgimage }})" {% endif %}>
 
+
+	<div class="row">
 	<div class="small-12 columns">
-		<div class="row">
-		<div class="small-12 columns">
-			<div class="small-12 medium-12 large-8 columns">
-			  <hr>
-			</div>
-			<div class="large-4 columns show-for-medium-up">
-			  <hr>
-			</div>
+		<div class="small-12 medium-12 large-8 columns">
+		  <hr>
 		</div>
+		<div class="large-4 columns show-for-medium-up">
+		  <hr>
 		</div>
-		<div class="large-4 medium-12 small-12 columns" >
-			<h2>{{page.title}}</h2>
-			<p>{{page.artist}}</p>
-	  		<h5>{{page.subtitle}}</h5>
-	  		{% if page.author %}
-	  			<i>{{page.code}}</i>
-	  		{% endif %}
-
-	  		<hr>
-	  		<div class="longdescriptionbox">
-				{{ content }}
-			</div>
-				
-			<br>
-			{% if page.soldout == true %}
-				<h6 class="text-center soldout">sold out</h6>
-				{% else if %}
-				<h6 class="text-center">{{ page.price }} {% if page.price != null %}€{% endif %}</h6>
-				{% include paypall-button-item.html %}
-
-
-				<strong>*Note:</strong> <i>buy now</i> means you're buying one single copy of this limited item + its relative shipping costs (registered mail).
-
-				<a target="blank" href="http://www.cowardrecords.com/shippingpaymentinfo/">If you want more than 1 copy or want to combine more item toghether (or request a cheapest shipping method)</a>; <strong><a href="mailto:{{ site.email }}?subject=Mailorder">drop us an email</a></strong>, we’ll get back to you with all the details to complete you order.
-
-			{% endif %}
-			<hr>
-			{% include socialshare.html %}
-		</div>
-		
-		<div class="large-4 medium-12 small-12 columns" id="itemimages">
-			
-			<div class="show-for-medium-down"><hr></div>
-
-			{% if page.image contains 'http' %}
-              <img  src="{{ page.image }}" alt="{{ page.name }}"/>
-            {% else %}
-              <img  src="/img/{{ page.image }}" alt="{{ page.name }}"/>
-          	{% endif %}
-			
-			{% if page.imagethumb1 %}	
-				<hr>
-				<ul class="clearing-thumbs small-block-grid-3" data-clearing >
-
-			    <li>
-			    	{% if page.imagethumb1 contains 'http' %}
-				  		<a href=" {{ page.imagethumb1 }}" alt="{{page.imagethumb1}} ">
-  						<img src=" {{ page.imagethumb1 }}" alt="{{page.imagethumb1}}">
-  						</a>
-  					{% else %}
-  						<a href=" /img/{{ page.imagethumb1 }}" alt="{{page.imagethumb1}} ">
-  						<img src=" /img/{{ page.imagethumb1 }}" alt="{{page.imagethumb1}}">
-						</a>
-  					{% endif %}			
-				</li>
-                {% endif %}
-				
-				{% if page.imagethumb2 %}
-				<li>
-					{% if page.imagethumb2 contains 'http' %}
-				  		<a href=" {{ page.imagethumb2 }}" alt="{{page.imagethumb2}} ">
-  						<img src=" {{ page.imagethumb2 }}" alt="{{page.imagethumb2}}">
-  						</a>
-  					{% else %}
-  						<a href=" /img/{{ page.imagethumb2 }}" alt="{{page.imagethumb2}} ">
-  						<img src=" /img/{{ page.imagethumb2 }}" alt="{{page.imagethumb2}}">
-						</a>
-  					{% endif %}
-				</li>
-				{% endif %}
-
-				{% if page.imagethumb3 %}
-				<li>
-					{% if page.imagethumb3 contains 'http' %}
-				  		<a href=" {{ page.imagethumb3 }}" alt="{{page.imagethumb3}} ">
-  						<img src=" {{ page.imagethumb3 }}" alt="{{page.imagethumb3}}">
-  						</a>
-  					{% else %}
-  						<a href=" /img/{{ page.imagethumb3 }}" alt="{{page.imagethumb3}} ">
-  						<img src=" /img/{{ page.imagethumb3 }}" alt="{{page.imagethumb3}}">
-						</a>
-  					{% endif %}
-				</li>
-				{% endif %}
-				
-				{% if page.imagethumb4 %}
-				<li>
-					{% if page.imagethumb4 contains 'http' %}
-				  		<a href=" {{ page.imagethumb4 }}" alt="{{page.imagethumb4}} ">
-  						<img src=" {{ page.imagethumb4 }}" alt="{{page.imagethumb4}}">
-  						</a>
-  					{% else %}
-  						<a href=" /img/{{ page.imagethumb4 }}" alt="{{page.imagethumb4}} ">
-  						<img src=" /img/{{ page.imagethumb4 }}" alt="{{page.imagethumb4}}">
-						</a>
-  					{% endif %}
-				</li>
-   				{% endif %}
-
-				{% if page.imagethumb5 %}
-				<li>
-					{% if page.imagethumb5 contains 'http' %}
-				  		<a href=" {{ page.imagethumb5 }}" alt="{{page.imagethumb5}} ">
-  						<img src=" {{ page.imagethumb5 }}" alt="{{page.imagethumb5}}">
-  						</a>
-  					{% else %}
-  						<a href=" /img/{{ page.imagethumb5 }}" alt="{{page.imagethumb5}} ">
-  						<img src=" /img/{{ page.imagethumb5 }}" alt="{{page.imagethumb5}}">
-						</a>
-  					{% endif %}
-				</li>
-				{% endif %}
-
-				{% if page.imagethumb6 %}
-				<li>
-					{% if page.imagethumb1 contains 'http' %}
-				  		<a href=" {{ page.imagethumb6 }}" alt="{{page.imagethumb6}} ">
-  						<img src=" {{ page.imagethumb6 }}" alt="{{page.imagethumb6}}">
-  						</a>
-  					{% else %}
-  						<a href=" /img/{{ page.imagethumb6 }}" alt="{{page.imagethumb6}} ">
-  						<img src=" /img/{{ page.imagethumb6 }}" alt="{{page.imagethumb6}}">
-						</a>
-  					{% endif %}
-				</li>
-			{% endif %}
-			</ul>
-
-			<div class="show-for-medium-down"><hr></div>
-		</div>
-		
-		<div class="small-12 medium-12 large-4 columns show-for-medium-up">
-		<h6>LATEST RELEASES</h6>
-		<ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-2">
-		  {% for post in site.posts limit:12 %}
-		    {% if post.category == "blog" or post.category contains "distro"  %} <!-- do nothing -->
-		      {% else if %}
-		        <li>
-		          <hr>
-		          <a href="{{ post.url | prepend: site.baseurl }}">
-		            <div class="tileblock">
-		              <h5>{{ post.title | strip_html | truncatewords:20  }}</h5>
-		              <p>{{post.artist}}</p>
-		            </div>
-		            {% if post.image contains 'http' %}
-		                <img src="{{ post.image }}" alt="{{ post.name }}"/>
-		              {% else %}
-		                <img src="/img/{{ post.image }}" alt="{{ post.name }}"/>
-		            {% endif %} 
-		          </a>
-		          <br>
-		        </li> 
-		    {% endif %} 
-		  {% endfor %}
-		</ul>
-		<a id="underline" href="/releases"><p>all releases</p></a>
-		</div>
-
 	</div>
+	</div>
+	<div class="large-4 medium-12 small-12 columns" >
+		<h2>{{page.title}}</h2>
+		<p>{{page.artist}}</p>
+  		<h5>{{page.subtitle}}</h5>
+  		{% if page.author %}
+  			<i>{{page.code}}</i>
+  		{% endif %}
+
+  		<hr>
+  		<div class="longdescriptionbox">
+			{{ content }}
+		</div>
+			
+		<br>
+		{% if page.soldout == true %}
+			<h6 class="text-center soldout">sold out</h6>
+			{% else if %}
+			<h6 class="text-center">{{ page.price }} {% if page.price != null %}€{% endif %}</h6>
+			{% include paypall-button-item.html %}
+
+
+			<strong>*Note:</strong> <i>buy now</i> means you're buying one single copy of this limited item + its relative shipping costs (registered mail).
+
+			<a target="blank" href="http://www.cowardrecords.com/shippingpaymentinfo/">If you want more than 1 copy or want to combine more item toghether (or request a cheapest shipping method)</a>; <strong><a href="mailto:{{ site.email }}?subject=Mailorder">drop us an email</a></strong>, we’ll get back to you with all the details to complete you order.
+
+		{% endif %}
+		<hr>
+		{% include socialshare.html %}
+	</div>
+	
+	<div class="large-4 medium-12 small-12 columns" id="itemimages">
+		
+		<div class="show-for-medium-down"><hr></div>
+
+		{% if page.image contains 'http' %}
+          <img  src="{{ page.image }}" alt="{{ page.name }}"/>
+        {% else %}
+          <img  src="/img/{{ page.image }}" alt="{{ page.name }}"/>
+      	{% endif %}
+		
+		{% if page.imagethumb1 %}	
+			<hr>
+			<ul class="clearing-thumbs small-block-grid-3" data-clearing >
+
+		    <li>
+		    	{% if page.imagethumb1 contains 'http' %}
+			  		<a href=" {{ page.imagethumb1 }}" alt="{{page.imagethumb1}} ">
+						<img src=" {{ page.imagethumb1 }}" alt="{{page.imagethumb1}}">
+						</a>
+					{% else %}
+						<a href=" /img/{{ page.imagethumb1 }}" alt="{{page.imagethumb1}} ">
+						<img src=" /img/{{ page.imagethumb1 }}" alt="{{page.imagethumb1}}">
+					</a>
+					{% endif %}			
+			</li>
+            {% endif %}
+			
+			{% if page.imagethumb2 %}
+			<li>
+				{% if page.imagethumb2 contains 'http' %}
+			  		<a href=" {{ page.imagethumb2 }}" alt="{{page.imagethumb2}} ">
+						<img src=" {{ page.imagethumb2 }}" alt="{{page.imagethumb2}}">
+						</a>
+					{% else %}
+						<a href=" /img/{{ page.imagethumb2 }}" alt="{{page.imagethumb2}} ">
+						<img src=" /img/{{ page.imagethumb2 }}" alt="{{page.imagethumb2}}">
+					</a>
+					{% endif %}
+			</li>
+			{% endif %}
+
+			{% if page.imagethumb3 %}
+			<li>
+				{% if page.imagethumb3 contains 'http' %}
+			  		<a href=" {{ page.imagethumb3 }}" alt="{{page.imagethumb3}} ">
+						<img src=" {{ page.imagethumb3 }}" alt="{{page.imagethumb3}}">
+						</a>
+					{% else %}
+						<a href=" /img/{{ page.imagethumb3 }}" alt="{{page.imagethumb3}} ">
+						<img src=" /img/{{ page.imagethumb3 }}" alt="{{page.imagethumb3}}">
+					</a>
+					{% endif %}
+			</li>
+			{% endif %}
+			
+			{% if page.imagethumb4 %}
+			<li>
+				{% if page.imagethumb4 contains 'http' %}
+			  		<a href=" {{ page.imagethumb4 }}" alt="{{page.imagethumb4}} ">
+						<img src=" {{ page.imagethumb4 }}" alt="{{page.imagethumb4}}">
+						</a>
+					{% else %}
+						<a href=" /img/{{ page.imagethumb4 }}" alt="{{page.imagethumb4}} ">
+						<img src=" /img/{{ page.imagethumb4 }}" alt="{{page.imagethumb4}}">
+					</a>
+					{% endif %}
+			</li>
+				{% endif %}
+
+			{% if page.imagethumb5 %}
+			<li>
+				{% if page.imagethumb5 contains 'http' %}
+			  		<a href=" {{ page.imagethumb5 }}" alt="{{page.imagethumb5}} ">
+						<img src=" {{ page.imagethumb5 }}" alt="{{page.imagethumb5}}">
+						</a>
+					{% else %}
+						<a href=" /img/{{ page.imagethumb5 }}" alt="{{page.imagethumb5}} ">
+						<img src=" /img/{{ page.imagethumb5 }}" alt="{{page.imagethumb5}}">
+					</a>
+					{% endif %}
+			</li>
+			{% endif %}
+
+			{% if page.imagethumb6 %}
+			<li>
+				{% if page.imagethumb1 contains 'http' %}
+			  		<a href=" {{ page.imagethumb6 }}" alt="{{page.imagethumb6}} ">
+						<img src=" {{ page.imagethumb6 }}" alt="{{page.imagethumb6}}">
+						</a>
+					{% else %}
+						<a href=" /img/{{ page.imagethumb6 }}" alt="{{page.imagethumb6}} ">
+						<img src=" /img/{{ page.imagethumb6 }}" alt="{{page.imagethumb6}}">
+					</a>
+					{% endif %}
+			</li>
+		{% endif %}
+		</ul>
+
+		<div class="show-for-medium-down"><hr></div>
+	</div>
+	
+	<div class="small-12 medium-12 large-4 columns show-for-medium-up">
+	<h6>LATEST RELEASES</h6>
+	<ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-2">
+	  {% for post in site.posts limit:12 %}
+	    {% if post.category == "blog" or post.category contains "distro"  %} <!-- do nothing -->
+	      {% else if %}
+	        <li>
+	          <hr>
+	          <a href="{{ post.url | prepend: site.baseurl }}">
+	            <div class="tileblock">
+	              <h5>{{ post.title | strip_html | truncatewords:20  }}</h5>
+	              <p>{{post.artist}}</p>
+	            </div>
+	            {% if post.image contains 'http' %}
+	                <img src="{{ post.image }}" alt="{{ post.name }}"/>
+	              {% else %}
+	                <img src="/img/{{ post.image }}" alt="{{ post.name }}"/>
+	            {% endif %} 
+	          </a>
+	          <br>
+	        </li> 
+	    {% endif %} 
+	  {% endfor %}
+	</ul>
+	<a id="underline" href="/releases"><p>all releases</p></a>
+	</div>
+
+
 </div>
