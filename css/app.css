@@ -8263,6 +8263,9 @@ body a:visited {
   width: auto;
   max-height: 35px;
 }
+.contain-to-grid .top-bar .right {
+  padding-right: 12px;
+}
 .contain-to-grid .top-bar .right li a {
   text-decoration: underline;
 }
