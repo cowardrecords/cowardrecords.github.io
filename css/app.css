@@ -8291,6 +8291,9 @@ body a:visited {
   font-family: 'Crimson Text', serif;
   font-size: 17px;
 }
+.blogtext p .small {
+  font-size: 12px;
+}
 
 #blogHeader {
   padding: 195px 30px 65px;

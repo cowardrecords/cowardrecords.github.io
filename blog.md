@@ -28,8 +28,9 @@ permalink: /blog/
 				        </div>
                         
                         <br>
-
-				      	<p class="text-justify">{{ post.content | strip_html | truncatewords:20 }} <strong>more</strong></p>
+                        
+			      		<p class="text-justify">{{ post.content | strip_html | truncatewords:20 }} <strong>more</strong></p>
+				      	
 			  	  </a>
 			    </li> 
 		   		{% endif %}   

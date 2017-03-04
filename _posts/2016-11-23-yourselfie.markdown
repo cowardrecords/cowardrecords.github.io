@@ -14,6 +14,7 @@ imagethumb1: https://c3.staticflickr.com/6/5745/30407664154_28002c97bd.jpg
 imagethumb2: https://c4.staticflickr.com/6/5345/31114456211_33b2d66d77.jpg
 category: tape
 sound: https://bandcamp.com/EmbeddedPlayer/album=4215057880/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/
+video: "https://www.youtube.com/embed/2uxLUA_bjFs"
 ---
 
 Limited edition of 30 copies
