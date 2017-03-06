@@ -8442,3 +8442,82 @@ body a:visited {
     opacity: 1;
   }
 }
+/*=================================================
+Class Definitions
+=================================================*/
+.sb {
+  display: none;
+  position: fixed;
+  top: 200px;
+  left: 50%;
+  margin-left: -150px;
+  margin-top: -150px;
+  width: 300px;
+  height: auto;
+  background: white;
+  color: black;
+  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 5px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: 0 8px 12px rgba(0, 0, 0, 0.9);
+  -webkit-box-shadow: 0 8px 12px rgba(0, 0, 0, 0.9);
+  z-index: 1999;
+  opacity: 0;
+}
+.sb h1, .sb h2, .sb h3, .sb h4, .sb h5, .sb h6 {
+  text-transform: none;
+  text-decoration: none;
+}
+
+.sb .sb-close-btn {
+  position: absolute;
+  right: 7px;
+  top: 5px;
+  color: black;
+}
+
+.sb.sb-withoverlay {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  margin-left: -250px;
+}
+
+.sb-open.sb-open-with-overlay {
+  overflow: hidden;
+}
+
+.sb-open .sb-overlay {
+  opacity: 1;
+}
+
+.sb-open .sb {
+  opacity: 1;
+}
+
+.sb-overlay {
+  height: 100%;
+  width: 100%;
+  background: rgba(10, 0, 20, 0.7);
+  opacity: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 100;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  overflow: auto;
+}
+
+.sb-close-backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
