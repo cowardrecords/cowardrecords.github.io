@@ -8335,6 +8335,11 @@ body a:visited {
   overflow: hidden;
   max-height: 139px;
 }
+@media only screen {
+  .imageblockDistroIndex {
+    max-height: 100%;
+  }
+}
 
 .item {
   width: 100%;
