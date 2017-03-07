@@ -57,9 +57,11 @@ layout: default
       <a href="{{ post.url | prepend: site.baseurl }}">
         <h5>{{ post.title }}</h5>
         {% if post.image contains 'http' %}
-            <img class="th" src="{{ post.image }}" alt="{{ post.name }}"/>
+          <div class="imageblockDistroIndex">
+            <img src="{{ post.image }}" alt="{{ post.name }}"/>
             {% else %}
-            <img class="th" src="/img/{{ post.image }}" alt="{{ post.name }}"/>
+            <img src="/img/{{ post.image }}" alt="{{ post.name }}"/>
+          </div>  
         {% endif %}
       </a>
     </li>  

@@ -8331,6 +8331,11 @@ body a:visited {
   max-height: 250px;
 }
 
+.imageblockDistroIndex {
+  overflow: hidden;
+  max-height: 139px;
+}
+
 .item {
   width: 100%;
   height: auto;
