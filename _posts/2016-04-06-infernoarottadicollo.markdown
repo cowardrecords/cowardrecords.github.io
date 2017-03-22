@@ -2,7 +2,7 @@
 layout: item
 title: "Inferno a rotta di collo"
 artist: "Lantern"
-subtitle: 7" clear disc
+subtitle: 7"
 code: CWRD 02
 price: "15.00"
 soldout: true

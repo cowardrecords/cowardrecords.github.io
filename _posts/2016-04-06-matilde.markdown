@@ -2,7 +2,7 @@
 layout: item
 title: "Matilde"
 artist: "M!R!M"
-subtitle: 7" picture disc single sided
+subtitle: 7" postcard flexi disc
 code: CWRD 03
 price: "10.00"
 soldout: false
