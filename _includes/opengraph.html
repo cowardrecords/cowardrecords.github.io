@@ -2,7 +2,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:image" content='{% if page.thumbnail %}{% if page.thumbnail contains 'http' %}{{ page.thumbnail }} {% else %}{{site.url}}/img/{{ page.thumbnail }} {% endif %} {% else %}http://cowardrecords.com/img/coward.png{% endif %}'>
 
-{% if page.title contains 'COWARD RECORDS' %}
+{% if page.title == 'home' %}
     <meta property="og:description" content=" Atmosfera"/>
 {% else %}
 	<meta property="og:description" content=" {% if page.comntent %} {{ page.comntent }} {% else %} {% endif %} {% if page.subtitle %} {{ page.subtitle }} {% else %} {% endif %} {% if page.author %} {{ page.author }} {% else %} {% endif %}" />
