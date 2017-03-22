@@ -1,2 +1,6 @@
-<meta content="{{page.title}} - {{page.artist}}" property="og:title">
-<meta property="og:image" content='{% if page.thumbnail contains 'http' %}{{ page.thumbnail }} {% else %}{{site.url}}/img/{{ page.thumbnail }} {% endif %}'>
+<meta property="og:title" content="Coward Records // Atmosfera" />
+<meta property="og:type" content="website" />
+{% if page.titile  %}
+	<meta content="{{page.title}} - {{page.artist}}" property="og:title">
+	<meta property="og:image" content='{% if page.thumbnail contains 'http' %}{{ page.thumbnail }} {% else %}{{site.url}}/img/{{ page.thumbnail }} {% endif %}'>
+{% endif %}
