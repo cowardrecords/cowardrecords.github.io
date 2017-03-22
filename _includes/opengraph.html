@@ -1,11 +1,11 @@
 <meta property="og:title" content='{% if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %} {% if page.artist %} - {{ page.artist }} {% else %} {% endif %} {% if page.subtitle %} - {{ page.subtitle }} {% else %} {% endif %} {% if page.author %} - {{ page.author }} {% else %} {% endif %}' />
 <meta property="og:url" content='{% if page.url %} {{ page.url }} {% else %} {{ site.title }} {% endif %}'/>
 <meta property="og:type" content="website" />
-
+<meta property="og:image" content='{% if page.thumbnail %}{% if page.thumbnail contains 'http' %}{{ page.thumbnail }} {% else %}{{site.url}}/img/{{ page.thumbnail }} {% endif %} {% else %} http://cowardrecords.com/img/coward.png {% endif %}'>
 {% if page.titile == "home" or "COWARD RECORDS"  %}
     <meta property="og:description" content="Atmosfera" />
 	<meta property="og:image" content="http://cowardrecords.com/img/coward.png" />
 {% else %}
-	<meta property="og:image" content='{% if page.thumbnail contains 'http' %}{{ page.thumbnail }} {% else %}{{site.url}}/img/{{ page.thumbnail }} {% endif %}'>
+	
 	<meta property="og:description" content="{{page.content}}" />
 {% endif %}
