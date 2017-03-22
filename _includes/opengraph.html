@@ -1,16 +1,4 @@
-<meta property="og:title" content="
-{% if page.title %}
-  {{page.title}} 
-     {% if page.artist %}- {{page.artist}}
-     {% else ‰}{% endif %}
-     {% if page.subtitle %}- {{page.subtitle}}
-     {% else ‰}{% endif %}
-     {% if page.author %}- {{page.author}}
-     {% else ‰}{% endif %}
-
-  {% else %}{{ site.title }}
-{% endif %}
-" />
+<meta property="og:title" content="{% if page.title %}{{page.title}} {% if page.artist %} - {{page.artist}}{% else ‰}{% endif %}{% if page.subtitle %} - {{page.subtitle}}{% else ‰}{% endif %}{% if page.author %} - {{page.author}}{% else ‰}{% endif %}{% else %}{{ site.title }}{% endif %}" />
 
 {% if page.titile == "home" or "COWARD RECORDS"  %}
 <meta property="og:type" content="website" />
