@@ -23,6 +23,15 @@ comments: true
 		<div class="blog">
 		   <section id="main-content" class="main-content">
 		   <div class="blogtext">
+		   <h6>	<i class="fa fa-clock-o" aria-hidden="true"></i>
+	  		 {% assign words = content | number_of_words %}
+		    	{% if words < 360 %}
+				1 min
+		    	{% else %}
+				{{ words | divided_by: 180 }} mins
+        	 {% endif %}
+           </h6>
+            <br>
 			{{ content }}
 		   </div>
 			<br>

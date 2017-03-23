@@ -43,92 +43,13 @@ layout: default
               <img class="th" src="/img/{{ page.image }}" alt="{{ page.name }}"/>
           	{% endif %}
 			
-				<hr>
-				<ul class="clearing-thumbs small-block-grid-3" data-clearing >
-			{% if page.imagethumb1 %}	
-			    <li>
-			    	{% if page.imagethumb1 contains 'http' %}
-				  		<a class="th" href=" {{ page.imagethumb1 }}" alt="{{page.imagethumb1}} ">
-  						<img src=" {{ page.imagethumb1 }}" alt="{{page.imagethumb1}}">
-  						</a>
-  					{% else %}
-  						<a class="th" href=" /img/{{ page.imagethumb1 }}" alt="{{page.imagethumb1}} ">
-  						<img src=" /img/{{ page.imagethumb1 }}" alt="{{page.imagethumb1}}">
-						</a>
-  					{% endif %}			
-				</li>
-            {% endif %}
-				
-		    {% if page.imagethumb2 %}
-				<li>
-					{% if page.imagethumb2 contains 'http' %}
-				  		<a class="th" href=" {{ page.imagethumb2 }}" alt="{{page.imagethumb2}} ">
-  						<img src=" {{ page.imagethumb2 }}" alt="{{page.imagethumb2}}">
-  						</a>
-  					{% else %}
-  						<a class="th" href=" /img/{{ page.imagethumb2 }}" alt="{{page.imagethumb2}} ">
-  						<img src=" /img/{{ page.imagethumb2 }}" alt="{{page.imagethumb2}}">
-						</a>
-  					{% endif %}
-				</li>
-			{% endif %}
+			<hr>
 
-			{% if page.imagethumb3 %}
-				<li>
-					{% if page.imagethumb3 contains 'http' %}
-				  		<a class="th" href=" {{ page.imagethumb3 }}" alt="{{page.imagethumb3}} ">
-  						<img src=" {{ page.imagethumb3 }}" alt="{{page.imagethumb3}}">
-  						</a>
-  					{% else %}
-  						<a class="th" href=" /img/{{ page.imagethumb3 }}" alt="{{page.imagethumb3}} ">
-  						<img src=" /img/{{ page.imagethumb3 }}" alt="{{page.imagethumb3}}">
-						</a>
-  					{% endif %}
-				</li>
-			{% endif %}
-				
-			{% if page.imagethumb4 %}
-				<li>
-					{% if page.imagethumb4 contains 'http' %}
-				  		<a class="th" href=" {{ page.imagethumb4 }}" alt="{{page.imagethumb4}} ">
-  						<img src=" {{ page.imagethumb4 }}" alt="{{page.imagethumb4}}">
-  						</a>
-  					{% else %}
-  						<a class="th" href=" /img/{{ page.imagethumb4 }}" alt="{{page.imagethumb4}} ">
-  						<img src=" /img/{{ page.imagethumb4 }}" alt="{{page.imagethumb4}}">
-						</a>
-  					{% endif %}
-				</li>
-   			{% endif %}
-
-			{% if page.imagethumb5 %}
-				<li>
-					{% if page.imagethumb5 contains 'http' %}
-				  		<a class="th" href=" {{ page.imagethumb5 }}" alt="{{page.imagethumb5}} ">
-  						<img src=" {{ page.imagethumb5 }}" alt="{{page.imagethumb5}}">
-  						</a>
-  					{% else %}
-  						<a class="th" href=" /img/{{ page.imagethumb5 }}" alt="{{page.imagethumb5}} ">
-  						<img src=" /img/{{ page.imagethumb5 }}" alt="{{page.imagethumb5}}">
-						</a>
-  					{% endif %}
-				</li>
-			{% endif %}
-
-			{% if page.imagethumb6 %}
-				<li>
-					{% if page.imagethumb1 contains 'http' %}
-				  		<a class="th" href=" {{ page.imagethumb6 }}" alt="{{page.imagethumb6}} ">
-  						<img src=" {{ page.imagethumb6 }}" alt="{{page.imagethumb6}}">
-  						</a>
-  					{% else %}
-  						<a class="th" href=" /img/{{ page.imagethumb6 }}" alt="{{page.imagethumb6}} ">
-  						<img src=" /img/{{ page.imagethumb6 }}" alt="{{page.imagethumb6}}">
-						</a>
-  					{% endif %}
-				</li>
-			{% endif %}
-			</ul>
+			<ul class="clearing-thumbs small-block-grid-3" data-clearing >
+			 {% for item in page.imagethumb %}
+       			 <li><img src="{{ item.link }}" alt="{{ page.subtitle }}"/></li>
+      		 {% endfor %}
+			</ul> 
 		</div>
 	
 		<div class="large-4 medium-12 small-12 columns">

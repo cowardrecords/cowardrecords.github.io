@@ -4,16 +4,13 @@ title: "Velvet Dress"
 artist: "M!R!M"
 subtitle: 7" postcard flexi disc
 code: CWRD 03
+category: [vinyl, 7"]
 price: "10.00"
 soldout: false
 date: 2016-05-13 01:16:17 +0100
 bgimage:
 image: velvetdress_flexi.jpg
 thumbnail: velvetdress_flexi.jpg
-imagethumb1:
-imagethumb2:
-imagethumb3:
-category: [vinyl, 7"]
 sound: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/265939022&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
 video: "https://www.youtube.com/embed/GfF8UdrDNEs"
 ---
