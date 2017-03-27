@@ -21,7 +21,7 @@ layout: default
                <div class="tileblock">
                <a href="{{ post.url | prepend: site.baseurl }}">
                   <h1>{{ post.title | strip_html | truncatewords:20  }}</h1>
-                  <p>{{post.artist}} | {{post.subtitle}} | {{post.code}}</p>
+                  <h6>{{post.artist}} | {{post.subtitle}} | {{post.code}}</h6>
                </a> 
                     
                       <p>{{post.content | truncatewords:200 }}</p>
