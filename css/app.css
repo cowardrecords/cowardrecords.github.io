@@ -8270,6 +8270,14 @@ body a:visited {
   text-decoration: underline;
 }
 
+.rowIndex {
+  padding-left: 0.3rem;
+}
+
+.newest {
+  padding-right: 0.7rem;
+}
+
 .tileblock {
   min-height: 90px;
 }
@@ -8354,6 +8362,10 @@ body a:visited {
   -o-background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
+}
+
+.soldout {
+  text-decoration: line-through;
 }
 
 .buttonPaypall {

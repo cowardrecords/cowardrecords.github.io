@@ -54,8 +54,7 @@ permalink: /blog/
 				        {{ post.date | date: '%Y %b' }}
 				      {% endif %}
 				    {% endunless %}
-                    <li>
-				     
+                    <li> 
 				      <a href="{{ post.url }}">{{ post.title }}</a>
 				     <hr>
 				    </li>
