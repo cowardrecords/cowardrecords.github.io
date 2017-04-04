@@ -11,19 +11,6 @@ email: mail@cowardrecords.com
 description: Coward Records | ATMOSFERA
 url: "http://cowardrecords.com" # the base hostname & protocol for your site
 baseurl: ""
-links:
- - title: home
-   url: /index.html
- - title: releases
-   url: /releases
- - title: blog
-   url: /blog
- - title: about
-   url: /about
- - title: distro
-   url: /distro
-
-
 
 permalink: /:categories/:title/
 # Build settings

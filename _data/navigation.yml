@@ -1,0 +1,13 @@
+# masthead navigation links
+masthead:
+ - title: home
+   url: /index.html
+ - title: releases
+   url: /releases
+ - title: blog
+   url: /blog
+ - title: about
+   url: /about
+ - title: distro
+   url: /distro
+  
