@@ -1,7 +1,5 @@
 # masthead navigation links
 masthead:
- - title: home
-   url: /index.html
  - title: releases
    url: /releases
  - title: blog
@@ -10,4 +8,5 @@ masthead:
    url: /about
  - title: distro
    url: /distro
-  
+ - title: Shipping & Payments
+   url: /shippingpayment
