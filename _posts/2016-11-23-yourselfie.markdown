@@ -7,7 +7,7 @@ category: tape
 code: CWRD 07
 price: "6.00"
 soldout:
-newest: true
+newest:
 date: 2016-11-23 00:16:17 +0100
 bgimage: 
 image: yourselfie_tape.jpg

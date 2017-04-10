@@ -13,7 +13,7 @@ permalink: /shippingpaymentinfo/
 	<h2>BUY NOW button</h2>
 	<h4>1 single item</h4>
 	<p>how does it works: <br>
-	using the button <i>"buy now"</i> you can immediately pay ( via paypall/credit card ) a single object including its shipping costs.<br>
+	using the button <i>"buy now"</i> you can immediately pay ( via paypall/credit card ) a single product including its shipping costs.<br>
 	when we'll display the payment we'll send you a notification and a shipping confirmation. Delivery depends on your location. <br>
 	We usually use registered mail.<br>		
 	</p>		 

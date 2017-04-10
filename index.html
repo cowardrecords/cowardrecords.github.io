@@ -28,13 +28,15 @@ layout: default
                </div>
               </div> 
               <div class="small-12 medium-6 large-6 columns">
-                {% if post.image contains 'http' %}
                 <a href="{{ post.url | prepend: site.baseurl }}">
+                {% if post.image contains 'http' %}
+
                   <img src="{{ post.image }}" alt="{{ post.name }}"/>
                       {% else %}
                   <img src="/img/{{ post.image }}" alt="{{ post.name }}"/>
-                </a>  
+                 
                 {% endif %} 
+                </a> 
             </div>    
               </div>  
             </div>      

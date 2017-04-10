@@ -8245,6 +8245,13 @@ body a:visited {
   color: inherit;
 }
 
+.has-tip {
+  border-bottom: dotted 1px white;
+  color: white;
+  cursor: help;
+  font-weight: bold;
+}
+
 .stickyside {
   position: relative;
   top: 0;
