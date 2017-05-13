@@ -8425,6 +8425,17 @@ body a:visited {
   margin-right: 0px;
 }
 
+.centered {
+  padding-top: 30px;
+  text-align: center;
+}
+.centered svg {
+  max-width: 400px;
+}
+.centered h1 {
+  font-size: 120px;
+}
+
 .share-page {
   color: inherit;
 }
