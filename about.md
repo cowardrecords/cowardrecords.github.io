@@ -9,7 +9,8 @@ permalink: /about/
 
 
 	<div class="small-12 columns">
-		<div class="large-6 medium-12 small-12 columns">
+		<div class="large-6 medium-12 small-12 large-centered columns about">
+
 	        <h4>{{ page.title}}</h4> 
 	        <hr>		
 		    <h5>Codardo</h5>
@@ -30,10 +31,8 @@ permalink: /about/
 			sincerely,
 			</p>
 
-			
 
-
-			<pre>
+		<!-- 	<pre>
    _________ _      _____   ___  ___
   / ___/ __ \ | /| / / _ | / _ \/ _ \
  / /__/ /_/ / |/ |/ / __ |/ , _/ // /
@@ -42,12 +41,8 @@ permalink: /about/
    / _ \/ __/ ___/ __ \/ _ \/ _ \/ __/
   / , _/ _// /__/ /_/ / , _/ // /\ \
  /_/|_/___/\___/\____/_/|_/____/___/
-            </pre>
+            </pre> -->
 		</div>
-		<div class="large-6 medium-12 small-12 columns">
-		<h4><br></h4> 
-		<hr>
-		    <img src=" /img/rolling.gif" >
-		</div>
+		
 	</div>
 </div>

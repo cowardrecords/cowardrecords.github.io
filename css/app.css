@@ -8401,6 +8401,11 @@ body a:visited {
   max-width: 400px;
 }
 
+.about {
+  margin-top: 7%;
+  margin-bottom: 10%;
+}
+
 .footer {
   padding-top: 25px;
 }

@@ -24,7 +24,7 @@ layout: default
                   <h6>{{post.artist}} | {{post.subtitle}} | {{post.code}}</h6>
                </a> 
                     
-                      <p>{{post.content | truncatewords:200 }}</p>
+                      <p>{{ post.content | strip_html | truncatewords:20 }}</p>
                </div>
               </div> 
               <div class="small-12 medium-6 large-6 columns">
