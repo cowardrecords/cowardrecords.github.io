@@ -30,7 +30,7 @@ permalink: /about/
 			<p>	
 			sincerely,
 			</p>
-
+            <p><strong>Coward Records</strong></p>
 
 		<!-- 	<pre>
    _________ _      _____   ___  ___

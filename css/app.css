@@ -2751,7 +2751,7 @@ button::-moz-focus-inner {
 }
 
 .clearing-blackout {
-  background: #333333;
+  background: rgba(51, 51, 51, 0.5);
   height: 100%;
   position: fixed;
   top: 0;
@@ -2797,7 +2797,7 @@ button::-moz-focus-inner {
 }
 
 .clearing-caption {
-  background: #333333;
+  background: rgba(51, 51, 51, 0.5);
   bottom: 0;
   color: #CCCCCC;
   font-size: 0.875em;
@@ -2927,7 +2927,7 @@ button::-moz-focus-inner {
     opacity: .8;
   }
   .clearing-assembled .clearing-container .visible-img {
-    background: #333333;
+    background: rgba(51, 51, 51, 0.5);
     height: 85%;
     overflow: hidden;
   }
@@ -8395,6 +8395,10 @@ body a:visited {
   height: 100%;
 }
 
+.clearing-assembled .clearing-container .carousel {
+  margin-top: 0px;
+}
+
 .blocktext {
   margin-left: auto;
   margin-right: auto;
@@ -8402,8 +8406,8 @@ body a:visited {
 }
 
 .about {
-  margin-top: 7%;
-  margin-bottom: 10%;
+  margin-top: 2%;
+  margin-bottom: 4%;
 }
 
 .footer {

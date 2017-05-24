@@ -239,6 +239,17 @@ body{
 	height: 100%;
 }
 
+.clearing-assembled {
+
+  .clearing-container {
+
+    .carousel{
+      margin-top: 0px;
+    }
+  }
+}
+
+
 // THANKS
 .blocktext {
 	margin-left: auto;
@@ -248,8 +259,8 @@ body{
 
 // ABOUT
 .about{
-	margin-top: 7%;
-	margin-bottom: 10%;
+	margin-top: 2%;
+	margin-bottom: 4%;
 }
 
 // FOOTER
