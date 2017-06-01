@@ -1,12 +1,13 @@
 ---
 layout: item
-title: "Tenth Planet"
-artist: "Havah"
-subtitle: zine + flexi 7"
-code: CWRD 10
+title: "Defunto"
+artist: "Defunto"
+newest: true
+subtitle: 4,7"
+code: CWRD 12
 category: [flexi, zine]
-price: "12.00"
-date: 2017-04-09 01:16:17 +0100
+price: "20.00"
+date: 2017-06-01 01:16:17 +0100
 bgimage:
 image: tenthplanet_zine.jpg
 imagethumb:
@@ -16,14 +17,9 @@ imagethumb:
 thumbnail: tenthplanet_zine_thumbnail.png
 sound: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/317809056&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"
 video:
+published: false
 ---
 
-Limited edition of 35 copies \\
-Zine with previously unreleased tracks on flexi 7" format
-
-recorded at **cosabeat studio** (FC)
-mixed at **la distilleria studio** (VI) in 2016
-
-this song was originally written and recorded by **Solid Space** in 1982
-
-April 2017
+Limited edition of 15 copies \\
+Defunto means Dead,
+Defunto is Dead
