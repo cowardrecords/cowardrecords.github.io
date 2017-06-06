@@ -4,7 +4,7 @@ title: "Tenth Planet"
 artist: "Havah"
 subtitle: zine + flexi 7"
 code: CWRD 10
-category: [flexi, zine]
+category: [release, flexi, zine]
 price: "12.00"
 date: 2017-04-09 01:16:17 +0100
 bgimage:
@@ -14,7 +14,7 @@ imagethumb:
   - link: https://c1.staticflickr.com/3/2950/33169170414_9e18affabf_c.jpg
   - link: https://c1.staticflickr.com/3/2947/33199974093_3e71630088_c.jpg
 thumbnail: tenthplanet_zine_thumbnail.png
-sound: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/317809056&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"
+sound: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/317809056&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
 video:
 ---
 

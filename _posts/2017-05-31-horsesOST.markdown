@@ -4,9 +4,9 @@ title: "Horses OST"
 artist: "Be Forest"
 subtitle: semi-flexi 7"
 code: CWRD 11
-category: [flexi, 7"]
+category: [release, flexi, 7"]
 price: "20.00"
-soldout:
+soldout: true
 newest: true
 date: 2017-05-31 01:16:17 +0100
 bgimage:

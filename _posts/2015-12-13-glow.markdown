@@ -4,7 +4,7 @@ title: "Glow"
 artist: "Be Forest"
 subtitle: zine + flexi 7"
 code: CWRD 01
-category: [flexi, zine]
+category: [release, flexi, zine]
 price: "12.00"
 soldout: true
 date: 2015-12-13 01:16:17 +0100

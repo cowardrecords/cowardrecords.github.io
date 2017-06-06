@@ -4,7 +4,7 @@ title: "Inferno a rotta di collo"
 artist: "Lantern"
 subtitle: 7"
 code: CWRD 02
-category: [vinyl, 7"]
+category: [release, vinyl, 7"]
 price: "15.00"
 soldout: true
 date: 2016-04-06 01:16:17 +0100

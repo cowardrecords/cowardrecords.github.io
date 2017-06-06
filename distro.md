@@ -25,8 +25,7 @@ permalink: /distro/
    <br>
 
   <div id="grid" style="padding: 20px">
-  {% for post in site.posts %}      
-   {%  if post.category contains "distro" %}   
+  {% for post in site.categories.distro %}      
     <div class="media-box 
      {% if post.categories contains 'zine' %} 
        Category1
@@ -66,7 +65,6 @@ permalink: /distro/
       </a>
 
     </div>  
-    {% endif %}
   {% endfor %}
   </div>
 

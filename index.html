@@ -8,9 +8,7 @@ layout: default
       <h6>LATEST RELEASES</h6>
     </div>
     <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4">
-      {% for post in site.posts limit: 24 %}
-        {% if post.category == "blog" or post.category contains "distro"  %} <!-- do nothing -->
-          {% else if %}
+      {% for post in site.categories.release limit: 9 %}
             {% if post.newest == true %} 
             <div class="row">
             <div class="small-12 columns newest">
@@ -58,7 +56,6 @@ layout: default
                 <br>
               </li> 
             {% endif %}  
-        {% endif %} 
       {% endfor %}
     </ul>
     <a id="underline" href="/releases"><p>all releases</p></a>
@@ -67,7 +64,7 @@ layout: default
   <div class="small-12 medium-6 large-2 columns">
     <a href="{{ site.baseurl }}/distro""><h6>DISTRO</h6></a>
     <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-1">
-    {% for post in site.categories.distro limit: 3%}
+    {% for post in site.categories.distro limit: 4%}
     <li>
      <hr>   
       <a href="{{ post.url | prepend: site.baseurl }}">
@@ -88,7 +85,7 @@ layout: default
 
   <div class="small-12 medium-6 large-2 columns">
     <a href="{{ site.baseurl }}/blog""><h6>BLOG</h6></a>
-    {% for post in site.categories.blog limit: 3 %}    
+    {% for post in site.categories.blog limit: 8 %}    
       <ul class="small-block-grid-1 medium-block-grid-1 large-block-grid-1">
       <li>
       <hr>

@@ -9,10 +9,8 @@ permalink: /blog/
 	<div class="small-12 columns">
 		<div class="small-12 medium-8 large-10 columns">
 		 <h4>{{ page.title}}</h4>
-
 		    <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4">
-		      {% for post in site.posts %}
-				{% if post.categories contains 'blog' %}
+		      {% for post in site.categories.blog %}
 				<li class="recent-post">
 				<hr>
 			      <a href="{{ post.url | prepend: site.baseurl }}">
@@ -29,11 +27,9 @@ permalink: /blog/
                         
                         <br>
                         
-			      		<p class="text-justify">{{ post.content | strip_html | truncatewords:20 }} <strong>more</strong></p>
-				      	
+			      		<p class="text-justify">{{ post.content | strip_html | truncatewords:20 }} <strong>more</strong></p>	      	
 			  	  </a>
 			    </li> 
-		   		{% endif %}   
 		      {% endfor %}
 		    </ul>
 		</div>
@@ -42,8 +38,7 @@ permalink: /blog/
 			<h4>Archive</h4>
 			<ul class="no-bullet">
 			<hr>
-			  {% for post in site.posts %}
-			 	 {% if post.categories contains 'blog' %}
+			  {% for post in site.categories.blog%}
 				    {% unless post.next %}
                    
 				      {{ post.date | date: '%Y %b' }}
@@ -58,7 +53,6 @@ permalink: /blog/
 				      <a href="{{ post.url }}">{{ post.title }}</a>
 				     <hr>
 				    </li>
-				 {% endif %}
 			  {% endfor %}
 			</ul>
         </div>

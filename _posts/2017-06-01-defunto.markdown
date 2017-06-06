@@ -5,7 +5,7 @@ artist: "Defunto"
 newest: true
 subtitle: 4,7"
 code: CWRD 12
-category: [flexi, zine]
+category: [release, flexi, zine]
 price: "20.00"
 date: 2017-06-01 01:16:17 +0100
 bgimage:

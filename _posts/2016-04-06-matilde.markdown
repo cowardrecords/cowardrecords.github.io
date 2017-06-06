@@ -4,7 +4,7 @@ title: "Matilde"
 artist: "M!R!M"
 subtitle: 7" postcard flexi disc
 code: CWRD 03
-category: [vinyl, 7"]
+category: [release, vinyl, 7"]
 price: "10.00"
 soldout: false
 date: 2016-05-13 01:19:17 +0100

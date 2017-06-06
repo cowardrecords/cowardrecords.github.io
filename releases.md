@@ -24,9 +24,8 @@ permalink: /releases/
    <br>
 
   <div id="grid" style="padding: 20px">
-  {% for post in site.posts %}      
-   {%  if post.subcategory != "distro" and  post.category != "blog" %}   
-   {% unless post.category contains "distro"  %}
+  {% for post in site.categories.release %}      
+ 
     <div class="media-box 
      {% if post.categories contains '7"' %} 
        Category1 
@@ -73,8 +72,6 @@ permalink: /releases/
 
     </div>
 
-   {% endunless %}
-   {% endif %}
   {% endfor %}
   </div>
 

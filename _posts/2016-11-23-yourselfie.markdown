@@ -3,7 +3,7 @@ layout: item
 title: "Yourselfie"
 artist: "Lucy Anne Comb"
 subtitle: Ep Cassette
-category: tape
+category: [release, tape]
 code: CWRD 07
 price: "6.00"
 soldout:

@@ -4,7 +4,7 @@ title: "Petite Wunderkammer"
 artist: "Paolo Tarsi"
 subtitle: zine + flexi 7"
 code: CWRD 06
-category: [flexi, zine]
+category: [release, flexi, zine]
 price: "18.00"
 soldout: false
 date: 2016-11-02 01:16:17 +0100
