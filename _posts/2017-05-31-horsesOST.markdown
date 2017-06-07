@@ -7,7 +7,6 @@ code: CWRD 11
 category: [release, flexi, 7"]
 price: "20.00"
 soldout: true
-newest: true
 date: 2017-05-31 01:16:17 +0100
 bgimage:
 image: horsesOST_vinyl.jpg

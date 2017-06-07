@@ -12,6 +12,7 @@ permalink: /releases/
 
       <ul class="media-boxes-filter text-center" id="filter">
         <li><a class="selected" href="#" data-filter="*">All</a></li>
+        <li><a href="#" data-filter=".Category5">5"</a></li>
         <li><a href="#" data-filter=".Category1">7"</a></li>
         <li><a href="#" data-filter=".Category2">flexi</a></li>
         <li><a href="#" data-filter=".Category3">zine</a></li>
@@ -44,6 +45,11 @@ permalink: /releases/
 
      {% if post.categories contains 'tape' %} 
        Category4
+     {% else %}
+     {% endif %}
+
+     {% if post.categories contains '5"' %} 
+       Category5
      {% else %}
      {% endif %}">
         
