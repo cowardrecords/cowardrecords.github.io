@@ -5,6 +5,10 @@ subtitle: october 2016
 code: MRR #401
 category: [zine, distro]
 price: "5.50"
+itaship: 13.50
+euship: 15.50
+wwship: 21.00
+paypal: HH9NQ5CEGDKAG
 soldout:
 date: 2016-09-01 01:16:17 +0100
 bgimage:

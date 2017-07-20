@@ -6,6 +6,10 @@ subtitle: zine + flexi 7"
 code: CWRD 10
 category: [release, flexi, zine]
 price: "12.00"
+itaship: 18.00
+euship: 22.00
+wwship: 24.00
+paypal: ZGD49UZRYFSJ6
 date: 2017-04-09 01:16:17 +0100
 bgimage:
 image: tenthplanet_zine.jpg

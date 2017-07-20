@@ -6,6 +6,11 @@ subtitle: semi-flexi 7"
 code: CWRD 11
 category: [release, flexi, 7"]
 price: "20.00"
+price: "20.00"
+itaship: 28.00
+euship: 32.00
+wwship: 38.00
+paypal: P6P7EPTSN6QVE
 soldout: true
 date: 2017-05-31 01:16:17 +0100
 bgimage:

@@ -31,7 +31,27 @@ layout: default
 			<h6 class="text-center soldout">sold out</h6>
 			{% else if %}
 			<h6 class="text-center">{{ page.price }} {% if page.price != null %}€{% endif %}</h6>
-			{% include paypall-button-item.html %}
+			
+			<div class="row">	
+				<div class="small-6  columns">
+					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					<input type="hidden" name="cmd" value="_s-xclick">
+					<input type="hidden" name="hosted_button_id" value="{{ page.paypal }}">
+					<input type="hidden" name="on0" value="Ship to">Ship to</td></tr><tr><td><select name="os0">
+						<option value="Italy">Italy €{{ page.itaship }} EUR</option>
+						<option value="Europe">Europe €{{ page.euship }} EUR</option>
+						<option value="Rest of the world">Rest of the world €{{ page.wwship }} EUR</option>
+					</select> 
+					<input type="hidden" name="currency_code" value="EUR">
+				</div>
+				<div class="small-6 columns">
+					<br>
+					<input type="image" class="buttonPaypall" src="/img/buttonpay_white.svg" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+					<img alt="" border="0" src="https://www.paypalobjects.com/it_IT/i/scr/pixel.gif" width="1" height="1">
+					</form>
+				</div>	
+			</div>
+
 
 
 			<span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover="false" tabindex="1" title="If you want more than 1 copy or want to combine more item toghether (or request a cheapest shipping method);drop us an emai, we’ll get back to you with all the details to complete you order."><strong>*Note:</strong> <i>buy now</i> means you're buying one single copy of this limited item + its relative shipping costs (registered mail).

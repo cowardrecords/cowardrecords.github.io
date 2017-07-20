@@ -5,6 +5,10 @@ artist: "Skingarov"
 subtitle: Ep Cassette
 code: CWRD 05
 price: "6.00"
+itaship: 9.00
+euship: 10.00
+wwship: 11.00
+paypal: YRVJGJ5E36RCS
 soldout:
 date: 2016-11-01 01:16:17 +0100
 bgimage: 

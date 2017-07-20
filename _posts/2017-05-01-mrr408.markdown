@@ -5,6 +5,10 @@ subtitle: may 2017
 code: MRR #408
 category: [zine, distro]
 price: "5.50"
+itaship: 13.50
+euship: 15.50
+wwship: 21.00
+paypal: V2LEH6FZLCB7E
 soldout:
 date: 2017-05-01 01:16:17 +0100
 bgimage:

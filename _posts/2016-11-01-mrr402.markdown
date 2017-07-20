@@ -5,6 +5,10 @@ subtitle: november 2016
 code: MRR #402
 category: [zine, distro]
 price: "5.50"
+itaship: 13.50
+euship: 15.50
+wwship: 21.00
+paypal: MJEKT7FL8SEBY
 soldout:
 date: 2016-11-01 01:16:17 +0100
 bgimage:

@@ -6,6 +6,10 @@ subtitle: 7"
 code: CWRD 02
 category: [release, vinyl, 7"]
 price: "15.00"
+itaship: 23.00
+euship: 29.00
+wwship: 33.00
+paypal: Y8T6SAK2HBS7Q
 soldout: true
 date: 2016-04-06 01:16:17 +0100
 bgimage: https://c8.staticflickr.com/8/7787/27062920343_3429a11642_o.jpg

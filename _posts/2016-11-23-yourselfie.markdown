@@ -6,6 +6,10 @@ subtitle: Ep Cassette
 category: [release, tape]
 code: CWRD 07
 price: "6.00"
+itaship: 9.00
+euship: 10.00
+wwship: 11.00
+paypal: DP4LRTY9Z8DZY
 soldout:
 newest:
 date: 2016-11-23 00:16:17 +0100

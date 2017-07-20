@@ -4,6 +4,10 @@ title: "Maximum Rocknroll #399"
 subtitle: august 2016
 code: MRR #399
 price: "5.50"
+itaship: 13.50
+euship: 15.50
+wwship: 21.00
+paypal: 6HMT4M7S32FCC
 soldout:
 date: 2016-07-21 01:16:17 +0100
 bgimage:

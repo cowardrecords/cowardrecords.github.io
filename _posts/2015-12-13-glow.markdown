@@ -6,6 +6,10 @@ subtitle: zine + flexi 7"
 code: CWRD 01
 category: [release, flexi, zine]
 price: "12.00"
+itaship: 18.00
+euship: 22.00
+wwship: 24.00
+paypal: TZGKKC4W35J9C
 soldout: true
 date: 2015-12-13 01:16:17 +0100
 bgimage: https://c5.staticflickr.com/8/7292/27572591572_491b59c664_o.jpg

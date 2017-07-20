@@ -7,6 +7,10 @@ subtitle: 5"
 code: CWRD 12
 category: [release, vinyl, 5"]
 price: "20.00"
+itaship: 28.00
+euship: 32.00
+wwship: 38.00
+paypal: P4YYBJ3E3QTMY
 date: 2017-06-01 01:16:17 +0100
 bgimage:
 image: defunto_vinyl.jpg

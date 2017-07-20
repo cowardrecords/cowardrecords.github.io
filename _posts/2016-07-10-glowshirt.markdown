@@ -4,7 +4,7 @@ title: "Be Forest T-shirt"
 subtitle: glow shirt
 code: GLW T-SRT
 price: "10.00"
-soldout:
+soldout: true
 date: 2016-07-10 01:16:17 +0100
 bgimage:
 image: https://c3.staticflickr.com/9/8858/27959421890_754e731340_z.jpg

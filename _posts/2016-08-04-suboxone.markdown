@@ -6,6 +6,10 @@ subtitle: Canta Tu Cassette
 code: CWRD 04
 category: [release, tape]
 price: "6.00"
+itaship: 9.00
+euship: 10.00
+wwship: 11.00
+paypal: V9NPAYL99LCHY
 soldout:
 date: 2016-08-04 01:16:17 +0100
 bgimage: 

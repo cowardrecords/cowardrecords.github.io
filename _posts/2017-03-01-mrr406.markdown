@@ -5,6 +5,10 @@ subtitle: march 2017
 code: MRR #406
 category: [zine, distro]
 price: "5.50"
+itaship: 13.50
+euship: 15.50
+wwship: 21.00
+paypal: U6G52JC3GFPRY
 soldout:
 date: 2017-03-01 01:16:17 +0100
 bgimage:

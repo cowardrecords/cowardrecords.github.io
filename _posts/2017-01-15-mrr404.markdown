@@ -5,6 +5,10 @@ subtitle: january 2017
 code: MRR #404
 category: [zine, distro]
 price: "5.50"
+itaship: 13.50
+euship: 15.50
+wwship: 21.00
+paypal: EFSEF5PA9XE8G
 soldout:
 date: 2017-01-15 01:16:17 +0100
 bgimage:
