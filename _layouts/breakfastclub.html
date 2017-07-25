@@ -27,7 +27,7 @@
 
   <style>
 	  body {background: black; color: white;}
-	  .footer {background: white; color: black;}      
+	       
 	  .segnalibro {position: fixed; margin-top: 3px; margin-left: 15px;}
 	  .segnalibro h6{ font-size: 80%;}
 	  .underline{ text-decoration: underline;}
@@ -37,7 +37,7 @@
 </head>
 
 
-  <body style="background: white">
+  <body >
   	<div class="row">
     <div class="segnalibro"><h6><a href="{{ site.baseurl }}/"><strong>coward records</strong></a></h6></div>
     </div>
@@ -45,7 +45,7 @@
           {{ content }}
     </div>   
     
-	<footer>
+	<!-- <footer>
 	 <div class="footer">
 	 	<div class="row">
 
@@ -70,7 +70,7 @@
 		          <p>ciao...</p>
 		          <p>se vuoi rimanere aggiornato</p>
 		          <p>sulle prossime colazioni</p>
-		          <p>metti qui la tua email --> </p>
+		          <p>metti qui la tua email -- </p>
 		        </div>
 	        	<span id="typed"></span>
 		  </div>
@@ -93,7 +93,9 @@
 	   	</div>
 	   	</div>
 	 </div>        
-	</footer>
+	</footer> -->
+
+{% include footer.html %}
 
 <script src="{{ "/bower_components/jquery/dist/jquery.min.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/bower_components/foundation/js/foundation.min.js" | prepend: site.baseurl }}"></script>

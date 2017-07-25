@@ -9,10 +9,8 @@ layout: default
 		    <hr>
 			<h2>{{page.title}}</h2>
 			<p>{{page.artist}}</p>
-	  		<h5>{{page.subtitle}}</h5>
-	  		{% if page.author %}
-	  			<i>{{page.code}}</i>
-	  		{% endif %}
+	  		<h6>{{page.code}}  // {{page.subtitle}}</h6>
+	  		
 	  		<hr>
 	  		
 				{{ content }}
@@ -66,7 +64,11 @@ layout: default
 
 			<ul class="clearing-thumbs small-block-grid-3" data-clearing >
 			 {% for item in page.imagethumb %}
-       			 <li><img src="{{ item.link }}" alt="{{ page.subtitle }}"/></li>
+			 {% if item.link contains 'http' %}
+	              <li><img src="{{ item.link }}" alt="{{ page.subtitle }}"/></li>
+	            {% else %}
+	              <li><img src="/img/{{ item.link }}" alt="{{ page.subtitle }}"/></li>
+	          	{% endif %}
       		 {% endfor %}
 			</ul> 
 		</div>

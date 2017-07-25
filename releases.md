@@ -14,6 +14,7 @@ permalink: /releases/
         <li><a class="selected" href="#" data-filter="*">All</a></li>
         <li><a href="#" data-filter=".Category5">5"</a></li>
         <li><a href="#" data-filter=".Category1">7"</a></li>
+        <li><a href="#" data-filter=".Category6">12"</a></li>
         <li><a href="#" data-filter=".Category2">flexi</a></li>
         <li><a href="#" data-filter=".Category3">zine</a></li>
         <li><a href="#" data-filter=".Category4">tape</a></li>
@@ -41,7 +42,7 @@ permalink: /releases/
      {% if post.categories contains 'zine' %} 
        Category3 
      {% else %}
-     {% endif %}>
+     {% endif %}
 
      {% if post.categories contains 'tape' %} 
        Category4
@@ -50,6 +51,11 @@ permalink: /releases/
 
      {% if post.categories contains '5"' %} 
        Category5
+     {% else %}
+     {% endif %}
+
+     {% if post.categories contains '12"' %} 
+       Category6
      {% else %}
      {% endif %}">
         

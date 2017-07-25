@@ -17,6 +17,17 @@
   		  <a href="mailto:{{ site.email }}">{{ site.email }}</a>
   		  <p>{{ site.description }}</p>
   	  </div>
+      {% if page.title == "Breakfast Club"%}
+      <div class="small-6 large-6 columns show-for-large-up">
+            <div id="typed-strings">
+              <p>ciao...</p>
+              <p>se vuoi rimanere aggiornato</p>
+              <p>sulle prossime colazioni</p>
+              <p>metti qui la tua email --> </p>
+            </div>
+            <span id="typed"></span>
+      </div>
+      {% else %}
   	  <div class="small-6 large-6 columns show-for-large-up">
   	        <div id="typed-strings">
   	          <p>hi, it's nice to see you here</p>
@@ -26,6 +37,7 @@
   	        </div>
           	<span id="typed"></span>
   	  </div>
+      {% endif %}
   	</div>  
 
   	<div class="large-4 small-12 medium-6 columns">
@@ -39,7 +51,7 @@
   		   	</div>
   		   	<div class="small-4 columns">
   		   	<input type="hidden" value="1" name="embed"/>
-  		   	<input  class="button tiny"  style="width:100%; background-color: black; font-size: 180%; margin-left: 0p; padding:0;" type="submit" value="Subscribe" />
+  		   	<input  class="button"  style="width:100%; background-color: black; font-size: 130%; margin-left: 0p; padding:0; margin-top:5px;" type="submit" value="Subscribe" />
   		    </div>
   	   </form>
     </div>
