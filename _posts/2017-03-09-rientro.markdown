@@ -5,10 +5,10 @@ artist: "Tante Anna"
 subtitle: note book + flexi 7"
 code: CWRD 09
 category: [release, flexi, zine]
-price: "20.00"
-itaship: 26.00
-euship: 28.00
-wwship: 32.00
+price: "16.00"
+itaship: 22.00
+euship: 25.00
+wwship: 30.00
 paypal: WD96WPK6DW49Q
 date: 2017-03-09 01:16:17 +0100
 bgimage:
