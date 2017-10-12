@@ -1,0 +1,22 @@
+---
+layout: itemdistro
+title: "Maximum Rocknroll #413"
+subtitle: october 2017
+code: MRR #413
+category: [zine, distro]
+price: "5.50"
+itaship: 13.50
+euship: 15.50
+wwship: 21.00
+paypal: 63WL9T2MWLZTL
+soldout:
+date: 2017-09-20 01:16:17 +0100
+bgimage:
+image: http://www.maximumrocknroll.com/wp-content/uploads/2017/09/mrr_413_cvr.jpg
+thumbnail: http://www.maximumrocknroll.com/wp-content/uploads/2017/09/mrr_413_cvr.jpg
+
+---
+
+It’s time for Maximum Rocknroll #413, the October 2017 issue! Do you love KLEENEX/LILIPUT as much as we do? Then you will love the scoop that we have on NEON and their involvement in the early Swiss punk scene. We also speak to Rome’s NOFU on the eve of their first US tour, while LOS IMPUESTOS tell us about the struggles of discovering new music and being a punk in their native Guatemala. Interested in the history of squatting? So is Amy Starecheski, the author of Ours to Lose: When Squatters Became Homeowners in New York City, who spills about an incredibly unique moment in US squatting history. In a dual interview, filmmakers Monika Estrella Negra and Michelle Garza Cervera about combating the dominance of straight white male voices in cinema. And still there’s more: FURY talks about the breakthrough success of their debut LP, MACHO BOYS reveal themselves as huge wrestling fans, BAUS discusses what it means to be an “Oakland” band, and FEATURE reflect on their history just in time for the release of their posthumous LP. That sounds like a lot, right? Add all of the columnists that you hate to love as well as more reviews than you can shake a stick at! Don’t miss this issue!\\
+\\
+[more info](http://www.maximumrocknroll.com){:target="_blank"}
