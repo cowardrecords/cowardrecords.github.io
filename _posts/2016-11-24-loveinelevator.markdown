@@ -13,11 +13,7 @@ paypal: ADN5FF5LMHJL6
 date: 2016-11-24 01:16:17 +0100
 bgimage:
 image: beyondyourinnersea.jpg
-imagethumb:
-  - link: lie1.jpg
-  - link: lie2.jpg
-  - link: lie3.jpg
-thumbnail: dbeyondyourinnersea.jpg
+thumbnail: beyondyourinnersea.jpg
 sound: "https://bandcamp.com/EmbeddedPlayer/album=190933026/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/"
 
 ---

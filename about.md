@@ -15,7 +15,8 @@ permalink: /about/
 	        <hr>		
 		    <h5>Codardo</h5>
 		    <br>
-			<p class="text-justify">
+		    <img src="https://c8.staticflickr.com/8/7787/27062920343_3429a11642_o.jpg" alt="">
+			<!-- <p class="text-justify">
 			records and publications in limited edition, experimental formats and much more.
 			</p>
 			<p class="text-justify">
@@ -30,7 +31,7 @@ permalink: /about/
 			<p>	
 			sincerely,
 			</p>
-            <p><strong>Coward Records</strong></p>
+            <p><strong>Coward Records</strong></p> -->
 
 		<!-- 	<pre>
    _________ _      _____   ___  ___

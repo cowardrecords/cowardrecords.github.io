@@ -2,7 +2,6 @@
 layout: item
 title: "Defunto"
 artist: "Defunto"
-newest: true
 subtitle: 5"
 code: CWRD 12
 category: [release, vinyl, 5"]
@@ -11,7 +10,7 @@ itaship: 28.00
 euship: 32.00
 wwship: 38.00
 paypal: P4YYBJ3E3QTMY
-date: 2017-06-01 01:16:17 +0100
+date: 2017-10-31 01:16:17 +0100
 bgimage:
 image: defunto_vinyl.jpg
 imagethumb:
@@ -27,3 +26,6 @@ Limited edition of 15 copies \\
 supplied with hole adapter, it comes with screen printed packaging and riso printed insert.\\
 Defunto means Dead,\\
 Defunto are Dead
+
+
+
