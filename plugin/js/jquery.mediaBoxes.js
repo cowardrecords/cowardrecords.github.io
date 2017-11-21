@@ -1547,9 +1547,9 @@
     
     //Default settings
     $.fn.mediaBoxes.defaults = {
-        boxesToLoadStart: 8,
+        boxesToLoadStart: 999999,
         boxesToLoad: 4,
-        minBoxesPerFilter: 0,
+        minBoxesPerFilter: 99999,
         lazyLoad: true,
         horizontalSpaceBetweenBoxes: 15,
         verticalSpaceBetweenBoxes: 15,
