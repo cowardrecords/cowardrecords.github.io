@@ -1,0 +1,19 @@
+---
+layout: itemdistro
+title: "Maximum Rocknroll #416"
+subtitle: january 2018
+code: MRR #416
+category: [zine, distro]
+price: "5.50"
+idcart: "1978MBSW4YE6NQRH9UGRP13420"
+soldout:
+date: 2018-01-20 01:16:17 +0100
+bgimage:
+image: http://www.maximumrocknroll.com/wp-content/uploads/2018/01/mrr_416_cvr.jpg
+thumbnail: http://www.maximumrocknroll.com/wp-content/uploads/2018/01/mrr_416_cvr.jpg
+
+---
+
+Another new year, another exciting issue of Maximum Rocknroll! MRR #416, our January 2018 issue, begins with a sad note as we say goodbye to DIY icon Fred Cole of DEAD MOON, the RATS, PIERCED ARROWS and more. But this issue isn’t all doom and gloom! We have comic artist Liz Prince who gushes all about her love of pop punk and her hopes of converting kids to punks. We also have a double blast of Scandinavian punk: ABORTTI 13 from Finland divulge their dreams of becoming legends, and DIAGNOSIS? BASTARD! have quite a bit to say about violence (or lack thereof) in their native Sweden. Cleveland’s PERVERTS AGAIN reveal their love for pop culture by discussing just how much they love “I Love College” by Asher Roth. Von Beat, the ex-drummer of the RALPHS, reminisces on the early Texas punk/new wave scene, including time spent with labelmate Bobby Soxx. Three different bands from around the globe — Australia’s BENT, Germany’s KENNY KENNY OH OH, and Oakland’s COMPOSITE — all spill about their complex feelings surrounding being femme and playing punk. OXIDANT from North Carolina wax poetic on powerviolence, anxiety, and social power, while Japan’s ZAY talks about defying expectations as a punk supergroup. Need more? Good! You can have all of these interviews plus all of the columnists and reviews that you love to hate to love. Maximum Rocknroll won’t read itself — pick it up and read it!\\
+\\
+[more info](http://www.maximumrocknroll.com){:target="_blank"}

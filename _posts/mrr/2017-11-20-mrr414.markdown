@@ -1,0 +1,27 @@
+---
+layout: itemdistro
+title: "Maximum Rocknroll #414"
+subtitle: november 2017
+code: MRR #414
+category: [zine, distro]
+price: "5.50"
+idcart: "P6SERF0QLQV58OOCSUTLP13418"
+soldout:
+date: 2017-11-20 01:16:17 +0100
+bgimage:
+image: http://www.maximumrocknroll.com/wp-content/uploads/2018/03/mrr_419_cvr_4.jpg
+thumbnail: http://www.maximumrocknroll.com/wp-content/uploads/2018/03/mrr_419_cvr_4.jpg
+
+---
+
+Are y’all ready for Maximum Rocknroll #414? Our November 2017 issue will teach you a thing or two all about the History of Alabama Punk!
+
+This issue features the first of a two part series all about the DIY scene throughout Alabama, with this part focusing on Birmingham. But our focus on Alabama is not entirely retrospective; BAD EXAMPLE will catch everybody up to speed on current happenings in Birmingham. We also hear from Bay Area heartthrobs MIDNITE SNAXXX, who run through their tour of Alabama and a slew of other snacky tidbits.
+
+We also catch up with not one, not two, but three bands as they begin their tours throughout the United States: São Paulo’s CANKRO talk about being an intercontinental band, Chicago’s C.H.E.W. finally reveal the meaning behind their name, and the nomadic PERIOD BOMB unleashes a treatise about the contemporary DIY scene.
+
+For international coverage, Sweden’s BRING THE DRONES discuss their supergroup status, Budapest’s PADKAROSDA dissect just what it means to be a Hungarian band, and New Zealand’s UNSANITARY NAPKIN find ways to resist Trump from the other side of the world.
+
+We also hear from the friends of Victoria Scalisi from DAMAD who tell us about her kindness and strength in the wake of her passing. And somehow after all of that, we still managed to fit all of the columns and reviews that you’ve come to expect from Maximum Rocknroll! You don’t want to miss this jam-packed issue.\\
+\\
+[more info](http://www.maximumrocknroll.com){:target="_blank"}

@@ -24,7 +24,7 @@ permalink: /distro/
 
    <br>
 
-  <div id="grid" style="padding: 20px">
+<div id="grid" style="padding: 20px">
   {% for post in site.categories.distro %}      
     <div class="media-box 
      {% if post.categories contains 'zine' %} 

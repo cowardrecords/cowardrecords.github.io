@@ -17,24 +17,19 @@
           {% for link in site.data.navigation.masthead %}    
            <li> <a href="{{ link.url | prepend: site.baseurl }}"> {{ link.title }} </a></li>
           {% endfor %}
+          <li id="c">
+            <div ID="Cart" CLASS="CartEmpty" ONCLICK="Checkout.cart.purchase('QNYVK3UVVQ25LEAAM5ZG201',true); return false;">
+              <div ID="CartCount" CLASS="CartEmptyNumber NoSelect" STYLE="position:absolute; margin-left:28px;"></div>
+              <div STYLE="position:absolute; margin-top:2px;"><span><img class="icoCart" src="/img/cart.svg" alt="cart"></span></div>
+            </div>
+          </li>
+          
         </ul>
         
         <ul class="right">
           <li><a href="{{ site.baseurl }}/breakfastclub">breakfast club</a></li>
         </ul>
 
-        <!-- Left Nav Section PAYPALL CART NON VA BENE
-        <ul class="right">
-          <li>
-            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
-              <input type="hidden" name="cmd" value="_cart">
-              <input type="hidden" name="business" value="KCA8HXP3HVFEN">
-              <input type="hidden" name="display" value="1">
-              <input type="image" src="{{ "/img/shopping-cart.png" | prepend: site.baseurl }}" border="0" name="submit" alt="PayPal Cart" >
-              <img alt="" border="0" src="https://www.paypalobjects.com/it_IT/i/scr/pixel.gif" width="1" height="1">
-            </form>
-          </li>
-        </ul> -->
 
       </section>
     </nav>

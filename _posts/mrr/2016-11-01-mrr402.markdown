@@ -1,0 +1,19 @@
+---
+layout: itemdistro
+title: "Maximum Rocknroll #402"
+subtitle: november 2016
+code: MRR #402
+category: [zine, distro]
+price: "5.50"
+idcart: "KWTDH9YWLASYD3DN2CKRP13406"
+soldout:
+date: 2016-11-01 01:16:17 +0100
+bgimage:
+image: http://www.maximumrocknroll.com/wp-content/uploads/2016/10/mrr_402_cvr.jpg
+thumbnail: http://www.maximumrocknroll.com/wp-content/uploads/2016/10/mrr_402_cvr.jpg
+---
+
+
+the November 2016 edition of the most comprehensive fanzine in punk. This issue features an interview with the official archivists of **Dischord Records: Ian MacKaye and Nichole Procopenko**. On top of that: interviews with **HALLELUJAH!** from Italy, **Melted Ice Cream Records** from New Zealand, French Oi! powerhouse **RIXE**, melodic Mexico City duo **CREMALLERAS**, Portland post-punkers **LITHICS**, and **LAS VENAS** from Madrid. Plus: features on renowned drummer **Charles Hayward of THIS HEAT**, Japanese-style hardcore by way of Greece **DIRTY WOMBS**, and Philadelphia D-beat band **DRONEZ**. We’ve also got photo spreads featuring **AMERICAN HATE**, **LUMPY AND THE DUMPERS**, and **LEMONADE** on a steamboat in Omaha, Nebraska, selections from the **Toronto Women in Punk Calendar** and shots from **Olympia Hardcore Fest** by Angela Owens. All that plus all your favorite columnists and the biggest reviews section in punk, don’t miss it!\\
+\\
+[more info](http://www.maximumrocknroll.com){:target="_blank"}

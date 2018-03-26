@@ -1,0 +1,25 @@
+---
+layout: item
+title: "Suboxone"
+artist: "Angelo Sava"
+subtitle: Canta Tu Cassette
+code: CWRD 04
+category: [release, tape]
+price: "6.00"
+idcart: "7FKGP12BCSXBRSP5MNE3P13392"
+date: 2016-08-04 01:16:17 +0100
+bgimage: 
+image: suboxone_tape.jpg
+thumbnail: suboxone_tape.jpg
+imagethumb:
+  - link: https://c6.staticflickr.com/9/8434/28786654653_bca84aae68_c.jpg
+  - link: https://c7.staticflickr.com/9/8381/29120045630_f85c4f7bc5_c.jpg
+  - link: https://c8.staticflickr.com/9/8305/29408463335_9f789c4b67_c.jpg
+sound: https://bandcamp.com/EmbeddedPlayer/album=174748722/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=small/transparent=true/"
+video: "https://www.youtube.com/embed/dJjZ-n-Ahes"
+---
+
+Limited edition of 30 copies
+
+Recordings were made using a microphone connected to a *[canta tu](https://www.youtube.com/watch?v=fm_GRQgXZEE){:target="_blank"}* which recorded directly on the tape, duplication took place with the same media. No computer was allowed during recording and duplication of these cassettes.\\
+"Yes there is background noise, a lot, and we love it."

@@ -1,0 +1,19 @@
+---
+layout: itemdistro
+title: "Maximum Rocknroll #415"
+subtitle: december 2017
+code: MRR #415
+category: [zine, distro]
+price: "5.50"
+idcart: "FFV1MWOPG9XTC9ANAL3OP13419"
+soldout:
+date: 2017-12-20 01:16:17 +0100
+bgimage:
+image: http://www.maximumrocknroll.com/wp-content/uploads/2018/01/mrr_415_cvr-1.jpg
+thumbnail: http://www.maximumrocknroll.com/wp-content/uploads/2018/01/mrr_415_cvr-1.jpg
+
+---
+
+Check it out, it’s Maximum Rocknroll #415, the December 2017 issue! We are proud to feature an interview conducted by the organizer of the Bay Area’s Evaluate What You Tolerate compilation and zine with Cat Brooks, co-founder of the Anti Police-Terror Project. She speaks at length with us about organizing alternatives to state policing. We also hear from Portland, Oregon’s No! To Rape Culture collective about marginalized people collectively organizing against rape and other forms of oppression. Ex-VELVET UNDERGROUND member Willie “Loco” Alexander spills all about his 50-plus-year-long “so-called career” from his early garage rock years to his modern recordings. We also have part two of our lengthy article about the history of Alabama punk, covering Huntsville, Tuscaloosa, and more! Also included is an article in tribute to the radical life of Fred “Freak” Smith of BEEFEATER. We have a ton of international punk coverage this month! There is a massive feature on Sheffield, England, including a scene report, a mini-interivew with the Kids of the Lughole label, a full-length interview with COMMUNITY, and a photo spread from the Noise Annoys festival. For those hungry more more photos, there’s some fresh shots from Toronto’s Not Dead Yet fest as well. Russia’s STRESSHOLD give exclusive tidbits about touring and feminism in their home country, while Irish punks GRIT describe the politics and gentrification in Ireland. We also get updates about mental health from misanthropic Norwegian punks NEGATIV (who are a lot more positive than you’d expect). Plus you’ll find enough columns and reviews to gossip over for the rest of the month. So what are you waiting for?\\
+\\
+[more info](http://www.maximumrocknroll.com){:target="_blank"}

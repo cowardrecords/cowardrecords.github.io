@@ -1,0 +1,19 @@
+---
+layout: itemdistro
+title: "Maximum Rocknroll #412"
+subtitle: september 2017
+code: MRR #412
+category: [zine, distro]
+price: "5.50"
+idcart: "8EBF7S7R392KL8GNS1STP13416"
+soldout:
+date: 2017-08-20 01:16:17 +0100
+bgimage:
+image: http://www.maximumrocknroll.com/wp-content/uploads/2017/08/mrr_412_cvr.jpg
+thumbnail: http://www.maximumrocknroll.com/wp-content/uploads/2017/08/mrr_412_cvr.jpg
+
+---
+
+It’s time for Maximum Rocknroll #412, the September 2017 issue! We’ve got a lot for you to pore over this month: wanna hear from Alice Bag? She’s here, discussing her career in early LA punk from the BAGS to CASTRATION SQUAD, her books Violence Girl and Pipe Bomb for the Soul, plus her solo recordings and new projects. Want to hear about some of the earliest punk gigs in the Philippines? Rhany Torres was there and he’s here telling us all about the Brave New World gigs in Manila, showcasing bands such as his groups the LOST BOYS and ETHNIC FACES alongside classic Twisted Red Cross acts. There’s more: Denton, TX punks ELIX-R, NO U TURN from Myanmar, FATIGUE representing for the San Francisco firm, Mexico City hardcore courtesy of SACRIFICIO, icy punk insights from Finland’s COLD INSTITUTION, and Copenhagen’s “warm music” impresarios BIG MESS dishing on their love for ABBA and the REPLACEMENTS. On top of that we have photo spreads from First Timers 2017 at DIY Space for London, Nothing Nice To Say Fest 2017, and Springfield, IL’s Dumb Fest. Plus, your monthly dose of must-read columns and hundreds of reviews — all in these pages, and yours for the cost of less than one flexi disc.\\
+\\
+[more info](http://www.maximumrocknroll.com){:target="_blank"}

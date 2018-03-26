@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body>
+  <body itemscope itemtype="http://schema.org/WebPage">
     {% include header.html %}
      <div class="row">
        <div class="generalconten">
@@ -64,5 +64,57 @@
     </script>
 
     <script id="dsq-count-scr" src="//www-cowardrecords-com.disqus.com/count.js" async></script>
+
+
+    <SCRIPT>
+    //******************************************************************************************
+    //*  snappyCheckout_CartItemCountChanged                                                   *
+    //******************************************************************************************
+    function snappyCheckout_CartItemCountChanged(count)
+    { Checkout.Utils.setDiv("CartCount", count);
+                    
+      if (count === 0)
+      { Checkout.Utils.removeClass("CartCount", "CartFullNumber");
+        Checkout.Utils.addClass("CartCount", "CartEmptyNumber");
+        
+        Checkout.Utils.setClass("Cart", "CartEmpty");
+      }
+      else
+      { Checkout.Utils.removeClass("CartCount", "CartEmptyNumber");
+        Checkout.Utils.addClass("CartCount", "CartFullNumber");
+        
+        Checkout.Utils.setClass("Cart", "CartFull");
+      }
+    }
+    
+    //******************************************************************************************
+    //*  getDropdownText                                                                       *
+    //******************************************************************************************
+    function getDropdownText(strDropdownId)
+    { var strText = "";
+      var dropdownBox = document.getElementById(strDropdownId);
+      
+      if (dropdownBox)
+      { if (dropdownBox.options.length > 0)
+        { strText = dropdownBox.options[dropdownBox.selectedIndex].text;
+        }
+      }
+            
+      return strText;
+    }
+    
+    //******************************************************************************************
+    //*  getRadioButton                                                                        *
+    //******************************************************************************************
+    function getRadioButton(strName) 
+    { try 
+      { return document.querySelector('input[name = "' + strName + '"]:checked').value;
+      }
+      catch(ex) 
+      { return "";
+      }
+    }
+  </SCRIPT>
+    <SCRIPT SRC="https://s3.amazonaws.com/snappycheckout/Button.js"></SCRIPT>
    </body>
 </html>

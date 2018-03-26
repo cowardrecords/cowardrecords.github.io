@@ -1,0 +1,19 @@
+---
+layout: itemdistro
+title: "Maximum Rocknroll #406"
+subtitle: march 2017
+code: MRR #406
+category: [zine, distro]
+price: "5.50"
+idcart: "MLZ60JK57JZAM61PCOCPP13410"
+soldout:
+date: 2017-03-01 01:16:17 +0100
+bgimage:
+image: http://www.maximumrocknroll.com/wp-content/uploads/2017/02/mrr_406_cvr-1.jpg
+thumbnail: http://www.maximumrocknroll.com/wp-content/uploads/2017/02/mrr_406_cvr-1.jpg
+
+---
+
+Philadelphia hardcore band **S-21** tell us the history behind their name, **BETON** give us their take on a Brazil tour, **ZERODENT** get us dancing in Perth, **PELUQUERÍA CANINA** play melodic punk in Madrid, **SECOND COMBAT** keep straightedge hardcore alive in Malaysia, PALBERTA gets weird in New York, Brazil’s **VIDA RUIM** spread their love for HÜSKER DÜ, and Austin’s **BODY PRESSURE** want to “Make Bigots Scared Again.” We have an update on our **Archive Project** progress and then we delve into some lesser known Finnish KBD gems from the new compilation **Kuoleman Tappaneet**, talk with punk writer and zinester **Jessie Lynn McMains**, plus the debut of two new columns on DIY Metal and European punk life. We’ve also got photos from **Chicago’s Infestational** and **This Is Austin Not That Great**. All this plus the record, demo, book, zine, and films reviews you love. Order today!\\
+\\
+[more info](http://www.maximumrocknroll.com){:target="_blank"}

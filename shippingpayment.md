@@ -3,6 +3,7 @@ layout: default
 title: Shipping & Payment Info
 permalink: /shippingpaymentinfo/
 ---
+
 <div class="small-12 columns">
 	<div class="large-6 medium-12 small-12 large-centered columns about">
 		
@@ -10,24 +11,21 @@ permalink: /shippingpaymentinfo/
 		  
 		
 		 <hr>
-			<h2>BUY NOW button</h2>
-			<h4>1 single item</h4>
+			<h2>PURCHASE button</h2>
+			<h4>combined items</h4>
 			<p>how does it works: <br>
-			using the button <i>"buy now"</i> you can immediately pay ( via paypal/credit card ) a single product including its shipping costs.<br>
-			when we'll display the payment we'll send you a notification and a shipping confirmation. Delivery depends on your location. <br>
-			We usually use registered mail.<br>		
+			clicking on the "purchase" button you will be sent to the payment form, default settings of payment will allow you to pay with credit card or PayPal.<br>
+			shipments are made by courier and tracking number is always supplied when possible. shipping fees depend on your location.<br>
+			When we get the payment you’ll get a notification and in few days your items are on their way.<br>		
 			</p>		 
 		
 		<hr>
 			<h2>MAILORDER</h2>
 			<h4>combined items</h4>
 			<p>how does it works: <br>
-			<a href="mailto:{{ site.email }}">you send us an email</a> with the list of available items present in our site that you choose, then we calculate postage by the total of the weight of all items and quickly respond you with an email of request of payment ( via paypal/credit card )<br>
-			When we get the payment you’ll get a notification and in few days your items are on their way.</p>
-		
-		
+			Also mail-order is available, <a href="mailto:{{ site.email }}">just send us an email</a> with the list of available items present in our site that you choose, we will calculate postage by the total of the weight of all items and quickly respond you with the amount.
+		    </p>
 			<br>
 			<br>
-		
 	</div>
 </div>

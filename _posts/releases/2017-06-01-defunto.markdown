@@ -1,0 +1,28 @@
+---
+layout: item
+title: "Defunto"
+artist: "Defunto"
+subtitle: 5"
+code: CWRD 12
+category: [release, vinyl, 5"]
+price: "20.00"
+idcart: "1O6X5X7AVEJB3G30U6FKP13400"
+date: 2017-10-31 01:16:17 +0100
+bgimage:
+image: defunto_vinyl.jpg
+imagethumb:
+  - link: https://c1.staticflickr.com/5/4230/34341119923_6be5e41bb5_c.jpg
+  - link: https://c1.staticflickr.com/5/4245/35151229635_08166b1fa7_b.jpg
+  - link: https://c1.staticflickr.com/5/4226/35020030741_f306049e61_c.jpg
+thumbnail: defunto_vinyl.jpg
+sound: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/326924551&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
+---
+
+Limited edition of 15 copies \\
+5" special format, hand-cutted on empty CD-r \\
+supplied with hole adapter, it comes with screen printed packaging and riso printed insert.\\
+Defunto means Dead,\\
+Defunto are Dead
+
+
+

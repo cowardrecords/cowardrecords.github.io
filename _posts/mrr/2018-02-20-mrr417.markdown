@@ -1,0 +1,18 @@
+---
+layout: itemdistro
+title: "Maximum Rocknroll #417"
+subtitle: february 2018
+code: MRR #417
+category: [zine, distro]
+price: "5.50"
+idcart: "ERMS0RPACU6DEXCYT49WP13421"
+soldout:
+date: 2018-02-20 01:16:17 +0100
+bgimage:
+image: http://www.maximumrocknroll.com/wp-content/uploads/2018/01/mrr_417_cvr.jpg
+thumbnail: http://www.maximumrocknroll.com/wp-content/uploads/2018/01/mrr_417_cvr.jpg
+
+---
+It’s that time you’ve all been waiting for: Maximum Rocknroll‘s Year-End Top Ten Issue! MRR#417, our February 2018 issue, brings you lists upon lists of our favorite punk records of the year. What were the best records of the year? Which record labels crushed it? You’ll have to pick up this issue to find out more. But that’s not all—we also have great photographs from Angela Owens and Farrah Skeiky, and interviews from bands from around the globe. Featured in this issue are London anarcho-femme punks CHARMPIT, Chicago hardcore freaks RASH, synthesizer lovers ISOTOPE SOAP from Sweden, party animals DFMK from Tijuana, and four-track fiend ERIK NERVOUS from Shipshewana, Indiana. Cover art by Nathan Ward! You won’t want to miss this issue.\\
+\\
+[more info](http://www.maximumrocknroll.com){:target="_blank"}

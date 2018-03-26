@@ -9,7 +9,7 @@
 title: COWARD RECORDS
 email: mail@cowardrecords.com
 description: Coward Records | ATMOSFERA
-url: "http://cowardrecords.com" # the base hostname & protocol for your site
+url: "https://www.cowardrecords.com" # the base hostname & protocol for your site
 baseurl: ""
 
 permalink: /:categories/:title/

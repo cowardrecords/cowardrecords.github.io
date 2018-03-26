@@ -1,0 +1,19 @@
+---
+layout: itemdistro
+title: "Maximum Rocknroll #408"
+subtitle: may 2017
+code: MRR #408
+category: [zine, distro]
+price: "5.50"
+idcart: "0BKVOQN03G0PF37SA4P3P13412"
+soldout:
+date: 2017-05-01 01:16:17 +0100
+bgimage:
+image: http://www.maximumrocknroll.com/wp-content/uploads/2017/04/mrr_408_cvr.jpg
+thumbnail: http://www.maximumrocknroll.com/wp-content/uploads/2017/04/mrr_408_cvr.jpg
+
+---
+
+Things kick off with the future of Berlin post-Deustchpunk — **MÜLLTÜTE**, and then we hang with Gainesville shoegazers **UV-TV**, we discuss Scandinavian hardcore with Minneapolis’ **ATAXXIA**, uncover the history of Wales’ hidden gem **REPTILE RANCH**, and hear about Truewave with SF’s own **STREET EATERS**. We also learn about bobos and squats with France’s **ZONE INFINIE**, and round things out with Boston peace punks **PANDEMIX**, Costa Rican grindcore band **EXACERBACIÓN**, and the debut of a harm reduction column. All this plus tons of fresh zine, record, and film reviews. Get yours now!\\
+\\
+[more info](http://www.maximumrocknroll.com){:target="_blank"}
