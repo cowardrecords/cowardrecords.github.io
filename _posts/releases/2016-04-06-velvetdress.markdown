@@ -8,6 +8,7 @@ category: [release, vinyl, 7"]
 price: "10.00"
 idcart: "03G0QKNGH2U1MZ2FXD5KP13390"
 date: 2016-05-13 01:16:17 +0100
+soldout: true
 bgimage:
 image: velvetdress_flexi.jpg
 thumbnail: velvetdress_flexi.jpg
