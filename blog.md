@@ -2,6 +2,7 @@
 layout: default
 title: Blog
 permalink: /blog/
+summary: Coward stories & news
 ---
 
 <div class="fullWidth">

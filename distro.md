@@ -2,6 +2,8 @@
 layout: default
 title: Distro
 permalink: /distro/
+summary: Distro for records, zine and other stuff from international partners.
+tags:
 ---
 
 <br>

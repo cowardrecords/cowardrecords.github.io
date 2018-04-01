@@ -2,6 +2,8 @@
 layout: default
 title: Releases
 permalink: /releases/
+summary: Online store. records, publications & much more.
+tags: lathe cuts, vinyl, limited editions, 
 ---
 <br>
 
