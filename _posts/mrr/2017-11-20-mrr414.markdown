@@ -9,8 +9,8 @@ idcart: "P6SERF0QLQV58OOCSUTLP13418"
 soldout:
 date: 2017-11-20 01:16:17 +0100
 bgimage:
-image: http://www.maximumrocknroll.com/wp-content/uploads/2018/03/mrr_419_cvr_4.jpg
-thumbnail: http://www.maximumrocknroll.com/wp-content/uploads/2018/03/mrr_419_cvr_4.jpg
+image: http://www.maximumrocknroll.com/wp-content/uploads/2017/10/mrr_414_cvr.jpg
+thumbnail: http://www.maximumrocknroll.com/wp-content/uploads/2017/10/mrr_414_cvr.jpg
 
 ---
 
