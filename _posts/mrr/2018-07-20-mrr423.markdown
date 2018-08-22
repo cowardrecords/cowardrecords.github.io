@@ -1,0 +1,19 @@
+---
+layout: itemdistro
+title: "Maximum Rocknroll #423"
+subtitle: August 2018
+code: MRR #423
+category: [zine, distro]
+price: "5.50"
+idcart: "PSRFYHMHQ6NPKNJR8XVKP15076"
+soldout:
+date: 2018-07-20 01:20:17 +0100
+bgimage:
+image: http://maximumrocknroll.com/wp-content/uploads/2018/07/mrr_423_cvr.jpg
+thumbnail: http://maximumrocknroll.com/wp-content/uploads/2018/07/mrr_423_cvr.jpg
+
+---
+
+Coming hot off the press is Maximum Rocknroll #423, our August 2018 issue! This month is heavy on US punk festival coverage, including a retrospective by Philly’s all-POC Break Free Fest concert goers and artists about their experiences there, an interview with the organizers of Oakland’s The Multivrs Is Illuminated (a similarly minded all-POC fest), and a photo spread capturing Dumb Fest in Indiana! Want to hear about something besides festivals? You’re in luck. Prior to their hiatus, PMS from France spoke to us about their new EP, whether or not they’re a political band, and the state of punk in Paris. We have an interview with Oregon’s ABOLITIONIST, who tell all about their love of history and veganism. We look back at late-’70s Norwegian punks OSLO BØRS, their two releases, and why they had to change their name to OSLO BEURS. We’re fortunate to have Oakland’s COHERENCE talk to us about punk and diaspora right as their debut LP releases, and we also have an interview with Olympia’s raw punk heroes PHYSIQUE that covers transphobia, fashion, and how punk life is shit. There’s also a manifesto included called DIY As Privilege about ways to combat ableism in the punk scene. If that’s still not enough for you, there’s a robust letters section, plenty of columns, and enough reviews to keep you occupied until next month’s issue comes out.\\
+\\
+[more info](http://www.maximumrocknroll.com){:target="_blank"}

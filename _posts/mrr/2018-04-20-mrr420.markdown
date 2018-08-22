@@ -1,0 +1,19 @@
+---
+layout: itemdistro
+title: "Maximum Rocknroll #420"
+subtitle: may 2018
+code: MRR #420
+category: [zine, distro]
+price: "5.50"
+idcart: "BCRTQ7X0850O89L3RH6EP15073"
+soldout:
+date: 2018-04-20 01:20:17 +0100
+bgimage:
+image: http://maximumrocknroll.com/wp-content/uploads/2018/04/mrr_420_cvr-750x955.jpg
+thumbnail: http://maximumrocknroll.com/wp-content/uploads/2018/04/mrr_420_cvr-750x955.jpg
+
+---
+
+Finally…issue #420 (the May 2018 issue) of MAXIMUM ROCKNROLL is here! While yes, we do talk about Marijuana in this issue, there are still a ton of interviews with bands, columns, and more! We start things off with a special tribute to our founder Tim Yohannan to mark the 20th anniversary of his passing, complete with some people’s favorite stories about him. Then we talk with the organizers of the ever-popular Bay Area Girls Rock Camp about their strategies for success during their ten years of operation. We also speak with LITTLE DEBBIE & THE CRUSADERS, one of the many bands formed by Bay Area Girls Rock Camp attendees. Seeking more coverage of domestic acts? Have no fear, we have DARK/LIGHT and DEATH RIDGE BOYS from Portland discussing the power of dreams and leftist politics, respectively, and ALL TORN UP! from NYC reviewing the Serenity Prayer. Want more? We’ve got a sick photo spread from Everything Is Not OK IV. Those seeking international punk coverage should be pleased. We have a long interview with Finland’s KOHTI TUHOA discussing the Helsinki scene and politics, MISS DESTINY from Australia dishes out details about brawling at their shows, and YC-CY discusses quitting before they’re too old. Still not enough for you? We have an interview with Erik Sutch, director of Careful Not To Cry, a new film about abortion access. Well, what are you waiting for? Pick this issue up before you forget what you were doing.\\
+\\
+[more info](http://www.maximumrocknroll.com){:target="_blank"}

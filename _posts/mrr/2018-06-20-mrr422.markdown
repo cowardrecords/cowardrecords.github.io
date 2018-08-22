@@ -1,0 +1,18 @@
+---
+layout: itemdistro
+title: "Maximum Rocknroll #422"
+subtitle: july 2018
+code: MRR #422
+category: [zine, distro]
+price: "5.50"
+idcart: "5LFFV3TUQ3BCSTRDKPU4P15075"
+soldout:
+date: 2018-06-20 01:20:17 +0100
+bgimage:
+image: http://maximumrocknroll.com/wp-content/uploads/2018/06/mrr_422_cvr.jpg
+thumbnail: http://maximumrocknroll.com/wp-content/uploads/2018/06/mrr_422_cvr.jpg
+---
+
+We’re excited to present to you yet another issue of Maximum Rocknroll — issue #422, our July 2018 issue! This month we feature Italy’s SHITTY LIFE, who spill all about politics in Italy and their love of Peavey amps. We also feature HAIRCUT from Virginia, where they speak about what it means to be sober and a punk as well as the first-generation American experience. Also featured are Olympia’s GEN POP, who don’t want to be pigeonholed as just another Olympia band, and MURO from Colombia, who speak about their Rat Trap Collective and punk and politics in their country. AIWT from Russia tell about how they don’t really care about what their fans think, while LARS FINBERG talks about why he’s only just now released his first solo album after years of work in A-FRAMES, THE INTELLIGENCE, THEE OH SEES, and more. WHIP from Winnipeg talk about being a “couple band,” their signing to Neck Chop Records, and their reaction to being called a “female-infused” band. We’ve also got an interview with Stefan Christensen of C/Site Recordings, who splurges all about the history of his label and how the REPTILE RANCH reissue came about. For those dying for more punk coverage there’s a Manic Relapse Vol. 6 photo spread and all of the letters, columns, and reviews that you love to complain about on Instagram. Don’t wait — pick this issue up today!\\
+\\
+[more info](http://www.maximumrocknroll.com){:target="_blank"}
