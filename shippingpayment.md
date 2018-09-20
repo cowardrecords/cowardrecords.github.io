@@ -15,7 +15,7 @@ summary: How to pay and get your stuff.
 			<h2>PURCHASE button</h2>
 			<h4>combined items</h4>
 			<p>how does it works: <br>
-			clicking on the "purchase" button you will be sent to the payment form, default settings of payment will allow you to pay with credit card or PayPal.<br>
+			clicking on the "purchase" button you will be sent to the payment form, default settings of payment will allow you to pay with credit card or paypall.<br>
 			shipments are made by courier and tracking number is always supplied when possible. shipping fees depend on your location.<br>
 			When we get the payment you’ll get a notification and in few days your items are on their way.<br>		
 			</p>		 

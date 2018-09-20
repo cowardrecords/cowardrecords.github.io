@@ -65,7 +65,7 @@ tags: lathe cuts, vinyl, limited editions,
        <hr>
         <div class="maintitle">
 	        <h6>{{ post.title }}</h6>
-	        <p>{{ post.artist }}</p>
+	       {% if post.artist %}<p>{{post.artist}}</p> {% else %} <p><br></p> {% endif%}
         </div>
       </a>
 

@@ -71,7 +71,13 @@ body{
 }
 
 
+// HR
 
+.separation{
+	border: 0; height: 0.7px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	margin-bottom: 80px;
+	margin-top: 80px;
+}
 
 
 // NAVBAR
@@ -219,70 +225,6 @@ body{
 
 // ITEM
 
-
-//TRAMA
-
-.itemT{
-overflow:hidden;
-padding:0px;
-	.audio{
-		display:none;
-	}
-
-
-	min-width: 100%;
-	min-height: 800px;
-
-	.panel1{
-	 vertical-align: top;
-	 padding:20px;
-   transition:all 1s ease-in-out;
-   border: none;
-   color: white;
-	 background-color: rgba(0, 0, 0, 0.1);
-	 font-family: 'Work Sans', sans-serif;
-	 font-size: 167%;
-   height: 100%;
-   min-height: 900px;
-   margin-bottom: 0px;
-
-	p{
-		font-family: 'Crimson Text', serif;
-		color: white;
-		font-size: 167%;
-	}
-
-    }
-
-    .panel2{
-    vertical-align: top;
-    min-height: 900px;
-	  padding:20px;
-    transition:all 1s ease-in-out;
-    border: none;
-    color: white;
-	  background-color: rgba(0, 0, 0, 0.1);
-	  font-family: 'Work Sans', sans-serif;
-    }
-
-
-    .panel1:hover{
-	background-color: rgba(0, 0, 0, 1);
-
-	
-    }
-    .panel2:hover{
-	background-color: rgba(0, 0, 0, 1);
-	
-    }
-
-
-.audio{
-	text-align: center;
-	padding:50px;
-	padding-top: 30%;
-}
-
 .logoTrama{
 	max-width: 200px;
 	margin-right: auto;
@@ -304,7 +246,97 @@ padding:0px;
   }
 }
 
+
+#quantity{
+max-width: 45px;
 }
+
+.inlinelist {
+	ul{
+		li{
+			display: inline;
+		}
+	}
+
+	#margin{
+		margin-right: 20px;
+	}
+}
+
+// bg full
+
+.bgFullcolor{
+	color: black;
+	background: white;
+	.textcont{
+ 	background: white;
+ 	padding: 3em;
+ 	
+ 	a{
+ 	color: black;
+ 	}
+ 	
+ 	h1,h2,h3,h4,h5,h6{
+ 	color: black;
+ 	font-family: 'NeueHaasGroteskText Pro Md';
+ 	}
+
+ 	p{
+ 	color: black;
+ 	font-family: 'Crimson Text', serif;
+ 	font-size: 1.5rem;
+    }
+ 	
+ 	p::first-letter  {
+
+    font-size: 8em;
+    color: grey;
+    font-weight: 700;
+    display: inline-block;
+    line-height: 1em;
+    letter-spacing: 0.2em;
+    float: left;
+    width: 50%;
+    line-height: 1;
+    text-align: center;
+    font-family: 'NeueHaasGroteskText Pro Md';
+	}	
+
+ }
+ .imagecontent{
+ 	text-align: center;
+ }
+}
+
+
+
+.bgFullimage{
+ .panel{
+ 	background: white;
+ 	padding: 3em;
+ 	p{
+ 	font-family: 'Crimson Text', serif;
+ 	font-size: 1.5rem;
+    }
+ 	
+ 	p::first-letter  {
+
+    font-size: 8em;
+    color: #cd1232;
+    font-weight: 700;
+    display: inline-block;
+    line-height: 1em;
+    letter-spacing: 0.2em;
+    float: left;
+    width: 50%;
+    line-height: 1;
+    text-align: center;
+    font-family: proxima-nova,sans-serif;
+	}	
+
+ }
+}
+
 
 
 .item{
@@ -580,3 +612,19 @@ Class Definitions
   height: 100%;
   cursor: pointer;
 }
+
+
+
+// custom
+
+.code{
+
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+// custom muic player
+
+
+

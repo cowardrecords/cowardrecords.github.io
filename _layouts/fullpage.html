@@ -1,0 +1,153 @@
+---
+layout: default
+---
+
+<div class="bgFullcolor"> 
+
+	<div class="small-12 medium-11 large-9 medium-centered large-centered columns textcont">
+
+		
+		<div class="row">
+			<div class="small-12 medium-6 large-6 columns cimitero">
+				<hr>
+				<span><h1 style="color: {{ page.textcolor }}">{{ page.title }}</h1>
+			    <h6>{{page.artist}}</h6>
+				<hr>
+				<h6>{{page.code}}</h6>
+				<hr>
+		  		<h6>format: {{page.subtitle}}</h6>
+		  		{{% if page.edition %}}
+		  			{{page.edition}}
+		  		{{% else %}}
+		  			<br>
+		  		{{% endif%}}
+		  		
+			</div>
+			<div class="small-12 medium-6 large-6 columns autostrada" style="display:none;">
+				<hr class="hide-for-small-only">
+				<span><h1 style="color: {{ page.textcolor }}">{{ page.title_aut }}</h1>
+			    <h6>{{page.artist}}</h6>
+				<!-- <hr>
+				<h6>{{page.code}}</h6> -->
+				<hr>
+		  		<h6>format: {{page.subtitle}}</h6>
+		  		{{% if page.edition %}}
+		  			{{page.edition_aut}}
+		  		{{% else %}}
+		  			<br>
+		  		{{% endif%}}
+			</div>
+			
+			<div class="small-12 medium-6 large-6 columns cimitero">
+	            <hr>
+				{% if page.orizontalimage contains 'http' %}
+	              <img src="{{ page.orizontalimage }}" alt="{{ page.name }}" itemprop="image"/>
+	           	 {% else %}
+	              <img src="/img/{{ page.orizontalimage }}" alt="{{ page.name }}" itemprop="image"/>
+	        	{% endif %}
+				<hr>
+				<audio controls preload="metadata" id="myAudio" style=" width:100%;">
+					<source src="/audio/{{page.mp3}}" type="audio/mpeg">
+					Your browser does not support the audio element.
+				</audio>
+				<hr>
+				{% if page.soldout == true %}
+					<h6 class="soldout">sold out</h6>
+					{% else if %}
+					<h6 class="item_price">{{ page.price }} {% if page.price != null %}€{% endif %} | 
+					<a HREF="#" ONCLICK="Checkout.cart.purchase('QNYVK3UVVQ25LEAAM5ZG201', true); return false;">Purchase</a> | 
+					<a HREF="#" ONCLICK="Checkout.cart.add('{{ page.idcart }}'); return false;">Add to Cart</a> | 
+					<a HREF="#" ONCLICK="Checkout.cart.clear(); return false;">Clear Cart</a></h6> 			
+				{% endif %}
+			</div>
+			<div class="small-12 medium-6 large-6 columns autostrada" style="display:none;">
+	            <hr>
+				{% if page.orizontalimage contains 'http' %}
+	              <img src="{{ page.orizontalimage_aut }}" alt="{{ page.name_aut }}" itemprop="image_aut"/>
+	           	 {% else %}
+	              <img src="/img/{{ page.orizontalimage_aut }}" alt="{{ page.name_aut }}" itemprop="image_aut"/>
+	        	{% endif %}
+				<hr>
+				<audio controls preload="metadata" id="myAudio2" style=" width:100%;">
+					<source src="/audio/{{page.mp3_aut}}" type="audio/mpeg">
+					Your browser does not support the audio element.
+				</audio>
+				<hr>
+				{% if page.soldout == true %}
+					<h6 class="soldout">sold out</h6>
+					{% else if %}
+					<h6 class="item_price">{{ page.price }} {% if page.price != null %}€{% endif %} | 
+					<a HREF="#" ONCLICK="Checkout.cart.purchase('QNYVK3UVVQ25LEAAM5ZG201', true); return false;">Purchase</a> | 
+					<a HREF="#" ONCLICK="Checkout.cart.add('{{ page.idcart }}'); return false;">Add to Cart</a> | 
+					<a HREF="#" ONCLICK="Checkout.cart.clear(); return false;">Clear Cart</a></h6> 			
+				{% endif %}
+			</div>
+		</div>
+		<div class="row">
+			<div class="small-12 columns">
+				<hr>
+			</div>
+		</div>			
+
+
+		{% if page.title == "Cimitero" %}
+
+			<div class="row code">
+				<div class="small-12 large-7 large-centered columns">
+					<h6>Inser Code: <input type="text" id="code"></h6>
+				</div>
+			</div>
+			
+		{% else %}
+
+		{% endif %}
+		
+		<!-- <hr class="separation"> -->
+		<div class="cimitero">
+			<p>{{ content}}</p>
+		</div>
+		<div class="autostrada" style="display:none;">
+			<p>{{ page.content_aut }}</p>
+		</div>
+		
+		<br>
+		<div class="imagecontent cimitero">
+		{% if page.image contains 'http' %}
+              <img src="{{ page.image }}" alt="{{ page.name }}" itemprop="image"/>
+            {% else %}
+              <img src="/img/{{ page.image }}" alt="{{ page.name }}" itemprop="image"/>
+        {% endif %}
+        </div>
+        <div class="imagecontent autostrada" style="display:none;">
+		{% if page.image contains 'http' %}
+              <img src="{{ page.image_aut }}" alt="{{ page.name_aut }}" itemprop="image"/>
+            {% else %}
+              <img src="/img/{{ page.image_aut }}" alt="{{ page.name_aut }}" itemprop="image"/>
+        {% endif %}
+        </div>
+			
+			
+
+		<script>
+		 	$(document).ready(function() {
+		        $("#code").keyup(function() {
+		        	var val = $("#code").val();
+		        	var myAudio = document.getElementById("myAudio");
+		        	var myAudio2 = document.getElementById("myAudio2");
+		            if (val == 'ciao') {
+		                $(".cimitero").css("display", "none");
+		                $(".autostrada").css("display", "block");
+		                 myAudio.pause();
+		            }
+		            else {
+		                
+		                $(".cimitero").css("display", "block");
+		                $(".autostrada").css("display", "none");
+		                 myAudio2.pause();
+		            }
+		        });
+	    	});
+		</script>
+		
+	</div>
+</div>

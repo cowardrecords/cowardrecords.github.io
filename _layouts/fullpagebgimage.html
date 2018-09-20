@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="bgFullimage" {% if page.bgimage contains 'http' %} 
+style="background: url({{ page.bgimage }}) no-repeat center center fixed;
+	   background-size: cover;
+	   height: 100%;
+  	   overflow: hidden;"
+	   {% else %} 
+	   style="background: url(/img/{{ page.bgimage }}) no-repeat center center fixed;
+	   background-size: cover;
+	   height: 100%;
+  	   overflow: hidden;"
+	   {% endif %}> 
+
+	<div class="small-12 medium-11 large-9 medium-centered large-centered columns">
+		
+		<div class="panel">
+
+		<h1 class="text-center">{{ page.title }}</h1>
+		
+		{% if page.image contains 'http' %}
+              <img src="{{ page.image }}" alt="{{ page.name }}" itemprop="image"/>
+            {% else %}
+              <img src="/img/{{ page.image }}" alt="{{ page.name }}" itemprop="image"/>
+         {% endif %}
+			
+
+		<p>{{ content}}</p>
+		</div>
+	</div>
+</div>

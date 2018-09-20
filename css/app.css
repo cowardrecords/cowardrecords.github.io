@@ -8257,6 +8257,14 @@ body a:visited {
   top: 0;
 }
 
+.separation {
+  border: 0;
+  height: 0.7px;
+  background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75), transparent);
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+
 .contain-to-grid .top-bar {
   margin: 0px auto;
   max-width: 1280px;
@@ -8371,55 +8379,7 @@ body a:visited {
   }
 }
 
-.itemT {
-  overflow: hidden;
-  padding: 0px;
-  min-width: 100%;
-  min-height: 800px;
-}
-.itemT .audio {
-  display: none;
-}
-.itemT .panel1 {
-  vertical-align: top;
-  padding: 20px;
-  transition: all 1s ease-in-out;
-  border: none;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.1);
-  font-family: 'Work Sans', sans-serif;
-  font-size: 167%;
-  height: 100%;
-  min-height: 900px;
-  margin-bottom: 0px;
-}
-.itemT .panel1 p {
-  font-family: 'Crimson Text', serif;
-  color: white;
-  font-size: 167%;
-}
-.itemT .panel2 {
-  vertical-align: top;
-  min-height: 900px;
-  padding: 20px;
-  transition: all 1s ease-in-out;
-  border: none;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.1);
-  font-family: 'Work Sans', sans-serif;
-}
-.itemT .panel1:hover {
-  background-color: black;
-}
-.itemT .panel2:hover {
-  background-color: black;
-}
-.itemT .audio {
-  text-align: center;
-  padding: 50px;
-  padding-top: 30%;
-}
-.itemT .logoTrama {
+.logoTrama {
   max-width: 200px;
   margin-right: auto;
   margin-left: auto;
@@ -8428,6 +8388,7 @@ body a:visited {
   animation-timing-function: linear;
   transform: rotate(360deg);
 }
+
 @keyframes roll {
   0% {
     transform: rotate(0);
@@ -8436,6 +8397,76 @@ body a:visited {
     transform: rotate(360deg);
   }
 }
+#quantity {
+  max-width: 45px;
+}
+
+.inlinelist ul li {
+  display: inline;
+}
+.inlinelist #margin {
+  margin-right: 20px;
+}
+
+.bgFullcolor {
+  color: black;
+  background: white;
+}
+.bgFullcolor .textcont {
+  background: white;
+  padding: 3em;
+}
+.bgFullcolor .textcont a {
+  color: black;
+}
+.bgFullcolor .textcont h1, .bgFullcolor .textcont h2, .bgFullcolor .textcont h3, .bgFullcolor .textcont h4, .bgFullcolor .textcont h5, .bgFullcolor .textcont h6 {
+  color: black;
+  font-family: 'NeueHaasGroteskText Pro Md';
+}
+.bgFullcolor .textcont p {
+  color: black;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.5rem;
+}
+.bgFullcolor .textcont p::first-letter {
+  font-size: 8em;
+  color: grey;
+  font-weight: 700;
+  display: inline-block;
+  line-height: 1em;
+  letter-spacing: 0.2em;
+  float: left;
+  width: 50%;
+  line-height: 1;
+  text-align: center;
+  font-family: 'NeueHaasGroteskText Pro Md';
+}
+.bgFullcolor .imagecontent {
+  text-align: center;
+}
+
+.bgFullimage .panel {
+  background: white;
+  padding: 3em;
+}
+.bgFullimage .panel p {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.5rem;
+}
+.bgFullimage .panel p::first-letter {
+  font-size: 8em;
+  color: #cd1232;
+  font-weight: 700;
+  display: inline-block;
+  line-height: 1em;
+  letter-spacing: 0.2em;
+  float: left;
+  width: 50%;
+  line-height: 1;
+  text-align: center;
+  font-family: proxima-nova,sans-serif;
+}
+
 .item {
   width: 100%;
   height: auto;
@@ -8710,4 +8741,9 @@ Class Definitions
   width: 100%;
   height: 100%;
   cursor: pointer;
+}
+
+.code {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }

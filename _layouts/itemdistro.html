@@ -27,19 +27,8 @@ layout: default
 		</div>
 			
 		<br>
-		{% if page.soldout == true %}
-			<h6 class="text-center soldout">sold out</h6>
-			{% else if %}
-			<h6 class="text-center">{{ page.price }} {% if page.price != null %}€{% endif %}</h6>
-			
-			<div class="small-12 columns text-center">
-				<a HREF="#" ONCLICK="Checkout.cart.add('{{ page.idcart }}'); return false;"><button class="button tiny">Add Product</button></a> </br>
-				<a HREF="#" ONCLICK="Checkout.cart.clear(); return false;">Clear Cart</a> | 
-				<a HREF="#" ONCLICK="Checkout.cart.purchase('QNYVK3UVVQ25LEAAM5ZG201', true); return false;">Purchase</a>
-				</br></br>		
-			</div>
-
-		{% endif %}
+		<hr>
+		{% include shopbutton.html %}
 		<hr>
 		{% include socialshare.html %}
 	</div>
