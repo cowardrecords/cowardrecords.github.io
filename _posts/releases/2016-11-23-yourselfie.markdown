@@ -8,11 +8,7 @@ code: CWRD 07
 price: "6.00"
 idcart: "WGMOJK9PM072N2DRKK2PP13395"
 date: 2016-11-23 00:16:17 +0100
-select:
-  - value: S
-  - value: M
-  - value: L
-  - value: XL
+
 bgimage: 
 image: yourselfie_tape.jpg
 thumbnail: yourselfie_tape.jpg
