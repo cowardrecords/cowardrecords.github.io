@@ -136,7 +136,7 @@ layout: default
 		        	var val = $("#code").val();
 		        	var myAudio = document.getElementById("myAudio");
 		        	var myAudio2 = document.getElementById("myAudio2");
-		            if (val == 'cronaca nera') {
+		            if (val == 'cronaca nera' || val == 'Cronaca nera' || val == 'Cronacanera' || val == 'cronacanera' || val == 'CRONACA NERA' || val == 'CRONACANERA' ) {
 		                $(".cimitero").css("display", "none");
 		                $(".autostrada").css("display", "block");
 		                 myAudio.pause();
@@ -147,6 +147,7 @@ layout: default
 		                $(".autostrada").css("display", "none");
 		                 myAudio2.pause();
 		            }
+
 		        });
 	    	});
 		</script>
