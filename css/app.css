@@ -8444,6 +8444,9 @@ body a:visited {
 .bgFullcolor .imagecontent {
   text-align: center;
 }
+.bgFullcolor .imagecontent img {
+  max-width: 350px;
+}
 
 .bgFullimage .panel {
   background: white;

@@ -94,7 +94,7 @@ layout: default
 
 			<div class="row code">
 				<div class="small-12 large-7 large-centered columns">
-					<h6>Inser Code: <input type="text" id="code"></h6>
+					<h6>Secret Key: <input type="text" id="code"></h6>
 				</div>
 			</div>
 			
@@ -111,21 +111,23 @@ layout: default
 		</div>
 		
 		<br>
-		<div class="imagecontent cimitero">
-		{% if page.image contains 'http' %}
-              <img src="{{ page.image }}" alt="{{ page.name }}" itemprop="image"/>
-            {% else %}
-              <img src="/img/{{ page.image }}" alt="{{ page.name }}" itemprop="image"/>
-        {% endif %}
+		<br>
+		<div class="reveal">
+			<div class="imagecontent cimitero">
+			{% if page.image contains 'http' %}
+	              <img src="{{ page.image_cim }}" alt="{{ page.name }}" itemprop="image"/>
+	            {% else %}
+	              <img src="/img/{{ page.image_cim }}" alt="{{ page.name }}" itemprop="image"/>
+	        {% endif %}
+	        </div>
+	        <div class="imagecontent autostrada" style="display:none;">
+			{% if page.image contains 'http' %}
+	              <img src="{{ page.image_aut }}" alt="{{ page.name_aut }}" itemprop="image"/>
+	            {% else %}
+	              <img src="/img/{{ page.image_aut }}" alt="{{ page.name_aut }}" itemprop="image"/>
+	        {% endif %}
+	        </div>
         </div>
-        <div class="imagecontent autostrada" style="display:none;">
-		{% if page.image contains 'http' %}
-              <img src="{{ page.image_aut }}" alt="{{ page.name_aut }}" itemprop="image"/>
-            {% else %}
-              <img src="/img/{{ page.image_aut }}" alt="{{ page.name_aut }}" itemprop="image"/>
-        {% endif %}
-        </div>
-			
 			
 
 		<script>
@@ -134,7 +136,7 @@ layout: default
 		        	var val = $("#code").val();
 		        	var myAudio = document.getElementById("myAudio");
 		        	var myAudio2 = document.getElementById("myAudio2");
-		            if (val == 'ciao') {
+		            if (val == 'cronaca nera') {
 		                $(".cimitero").css("display", "none");
 		                $(".autostrada").css("display", "block");
 		                 myAudio.pause();
