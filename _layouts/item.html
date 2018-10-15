@@ -32,13 +32,16 @@ layout: default
 			<hr>
 
 			<ul class="clearing-thumbs small-block-grid-3" data-clearing >
-			 {% for item in page.imagethumb %}
-			 {% if item.link contains 'http' %}
-	              <li><img src="{{ item.link }}" alt="{{ page.subtitle }}"/></li>
-	            {% else %}
-	              <li><img src="/img/{{ item.link }}" alt="{{ page.subtitle }}"/></li>
-	          	{% endif %}
-      		 {% endfor %}
+			{% if page.imagethumb %}
+				 {% for item in page.imagethumb %}
+				 {% if item.link contains 'http' %}
+		              <li><img src="{{ item.link }}" alt="{{ page.subtitle }}"/></li>
+		            {% else %}
+		              <li><img src="/img/{{ item.link }}" alt="{{ page.subtitle }}"/></li>
+		          	{% endif %}
+	      		 {% endfor %}
+	      	{% else%}	
+	      	{% endif%}	 
 			</ul> 
 		</div>
 	
