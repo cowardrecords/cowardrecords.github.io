@@ -1,7 +1,5 @@
-{% if page.soldout == true %}
-	<h6 class="randomcolor" >sold out</h6>
-	{% else if %}
-
+<div class="stik bottomMenu">
+	<div  data-options="sticky_on: large">
 	 <h2 class="randomcolor" item_price">{{ page.price }} {% if page.price != null %}€{% endif %}</h2>
 
 		{% if page.select %}
@@ -41,6 +39,6 @@
 		      data-item-price="{{ page.price }}">
 		      Shop Now 
 		</button>
-
+		</div>
+	</div>
 		
-{% endif %}

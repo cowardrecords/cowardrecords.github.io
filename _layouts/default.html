@@ -63,6 +63,19 @@
       });
     </script>
 
+    <!-- show price on scroll -->
+    <script>
+      $(document).scroll(function () {
+        var y = $(this).scrollTop();
+        if (y > 800) {
+            $('.bottomMenu').fadeIn();
+        } else {
+            $('.bottomMenu').fadeOut();
+        }
+
+    });
+    </script>
+
     <script id="dsq-count-scr" src="//www-cowardrecords-com.disqus.com/count.js" async></script>
 
 

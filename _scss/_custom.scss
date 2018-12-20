@@ -270,6 +270,21 @@ body{
 
 // ITEM
 
+.stik {
+    position: fixed;
+    display: none;
+    bottom: 15%;
+    width: 200px;
+    z-index: 99;
+    left: 13px;
+}
+
+@media only screen and (max-width: 40em) { 
+   .stik{
+   	 bottom: 35%;
+	}
+} 
+
 .itemtitle{
 	min-height: 180px;
 	
