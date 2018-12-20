@@ -32,23 +32,14 @@
 		<a class="randomcolor" HREF="#" ONCLICK="Checkout.cart.purchase('QNYVK3UVVQ25LEAAM5ZG201', true); return false;">Purchase</a>
 		</span>	 -->
 
-		<button class="snipcart-add-item randomcolorbtn"
-		      data-item-name="{{ page.name }}"
-		      data-item-id="{{ page.sku }}"
-		      data-item-image="{{ page.image }}"
-		      data-item-url="https://www.cowardrecords.com/release/vinyl/5%22/Defunto/"
-		      data-item-quantity="{{page.quantity}}"
-		      data-item-price="{{ page.price }}">
-		      Shop Now 
-		</button>
 		<button
-    class="snipcart-add-item"
-    data-item-id="{{ page.sku }}"
-    data-item-name="{{ page.name }}"
-    data-item-price="{{ page.price }}"
-    data-item-url="https://www.cowardrecords.com/release/vinyl/5%22/Defunto/">
-    Buy bacon
-</button>
-
+		    class="snipcart-add-item randomcolorbtn"
+		    data-item-id="{{ page.sku }}"
+		    data-item-image="{{ page.cover }}"
+		    data-item-name="{{ page.name }}"
+		    data-item-price="{{ page.price }}"
+		    data-item-url="{{site.url}}{{ page.url }}">
+		     Shop Now 
+		</button>
 		
 {% endif %}
