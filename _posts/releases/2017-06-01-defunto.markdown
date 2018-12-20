@@ -3,7 +3,8 @@ layout: item
 title: "Defunto"
 artist: "Defunto"
 subtitle: 5"
-slug: "how-google-works"
+name: "Defunto"
+slug: "Defunto"
 sku: "HGW"
 code: CWRD 12
 category: [release, vinyl, 5"]
