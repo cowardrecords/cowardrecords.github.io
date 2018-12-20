@@ -2,8 +2,8 @@
 layout: item
 title: "Defunto"
 artist: "Defunto"
-subtitle: 5"
 name: "Defunto"
+subtitle: 5"
 slug: "Defunto"
 sku: "HGW"
 code: CWRD 12
