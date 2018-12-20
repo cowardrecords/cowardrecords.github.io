@@ -8,7 +8,7 @@ price: "5.50"
 idcart: "MLZ60JK57JZAM61PCOCPP13410"
 soldout:
 date: 2017-03-01 01:16:17 +0100
-bgimage:
+cover: http://www.maximumrocknroll.com/wp-content/uploads/2017/02/mrr_406_cvr-1.jpg
 image: http://www.maximumrocknroll.com/wp-content/uploads/2017/02/mrr_406_cvr-1.jpg
 thumbnail: http://www.maximumrocknroll.com/wp-content/uploads/2017/02/mrr_406_cvr-1.jpg
 

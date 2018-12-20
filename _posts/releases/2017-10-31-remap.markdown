@@ -9,6 +9,7 @@ category: [release, vinyl, 5"]
 price: "10.00"
 date: 2017-10-31 01:16:17 +0100
 bgimage:
+cover: remap_vinyl.jpg
 image: remap_vinyl.jpg
 imagethumb:
   - link: https://farm5.staticflickr.com/4480/26314721649_196c93ebf4_b.jpg

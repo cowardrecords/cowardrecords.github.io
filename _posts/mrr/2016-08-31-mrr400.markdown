@@ -8,7 +8,7 @@ price: "5.50"
 idcart: "CYQQJEH7MD3A9D5LFH47P13404"
 soldout:
 date: 2016-08-31 01:16:17 +0100
-bgimage:
+cover: http://www.maximumrocknroll.com/wp-content/uploads/2016/08/mrr_400_cvr.jpg
 image: http://www.maximumrocknroll.com/wp-content/uploads/2016/08/mrr_400_cvr.jpg
 thumbnail: http://www.maximumrocknroll.com/wp-content/uploads/2016/08/mrr_400_cvr.jpg
 ---

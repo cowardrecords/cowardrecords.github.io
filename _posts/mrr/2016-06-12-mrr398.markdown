@@ -6,12 +6,9 @@ code: MRR #398
 price: "5.50"
 idcart: "MNE6ORRJDABRTTMNCU6EP13402"
 date: 2016-06-12 01:16:17 +0100
-bgimage:
+cover: http://www.maximumrocknroll.com/wp-content/uploads/2016/06/mrr_398_cvr.jpg
 image: http://www.maximumrocknroll.com/wp-content/uploads/2016/06/mrr_398_cvr.jpg
 thumbnail: http://www.maximumrocknroll.com/wp-content/uploads/2016/06/mrr_398_cvr.jpg
-imagethumb1:
-imagethumb2:
-imagethumb3:
 category: [zine, distro]
 ---
 

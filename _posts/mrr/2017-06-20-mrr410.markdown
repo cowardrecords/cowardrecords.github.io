@@ -8,7 +8,7 @@ price: "5.50"
 idcart: "BDVAT7NJPXM77FMQSQACP13414"
 soldout:
 date: 2017-05-20 02:16:17 +0100
-bgimage:
+cover: http://www.maximumrocknroll.com/wp-content/uploads/2017/06/mrr_410_July-2017.jpg
 image: http://www.maximumrocknroll.com/wp-content/uploads/2017/06/mrr_410_July-2017.jpg
 thumbnail: http://www.maximumrocknroll.com/wp-content/uploads/2017/06/mrr_410_July-2017.jpg
 

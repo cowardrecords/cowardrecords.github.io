@@ -9,7 +9,8 @@ price: "12.00"
 idcart: "PEXD7WUGW1KOM2LOM1EWP13398"
 date: 2017-04-09 01:16:17 +0100
 bgimage:
-image: tenthplanet_zine.jpg
+cover: tenthplanet_zine.jpg
+image: https://c1.staticflickr.com/3/2950/33169170414_9e18affabf_c.jpg
 imagethumb:
   - link: https://c1.staticflickr.com/3/2942/34012680985_f4813532d3_c.jpg
   - link: https://c1.staticflickr.com/3/2950/33169170414_9e18affabf_c.jpg

@@ -5,7 +5,7 @@
     <h5><br></h5>
     <hr>
     <div class="text-center">
-   	 <img src=" /img/rolling.gif" >
+   	 <img src=" /img/rolling_black.gif" >
     </div>
 
    	</div>
@@ -51,7 +51,7 @@
   		   	</div>
   		   	<div class="small-4 columns">
   		   	<input type="hidden" value="1" name="embed"/>
-  		   	<input  class="button"  style="width:100%; background-color: black; font-size: 130%; margin-left: 0p; padding:0; margin-top:5px;" type="submit" value="Subscribe" />
+  		   	<input  class="button"  style="width:100%; background-color: white; color:inherit; font-size: 130%; margin-left: 0p; padding:0; margin-top:5px;" type="submit" value="Subscribe" />
   		    </div>
   	   </form>
     </div>
@@ -100,6 +100,21 @@ $(function(){
 
       </script>
 <!-- Media Boxes JS files -->
+
+
+<!-- random color -->
+<script>
+  $(document).ready(function() {
+      var text = $('.randomcolor');
+      var btn = $('.randomcolorbtn');
+      var original = text.css('color');
+      var originalbtn = btn.css('background-color');
+      var colors = ["#007a99", "#ff99bb", "#990099", "#4dffd2", "#cc9900"];
+      var col = Math.floor(Math.random() * colors.length);
+      text.css('color', colors[col]);
+       btn.css('background-color', colors[col]);
+  });
+</script>
 
 
 

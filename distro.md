@@ -44,7 +44,7 @@ tags:
      {% endif %}">
         
       <a href="{{ post.url | prepend: site.baseurl }}">
-      <hr>
+      <!-- <hr> -->
       	<div class="maintitle">
 	        <h6>{{ post.title }}</h6>
 	        <p>{{ post.artist }}</p>

@@ -22,18 +22,15 @@ img{
 }
 
 body{
-	background: white;
-	color: black;
-	.contain-to-grid {
-	 background: white;
-	}
+	background: black;
+	color: white;
 
 	.row {
 	    max-width: $row-maxwidth;
 	}
 
 	hr{
-		color: black;
+		color: white;
 	}
 
 	/*font-family: 'Inconsolata', ;*/
@@ -58,8 +55,8 @@ body{
 	    color: inherit;
 	}
 
+	
 }
-
 
 
 
@@ -96,12 +93,6 @@ body{
     position: relative;
 }
 
-.top-bar.expanded .title-area {
-
-    background: inherit;
-
-}
-
 .contain-to-grid .top-bar {
  
  li{
@@ -128,21 +119,14 @@ body{
  margin: 0px auto;
  max-width: $row-maxwidth;
 
-#logo{
+ .logo{
  width: auto;
  max-height: 35px;
  }
    
-
- .left{
-  	text-align: center;
-  	margin-bottom: 10px;
-  } 
-
  .right{
   margin-left: 50px;
  	padding-right: 12px;
- 	text-align: center;
    li{
 	   a{
 		    text-decoration: underline;
@@ -159,9 +143,6 @@ body{
 
 }
 
-.top-bar .toggle-topbar a {
-	background:black
-}
 
 // INDEX 
 
@@ -197,7 +178,6 @@ body{
 .icoClock{
 	width: 14px;
 	height: auto;
-	color: inherit;
 }
 
 .blogtext{
@@ -228,7 +208,6 @@ body{
 	margin-bottom: 30px;
 
 	.testata {
-		color: white;
 		text-align:center;
 		@media only screen and (min-width: 64.063em) {
 		max-width: 80%;
@@ -269,24 +248,6 @@ body{
 }
 
 // ITEM
-
-.itemtitle{
-	min-height: 180px;
-	
-	
-	h1, h2, h3, h4, h5, h6, p{
-	overflow:visible;
-	
-    }
-}
-
-#lowest{
-	z-index: -99;
-}
-
-img{
-	width: 100%;
-}
 
 .logoTrama{
 	max-width: 200px;
@@ -414,7 +375,7 @@ max-width: 45px;
 	min-width: 100%;
 
 	min-height: 800px;
-
+	background: black;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -424,13 +385,6 @@ max-width: 45px;
 	background-position: center top;
 
 }
-
-@media only screen and (max-width: 40em) { 
-   .item{
-   		min-height: 100px;
-	}
-} 
-
 .soldout{
 	text-decoration: line-through;
 }
@@ -464,19 +418,13 @@ max-width: 45px;
 
 // CART
 
-#Cart{
-	text-align:center;
+#c{
+ margin-left: 18px;
 }
-
-#CartCount{
-	text-align:center;
-}
-
 
 .icoCart{
   width: 19px;
   height: auto;
-
 }
 
 .CartEmptyNumber {
@@ -484,7 +432,8 @@ margin-top: 7px;
 border-radius: 50%;
 width: 21px;
 height: 21px;
-
+background: #ececec;
+border: 1px solid #dedddd;
 color: #666;
 text-align: center;
 line-height:19px;
@@ -496,7 +445,8 @@ margin-top: 7px;
 border-radius: 50%;
 width: 21px;
 height: 21px;
-
+background: #ececec;
+border: 1px solid #dedddd;
 color: #666;
 text-align: center;
 line-height:19px;
@@ -516,11 +466,9 @@ box-shadow: 0px 0px 2px white;
 }
 
 // ABOUT
-
 .about{
 	margin-top: 2%;
 	margin-bottom: 4%;
-
 }
 
 // FOOTER

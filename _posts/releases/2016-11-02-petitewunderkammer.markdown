@@ -8,7 +8,7 @@ category: [release, flexi, zine]
 price: "18.00"
 idcart: "8FJ9T8TA3MRW6AYVFLMCP13394"
 date: 2016-11-02 01:16:17 +0100
-bgimage: https://c2.staticflickr.com/6/5828/30662573001_99efb081e1_b.jpg
+cover: pw_zine.jpg
 image: pw_zine.jpg
 thumbnail: pw_zine_thumbnail.png
 imagethumb:

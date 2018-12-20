@@ -62,7 +62,7 @@ tags: lathe cuts, vinyl, limited editions,
      {% endif %}">
         
       <a href="{{ post.url | prepend: site.baseurl }}">
-       <hr>
+       <!-- <hr> -->
         <div class="maintitle">
 	        <h6>{{ post.title }}</h6>
 	       {% if post.artist %}<p>{{post.artist}}</p> {% else %} <p><br></p> {% endif%}
@@ -71,10 +71,10 @@ tags: lathe cuts, vinyl, limited editions,
 
       <a href="{{ post.url | prepend: site.baseurl }}">
 
-        {% if post.image contains 'http' %}
-            <img src="{{ post.image }}" alt="{{ post.name }}"/>
+        {% if post.cover contains 'http' %}
+            <img src="{{ post.cover }}" alt="{{ post.name }}"/>
           {% else %}
-            <img src="/img/{{ post.image }}" alt="{{ post.name }}"/>
+            <img src="/img/{{ post.cover }}" alt="{{ post.name }}"/>
         {% endif %}
       
        {% if post.soldout == true %}

@@ -9,6 +9,7 @@ price: "16.00"
 idcart: "T8R0U45DHC99HOWGPZXPP13397"
 date: 2017-03-09 01:16:17 +0100
 bgimage:
+cover: rientro_zine.gif
 image: rientro_zine.gif
 imagethumb:
   - link: https://farm5.staticflickr.com/4484/36943409584_f2602de689_b.jpg

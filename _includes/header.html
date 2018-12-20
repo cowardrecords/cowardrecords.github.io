@@ -4,8 +4,8 @@
 
       <ul class="title-area">
 
-        <li class="name">
-          <h1><a href="{{ site.baseurl }}/">  <img id="logo" src="/img/logo.png" alt="{{ site.title }}"> </a></h1>
+        <li>
+         <a href="{{ site.baseurl }}/">  <span>{% include logo.svg %}</span> </a>
         </li>
          <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
         <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
@@ -17,16 +17,17 @@
           {% for link in site.data.navigation.masthead %}    
            <li> <a href="{{ link.url | prepend: site.baseurl }}"> {{ link.title }} </a></li>
           {% endfor %}
-          <li id="c">
-            <div ID="Cart" CLASS="CartEmpty" ONCLICK="Checkout.cart.purchase('QNYVK3UVVQ25LEAAM5ZG201',true); return false;">
-              <div ID="CartCount" CLASS="CartEmptyNumber NoSelect" STYLE="position:absolute; margin-left:28px;"></div>
-              <div STYLE="position:absolute; margin-top:2px;"><span><img class="icoCart" src="/img/cart.svg" alt="cart"></span></div>
-            </div>
+           <li class="show-for-small-only"><a href="{{ site.baseurl }}/breakfastclub">breakfast club</a></li>
+          <li>
+              <div ID="Cart" CLASS="CartEmpty" ONCLICK="Checkout.cart.purchase('QNYVK3UVVQ25LEAAM5ZG201',true); return false;">
+                <span STYLE="margin-top:2px;"><span><img class="icoCart" src="/img/cart.svg" alt="cart"></span></span>
+                <span ID="CartCount" CLASS="CartEmptyNumber NoSelect randomcolor" STYLE=" margin-left:5px;"></span>   
+              </div>
           </li>
           
         </ul>
         
-        <ul class="right">
+        <ul class="right hide-for-small-only">
           <li><a href="{{ site.baseurl }}/breakfastclub">breakfast club</a></li>
         </ul>
 

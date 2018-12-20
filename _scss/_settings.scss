@@ -1408,7 +1408,7 @@ $include-html-global-classes: $include-html-classes;
 // $include-html-top-bar-classes: $include-html-classes;
 
 // Background color for the top bar
-	$topbar-bg-color: black;
+// $topbar-bg-color: black;
 // $topbar-bg: $topbar-bg-color;
 
 // Height and margin
@@ -1428,9 +1428,9 @@ $include-html-global-classes: $include-html-classes;
 // $topbar-link-font-size: rem-calc(13);
 // $topbar-link-hover-lightness: -10%; // Darken by 10%
 // $topbar-link-bg: $topbar-bg;
- $topbar-link-bg-hover: black;
+// $topbar-link-bg-hover: black;
 // $topbar-link-bg-color-hover: $charcoal;
- $topbar-link-bg-active: black;
+// $topbar-link-bg-active: black;
 // $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
 // $topbar-link-font-family: $body-font-family;
 // $topbar-link-text-transform: none;
@@ -1441,7 +1441,7 @@ $include-html-global-classes: $include-html-classes;
 // $topbar-button-top: 7px;
 
 // Style the top bar dropdown elements
- $topbar-dropdown-bg: black;
+// $topbar-dropdown-bg: black;
 // $topbar-dropdown-link-color: $white;
 // $topbar-dropdown-link-color-hover: $topbar-link-color-hover;
 // $topbar-dropdown-link-bg: $oil;
@@ -1464,7 +1464,7 @@ $include-html-global-classes: $include-html-classes;
 // $topbar-menu-link-color: $white;
 // $topbar-menu-icon-color: $white;
 // $topbar-menu-link-color-toggled: $jumbo;
- $topbar-menu-icon-color-toggled: white;
+// $topbar-menu-icon-color-toggled: white;
 // $topbar-menu-icon-position: $opposite-direction; // Change to $default-float for a left menu icon
 
 // Transitions and breakpoint styles

@@ -10,6 +10,7 @@ idcart: "WGMOJK9PM072N2DRKK2PP13395"
 date: 2016-11-23 00:16:17 +0100
 
 bgimage: 
+cover: yourselfie_tape.jpg
 image: yourselfie_tape.jpg
 thumbnail: yourselfie_tape.jpg
 sound: https://bandcamp.com/EmbeddedPlayer/album=4215057880/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/

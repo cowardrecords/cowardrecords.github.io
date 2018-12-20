@@ -9,6 +9,7 @@ price: "15.00"
 idcart: "JB3FZLXYWQWC014G2WARP13396"
 date: 2016-11-24 01:16:17 +0100
 bgimage:
+cover: beyondyourinnersea.jpg
 image: beyondyourinnersea.jpg
 thumbnail: beyondyourinnersea.jpg
 sound: "https://bandcamp.com/EmbeddedPlayer/album=190933026/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/"

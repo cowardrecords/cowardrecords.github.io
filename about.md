@@ -16,8 +16,8 @@ summary: Records and publications, limited editions, experimental formats and mu
 	        <hr>		
 		    <h5>Codardo</h5>
 		    <br>
-		    <img src="https://c8.staticflickr.com/8/7787/27062920343_3429a11642_o.jpg" alt="">
-			<!-- <p class="text-justify">
+		    
+			 <p class="text-justify">
 			records and publications in limited edition, experimental formats and much more.
 			</p>
 			<p class="text-justify">
@@ -32,9 +32,9 @@ summary: Records and publications, limited editions, experimental formats and mu
 			<p>	
 			sincerely,
 			</p>
-            <p><strong>Coward Records</strong></p> -->
+            <p><strong>Coward Records</strong></p> 
 
-		<!-- 	<pre>
+			<pre>
    _________ _      _____   ___  ___
   / ___/ __ \ | /| / / _ | / _ \/ _ \
  / /__/ /_/ / |/ |/ / __ |/ , _/ // /
@@ -43,7 +43,7 @@ summary: Records and publications, limited editions, experimental formats and mu
    / _ \/ __/ ___/ __ \/ _ \/ _ \/ __/
   / , _/ _// /__/ /_/ / , _/ // /\ \
  /_/|_/___/\___/\____/_/|_/____/___/
-            </pre> -->
+            </pre> 
 		</div>
 		
 	</div>

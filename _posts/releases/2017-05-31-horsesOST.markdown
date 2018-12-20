@@ -11,6 +11,7 @@ idcart: "9M8FH31XGMNCT2V41U41P13399"
 soldout: true
 date: 2017-05-31 01:16:17 +0100
 bgimage:
+cover: horsesOST_vinyl.jpg
 image: horsesOST_vinyl.jpg
 thumbnail: horsesOST_vinyl.jpg
 imagethumb:

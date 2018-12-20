@@ -9,8 +9,8 @@ price: "12.00"
 idcart: "8FKC6WUJ3ZM4RFYD4FTTP13388"
 soldout: true
 date: 2015-12-13 01:16:17 +0100
-bgimage: https://c5.staticflickr.com/8/7292/27572591572_491b59c664_o.jpg
 image: glow_zine.jpg
+cover: glow_zine.jpg
 thumbnail: glow_zine_thumbnail.png
 imagethumb:
   - link: https://c1.staticflickr.com/8/7454/27658179752_fabfe6bd7b_o.jpg

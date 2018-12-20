@@ -8,7 +8,7 @@ price: "5.50"
 idcart: "WD82MWK52XE80BN61N2GP13423"
 soldout:
 date: 2018-03-20 01:20:17 +0100
-bgimage:
+cover: http://www.maximumrocknroll.com/wp-content/uploads/2018/03/mrr_419_cvr_4.jpg
 image: http://www.maximumrocknroll.com/wp-content/uploads/2018/03/mrr_419_cvr_4.jpg
 thumbnail: http://www.maximumrocknroll.com/wp-content/uploads/2018/03/mrr_419_cvr_4.jpg
 

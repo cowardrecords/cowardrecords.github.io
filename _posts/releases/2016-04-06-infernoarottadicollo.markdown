@@ -9,8 +9,8 @@ price: "15.00"
 idcart: "LKY2JEJC82O3F0RN03JBP13389"
 soldout: true
 date: 2016-04-06 01:16:17 +0100
-bgimage: https://c8.staticflickr.com/8/7787/27062920343_3429a11642_o.jpg
 image: infernoarottadicollo_vinyl.jpg
+cover: infernoarottadicollo_vinyl.jpg
 thumbnail: infernoarottadicollo_vinyl_thumbnail.png
 imagethumb:
   - link: https://c5.staticflickr.com/8/7330/27658483972_760dea37b4_o.jpg

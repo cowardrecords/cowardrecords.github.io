@@ -8,6 +8,7 @@ price: "6.00"
 idcart: "909ANCV9QW8JY63X9NDYP13393"
 date: 2016-11-01 01:16:17 +0100
 bgimage: 
+cover: specialkidsanyway_tape.jpg
 image: specialkidsanyway_tape.jpg
 thumbnail: specialkidsanyway_tape.jpg
 imagethumb:

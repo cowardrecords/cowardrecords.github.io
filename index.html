@@ -10,38 +10,8 @@ summary: Coward Records - ATMOSFERA
       <h6>LATEST RELEASES</h6>
     </div>
     <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4">
-      {% for post in site.categories.release limit: 9 %}
-            {% if post.newest == true %} 
-            <div class="row">
-            <div class="small-12 columns newest">
-              <div class="small-12 columns"><hr></div>
-            
-            
-              <div class="small-12 medium-6 large-6 columns">
-               <div class="tileblock">
-               <a href="{{ post.url | prepend: site.baseurl }}">
-                  <h1>{{ post.title | strip_html | truncatewords:20  }}</h1>
-                  <h6>{% if post.artist %} {{post.artist}} | {% else %} {% endif %}  {{post.subtitle}} | {{post.code}}</h6>
-               </a> 
-                    
-                      <p>{{ post.content | strip_html | truncatewords:80 }}</p>
-               </div>
-              </div> 
-              <div class="small-12 medium-6 large-6 columns">
-                <a href="{{ post.url | prepend: site.baseurl }}">
-                {% if post.image contains 'http' %}
-
-                  <img src="{{ post.image }}" alt="{{ post.name }}"/>
-                      {% else %}
-                  <img src="/img/{{ post.image }}" alt="{{ post.name }}"/>
-                 
-                {% endif %} 
-                </a> 
-            </div>    
-              </div>  
-            </div>      
-            <br>
-            {% else %}
+      {% for post in site.categories.release limit: 12%}
+         
               <li class="reveal">
                 <hr>
                 <a href="{{ post.url | prepend: site.baseurl }}">
@@ -49,15 +19,15 @@ summary: Coward Records - ATMOSFERA
                     <h5>{{ post.title | strip_html | truncatewords:20  }}</h5>
                     {% if post.artist %}<p>{{post.artist}}</p> {% else %} <p><br></p> {% endif%}
                   </div>
-                  {% if post.image contains 'http' %}
-                      <img src="{{ post.image }}" alt="{{ post.name }}"/>
+                  {% if post.cover contains 'http' %}
+                      <img src="{{ post.cover }}" alt="{{ post.name }}"/>
                     {% else %}
-                      <img src="/img/{{ post.image }}" alt="{{ post.name }}"/>
+                      <img src="/img/{{ post.cover }}" alt="{{ post.name }}"/>
                   {% endif %} 
                 </a>
                 <br>
               </li> 
-            {% endif %}  
+ 
       {% endfor %}
     </ul>
     <a id="underline" href="/releases"><p>all releases</p></a>
@@ -71,11 +41,11 @@ summary: Coward Records - ATMOSFERA
      <hr>   
       <a href="{{ post.url | prepend: site.baseurl }}">
         <h5>{{ post.title }}</h5>
-        {% if post.image contains 'http' %}
+        {% if post.cover contains 'http' %}
           <div class="imageblockDistroIndex">
-            <img src="{{ post.image }}" alt="{{ post.name }}"/>
+            <img src="{{ post.cover }}" alt="{{ post.name }}"/>
             {% else %}
-            <img src="/img/{{ post.image }}" alt="{{ post.name }}"/>
+            <img src="/img/{{ post.cover }}" alt="{{ post.name }}"/>
           </div>  
         {% endif %}
       </a>
@@ -94,10 +64,10 @@ summary: Coward Records - ATMOSFERA
         <a href="{{ post.url | prepend: site.baseurl }}">
           <h5>{{ post.title }}</h5>
           <p><i>{{ post.date | date: "%b %-d, %Y" }}</i></p>
-          <!--{% if post.image contains 'http' %}
-              <img class="th" src="{{ post.image }}" alt="{{ post.name }}"/>
+          <!--{% if post.cover contains 'http' %}
+              <img class="th" src="{{ post.cover }}" alt="{{ post.name }}"/>
               {% else %}
-              <img class="th" src="/img/{{ post.image }}" alt="{{ post.name }}"/>
+              <img class="th" src="/img/{{ post.cover }}" alt="{{ post.name }}"/>
           {% endif %}
            <br>
           <p class="text-justify">{{ post.content | strip_html | truncatewords:20 }} <strong>more</strong> >></p> -->
