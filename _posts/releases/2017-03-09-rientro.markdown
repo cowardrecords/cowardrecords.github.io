@@ -4,8 +4,12 @@ title: "Rientro"
 artist: "Tante Anna"
 subtitle: note book + flexi 7"
 code: CWRD 09
+name: "Rientro"
+slug: "Rientro"
+sku: "CWRD 09"
+code: CWRD 09
 category: [release, flexi, zine]
-price: "16.00"
+price: "1.00"
 idcart: "T8R0U45DHC99HOWGPZXPP13397"
 date: 2017-03-09 01:16:17 +0100
 bgimage:
