@@ -18,5 +18,5 @@ markdown: kramdown
 
 exclude: [node_modules, gulpfile.js]
 
-api_key: ODNiZWYzZjUtNGQ4MC00N2NjLThlNzktMDE1ZmQzMzc0YzU5NjM2ODA5MDA4OTg0OTc5NDk4
+api_key: MGMyYTVjOGQtNjgyNS00NmFkLWIzZWYtY2M4NDAyOWI5M2M5NjM2ODA5MDA4OTg0OTc5NDk4
 
