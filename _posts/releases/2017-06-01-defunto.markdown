@@ -8,7 +8,7 @@ slug: "Defunto"
 sku: "CWRD 12"
 code: CWRD 12
 category: [release, vinyl, 5"]
-price: "20.00"
+price: "1.00"
 idcart: "1O6X5X7AVEJB3G30U6FKP13400"
 date: 2017-10-31 01:16:17 +0100
 cover: defunto_vinyl.jpg
