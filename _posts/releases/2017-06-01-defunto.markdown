@@ -5,7 +5,6 @@ artist: "Defunto"
 subtitle: 5"
 name: "Defunto"
 slug: "Defunto"
-quantity: 5
 sku: "CWRD 12"
 code: CWRD 12
 category: [release, vinyl, 5"]
