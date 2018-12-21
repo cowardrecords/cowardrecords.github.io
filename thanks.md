@@ -1,6 +1,6 @@
 ---
 layout: default
-name: Thanks
+title: Thanks
 permalink: /thanks/
 ---
 

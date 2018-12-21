@@ -1,6 +1,6 @@
 ---
 layout: default
-name: Distro
+title: Distro
 permalink: /distro/
 summary: Distro for records, zine and other stuff from international partners.
 tags:
@@ -46,7 +46,7 @@ tags:
       <a href="{{ post.url | prepend: site.baseurl }}">
       <!-- <hr> -->
       	<div class="maintitle">
-	        <h6>{{ post.name }}</h6>
+	        <h6>{{ post.slug }}</h6>
 	        <p>{{ post.artist }}</p>
         </div>
       </a>
@@ -54,9 +54,9 @@ tags:
       <a href="{{ post.url | prepend: site.baseurl }}">
         <div class="imageblockDistro">
         {% if post.image contains 'http' %}
-            <img src="{{ post.image }}" alt="{{ post.name }}"/>
+            <img src="{{ post.image }}" alt="{{ post.slug }}"/>
           {% else %}
-            <img src="/img/{{ post.image }}" alt="{{ post.name }}"/>
+            <img src="/img/{{ post.image }}" alt="{{ post.slug }}"/>
         {% endif %}
         </div>
        {% if post.soldout == true %}

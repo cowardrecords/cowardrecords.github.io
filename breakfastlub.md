@@ -1,6 +1,6 @@
 ---
 layout: breakfastclub
-name: Breakfast Club
+title: Breakfast Club
 permalink: /breakfastclub/
 thumbnail: https://c1.staticflickr.com/1/365/31895025776_cc0cd820f0.jpg
 exclude: true

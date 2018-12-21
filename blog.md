@@ -1,6 +1,6 @@
 ---
 layout: default
-name: Blog
+title: Blog
 permalink: /blog/
 summary: Coward stories & news
 ---

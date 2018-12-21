@@ -1,6 +1,6 @@
 ---
 layout: default
-name: Releases
+title: Releases
 permalink: /releases/
 summary: Online store. records, publications & much more.
 tags: lathe cuts, vinyl, limited editions, 
@@ -63,8 +63,8 @@ tags: lathe cuts, vinyl, limited editions,
         
       <a href="{{ post.url | prepend: site.baseurl }}">
        <!-- <hr> -->
-        <div class="maintitle">
-	        <h6>{{ post.name }}</h6>
+        <div class="maintnameitle">
+	        <h6>{{ post.title }}</h6>
 	       {% if post.artist %}<p>{{post.artist}}</p> {% else %} <p><br></p> {% endif%}
         </div>
       </a>
@@ -72,9 +72,9 @@ tags: lathe cuts, vinyl, limited editions,
       <a href="{{ post.url | prepend: site.baseurl }}">
 
         {% if post.cover contains 'http' %}
-            <img src="{{ post.cover }}" alt="{{ post.name }}"/>
+            <img src="{{ post.cover }}" alt="{{ post.title }}"/>
           {% else %}
-            <img src="/img/{{ post.cover }}" alt="{{ post.name }}"/>
+            <img src="/img/{{ post.cover }}" alt="{{ post.title }}"/>
         {% endif %}
       
        {% if post.soldout == true %}

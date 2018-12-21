@@ -12,7 +12,7 @@ description: Coward Records | ATMOSFERA
 url: "https://www.cowardrecords.com" # the base hostname & protocol for your site
 baseurl: "https://www.cowardrecords.com"
 
-permalink: /:categories/:name/
+permalink: /:categories/:title/
 # Build settings
 markdown: kramdown
 
