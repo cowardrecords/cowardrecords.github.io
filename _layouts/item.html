@@ -34,11 +34,12 @@ head:
 				{% include shopbutton.html %}
 			{% endif %}		
 			
-			<div class="stik bottomMenu">
-				<div  data-options="sticky_on: large">
+			<div class="bottomMenu stik">
+				<div data-options="sticky_on: large">
 					{% include shopbutton.html %}
 				</div>
 			</div>
+			
 			<hr>
 			
 			{% include socialshare.html %}
@@ -175,7 +176,7 @@ function getPosition(el) {
 
 
 		<div class="large-8 medium-8 small-12 columns" id="lowest">
-			<hr>
+			<hr class="hide-for-small-only">
 
 			{% if page.image contains 'http' %}
               <img src="{{ page.image }}" alt="{{ page.name }}" itemprop="image"/>
@@ -200,7 +201,7 @@ function getPosition(el) {
 			</ul>  -->
 		</div>
 		
-		<div class="small-12 columns">
+		<div class="small-12 columns gallery">
 		<ul class="clearing-thumbs large-block-grid-2 medium-block-grid-2 small-block-grid-1 " data-clearing >
 			{% if page.imagethumb %}
 				 {% for item in page.imagethumb %}

@@ -352,14 +352,22 @@ body{
     bottom: 15%;
     width: 200px;
     z-index: 99;
-    left: 13px;
+    left: 1.8em;
+    background: transparent;
 }
 
 @media only screen and (max-width: 40em) { 
    .stik{
    	 bottom: 35%;
 	}
-} 
+}
+
+@media only screen and (min-width: 90.063em) {
+   .stik{
+      left: 45em;
+  }
+ }
+
 
 .itemtitle{
 	min-height: 180px;
@@ -550,6 +558,12 @@ max-width: 45px;
     .carousel{
       margin-top: 0px;
     }
+  }
+}
+
+.gallery{
+  .clearing-thumbs, [data-clearing] {
+    margin-left: -0.625rem;
   }
 }
 
