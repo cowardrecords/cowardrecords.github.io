@@ -1,12 +1,12 @@
 ---
 layout: item
-title: "Velvet Dress"
+name: "Velvet Dress"
 artist: "M!R!M"
 subtitle: 7" postcard flexi disc
-code: CWRD 03
+sku: CWRD 03
 category: [release, vinyl, 7"]
 price: "10.00"
-idcart: "03G0QKNGH2U1MZ2FXD5KP13390"
+slug: "Velvet Dress"
 date: 2016-05-13 01:16:17 +0100
 soldout: true
 bgimage:

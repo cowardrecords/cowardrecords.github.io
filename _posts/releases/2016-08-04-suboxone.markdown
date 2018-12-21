@@ -1,12 +1,11 @@
 ---
 layout: item
-title: "Suboxone"
+name: "Suboxone"
 artist: "Angelo Sava"
 subtitle: Canta Tu Cassette
-code: CWRD 04
+sku: CWRD 04
 category: [release, tape]
-price: "6.00"
-idcart: "7FKGP12BCSXBRSP5MNE3P13392"
+slug: "Suboxone"
 date: 2016-08-04 01:16:17 +0100
 bgimage: 
 cover: suboxone_tape.jpg

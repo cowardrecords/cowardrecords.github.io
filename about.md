@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+name: About
 permalink: /about/
 summary: Records and publications, limited editions, experimental formats and much more.
 ---

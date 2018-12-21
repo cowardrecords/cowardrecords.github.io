@@ -1,8 +1,8 @@
 ---
 layout: itemdistro
-title: "NO FRIENDS (maga)zine #02"
+name: "NO FRIENDS (maga)zine #02"
 subtitle: Zine + Flexi 7" w/ Siamese Twins - Plastic Mace - Ufux
-code: NF #02
+sku: NF #02
 category: [zine, flexi, distro]
 price: "8.50"
 idcart: "SLHTJ58PTYBT31WD5P0ZP13424"

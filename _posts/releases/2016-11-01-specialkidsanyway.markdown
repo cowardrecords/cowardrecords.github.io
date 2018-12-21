@@ -1,11 +1,11 @@
 ---
 layout: item
-title: "Special Kids Anyway"
+name: "Special Kids Anyway"
 artist: "Skingarov"
 subtitle: Ep Cassette
-code: CWRD 05
+sku: CWRD 05
 price: "6.00"
-idcart: "909ANCV9QW8JY63X9NDYP13393"
+slug: "Special Kids Anyway"
 date: 2016-11-01 01:16:17 +0100
 bgimage: 
 cover: specialkidsanyway_tape.jpg

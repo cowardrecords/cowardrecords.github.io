@@ -1,12 +1,12 @@
 ---
 layout: item
-title: "Glow"
+name: "Glow"
 artist: "Be Forest"
 subtitle: zine + flexi 7"
-code: CWRD 01
+sku: CWRD 01
 category: [release, flexi, zine]
 price: "12.00"
-idcart: "8FKC6WUJ3ZM4RFYD4FTTP13388"
+slug: "Glow"
 soldout: true
 date: 2015-12-13 01:16:17 +0100
 image: glow_zine.jpg

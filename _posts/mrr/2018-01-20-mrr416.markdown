@@ -1,8 +1,8 @@
 ---
 layout: itemdistro
-title: "Maximum Rocknroll #416"
+name: "Maximum Rocknroll #416"
 subtitle: january 2018
-code: MRR #416
+sku: MRR #416
 category: [zine, distro]
 price: "5.50"
 idcart: "1978MBSW4YE6NQRH9UGRP13420"

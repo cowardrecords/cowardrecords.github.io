@@ -8418,6 +8418,74 @@ body a:visited {
   }
 }
 
+.nomarginlarge {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+@media only screen and (min-width: 64.063em) {
+  .nomarginlarge {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+}
+#audioplayer {
+  width: 280px;
+  height: 60px;
+  margin: 25% 25% 25% 50%;
+  border: solid;
+  position: fixed;
+  z-index: 999;
+  display: none;
+}
+#audioplayer button:hover, #audioplayer button:focus, #audioplayer .button:hover, #audioplayer .button:focus {
+  background-color: transparent;
+}
+
+@media only screen and (max-width: 40em) {
+  #audioplayer {
+    margin: 25% 25% 7% 7%;
+  }
+}
+#pButton {
+  height: 60px;
+  width: 60px;
+  border: none;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+}
+
+.play {
+  background: url("http://www.alexkatz.me/codepen/img/play.png");
+}
+
+.pause {
+  background: url("http://www.alexkatz.me/codepen/img/pause.png");
+}
+
+#timeline {
+  width: 200px;
+  height: 20px;
+  margin-top: 20px;
+  float: left;
+  border-radius: 0px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+#playhead {
+  width: 18px;
+  height: 18px;
+  border-radius: 0px;
+  margin-top: 1px;
+  background: black;
+}
+
 .stik {
   position: fixed;
   display: none;
@@ -8590,55 +8658,44 @@ img {
   text-align: center;
 }
 
-#CartCount {
-  text-align: center;
-}
-
+/*
+#CartCount{
+	text-align:center;
+}*/
 .icoCart {
   width: 19px;
   height: auto;
 }
 
-.CartEmptyNumber {
-  margin-top: 7px;
-  border-radius: 50%;
-  width: 21px;
-  height: 21px;
-  color: #666;
-  text-align: center;
-  line-height: 19px;
-  font-size: 16px;
-}
+/*.CartEmptyNumber {
+margin-top: 7px;
+border-radius: 50%;
+width: 21px;
+height: 21px;
 
+color: #666;
+text-align: center;
+line-height:19px;
+font-size: 16px;
+ }
+   
 .CartFullNumber {
-  margin-top: 7px;
-  border-radius: 50%;
-  width: 21px;
-  height: 21px;
-  color: #666;
-  text-align: center;
-  line-height: 19px;
-  font-size: 16px;
-  box-shadow: 0px 0px 2px white;
-}
+margin-top: 7px;
+border-radius: 50%;
+width: 21px;
+height: 21px;
 
-.CartEmpty {
-  cursor: default;
+color: #666;
+text-align: center;
+line-height:19px;
+font-size: 16px;
+box-shadow: 0px 0px 2px white;
 }
-
-.CartFull {
-  cursor: pointer;
-}
-
-.NoSelect {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
+      
+.CartEmpty {cursor:default;}
+.CartFull {cursor:pointer;}
+.NoSelect {-webkit-touch-callout:none; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none;}
+*/
 .blocktext {
   margin-left: auto;
   margin-right: auto;
@@ -8665,8 +8722,6 @@ img {
 .nomargin {
   padding-left: 0px;
   padding-right: 0px;
-  matgin-left: 0px;
-  margin-right: 0px;
 }
 
 .newsbtn {

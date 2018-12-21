@@ -1,8 +1,8 @@
 ---
 layout: itemdistro
-title: "Maximum Rocknroll #404"
+name: "Maximum Rocknroll #404"
 subtitle: january 2017
-code: MRR #404
+sku: MRR #404
 category: [zine, distro]
 price: "5.50"
 idcart: "G9Z4P5NPKOQO4MOKPVAVP13408"

@@ -1,8 +1,8 @@
 ---
 layout: itemdistro
-title: "NO FRIENDS (maga)zine #03"
+name: "NO FRIENDS (maga)zine #03"
 subtitle: Zine + Flexi 7" w/ Violence Creeps - Shockwaves - TV Slime - Bleeding Gums
-code: NF #03
+sku: NF #03
 category: [zine, flexi, distro]
 price: "8.50"
 idcart: "XOJNM3RDPBJPWC5OU7MEP13425"

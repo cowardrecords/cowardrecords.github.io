@@ -1,12 +1,12 @@
 ---
 layout: item
-title: "Tenth Planet"
+name: "Tenth Planet"
 artist: "Havah"
 subtitle: zine + flexi 7"
-code: CWRD 10
+sku: CWRD 10
 category: [release, flexi, zine]
 price: "12.00"
-idcart: "PEXD7WUGW1KOM2LOM1EWP13398"
+slug: "Tenth Planet"
 date: 2017-04-09 01:16:17 +0100
 bgimage:
 cover: tenthplanet_zine.jpg

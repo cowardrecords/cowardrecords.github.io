@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Shipping & Payment Info
+name: Shipping & Payment Info
 permalink: /shippingpaymentinfo/
 summary: How to pay and get your stuff.
 ---

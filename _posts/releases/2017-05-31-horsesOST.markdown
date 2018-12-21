@@ -1,13 +1,12 @@
 ---
 layout: item
-title: "Horses OST"
+name: "Horses OST"
 artist: "Be Forest"
 subtitle: semi-flexi 7"
-code: CWRD 11
+sku: CWRD 11
 category: [release, flexi, 7"]
 price: "20.00"
-price: "20.00"
-idcart: "9M8FH31XGMNCT2V41U41P13399"
+slug: "Horses OST"
 soldout: true
 date: 2017-05-31 01:16:17 +0100
 bgimage:

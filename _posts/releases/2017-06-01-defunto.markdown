@@ -1,15 +1,12 @@
 ---
 layout: item
-title: "Defunto"
+name: "Defunto"
 artist: "Defunto"
 subtitle: 5"
-name: "Defunto"
 slug: "Defunto"
 sku: "CWRD 12"
-code: CWRD 12
 category: [release, vinyl, 5"]
 price: "1.00"
-idcart: "1O6X5X7AVEJB3G30U6FKP13400"
 date: 2017-10-31 01:16:17 +0100
 cover: defunto_vinyl.jpg
 image: https://c1.staticflickr.com/5/4230/34341119923_6be5e41bb5_c.jpg

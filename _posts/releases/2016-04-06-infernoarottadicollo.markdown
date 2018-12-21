@@ -1,12 +1,12 @@
 ---
 layout: item
-title: "Inferno a rotta di collo"
+name: "Inferno a rotta di collo"
 artist: "Lantern"
 subtitle: 7"
-code: CWRD 02
+sku: CWRD 02
 category: [release, vinyl, 7"]
 price: "15.00"
-idcart: "LKY2JEJC82O3F0RN03JBP13389"
+slug: "Inferno a rotta di collo"
 soldout: true
 date: 2016-04-06 01:16:17 +0100
 image: infernoarottadicollo_vinyl.jpg

@@ -1,12 +1,12 @@
 ---
 layout: item
-title: "Beyond Your Inner Sea"
+name: "Beyond Your Inner Sea"
 artist: "Love in elevator"
 subtitle: Picture disc 12"
-code: CWRD 08
+sku: CWRD 08
 category: [release, vinyl, 12"]
 price: "15.00"
-idcart: "JB3FZLXYWQWC014G2WARP13396"
+slug: "Beyond Your Inner Sea"
 date: 2016-11-24 01:16:17 +0100
 bgimage:
 cover: beyondyourinnersea.jpg

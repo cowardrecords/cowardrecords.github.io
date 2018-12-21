@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: "Glow Session"
+name: "Glow Session"
 bgimage: https://c5.staticflickr.com/8/7658/27394875260_8c1f0a85ba_o.jpg
 date: 2016-02-04 00:00:00 +0100
 image: https://farm2.staticflickr.com/1580/24141554224_584b4b917d_k.jpg

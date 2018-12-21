@@ -1,12 +1,12 @@
 ---
 layout: item
-title: "Petite Wunderkammer"
+name: "Petite Wunderkammer"
 artist: "Paolo Tarsi"
 subtitle: zine + flexi 7"
-code: CWRD 06
+sku: CWRD 06
 category: [release, flexi, zine]
 price: "18.00"
-idcart: "8FJ9T8TA3MRW6AYVFLMCP13394"
+slug: "Petite Wunderkammer"
 date: 2016-11-02 01:16:17 +0100
 cover: pw_zine.jpg
 image: pw_zine.jpg

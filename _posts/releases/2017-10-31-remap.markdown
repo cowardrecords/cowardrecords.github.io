@@ -1,10 +1,10 @@
 ---
 layout: item
-title: "Remap"
+name: "Remap"
 artist: "Volta"
 subtitle: Audio CD + 5"
-code: CWRD 13
-idcart: "LS4CCSTQ5NQQF1U56GTPP13367"
+sku: CWRD 13
+slug: "Remap"
 category: [release, vinyl, 5"]
 price: "10.00"
 date: 2017-10-31 01:16:17 +0100

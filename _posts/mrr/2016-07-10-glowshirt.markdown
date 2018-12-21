@@ -1,8 +1,8 @@
 ---
 layout: itemdistro
-title: "Be Forest T-shirt"
+name: "Be Forest T-shirt"
 subtitle: glow shirt
-code: GLW T-SRT
+sku: GLW T-SRT
 price: "10.00"
 soldout: true
 date: 2016-07-10 01:16:17 +0100

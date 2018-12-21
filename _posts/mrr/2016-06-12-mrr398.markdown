@@ -1,8 +1,8 @@
 ---
 layout: itemdistro
-title: "Maximum Rocknroll #398"
+name: "Maximum Rocknroll #398"
 subtitle: July 2016
-code: MRR #398
+sku: MRR #398
 price: "5.50"
 idcart: "MNE6ORRJDABRTTMNCU6EP13402"
 date: 2016-06-12 01:16:17 +0100

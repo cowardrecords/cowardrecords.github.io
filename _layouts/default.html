@@ -76,6 +76,19 @@
     });
     </script>
 
+    <!-- show player on scroll -->
+    <script>
+      $(document).scroll(function () {
+        var y = $(this).scrollTop();
+        if (y > 100) {
+            $('.bottomPlayer').fadeIn();
+        } else {
+            $('.bottomPlayer').fadeOut();
+        }
+
+    });
+    </script>
+
     <script id="dsq-count-scr" src="//www-cowardrecords-com.disqus.com/count.js" async></script>
 
 
