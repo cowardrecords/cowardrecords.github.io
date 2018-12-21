@@ -6,8 +6,8 @@ subtitle: Canta Tu Cassette
 sku: CWRD 04
 category: [release, tape]
 slug: "Suboxone"
+price: "6.00"
 date: 2016-08-04 01:16:17 +0100
-bgimage: 
 cover: suboxone_tape.jpg
 image: suboxone_tape.jpg
 thumbnail: suboxone_tape.jpg
