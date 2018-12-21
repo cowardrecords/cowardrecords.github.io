@@ -20,9 +20,9 @@ summary: Coward stories & news
 				      	
 				      	<div class="imageblockBlog">
 				      	{% if post.image contains 'http' %}
-			          	  	<img src="{{ post.image }}" alt="{{ post.name }}"/>
+			          	  	<img src="{{ post.image }}" alt="{{ post.tile }}"/>
 				          	{% else %}
-							 <img src="/img/{{ post.image }}" alt="{{ post.name }}"/>
+							 <img src="/img/{{ post.image }}" alt="{{ post.tile }}"/>
 				        {% endif %}
 				        </div>
                         

@@ -46,7 +46,7 @@ tags:
       <a href="{{ post.url | prepend: site.baseurl }}">
       <!-- <hr> -->
       	<div class="maintitle">
-	        <h6>{{ post.slug }}</h6>
+	        <h6>{{ post.tile }}</h6>
 	        <p>{{ post.artist }}</p>
         </div>
       </a>
@@ -54,9 +54,9 @@ tags:
       <a href="{{ post.url | prepend: site.baseurl }}">
         <div class="imageblockDistro">
         {% if post.image contains 'http' %}
-            <img src="{{ post.image }}" alt="{{ post.slug }}"/>
+            <img src="{{ post.image }}" alt="{{ post.tile }}"/>
           {% else %}
-            <img src="/img/{{ post.image }}" alt="{{ post.slug }}"/>
+            <img src="/img/{{ post.image }}" alt="{{ post.tile }}"/>
         {% endif %}
         </div>
        {% if post.soldout == true %}
