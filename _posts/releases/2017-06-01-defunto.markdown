@@ -10,6 +10,7 @@ price: "20.00"
 date: 2017-10-31 01:16:17 +0100
 cover: defunto_vinyl.jpg
 image: https://c1.staticflickr.com/5/4230/34341119923_6be5e41bb5_c.jpg
+bgimage: https://c5.staticflickr.com/8/7658/27394875260_8c1f0a85ba_o.jpg
 imagethumb:
   - link: https://c1.staticflickr.com/5/4230/34341119923_6be5e41bb5_c.jpg
   - link: https://c1.staticflickr.com/5/4245/35151229635_08166b1fa7_b.jpg
