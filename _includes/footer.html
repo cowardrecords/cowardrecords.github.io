@@ -1,10 +1,10 @@
-<div class="footer ">
+<div class="footer hide-for-small-only">
 
 
    	<div class="large-2 small-12 medium-12 columns show-for-large-up">
     <h5><br></h5>
     <hr>
-    <div class="text-center">
+    <div class="text-center ">
    	 <img src=" /img/rolling_black.gif" >
     </div>
 
@@ -18,7 +18,7 @@
   		  <p>{{ site.description }}</p>
   	  </div>
       {% if page.title == "Breakfast Club"%}
-      <div class="small-6 large-6 columns show-for-large-up">
+      <div class="small-6 large-6 columns ">
             <div id="typed-strings">
               <p>ciao...</p>
               <p>se vuoi rimanere aggiornato</p>
@@ -28,7 +28,7 @@
             <span id="typed"></span>
       </div>
       {% else %}
-  	  <div class="small-6 large-6 columns show-for-large-up">
+  	  <div class="small-6 large-6 columns ">
   	        <div id="typed-strings">
   	          <p>hi, it's nice to see you here</p>
   	          <p>feel free to write us for any questions...</p>
@@ -58,69 +58,21 @@
 
 </div>       
 
+<div class="footer show-for-small-only">
+  <div class="small-12 columns ">
+    <h5>contacts</h5>  
+     <hr>
+      <strong>mail: </strong><a href="mailto:{{ site.email }}">{{ site.email }}</a>
+     <hr>
+     <form style="padding:3px;text-align:left;" action="https://tinyletter.com/coward" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/coward_records', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
 
-<script src="{{ "/bower_components/foundation/js/foundation.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/bower_components/modernizr/modernizr.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/js/app.js" | prepend: site.baseurl }}"></script>
-
-<script src="{{ "/js/typed.js"| prepend: site.baseurl }}"></script>
-<script>
-$(function(){
-    $("#typed").typed({
-        stringsElement: $('#typed-strings'),
-        backDelay: 2500,
-        loop: true
-    });
-});
-</script>
-
-
-<!-- Media Boxes JS files -->
-      <script src="../plugin/js/jquery.isotope.min.js"></script>
-      <script src="../plugin/js/jquery.imagesLoaded.min.js"></script>
-      <script src="../plugin/js/jquery.transit.min.js"></script>
-      <script src="../plugin/js/jquery.easing.js"></script>
-      <script src="../plugin/js/waypoints.min.js"></script>
-      <script src="../plugin/js/modernizr.custom.min.js"></script>
-      <script src="../plugin/js/jquery.magnific-popup.min.js"></script>
-      <script src="../plugin/js/jquery.mediaBoxes.js"></script>
-
-      <script>
-
-          $('#grid').mediaBoxes({
-            filterContainer: '#filter',
-            columns: 5,
-            boxesToLoadStart: 10,
-            boxesToLoad: 5,
-            horizontalSpaceBetweenBoxes: 10,
-              verticalSpaceBetweenBoxes: 10,
-            search: '#search',
-            searchTarget: '.maintitle',
-          }); 
-
-      </script>
-<!-- Media Boxes JS files -->
-
-
-<!-- random color -->
-<script>
-  $(document).ready(function() {
-      var text = $('.randomcolor');
-      var btn = $('.randomcolorbtn');
-      var brd = $('.randomcolorbrd');
-      var original = text.css('color');
-      var originalbtn = btn.css('background-color');
-      var originalbrd =  brd.css('border-color');
-      var colors = ["#007a99", "#ff99bb", "#990099", "#4dffd2", "#cc9900"];
-      var col = Math.floor(Math.random() * colors.length);
-      text.css('color', colors[col]);
-      btn.css('background-color', colors[col]);
-      brd.css('border-color', colors[col]);
-  });
-</script>
-
-
-
-<script>
-  ScrollReveal().reveal('.reveal', { delay: 690 })
-</script>
+        <div class="small-8 columns nomargin">
+          <input type="text" style="width:100%" name="email" id="tlemail" placeholder="Newsletter"/>
+        </div>
+        <div class="small-4 columns">
+        <input type="hidden" value="1" name="embed"/>
+        <input  class="button"  style="width:100%; background-color: white; color:inherit; font-size: 130%; margin-left: 0p; padding:0; margin-top:5px;" type="submit" value="Subscribe" />
+        </div>
+     </form>
+  </div>
+</div>

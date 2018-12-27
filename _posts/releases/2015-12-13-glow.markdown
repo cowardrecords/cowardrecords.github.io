@@ -12,6 +12,7 @@ date: 2015-12-13 01:16:17 +0100
 image: glow_zine.jpg
 cover: glow_zine.jpg
 thumbnail: glow_zine_thumbnail.png
+bgimage: https://c5.staticflickr.com/8/7658/27394875260_8c1f0a85ba_o.jpg
 imagethumb:
   - link: https://c1.staticflickr.com/8/7454/27658179752_fabfe6bd7b_o.jpg
   - link: https://c5.staticflickr.com/8/7336/27146619404_264192f29c_o.jpg

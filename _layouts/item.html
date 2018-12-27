@@ -3,7 +3,25 @@ layout: default
 head:
   snipcart.html
 ---
-<div class="item" {% if page.bgimge%} style="color:white;" {% endif %}{% if page.bgimage contains 'http' %} style=" background-image: url({{ page.bgimage }}); " {% else %} style=" background-image: url(/img/{{ page.bgimage }});" {% endif %} itemscope itemtype="http://schema.org/Product" >
+
+<!-- audioplayer -->
+<div class="bgplyer" {% if page.bgimge%} style="color:white;" {% endif %}{% if page.bgimage contains 'http' %} style=" background-image: url({{ page.bgimage }}); " {% else %} style=" background-image: url(/img/{{ page.bgimage }});" {% endif %}>
+	<figure id="audioplayer" class="stikplayer" itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
+		<figcaption class="randomcolor randomcolorbrd" >
+			<div class="randomcolor randomcolorbrd">Extract from<span itemprop="name" class="randomcolor">{{ page.name }}</span></div>
+			<div id="album" class="randomcolor randomcolorbrd">Code<span itemprop="inAlbum" class="randomcolor">{{page.sku}}</span></div>
+			<div id="artist" class="randomcolor randomcolorbrd">Artist<span itemprop="byArtist" class="randomcolor">{{page.artist}}</span></div>
+			<div id="time" class="randomcolor randomcolorbrd">Time<span id="playbacktime" class="randomcolor randomcolorbrd">00:00</span></div>
+			<meta itemprop="duration" content="PT2M29S">
+			<div id="playback" class="randomcolor randomcolorbrd"></div>
+			<div id="fader" class="randomcolor randomcolorbrd" ></div>
+			
+		</figcaption>
+		
+		<audio controls src="https://thenewcode.com/assets/audio/24-ghosts-III.mp3" id="audiotrack" preload="auto" itemprop="audio"></audio>
+	</figure>
+</div>
+<div class="item"  itemscope itemtype="http://schema.org/Product" >
 	
 		<div class="large-4 medium-4 small-12 columns">
 			<hr>
@@ -32,36 +50,17 @@ head:
 				<h6 class="randomcolor" >sold out</h6>
 			{% else if %}	
 				{% include shopbutton.html %}
-			{% endif %}		
-			
-			<div class="bottomMenu stik">
-				<div data-options="sticky_on: large">
-					{% include shopbutton.html %}
+				<div class="bottomMenu stik">
+					<div data-options="sticky_on: large">
+						{% include shopbutton.html %}
+					</div>
 				</div>
-			</div>
-			
+			{% endif %}	
 			<hr>
-			
 			{% include socialshare.html %}
 			<hr>
 		</div>
 		
-		
-
-	
-		<audio id="music" preload="true">
-		  <source src="/audio/{{page.mp3}}" type="audio/mpeg">
-		</audio>
-		<div id="audioplayer" class="randomcolorbrd bottomPlayer">
-			<div  data-options="sticky_on: large">
-		    <button id="pButton" class="play"></button>
-			  <div id="timeline">    
-			          <div id="playhead" class="randomcolorbtn"></div>
-			  </div>
-			</div>
-		</div>
-
-
 
 		<div class="large-8 medium-8 small-12 columns" id="lowest">
 			<hr class="hide-for-small-only">
@@ -90,7 +89,7 @@ head:
 		</div>
 		
 		<div class="small-12 columns gallery">
-		<ul class="clearing-thumbs large-block-grid-2 medium-block-grid-2 small-block-grid-1 " data-clearing >
+		<ul class="clearing-thumbs large-block-grid-2 medium-block-grid-2 small-block-grid-1" >
 			{% if page.imagethumb %}
 				 {% for item in page.imagethumb %}
 				 {% if item.link contains 'http' %}
@@ -121,4 +120,4 @@ head:
 		 -->
 </div>
 
-<div class="row hide-for-medium-only hide-for-small-only" style="width: 800px"></div> <!-- soluzione per andare a capo -->
+<!--<div class="row hide-for-medium-only hide-for-small-only" style="width: 800px"></div>  soluzione per andare a capo -->

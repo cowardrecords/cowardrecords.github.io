@@ -11,7 +11,68 @@
 	        {% include footer.html %}
        </div>
      </div>   
-    
+
+     <script src="{{ "/bower_components/foundation/js/foundation.min.js" | prepend: site.baseurl }}"></script>
+     <script src="{{ "/bower_components/modernizr/modernizr.js" | prepend: site.baseurl }}"></script>
+     <script src="{{ "/js/app.js" | prepend: site.baseurl }}"></script> 
+     <script src="{{ "/js/typed.js"| prepend: site.baseurl }}"></script>
+     <script>
+     $(function(){
+        $("#typed").typed({
+            stringsElement: $('#typed-strings'),
+            backDelay: 2500,
+            loop: true
+        });
+      });
+      </script>
+
+      {%if page.title == "Releases" or page.title == "Distro" %}
+      <!-- Media Boxes JS files -->
+            <script src="../plugin/js/jquery.isotope.min.js"></script>
+            <script src="../plugin/js/jquery.imagesLoaded.min.js"></script>
+            <script src="../plugin/js/jquery.transit.min.js"></script>
+            <script src="../plugin/js/jquery.easing.js"></script>
+            <script src="../plugin/js/waypoints.min.js"></script>
+            <script src="../plugin/js/modernizr.custom.min.js"></script>
+            <script src="../plugin/js/jquery.magnific-popup.min.js"></script>
+            <script src="../plugin/js/jquery.mediaBoxes.js"></script>
+
+            <script>
+                $('#grid').mediaBoxes({
+                  filterContainer: '#filter',
+                  columns: 5,
+                  boxesToLoadStart: 10,
+                  boxesToLoad: 5,
+                  horizontalSpaceBetweenBoxes: 10,
+                    verticalSpaceBetweenBoxes: 10,
+                  search: '#search',
+                  searchTarget: '.maintitle',
+                }); 
+            </script>
+      <!-- Media Boxes JS files -->
+      {% endif %}
+
+     {% if page.title == "Coward Records" %}
+     <script src="../plugin/js/isotope.pkgd.min.js"></script>
+     <script src="../plugin/js/imagesloaded.pkgd.js"></script>
+     <script>
+      // external js: isotope.pkgd.js, imagesloaded.pkgd.js
+
+      // init Isotope
+      var $grid = $('.grid').isotope({
+        itemSelector: '.grid-item',
+        percentPosition: true,
+        masonry: {
+          columnWidth: '.grid-sizer'
+        }
+      });
+      // layout Isotope after each image loads
+      $grid.imagesLoaded().progress( function() {
+        $grid.isotope('layout');
+      });  
+      </script>
+     {% endif %}
+
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -26,6 +87,9 @@
     </script>
     <!--End of Tawk.to Script-->
 
+
+    <!--disqus-->
+    <script id="dsq-count-scr" src="//www-cowardrecords-com.disqus.com/count.js" async></script>
 
     <script>
       var stickySidebar = $('.stickyside');
@@ -63,193 +127,137 @@
       });
     </script>
 
+    {% if page.layout == "item" or page.layout == "itemdistro"  %}
     <!-- show price on scroll -->
     <script>
       $(document).scroll(function () {
-        var y = $(this).scrollTop();
-        if (y > 800) {
-            $('.bottomMenu').fadeIn();
-        } else {
-            $('.bottomMenu').fadeOut();
-        }
+          var y = $(this).scrollTop();
+          if (y > 1200) {
+              $('.bottomMenu').fadeIn();
+          } else {
+              $('.bottomMenu').fadeOut();
+          }
 
-    });
+      });
     </script>
+    {% endif %} 
 
-    <!-- show player on scroll -->
-    <script>
-      $(document).scroll(function () {
-        var y = $(this).scrollTop();
-        if (y > 100) {
-            $('.bottomPlayer').fadeIn();
-        } else {
-            $('.bottomPlayer').fadeOut();
-        }
-    });
-    </script>
-
-    <script id="dsq-count-scr" src="//www-cowardrecords-com.disqus.com/count.js" async></script>
-
-
-
+    
+    
+    {% if page.layout == "item" %}
     <!-- audio player -->
     <script>
-      var music = document.getElementById('music'); // id for audio element
-      var duration = music.duration; // Duration of audio clip, calculated here for embedding purposes
-      var pButton = document.getElementById('pButton'); // play button
-      var playhead = document.getElementById('playhead'); // playhead
-      var timeline = document.getElementById('timeline'); // timeline
-
-      // timeline width adjusted for playhead
-      var timelineWidth = timeline.offsetWidth - playhead.offsetWidth;
-
-      // play button event listenter
-      pButton.addEventListener("click", play);
-
-      // timeupdate event listener
-      music.addEventListener("timeupdate", timeUpdate, false);
-
-      // makes timeline clickable
-      timeline.addEventListener("click", function(event) {
-          moveplayhead(event);
-          music.currentTime = duration * clickPercent(event);
-      }, false);
-
-      // returns click as decimal (.77) of the total timelineWidth
-      function clickPercent(event) {
-          return (event.clientX - getPosition(timeline)) / timelineWidth;
+    function player() {
+      if (audioTrack.paused) {
+      setText(this, "Pause");
+      audioTrack.play();
+      } else {
+      setText(this,"Play");
+      audioTrack.pause(); 
       }
+    }
 
-      // makes playhead draggable
-      playhead.addEventListener('mousedown', mouseDown, false);
-      window.addEventListener('mouseup', mouseUp, false);
+    function setText(el,text) {
+      el.innerHTML = text;
+    }
 
-      // Boolean value so that audio position is updated only when the playhead is released
-      var onplayhead = false;
+    function finish() {
+        audioTrack.currentTime = 0;
+        setText(playButton,"Play");
+    }
 
-      // mouseDown EventListener
-      function mouseDown() {
-          onplayhead = true;
-          window.addEventListener('mousemove', moveplayhead, true);
-          music.removeEventListener('timeupdate', timeUpdate, false);
+    function updatePlayhead() { 
+      playhead.value = audioTrack.currentTime;
+      var s = parseInt(audioTrack.currentTime % 60);
+        var m = parseInt((audioTrack.currentTime / 60) % 60);
+        s = (s >= 10) ? s : "0" + s;
+        m = (m >= 10) ? m : "0" + m;
+        playbacktime.innerHTML = m + ':' + s ;
+        
+    }
+
+    function volumizer() {
+      if (audioTrack.volume == 0) { setText(muteButton,"volume"); }
+      else { setText(muteButton,"volumehigh"); }
+    }
+
+    function muter() {
+      if (audioTrack.volume == 0) {
+        audioTrack.volume = restoreValue;
+        volumeSlider.value = restoreValue;
+      } else {
+        audioTrack.volume = 0;
+        restoreValue = volumeSlider.value;
+        volumeSlider.value = 0;
       }
+    }
 
-      // mouseUp EventListener
-      // getting input from all mouse clicks
-      function mouseUp(event) {
-          if (onplayhead == true) {
-              moveplayhead(event);
-              window.removeEventListener('mousemove', moveplayhead, true);
-              // change current time
-              music.currentTime = duration * clickPercent(event);
-              music.addEventListener('timeupdate', timeUpdate, false);
-          }
-          onplayhead = false;
+    function setAttributes(el, attrs) {
+      for(var key in attrs){
+        el.setAttribute(key, attrs[key]);
       }
-      // mousemove EventListener
-      // Moves playhead as user drags
-      function moveplayhead(event) {
-          var newMargLeft = event.clientX - getPosition(timeline);
+    }
 
-          if (newMargLeft >= 0 && newMargLeft <= timelineWidth) {
-              playhead.style.marginLeft = newMargLeft + "px";
-          }
-          if (newMargLeft < 0) {
-              playhead.style.marginLeft = "0px";
-          }
-          if (newMargLeft > timelineWidth) {
-              playhead.style.marginLeft = timelineWidth + "px";
-          }
-      }
+    var audioPlayer = document.getElementById("audioplayer"),
+    fader = document.getElementById("fader"),
+    playback = document.getElementById("playback"),
+    audioTrack = document.getElementById("audiotrack"),
+    playbackTime = document.getElementById("playbacktime"),
+    playButton = document.createElement("button"),
+    muteButton = document.createElement("button"),
+    playhead = document.createElement("progress")
+    volumeSlider = document.createElement("input");
+    setText(playButton, "Play");
+    setText(muteButton, "volumehigh");
+    setAttributes(playButton, { "type": "button", "class": "ss-icon" });
+    setAttributes(muteButton, { "type": "button", "class": "ss-icon" });
+    muteButton.style.display = "inline";
+    setAttributes(volumeSlider, { "type": "range", "min": "0", "max": "1", "step": "any", "value": "1", "orient": "orizontal", "id": "volumeSlider" });
+    var duration = audioTrack.duration;
+    setAttributes(playhead, { "min": "0", "max": "100", "value": "0", "id": "playhead", "class": "randomcolorbtn" });
+    setAttributes(playButton, { "class": "ss-icon randomcolor" });
+    setAttributes(muteButton, { "class": "ss-icon randomcolor" });
+    fader.appendChild(volumeSlider);
+    fader.appendChild(muteButton);
+    playback.appendChild(playButton);
+    playback.appendChild(playhead);
+    audioTrack.removeAttribute("controls");
+    playButton.addEventListener("click", player, false);
+    muteButton.addEventListener("click", muter, false);
+    volumeSlider.addEventListener("input", function(){ audioTrack.volume = volumeSlider.value; }, false);
+    audioTrack.addEventListener('volumechange', volumizer, false);
+    audioTrack.addEventListener('playing', function(){ playhead.max = audioTrack.duration; }, false);
+    audioTrack.addEventListener('timeupdate', updatePlayhead, false);
+    audioTrack.addEventListener('ended', finish, false);
+    </script>
+    {% endif %}
 
-      // timeUpdate
-      // Synchronizes playhead position with current point in audio
-      function timeUpdate() {
-          var playPercent = timelineWidth * (music.currentTime / duration);
-          playhead.style.marginLeft = playPercent + "px";
-          if (music.currentTime == duration) {
-              pButton.className = "";
-              pButton.className = "play";
-          }
-      }
+    <!-- random color -->
+    {% if page.layout == "item"  or page.layout == "itemdistro" %}
+    <script>
+      $(document).ready(function() {
+          var text = $('.randomcolor');
+          var btn = $('.randomcolorbtn');
+          var brd = $('.randomcolorbrd');
+          var svg  = $('.randomcolorsvg');
+          var original = text.css('color');
+          var originalbtn = btn.css('background-color');
+          var originalbrd =  brd.css('border-color');
+          var originalsvg =  svg.css('fill');
+          var colors = ["#007a99", "#ff99bb", "#990099", "#4dffd2", "#cc9900"];
+          var col = Math.floor(Math.random() * colors.length);
+          text.css('color', colors[col]);
+          btn.css('background-color', colors[col]);
+          brd.css('border-color', colors[col]);
+          svg.css('fill', colors[col]);
+      });
+    </script>
+    {% endif %}
 
-      //Play and Pause
-      function play() {
-          // start music
-          if (music.paused) {
-              music.play();
-              // remove play, add pause
-              pButton.className = "";
-              pButton.className = "pause";
-          } else { // pause music
-              music.pause();
-              // remove pause, add play
-              pButton.className = "";
-              pButton.className = "play";
-          }
-      }
 
-      // Gets audio file duration
-      music.addEventListener("canplaythrough", function() {
-          duration = music.duration;
-      }, false);
-
-      // getPosition
-      // Returns elements left position relative to top-left of viewport
-      function getPosition(el) {
-          return el.getBoundingClientRect().left;
-      }
+    <script>
+      ScrollReveal().reveal('.reveal', { delay: 690 })
     </script>
    
-  <!-- <SCRIPT>
-    //******************************************************************************************
-    //*  snappyCheckout_CartItemCountChanged                                                   *
-    //******************************************************************************************
-    function snappyCheckout_CartItemCountChanged(count)
-    { Checkout.Utils.setDiv("CartCount", count);
-                    
-      if (count === 0)
-      { Checkout.Utils.removeClass("CartCount", "CartFullNumber");
-        Checkout.Utils.addClass("CartCount", "CartEmptyNumber");
-        
-        Checkout.Utils.setClass("Cart", "CartEmpty");
-      }
-      else
-      { Checkout.Utils.removeClass("CartCount", "CartEmptyNumber");
-        Checkout.Utils.addClass("CartCount", "CartFullNumber");
-        
-        Checkout.Utils.setClass("Cart", "CartFull");
-      }
-    }
-    
-    //******************************************************************************************
-    //*  getDropdownText                                                                       *
-    //******************************************************************************************
-    function getDropdownText(strDropdownId)
-    { var strText = "";
-      var dropdownBox = document.getElementById(strDropdownId);
-      
-      if (dropdownBox)
-      { if (dropdownBox.options.length > 0)
-        { strText = dropdownBox.options[dropdownBox.selectedIndex].text;
-        }
-      }
-            
-      return strText;
-    }
-    
-    //******************************************************************************************
-    //*  getRadioButton                                                                        *
-    //******************************************************************************************
-    function getRadioButton(strName) 
-    { try 
-      { return document.querySelector('input[name = "' + strName + '"]:checked').value;
-      }
-      catch(ex) 
-      { return "";
-      }
-    }
-  </SCRIPT>
-    <SCRIPT SRC="https://s3.amazonaws.com/snappycheckout/Button.js"></SCRIPT> -->
    </body>
 </html>

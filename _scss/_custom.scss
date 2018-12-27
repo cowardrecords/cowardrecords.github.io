@@ -1,5 +1,9 @@
 // GENERAL
 
+html{
+  overflow-y: scroll; 
+}
+
 @font-face {
 	font-family: 'NeueHaasGroteskText Pro Md';
 	src: url('../font/NHaasGroteskTXPro-65Md.eot');
@@ -114,8 +118,8 @@ body{
 	 }
  }
 
-.top-bar-section ul li > a {
-	background: inherit;
+.top-bar-section ul li > a{
+  background: inherit;
     color: inherit;
 }
 
@@ -159,11 +163,66 @@ body{
 
 }
 
-.top-bar .toggle-topbar a {
-	background:black
+.top-bar .toggle-topbar.menu-icon a span::after {
+
+    content: "";
+    display: block;
+    height: 0;
+    position: absolute;
+    margin-top: -8px;
+    top: 50%;
+    right: 0.9375rem;
+    box-shadow: 0 0 0 1px #000000, 0 7px 0 1px #000000, 0 14px 0 1px #000000;
+    width: 16px;
 }
 
 // INDEX 
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: sans-serif;
+}
+
+/* ---- grid ---- */
+#homepage{
+.grid {
+  background: #DDD;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+}
+
+.grid-item {
+  float: left;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}
+
+
+@media only screen and (max-width: 40em) {
+  .grid-item,
+.grid-sizer {
+  width: 50%;
+}
+}
+
+
+}
 
 .rowIndex{
 	padding-left: 0.3rem;
@@ -290,57 +349,150 @@ body{
 }
 
 
-#audioplayer{
-    width: 280px;
-    height: 60px;
-    margin: 25% 25% 25% 50%;
-  	border: solid;
-  	position: fixed;
-  	z-index: 999;
-  	display: none;
+/*audioplayer*/
 
-
-  	button:hover, button:focus, .button:hover, .button:focus {
-    background-color: transparent;
-
-	}
+.bgplyer {
+  height:  100vh;
+  padding-top: 5rem;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
 }
 
-@media only screen and (max-width: 40em) { 
-   #audioplayer{
-   	 margin: 25% 25% 7% 7%;
-	}
-} 
-
-#pButton{
-    height:60px; 
-    width: 60px;
-    border: none;
-    background-size: 50% 50%;
-    background-repeat: no-repeat;
-    background-position: center;
-    float:left;
-    
+@font-face {
+  font-family:"SSStandard";
+  src:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/ss-standard.woff') format('woff');
+  font-weight:normal;
+  font-style:normal;
 }
 
-.play{background: url('http://www.alexkatz.me/codepen/img/play.png') ;}
-.pause{background: url('http://www.alexkatz.me/codepen/img/pause.png') ;}
+.ss-icon,.ss-icon.ss-standard {
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    white-space: nowrap;
+    font-feature-settings: "liga","dlig";
+}
+.ss-icon,.ss-icon.ss-standard {
+    font-family: "SSStandard";
+}
 
-#timeline{
-    width: 200px;
-    height: 20px;
-    margin-top: 20px;
-    float: left;
-    border-radius: 0px;
-    background: rgba(0,0,0,.3);
+figure#audioplayer { 
+
+  background: white;
+  overflow: hidden;
+  width: 23rem;
+  padding: 0;
+  margin: 0 auto;
+}
+figure#audioplayer audio { width: 0; height: 0; }
+figure#audioplayer figcaption { 
+ /* width: 21.5rem; */
+  font-size: 0;
+  margin: .45rem; 
+  /*background: #000;*/
+  float: left; 
+  border: 1px solid #555;
+}
+figure#audioplayer figcaption div { 
+  /*background: #000;*/
+  /*color: #fff;*/
+  padding: .8rem;
+  text-transform: uppercase; font-size: .8rem;
+  display: inline-block;
+}
+figure#audioplayer figcaption div span { 
+  display: block;
+  font-size: 1.3rem;
+  text-indent: 1rem; 
+}
+div#album { 
+  border-top: 1px solid #555;
+  border-bottom: 1px solid #555;
+  width: 100%; 
+}
+div#time { 
+  width: 7.55rem;
+  border-left: 1px solid #555; 
+}
+input#volumeSlider { 
+
+  margin-left: 1rem; 
+  width: 13rem;
+  height: 25px;
+  background: transparent;
+  cursor: pointer;
+}
+
+
+figure#audioplayer button { 
+  width: 3rem; 
+  height: 3rem; 
+  background: transparent;
+  /*color: #fff; */
+  border: none; 
+}
+#playback { 
+  width: 100%;
+  border-top: 1px solid #555;
+  display: inline-block;
+  clear: both; 
+}
+div#fader { 
+
+  width: 100%;
+  border-top: 1px solid #555;
+  display: inline-block;
   
+  input{
+    margin-top: 30px;
+  }
+
 }
-#playhead{
-    width: 18px;
-    height: 18px;
-    border-radius: 0px;
-    margin-top: 1px;
-    background: rgba(0, 0, 0,1);
+
+#playback progress { 
+  margin-left: 1rem; 
+  width: 13rem; 
+  height: 12px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /*background-color: #888;*/
+  border: none;
+  color: red;
+}
+progress::-webkit-progress-bar, progress::-moz-progress-bar, progress::progress-bar {
+  background: hsl(44,100%,44%);
+}
+progress::-webkit-progress-value { 
+  background: hsl(44,100%,44%);
+}
+
+progress::-moz-progress-bar {
+background-color: white;
+}
+@media screen and (max-width: 500px) {
+  div#time { display: block !important; border-top: 1px solid #555; width: 100%; }
+  figure#audioplayer { width: 100%; padding: .2rem; }
+  figure#audioplayer figcaption div { padding: .4rem; }
+}
+
+@media screen and (max-width: 450px) {
+figure#audioplayer { max-width: 430px; }
+figure#audioplayer figcaption { max-width: 430px; }
+
+
+}
+
+
+@media screen and (max-width: 380px) {
+figure#audioplayer { max-width: 360px;}
+figure#audioplayer figcaption { max-width: 360px; }
+
 
 }
 
@@ -349,12 +501,14 @@ body{
 .stik {
     position: fixed;
     display: none;
-    bottom: 15%;
+    bottom: 20%;
     width: 200px;
     z-index: 99;
-    left: 1.8em;
+    /*left: 1.8em;*/
     background: transparent;
 }
+
+
 
 @media only screen and (max-width: 40em) { 
    .stik{
@@ -362,11 +516,6 @@ body{
 	}
 }
 
-@media only screen and (min-width: 90.063em) {
-   .stik{
-      left: 45em;
-  }
- }
 
 
 .itemtitle{
@@ -584,35 +733,7 @@ max-width: 45px;
 
 }
 
-/*.CartEmptyNumber {
-margin-top: 7px;
-border-radius: 50%;
-width: 21px;
-height: 21px;
 
-color: #666;
-text-align: center;
-line-height:19px;
-font-size: 16px;
- }
-   
-.CartFullNumber {
-margin-top: 7px;
-border-radius: 50%;
-width: 21px;
-height: 21px;
-
-color: #666;
-text-align: center;
-line-height:19px;
-font-size: 16px;
-box-shadow: 0px 0px 2px white;
-}
-      
-.CartEmpty {cursor:default;}
-.CartFull {cursor:pointer;}
-.NoSelect {-webkit-touch-callout:none; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none;}
-*/
 // THANKS
 .blocktext {
 	margin-left: auto;
@@ -806,9 +927,3 @@ Class Definitions
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
-
-
-// custom muic player
-
-
-

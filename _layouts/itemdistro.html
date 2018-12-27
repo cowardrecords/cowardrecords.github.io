@@ -50,13 +50,13 @@ layout: default
 
 	<div class="small-12 medium-12 large-4 columns show-for-medium-up">
 	<h6>LATEST RELEASES</h6>
-	<ul class="small-block-grid-4 medium-block-grid-4 large-block-grid-2">
-	  {% for post in site.categories.release limit:4 %} 
+	<ul class="small-block-grid-4 medium-block-grid-4 large-block-grid-4">
+	  {% for post in site.categories.release limit:12%} 
 	        <li>
 	          <hr>
 	          <a href="{{ post.url | prepend: site.baseurl }}">
 	            <div class="tileblock">
-	              <h5>{{ post.title | strip_html | truncatewords:20  }}</h5>
+	              <h6>{{ post.title | strip_html | truncate: 10 }}</h6>
 	              <p>{{post.artist}}</p>
 	            </div>
 	            {% if post.image contains 'http' %}
