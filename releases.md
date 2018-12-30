@@ -20,6 +20,7 @@ tags: lathe cuts, vinyl, limited editions,
         <li><a href="#" data-filter=".Category2">flexi</a></li>
         <li><a href="#" data-filter=".Category3">zine</a></li>
         <li><a href="#" data-filter=".Category4">tape</a></li>
+        <li><a href="#" data-filter=".Category7">miscellaneous</a></li>
         <li><input type="text" id="search" class="media-boxes-search" placeholder="Search By Keyword" style="margin-bottom: -0.7rem; height: 2rem;"></li>
       </ul>
 
@@ -58,6 +59,11 @@ tags: lathe cuts, vinyl, limited editions,
 
      {% if post.categories contains '12"' %} 
        Category6
+     {% else %}
+     {% endif %}
+
+     {% if post.categories contains 'miscellaneous' %} 
+       Category7
      {% else %}
      {% endif %}">
         

@@ -9,10 +9,11 @@ price: "15.00"
 slug: "Beyond Your Inner Sea"
 date: 2016-11-24 01:16:17 +0100
 bgimage:
-cover: beyondyourinnersea.jpg
+cover: beyondyourinnersea_vinyl.jpg
 image: beyondyourinnersea.jpg
 thumbnail: beyondyourinnersea.jpg
 sound: "https://bandcamp.com/EmbeddedPlayer/album=190933026/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/"
+homepage: true
 
 ---
 

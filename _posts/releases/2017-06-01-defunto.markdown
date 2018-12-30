@@ -9,14 +9,15 @@ category: [release, vinyl, 5"]
 price: "20.00"
 date: 2017-10-31 01:16:17 +0100
 cover: defunto_vinyl.jpg
-image: https://c1.staticflickr.com/5/4230/34341119923_6be5e41bb5_c.jpg
-bgimage: https://c5.staticflickr.com/8/7658/27394875260_8c1f0a85ba_o.jpg
+image: defunto.jpg
+bgimage: defunto-bg.jpg
 imagethumb:
-  - link: https://c1.staticflickr.com/5/4230/34341119923_6be5e41bb5_c.jpg
-  - link: https://c1.staticflickr.com/5/4245/35151229635_08166b1fa7_b.jpg
-  - link: https://c1.staticflickr.com/5/4226/35020030741_f306049e61_c.jpg
+  - link: defunto-3.jpg
+  - link: defunto-2.jpg  
 thumbnail: defunto_vinyl.jpg
+sound: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/237634097&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
 mp3: "Autostradadiperiferia.mp3"
+homepage: true
 ---
 
 Limited edition of 15 copies \\

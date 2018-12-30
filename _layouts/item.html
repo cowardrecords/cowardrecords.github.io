@@ -6,6 +6,8 @@ head:
 
 <!-- audioplayer -->
 <div class="bgplyer" {% if page.bgimge%} style="color:white;" {% endif %}{% if page.bgimage contains 'http' %} style=" background-image: url({{ page.bgimage }}); " {% else %} style=" background-image: url(/img/{{ page.bgimage }});" {% endif %}>
+
+	{% if page.mp3  %}
 	<figure id="audioplayer" class="stikplayer" itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
 		<figcaption class="randomcolor randomcolorbrd" >
 			<div class="randomcolor randomcolorbrd">Extract from<span itemprop="name" class="randomcolor">{{ page.name }}</span></div>
@@ -14,12 +16,11 @@ head:
 			<div id="time" class="randomcolor randomcolorbrd">Time<span id="playbacktime" class="randomcolor randomcolorbrd">00:00</span></div>
 			<meta itemprop="duration" content="PT2M29S">
 			<div id="playback" class="randomcolor randomcolorbrd"></div>
-			<div id="fader" class="randomcolor randomcolorbrd" ></div>
-			
+			<div id="fader" class="randomcolor randomcolorbrd" ></div>		
 		</figcaption>
-		
 		<audio controls src="https://thenewcode.com/assets/audio/24-ghosts-III.mp3" id="audiotrack" preload="auto" itemprop="audio"></audio>
 	</figure>
+	{% endif %}
 </div>
 <div class="item"  itemscope itemtype="http://schema.org/Product" >
 	

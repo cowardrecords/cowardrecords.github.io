@@ -1,0 +1,28 @@
+---
+layout: item
+name: "Enamel Pin"
+artist:
+subtitle:
+sku: CWRD
+category: [release, miscellaneous ]
+price: "12.00"
+slug: "Enamel Pin"
+date: 2015-01-01 01:15:17 +0100
+image: pin.jpg
+cover: pin.jpg
+thumbnail: pin.jpg
+bgimage: glow-bg.jpg
+homepage: true
+homesmall: true
+---
+
+Limited edition of 150 copies \\
+Photographic zine with previously unreleased tracks on flexi 7" format
+
+Recorded, mixed & mastered by *Steve Scanu* \\
+Video directed by *Erica Terenzi*
+
+November/December 2015
+
+This item is on  **Preorder**, you can order your copy,
+we'll start to ship on January 22th 2016

@@ -9,16 +9,17 @@ price: "12.00"
 slug: "Glow"
 soldout: true
 date: 2015-12-13 01:16:17 +0100
-image: glow_zine.jpg
+image: glow.jpg
 cover: glow_zine.jpg
 thumbnail: glow_zine_thumbnail.png
-bgimage: https://c5.staticflickr.com/8/7658/27394875260_8c1f0a85ba_o.jpg
+bgimage: glow-bg.jpg
 imagethumb:
-  - link: https://c1.staticflickr.com/8/7454/27658179752_fabfe6bd7b_o.jpg
-  - link: https://c5.staticflickr.com/8/7336/27146619404_264192f29c_o.jpg
-  - link: https://c3.staticflickr.com/8/7414/27146624354_f2d4bc5430_c.jpg
+  - link: glow-2.jpg
+  - link: glow-3.jpg
+  - link: glow-4.jpg
 sound: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/237634097&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
-video: "https://www.youtube.com/embed/7IKeGfRrEZY?rel=0&amp;controls=0&amp;showinfo=0"
+homepage: true
+homebig: true
 ---
 
 Limited edition of 150 copies \\

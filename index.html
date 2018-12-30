@@ -7,32 +7,32 @@ summary: Coward Records - ATMOSFERA
 <div id="homepage">
   <div class="grid">
     <div class="grid-sizer"></div>
+    {% for post in site.categories.release %}
+      {% if post.homepage %}
+        <div class="grid-item {% if post.homesmall %} grid-item-2 {% endif %} {% if post.homebig %} grid-item-3 {% endif %}">
+          <a href="{{ post.url | prepend: site.baseurl }}">
+            {% if post.cover contains 'http' %}
+              <img class="indeximg" src="{{ post.image }}" alt="{{ post.slug }}"/>
+                {% else %}
+              <img class="indeximg" src="/img/{{ post.image }}" alt="{{ post.slug }}"/>
+            {% endif %}
+              <div class="middle">
+                <div class="text">
+                  <div class="tileblock">
+                    <h3>{{ post.slug | strip_html | truncatewords:20  }}</h3>
+                    {% if post.artist %}{{post.artist}} {% else %}{% endif%}
+                    {% if post.sku %}<h6>{{post.sku}}</h6> {% endif%}
+                  </div>
+                </div>
+              </div>
+          </a>
+        </div>
+      {% endif %}
+    {% endfor %}
     <div class="grid-item">
-      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg" />
-    </div>
-    <div class="grid-item">
-      <img src="https://punkygibbon.co.uk/images/m/minorthreat/photo_1982_flyer1_950.jpg" />
-    </div>
-    <div class="grid-item">
-      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg" />
-    </div>
-    <div class="grid-item">
-      <img src="https://c1.staticflickr.com/5/4245/35151229635_08166b1fa7_b.jpg" />
-    </div>
-    <div class="grid-item">
-      <img src="http://commerce.madbutcher.de/media/images/popup/MINOR-THREAT-TASSE-22x-95cm-RGB.jpg" />
-    </div>
-    <div class="grid-item">
-      <img src="https://c1.staticflickr.com/5/4230/34341119923_6be5e41bb5_c.jpg" />
-    </div>
-    <div class="grid-item">
-      <img src="https://c1.staticflickr.com/5/4226/35020030741_f306049e61_c.jpg" />
-    </div>
-    <div class="grid-item">
-      <img src="https://www.londonmusichall.co.uk/wp-content/uploads/2018/05/Child-Bite-Stream-Unsane-Minor-Threat-Covers-from-Upcoming-Covers-Rarities-Collection.jpg" />
-    </div>
-    <div class="grid-item">
-      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/flight-formation.jpg" />
-    </div>
+          <a href="{{ site.baseurl }}/breakfastclub">
+              <img src="/img/breakfast.jpg" alt="breakfastclub"/>
+          </a>
+        </div>
   </div>
 </div>

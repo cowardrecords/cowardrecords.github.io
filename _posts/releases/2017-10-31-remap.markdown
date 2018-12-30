@@ -10,14 +10,14 @@ price: "10.00"
 date: 2017-10-31 01:16:17 +0100
 bgimage:
 cover: remap_vinyl.jpg
-image: remap_vinyl.jpg
+image: remap.jpg
 imagethumb:
-  - link: https://farm5.staticflickr.com/4480/26314721649_196c93ebf4_b.jpg
-  - link: https://farm5.staticflickr.com/4450/26314721409_47afcc78e0_b.jpg
-  - link: https://farm5.staticflickr.com/4472/26314721569_ef33700fc0_b.jpg
+  - link: remap-2.jpg
+  - link: remap-3.jpg
 thumbnail: volta_vinyl.jpg
 sound: "https://bandcamp.com/EmbeddedPlayer/album=3886888625/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/"
 video: https://www.youtube.com/embed/l6PhJpn2DJE
+homepage: true
 ---
 
 Limited edition of 50 copies \\

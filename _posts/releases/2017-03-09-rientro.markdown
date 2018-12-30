@@ -5,19 +5,19 @@ artist: "Tante Anna"
 subtitle: note book + flexi 7"
 sku: CWRD 09
 slug: "Rientro"
-category: [release, flexi, zine]
+category: [release, flexi, zine, 7"]
 price: "16.00"
 date: 2017-03-09 01:16:17 +0100
-bgimage:
+bgimage: rientro-bg.jpg
 cover: rientro_zine.gif
-image: rientro_zine.gif
+image: rientro.jpg
 imagethumb:
   - link: https://farm5.staticflickr.com/4484/36943409584_f2602de689_b.jpg
-  - link: https://farm5.staticflickr.com/4447/36943409574_7ee3eb7d89_b.jpg
   - link: https://farm5.staticflickr.com/4488/36983213513_00efe3b48c_b.jpg
+  - link: rientro-3.jpg
 thumbnail: rientro_zine_thumbnail.png
 sound: "https://bandcamp.com/EmbeddedPlayer/album=2962768300/size=small/bgcol=333333/linkcol=ffffff/track=4124325278/transparent=true/"
-video:
+homepage: true
 ---
 
 Limited edition of 35 copies \\

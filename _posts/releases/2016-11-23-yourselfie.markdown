@@ -8,16 +8,14 @@ sku: CWRD 07
 price: "6.00"
 slug: "Yourselfie"
 date: 2016-11-23 00:16:17 +0100
-
-bgimage: 
+bgimage: yourselfie-bg.jpg
 cover: yourselfie_tape.jpg
-image: yourselfie_tape.jpg
+image: yourselfie.jpg
 thumbnail: yourselfie_tape.jpg
 sound: https://bandcamp.com/EmbeddedPlayer/album=4215057880/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/
-video: "https://www.youtube.com/embed/2uxLUA_bjFs"
 imagethumb:
-  - link: https://c3.staticflickr.com/6/5745/30407664154_28002c97bd.jpg
-  - link: https://c4.staticflickr.com/6/5345/31114456211_33b2d66d77.jpg
+  - link: yourselfie-2.jpg
+homepage: true
 ---
 
 Limited edition of 30 copies

@@ -9,12 +9,11 @@ price: "10.00"
 slug: "Velvet Dress"
 date: 2016-05-13 01:16:17 +0100
 soldout: true
-bgimage:
+bgimage: mrm-bg.jpg
 cover: velvetdress_flexi.jpg
 image: velvetdress_flexi.jpg
 thumbnail: velvetdress_flexi.jpg
 sound: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/265939022&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
-video: "https://www.youtube.com/embed/GfF8UdrDNEs"
 ---
 
 Limited edition of 25 copies\\

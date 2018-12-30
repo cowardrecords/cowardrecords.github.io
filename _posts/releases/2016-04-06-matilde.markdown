@@ -9,11 +9,11 @@ price: "10.00"
 slug: "Matilde"
 date: 2016-05-13 01:19:17 +0100
 soldout: true
+bgimage: mrm-bg.jpg
 cover: matilde_flexi.jpg
 image: matilde_flexi.jpg
 thumbnail: matilde_flexi.jpg
 sound: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/228334966&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
-video: "https://www.youtube.com/embed/4LIMN8klPsg?rel=0&amp;showinfo=0"
 ---
 
 Limited edition of 25 copies\\
@@ -25,6 +25,5 @@ recorded, mixed & mastered by M!R!M\\
 Summer 2016
 
 Matilde single has a twin called [Velvet Dress]({{site.url}}/vinyl/7"/velvetdress){:target="_blank”}
-
 This item is on  **Preorder**, you can order your copy,
 we'll start to ship on July 22th 2016

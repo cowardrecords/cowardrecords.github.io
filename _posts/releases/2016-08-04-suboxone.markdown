@@ -9,14 +9,15 @@ slug: "Suboxone"
 price: "6.00"
 date: 2016-08-04 01:16:17 +0100
 cover: suboxone_tape.jpg
-image: suboxone_tape.jpg
+image: suboxone.jpg
 thumbnail: suboxone_tape.jpg
+bgimage: suboxone-bg.jpg
 imagethumb:
-  - link: https://c6.staticflickr.com/9/8434/28786654653_bca84aae68_c.jpg
-  - link: https://c7.staticflickr.com/9/8381/29120045630_f85c4f7bc5_c.jpg
-  - link: https://c8.staticflickr.com/9/8305/29408463335_9f789c4b67_c.jpg
+  - link: suboxone-4.jpg
+  - link: suboxone-2.jpg
+  - link: suboxone-3.jpg
 sound: https://bandcamp.com/EmbeddedPlayer/album=174748722/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=small/transparent=true/"
-video: "https://www.youtube.com/embed/dJjZ-n-Ahes"
+homepage: true
 ---
 
 Limited edition of 30 copies
