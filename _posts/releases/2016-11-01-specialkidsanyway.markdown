@@ -14,7 +14,7 @@ thumbnail: specialkidsanyway_tape.jpg
 imagethumb:
   - link: https://c2.staticflickr.com/6/5570/30701311801_4823dd9a0e.jpg
 category: [release, tape]
-sound: https://bandcamp.com/EmbeddedPlayer/album=1425231946/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/
+mp3: gentalyn.mp3
 homepage: true
 ---
 

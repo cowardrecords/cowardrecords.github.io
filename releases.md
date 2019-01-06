@@ -69,7 +69,7 @@ tags: lathe cuts, vinyl, limited editions,
         
       <a href="{{ post.url | prepend: site.baseurl }}">
        <!-- <hr> -->
-        <div class="maintnameitle">
+        <div class="maintitle" >
 	        <h6>{{ post.title }}</h6>
 	       {% if post.artist %}<p>{{post.artist}}</p> {% else %} <p><br></p> {% endif%}
         </div>

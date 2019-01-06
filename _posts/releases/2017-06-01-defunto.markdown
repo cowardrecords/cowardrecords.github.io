@@ -15,8 +15,7 @@ imagethumb:
   - link: defunto-3.jpg
   - link: defunto-2.jpg  
 thumbnail: defunto_vinyl.jpg
-sound: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/237634097&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
-mp3: "Autostradadiperiferia.mp3"
+mp3: defunto.mp3
 homepage: true
 ---
 

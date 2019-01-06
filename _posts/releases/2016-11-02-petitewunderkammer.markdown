@@ -15,6 +15,7 @@ thumbnail: pw_zine_thumbnail.png
 imagethumb:
   - link: pw-2.jpg
   - link: pw-3.jpg
+mp3: anityamask.mp3
 homepage: true
 ---
 

@@ -13,21 +13,6 @@
 	<INPUT style="display: none" TYPE="radio" NAME="select" VALUE="default">
 {% endif %}
 
-<!-- <span>
-	<SELECT ID="quantity">
-		<OPTION VALUE="1" SELECTED>1</OPTION>
-		<OPTION VALUE="2">2</OPTION>
-		<OPTION VALUE="3">3</OPTION>
-		<OPTION VALUE="4">4</OPTION>
-		<OPTION VALUE="5">5</OPTION>
-	</SELECT>
-</span>
-<span>
-<a HREF="#" ONCLICK="Checkout.cart.add('{{ page.idcart }}', getRadioButton('select'), getDropdownText('quantity'), 'remove'); return false; "><button class="button tiny randomcolorbtn">Add Product</button></a>
-<a class="randomcolor" HREF="#" ONCLICK="Checkout.cart.clear(); return false;">Clear Cart</a> | 
-<a class="randomcolor" HREF="#" ONCLICK="Checkout.cart.purchase('QNYVK3UVVQ25LEAAM5ZG201', true); return false;">Purchase</a>
-</span>	 -->
-
 <button
     class="snipcart-add-item randomcolorbtn"
     data-item-id="{{ page.sku }}"

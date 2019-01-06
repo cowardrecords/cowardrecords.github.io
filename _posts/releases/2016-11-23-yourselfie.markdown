@@ -12,7 +12,7 @@ bgimage: yourselfie-bg.jpg
 cover: yourselfie_tape.jpg
 image: yourselfie.jpg
 thumbnail: yourselfie_tape.jpg
-sound: https://bandcamp.com/EmbeddedPlayer/album=4215057880/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/
+mp3: feelsick.mp3
 imagethumb:
   - link: yourselfie-2.jpg
 homepage: true

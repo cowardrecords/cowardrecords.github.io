@@ -1,0 +1,30 @@
+---
+layout: itemdistro
+name: "Ladyfuzz #06"
+subtitle: october 2018
+sku: LF #06
+category: [zine, distro]
+price: "5.50"
+idcart: 
+soldout:
+date: 2018-09-20 01:20:17 +0100
+cover: ladyfuzz6.jpg
+image: ladyfuzz6.jpg
+thumbnail: ladyfuzz6.jpg
+
+---
+
+playlist / natasha johnson, great wight\\
+awkward breed / life is unfair audio devices\\
+always antifascist / ren aldridge\\
+gear talk: emily rose teece, kermes / kermes\\
+hayley williams, paramore / interview by lucinda livingstone\\
+sophie brampton / interview by ash wood\\
+growing up queer / amber denwood\\
+i want a revolution summer circa ‘85 / ash wood\\
+lande hekt, muncie girls / interview by lucinda livingstone\\
+athens: queer city / rafailia varonou\\
+safer gigs guide / kaz scattergood\\
+tab: doe / heated\\
+\\
+[more info](https://www.ladyfuzz.co.uk/){:target="_blank"}

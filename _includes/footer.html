@@ -5,7 +5,7 @@
     <h5><br></h5>
     <hr>
     <div class="text-center ">
-   	 <img src=" /img/rolling_black.gif" >
+      <img src=" /img/rolling_black.gif" >
     </div>
 
    	</div>
@@ -76,3 +76,16 @@
      </form>
   </div>
 </div>
+
+<!-- type js -->
+<script src="{{ "/js/typed.js"| prepend: site.baseurl }}"></script>
+<script>
+ $(function(){
+    $("#typed").typed({
+        stringsElement: $('#typed-strings'),
+        backDelay: 2500,
+        loop: true
+    });
+  });
+</script>
+<!-- end type js -->

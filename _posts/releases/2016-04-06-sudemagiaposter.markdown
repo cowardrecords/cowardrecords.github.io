@@ -1,7 +1,7 @@
 ---
 layout: item
 name: "Sud e Magia Poster"
-artist: "Lantern"
+artist: "Lantern & Girless"
 subtitle: POSTER
 sku: CWRDPSTR
 category: [release, miscellaneous]

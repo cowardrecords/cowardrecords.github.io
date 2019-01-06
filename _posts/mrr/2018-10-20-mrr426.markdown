@@ -1,0 +1,19 @@
+---
+layout: itemdistro
+name: "Maximum Rocknroll #426"
+subtitle: november 2018
+sku: MRR #426
+category: [zine, distro]
+price: "5.50"
+idcart: "2ZRUVTJ7FJD966C98D7VP15077"
+soldout:
+date: 2018-10-20 01:20:17 +0100
+cover: http://maximumrocknroll.com/wp-content/uploads/2018/09/mrr_426_cvr.jpg
+image: http://maximumrocknroll.com/wp-content/uploads/2018/09/mrr_426_cvr.jpg
+thumbnail: http://maximumrocknroll.com/wp-content/uploads/2018/09/mrr_426_cvr.jpg
+
+---
+
+Yippee-Ki-Yay, pardner! It’s another rootin’ tootin’ issue of Maximum Rocknroll, hot off the presses! It’s MRR #426, the November 2018 issue, where our cover features Fresno’s FATTY CAKES AND THE PUFF PASTRIES, who bless us all with their feminist gold. Inside, Seattle’s CASUAL HEX discuss their love of checkerboard (and how that relates to ska), Richmond’s GUMMING love pop and country music, and Portland’s LAVENDER FLU are a bunch of Deadheads—but don’t worry, these are all punk bands! Internationally, Germany’s ATMEN, WEITER… are a bunch of provocateurs, WARWOUND want you to know they’re not a cover band, and the Je Me Souviens label is doing its best to represent an overlooked segment of Quebec’s punk history. Speaking of labels, we’ve got an in-depth interview with New York’s ever/never, and if you crave more non-band content, you’re gonna love reading Bay Area author Soup discussing his latest book, Mombasa Radio Radio, and how his schizophrenia played a part in its creation. Plus we’ve got Miami’s ANTIFACES repping their overlooked scene and Baltimore’s SYRINGE on fighting bigotry and working towards representation in theirs. Still not enough for you? Seems a little greedy, but okay, fine, we’ll also keep delivering the best reviews and columns in the biz. So what are you waiting for, cowboy? Order your copy today!\\
+\\
+[more info](http://www.maximumrocknroll.com){:target="_blank"}

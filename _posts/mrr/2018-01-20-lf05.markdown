@@ -1,0 +1,19 @@
+---
+layout: itemdistro
+name: "Ladyfuzz #05"
+subtitle: january 2018
+sku: LF #05
+category: [zine, distro]
+price: "5.50"
+idcart: "1978MBSW4YE6NQRH9UGRP13420"
+soldout:
+date: 2018-01-20 01:16:17 +0100
+cover: ladyfuzz5.jpg
+image: ladyfuzz5.jpg
+thumbnail: ladyfuzz5.jpg
+
+---
+
+Interviews with Kathryn from Fresh, Anna Cory from the Spook School and Kris Moya from Jabber. Joy Warmann talks about navigating punk as a black woman. Chiara Amendola talks about making music in a foreign country. Plus loads of features, think pieces, and a playlist curated by Em from Nervus.
+\\
+[more info](https://www.ladyfuzz.co.uk/){:target="_blank"}

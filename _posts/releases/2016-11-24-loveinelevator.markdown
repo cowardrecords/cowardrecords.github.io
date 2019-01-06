@@ -12,7 +12,7 @@ bgimage:
 cover: beyondyourinnersea_vinyl.jpg
 image: beyondyourinnersea.jpg
 thumbnail: beyondyourinnersea.jpg
-sound: "https://bandcamp.com/EmbeddedPlayer/album=190933026/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/"
+mp3: beyondyourinnersea.mp3
 homepage: true
 
 ---

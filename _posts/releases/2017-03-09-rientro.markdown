@@ -16,7 +16,7 @@ imagethumb:
   - link: https://farm5.staticflickr.com/4488/36983213513_00efe3b48c_b.jpg
   - link: rientro-3.jpg
 thumbnail: rientro_zine_thumbnail.png
-sound: "https://bandcamp.com/EmbeddedPlayer/album=2962768300/size=small/bgcol=333333/linkcol=ffffff/track=4124325278/transparent=true/"
+mp3: rientro.mp3
 homepage: true
 ---
 

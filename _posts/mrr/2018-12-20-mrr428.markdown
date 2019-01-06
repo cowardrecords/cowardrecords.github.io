@@ -1,0 +1,19 @@
+---
+layout: itemdistro
+name: "Maximum Rocknroll #428"
+subtitle: december 2018
+sku: MRR #428
+category: [zine, distro]
+price: "5.50"
+idcart:
+soldout:
+date: 2018-12-20 01:20:17 +0100
+cover: http://maximumrocknroll.com/wp-content/uploads/2018/12/mrr_427_cvr.jpg
+image: http://maximumrocknroll.com/wp-content/uploads/2018/12/mrr_427_cvr.jpg
+thumbnail: http://maximumrocknroll.com/wp-content/uploads/2018/12/mrr_427_cvr.jpg
+
+---
+
+Holy moly, it’s another spectacular issue of Maximum Rocknroll already! MRR #428, the January 2019 issue, is jam packed with interviews and features to thrill you. We dive deep into the fascinating history of the amazing, steam-powered Cascade Record Pressing, get an overview of what’s what in a Belgium scene report, and learn about two rad fests in Texas: the recent Black and Brown Punk Fest TX in San Antonio and the upcoming return of This Is Austin, Not That Great in, uh, Austin. What’s that? You’re here for the bands? Not to worry, we’ve got you covered! Singapore’s SIAL dish on their local scene, Florida’s BITE MARKS let their personalities come out full force, and we get a rundown of CHIMERA, one of Russia’s greatest bands of the ’90s. Plus we’ve got Atlanta’s Scavenger of Death on the history of their all-hits label, and cartoonist Liz Suburbia on her new Cyanide Milkshake book! If that’s not enough for you, we’ve got all your favorite columns and reviews, a hearty letters section, and, as a bonus, a reprint of some material from issue #427. What are you waiting for? Hit that button now and order your copy today!\\
+\\
+[more info](http://www.maximumrocknroll.com){:target="_blank"}

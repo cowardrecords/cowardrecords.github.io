@@ -14,7 +14,7 @@ image: tenthplanet.jpg
 imagethumb:
   - link: tenthplanet-3.jpg
 thumbnail: tenthplanet_zine_thumbnail.png
-sound: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/317809056&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
+mp3: tenthplanet.mp3
 homepage: true
 ---
 

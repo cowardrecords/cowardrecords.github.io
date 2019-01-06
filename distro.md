@@ -46,8 +46,8 @@ tags:
       <a href="{{ post.url | prepend: site.baseurl }}">
       <!-- <hr> -->
       	<div class="maintitle">
-	        <h6>{{ post.tile }}</h6>
-	        <p>{{ post.artist }}</p>
+	        <h6>{{ post.name }}</h6>
+	        <!-- <p>{{ post.sku }}</p> -->
         </div>
       </a>
 

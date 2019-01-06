@@ -1,7 +1,5 @@
 ---
 layout: default
-head:
-  snipcart.html
 ---
 
 <!-- audioplayer -->
@@ -18,7 +16,7 @@ head:
 			<div id="playback" class="randomcolor randomcolorbrd"></div>
 			<div id="fader" class="randomcolor randomcolorbrd" ></div>		
 		</figcaption>
-		<audio controls src="https://thenewcode.com/assets/audio/24-ghosts-III.mp3" id="audiotrack" preload="auto" itemprop="audio"></audio>
+		<audio controls src="/audio/{{page.mp3}}" id="audiotrack" preload="auto" itemprop="audio"></audio>
 	</figure>
 	{% endif %}
 </div>

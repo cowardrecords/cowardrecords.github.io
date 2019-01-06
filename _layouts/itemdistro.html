@@ -13,8 +13,8 @@ layout: default
 	  <hr>
 	</div>
 
-	<div class="large-4 medium-4 small-12 columns" >
-		<h2 class="randomcolor">{{page.title}}</h2>
+	<div class="large-4 medium-9 small-12 columns" >
+		<h2 class="randomcolor">{{page.name}}</h2>
 		<p class="randomcolor">{{page.artist}}</p>
   		<h5 class="randomcolor">{{page.subtitle}}</h5>
   		{% if page.author %}
@@ -22,7 +22,7 @@ layout: default
   		{% endif %}
 
   		<hr>
-  		<div class="longdescriptionbox">
+  		<div>
 			{{ content }}
 		</div>
 			
@@ -33,7 +33,7 @@ layout: default
 		{% include socialshare.html %}
 	</div>
 	
-	<div class="large-4 medium-8 small-12 columns" id="itemimages">
+	<div class="large-4 medium-5 small-12 columns" id="itemimages">
 		{% if page.image contains 'http' %}
           <img  src="{{ page.image }}" alt="{{ page.name }}"/>
         {% else %}
@@ -60,9 +60,9 @@ layout: default
 	              <p>{{post.artist}}</p>
 	            </div>
 	            {% if post.image contains 'http' %}
-	                <img src="{{ post.image }}" alt="{{ post.name }}"/>
+	                <img src="{{ post.cover }}" alt="{{ post.name }}"/>
 	              {% else %}
-	                <img src="/img/{{ post.image }}" alt="{{ post.name }}"/>
+	                <img src="/img/{{ post.cover }}" alt="{{ post.name }}"/>
 	            {% endif %} 
 	          </a>
 	          <br>
@@ -72,3 +72,5 @@ layout: default
 	<a id="underline" href="/releases"><p>all releases</p></a>
 	</div>
 </div>
+
+<div class="row"></div> <!-- trick per andare a capo -->

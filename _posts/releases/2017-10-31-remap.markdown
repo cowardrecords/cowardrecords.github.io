@@ -15,8 +15,7 @@ imagethumb:
   - link: remap-2.jpg
   - link: remap-3.jpg
 thumbnail: volta_vinyl.jpg
-sound: "https://bandcamp.com/EmbeddedPlayer/album=3886888625/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/"
-video: https://www.youtube.com/embed/l6PhJpn2DJE
+mp3: fauxblood.mp3
 homepage: true
 ---
 

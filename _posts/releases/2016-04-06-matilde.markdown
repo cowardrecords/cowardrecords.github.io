@@ -11,9 +11,10 @@ date: 2016-05-13 01:19:17 +0100
 soldout: true
 bgimage: mrm-bg.jpg
 cover: matilde_flexi.jpg
-image: matilde_flexi.jpg
+image: matilde.jpg
+homepage: true
 thumbnail: matilde_flexi.jpg
-sound: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/228334966&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
+mp3: matilde.mp3
 ---
 
 Limited edition of 25 copies\\

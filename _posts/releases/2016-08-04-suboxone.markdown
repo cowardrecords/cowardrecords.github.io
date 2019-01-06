@@ -16,7 +16,7 @@ imagethumb:
   - link: suboxone-4.jpg
   - link: suboxone-2.jpg
   - link: suboxone-3.jpg
-sound: https://bandcamp.com/EmbeddedPlayer/album=174748722/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=small/transparent=true/"
+mp3: suboxone.mp3
 homepage: true
 ---
 
