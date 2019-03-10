@@ -12,8 +12,8 @@ bgimage: rientro-bg.jpg
 cover: rientro_zine.gif
 image: rientro.jpg
 imagethumb:
-  - link: https://farm5.staticflickr.com/4484/36943409584_f2602de689_b.jpg
-  - link: https://farm5.staticflickr.com/4488/36983213513_00efe3b48c_b.jpg
+  - link: rientro-2.jpg
+  - link: rientro-4.jpg
   - link: rientro-3.jpg
 thumbnail: rientro_zine_thumbnail.png
 mp3: rientro.mp3

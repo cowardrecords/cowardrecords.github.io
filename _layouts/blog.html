@@ -18,7 +18,7 @@ comments: true
 
 </div>
 
-<div class="small-12 medium-8 medium-offset-2 large-8 large-offset-2 columns">
+<div class="small-12 medium-10 large-8 large-offset-2 columns">
 	<div class="small-12 columns">
 		<div class="blog">
 		   <section id="main-content" class="main-content">
@@ -47,39 +47,36 @@ comments: true
 	
 </div>
 
-<div class="events-press-cta stickyside medium-2 large-2 hide-for-small-only columns" id="sidebar">
+<div class=" stickyside medium-2 large-2 small-12 columns">
     <br>
     <br>
 	<a href="{{ site.baseurl }}/blog"><h4>Archive</h4></a>
 			<ul class="no-bullet">
 			<hr>
-			  {% for post in site.posts %}
-			 	 {% if post.categories contains 'blog' %}
-				    {% unless post.next %}
-                   
+			  {% for post in site.categories.blog  limit:4  %}
+
+                <li>
+			      <a href="{{ post.url }}"><h6>{{ post.title }}</h6></a>
+			      <i>
 				      {{ post.date | date: '%Y %b' }}
-				    {% else %}
 				      {% capture year %}{{ post.date | date: '%Y %b' }}{% endcapture %}
 				      {% capture nyear %}{{ post.next.date | date: '%Y %b' }}{% endcapture %}
-				      {% if year != nyear %}
+				      <!-- {% if year != nyear %}
 				        {{ post.date | date: '%Y %b' }}
-				      {% endif %}
-				    {% endunless %}
-                    <li>
-				      <a href="{{ post.url }}">{{ post.title }}</a>
-				     <hr>
-				    </li>
-				 {% endif %}
+				      {% endif %} -->
+			      </i>
+			     <hr>
+			    </li>				
 			  {% endfor %}
 			         <li>
-				      <a href="{{ site.baseurl }}/blog">see all entries</a>
+				      <a href="{{ site.baseurl }}/blog"><i>see all entries</i></a>
 				     <hr>
 				    </li>
 			</ul>
 </div>
 <br>
 <div class="small-12 columns">
-	<div class="small-12 medium-8 medium-offset-2 large-8 large-offset-2 columns">
+	<div class="small-12 medium-10 large-8 large-offset-2 columns">
 		<div class="blog">
 		<br>
 		<br>

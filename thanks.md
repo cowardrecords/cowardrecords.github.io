@@ -2,6 +2,7 @@
 layout: default
 title: Thanks
 permalink: /thanks/
+published: false
 ---
 
 <div class="fullWidth">

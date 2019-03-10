@@ -12,7 +12,7 @@ cover: specialkidsanyway_tape.jpg
 image: specialkidsanyway.jpg
 thumbnail: specialkidsanyway_tape.jpg
 imagethumb:
-  - link: https://c2.staticflickr.com/6/5570/30701311801_4823dd9a0e.jpg
+  - link: specialkidsanyway-2.jpg
 category: [release, tape]
 mp3: gentalyn.mp3
 homepage: true

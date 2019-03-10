@@ -3,6 +3,7 @@ layout: default
 title: About
 permalink: /about/
 summary: Records and publications, limited editions, experimental formats and much more.
+published: false
 ---
 
 <div class="fullWidth">

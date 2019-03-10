@@ -3,6 +3,7 @@ layout: default
 title: Shipping & Payment Info
 permalink: /shippingpaymentinfo/
 summary: How to pay and get your stuff.
+published: false
 ---
 
 <div class="small-12 columns">

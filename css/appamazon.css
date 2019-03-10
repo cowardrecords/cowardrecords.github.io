@@ -8227,7 +8227,7 @@ body {
   font-family: 'Work Sans', sans-serif;
 }
 body .contain-to-grid {
-  background: white;
+  background: #232f3e;
 }
 body .row {
   max-width: 1280px;
@@ -8270,25 +8270,54 @@ body a:visited {
     top: 0;
   }
 }
-.separation {
-  border: 0;
-  height: 0.7px;
-  background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75), transparent);
-  margin-bottom: 80px;
-  margin-top: 80px;
-}
-
 .top-bar {
-  background: inherit;
-  height: 2.8125rem;
+  padding: 0.5rem;
+  background: #232f3e;
+  height: auto;
   line-height: 2.8125rem;
   margin-bottom: 0;
-  overflow: hidden;
+  overflow: visible;
   position: relative;
+  color: white;
 }
 
 .top-bar.expanded .title-area {
   background: inherit;
+}
+
+.amzfakemenu {
+  color: #ccc;
+  font-size: 80%;
+  margin-top: 7px;
+}
+.amzfakemenu span {
+  margin-right: 15px;
+}
+
+#localization img {
+  width: 20px;
+  margin-right: 3px;
+}
+
+#firstelement {
+  margin-right: 120px;
+}
+
+.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
+  background: white;
+  color: black;
+  line-height: 2rem;
+}
+
+.top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
+  background: white;
+  color: #c45500;
+  text-decoration: none;
+}
+
+ul.dropdown {
+  margin-top: 8px;
+  border: 1px solid #ccc;
 }
 
 .contain-to-grid .top-bar {
@@ -8300,25 +8329,32 @@ body a:visited {
 }
 .contain-to-grid .top-bar li a {
   font-family: 'NeueHaasGroteskText Pro Md';
-  text-transform: uppercase;
+  text-transform: lowercase;
   text-decoration: none;
 }
 .contain-to-grid .top-bar .top-bar-section ul li > a {
   background: inherit;
   color: inherit;
+  line-height: 1rem;
+  font-size: 13px;
 }
 .contain-to-grid .top-bar .top-bar-section ul li > a:hover {
   background: inherit;
   color: inherit;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .contain-to-grid .top-bar #logo {
-  width: auto;
-  max-height: 35px;
+  max-width: 165px;
+  max-height: auto;
+}
+.contain-to-grid .top-bar #logoAmz {
+  max-width: 145px;
+  max-height: auto;
+  margin-left: 20px;
 }
 .contain-to-grid .top-bar .left {
-  text-align: center;
-  margin-bottom: 10px;
+  text-align: left;
+  margin-bottom: 0px;
 }
 .contain-to-grid .top-bar .right {
   margin-left: 50px;
@@ -8346,12 +8382,59 @@ body a:visited {
   width: 16px;
 }
 
+#navbar-right {
+  background-color: #febd69;
+  background-image: none;
+  border: none;
+  width: 45px;
+  background-image: url("https://images-na.ssl-images-amazon.com/images/G/29/gno/sprites/nav-sprite-global_bluebeacon-V3-2x_optimized._CB516557518_.png");
+  background-size: 350px auto;
+}
+
+#lente {
+  z-index: 999;
+  margin-left: -16px;
+  background-color: #febd69;
+  padding: 5px 12px 11px 16px;
+  vertical-align: middle;
+  margin-top: 14px;
+  width: 50px;
+  height: 35px;
+  border-radius: 0px 5px 5px 0px;
+  -moz-border-radius: 0px 5px 5px 0px;
+  -webkit-border-radius: 0px 5px 5px 0px;
+  -khtml-border-radius: 0px 5px 5px 0px;
+}
+
+#lente:hover {
+  background-color: #f3a847;
+}
+
+.separation {
+  border: 0;
+  height: 0.7px;
+  background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75), transparent);
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
   font-family: sans-serif;
+}
+
+.maincont {
+  padding-left: 1.2rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 0 10px #ddd;
+  -o-box-shadow: 0 0 10px #ddd;
+  -webkit-box-shadow: 0 0 10px #ddd;
+  -moz-box-shadow: 0 0 10px #ddd;
 }
 
 /* ---- grid ---- */
@@ -8450,6 +8533,12 @@ body {
   display: none;
 }
 
+.amzside {
+  margin-top: 20px;
+  border-right: 2px solid #d6d6d6;
+  height: 500px;
+}
+
 @media only screen and (min-width: 64.063em) {
   .blog {
     max-width: 80%;
@@ -8514,11 +8603,15 @@ body {
   .imageblockDistro {
     max-height: 380px;
   }
-
-  .imageblockBlog {
-    max-height: 380px;
-  }
 }
+.blue {
+  color: #0066c0;
+}
+
+.grey {
+  color: grey;
+}
+
 .nomarginlarge {
   padding-left: 0px;
   padding-right: 0px;
@@ -8882,10 +8975,10 @@ img {
 
 /*
 #CartCount{
-	text-align:center;
+  text-align:center;
 }*/
 .icoCart {
-  width: 19px;
+  width: 42px;
   height: auto;
 }
 
