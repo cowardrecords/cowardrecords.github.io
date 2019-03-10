@@ -3,6 +3,7 @@ layout: default
 title: Blog
 permalink: /blog/
 summary: Coward stories & news
+published: false
 ---
 <br>
 <div class="small-12 columns">
