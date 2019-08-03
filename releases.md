@@ -1,19 +1,18 @@
 ---
-layout: amazon
+layout: default
 title: Releases
 permalink: /releases/
 summary: Online store. records, publications & much more.
 tags: lathe cuts, vinyl, limited editions, 
-published: false
 ---
 <br>
 
 <div class="grid-section">
-   <div class="content grid-container">
+  <div class="content grid-container">
   {% if page.layout == 'amazon' %}
   {% else %}
      <div class="filters-container contain-to-grid sticky">
-        <ul class="media-boxes-filter text-center" id="filter">
+        <ul class="media-boxes-filter text-center filter">
           <li><a class="selected" href="#" data-filter="*">All</a></li>
           <li><a href="#" data-filter=".Category5">5"</a></li>
           <li><a href="#" data-filter=".Category1">7"</a></li>
@@ -24,15 +23,16 @@ published: false
           <li><a href="#" data-filter=".Category7">miscellaneous</a></li>
           <li><input type="text" id="search" class="media-boxes-search" placeholder="Search By Keyword" style="margin-bottom: -0.7rem; height: 2rem;"></li>
         </ul>
-     </div>
+    </div>
    {% endif %}     
 
    <br>
 
-  <div id="grid" style="padding: 20px">
+  <div id="grid">
   {% for post in site.categories.release %}      
     {% if page.layout == 'amazon' %}
-      <div class="media-box 
+      <div  
+       class="media-box
        {% if post.categories contains '7"' %} 
          Category1 
        {% else %}
@@ -66,10 +66,11 @@ published: false
        {% if post.categories contains 'miscellaneous' %} 
          Category7
        {% else %}
-       {% endif %}">
+       {% endif %}"
+       style="min-width: 100%;">
           
         
-        <div class="small-3 columns">
+          <div class="small-12 large-3 columns">
           <a href="{{ post.url | prepend: site.baseurl }}">
 
             {% if post.cover contains 'http' %}
@@ -79,23 +80,30 @@ published: false
             {% endif %}
           </a>
           </div>
-          <div class="small-4 columns">
+          <div class="small-12 large-4 columns">
             <a href="{{ post.url | prepend: site.baseurl }}">
               <div class="maintitle" >
-              {% if post.artist %}<h6>{{post.artist}}</h6> {% else %} <h6></h6> {% endif%}
-                <p class="grey">{{ post.title }} | {{ post.date | date: '%B %d, %Y' }}</p>
+              {% if post.title %}<h6>{{post.title}}</h6> {% else %} <h6></h6> {% endif%}
+                <p class="grey">{% if post.artist %}by {{ post.artist }} {% endif%} </p>
+     
+                 <div class="amzstar">
+                  <img src="/img/amzstar.png" alt="{{ post.title }}"/>
+                 </div>
+          
                 <p>
-                  <strong class="blue">{{post.subtitle}}</strong><br>
+                  <span class="amzbold randomcolor">Department: </span>{{post.subtitle}}<br>
+
                   {% if post.soldout == true %}
                    sold out
                   {% else %}
                     {{ post.price }} EU   
                   {% endif %}
+                  <br>
+                  <small>{{ post.date | date: '%B %d, %Y' }}</small>
                 </p>
                
               </div>
             </a>
-
           </div>
           <div class="small-12 columns">
             <br>
@@ -163,8 +171,6 @@ published: false
         </a>
       </div> 
     {% endif %} 
-    
-
   {% endfor %}
   </div>
 

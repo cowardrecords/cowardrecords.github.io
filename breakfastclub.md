@@ -1,14 +1,26 @@
 ---
-layout: breakfastclub
+layout: default
 title: Breakfast Club
 permalink: /breakfastclub/
-thumbnail: https://c1.staticflickr.com/1/365/31895025776_cc0cd820f0.jpg
+thumbnail: breakfastclub.jpg
 exclude: true
 summary: Breakfast Club
+bgimage: breakfastclub.jpg
+news-link:
+news-title: 
+news-summary:
+
 ---
 
-<div class="small-12">
-  <img src="/img/breakfastclub.jpg" class="cover" alt="breakfastclub"/>
-</div>
-
-{% include subscribemodal.html %}
+<div id="indexHeader" {% if page.bgimage contains 'http' %} style="background-image: url({{ page.bgimage }})" {% else %} style="background-image: url(/img/{{ page.bgimage }})" {% endif %}> 
+   <div class="testata randomcolorbrd "> 
+    <!-- <a href="{{page.news-link}}"><h1 class="randomcolor"><strong>{{page.news-title}}</strong></h1>
+      <h6 class="randomcolor"> <strong>{{page.news-summary}}</strong></h6>
+      <br>
+      <button class="randomcolor randomcolorbrd">
+        More info
+      </button>
+    </a> -->
+  </div>
+</div> 
+  

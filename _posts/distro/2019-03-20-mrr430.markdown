@@ -1,0 +1,19 @@
+---
+layout: itemdistro
+name: "Maximum Rocknroll #430"
+subtitle: march 2019
+sku: MRR #430
+category: [zine, distro]
+price: "5.50"
+idcart:
+soldout:
+date: 2019-03-20 01:20:17 +0100
+cover: http://maximumrocknroll.com/wp-content/uploads/2019/01/mrr_430_cvr.jpg
+image: http://maximumrocknroll.com/wp-content/uploads/2019/01/mrr_430_cvr.jpg
+thumbnail: http://maximumrocknroll.com/wp-content/uploads/2019/01/mrr_430_cvr.jpg
+
+---
+
+Maximum Rocknroll #430, the March 2019 issue, is here! This month our cover features Monterrey, Mexico’s HETEROFOBIA, who interviewer Violeta Hinojosa says “makes you want to dance and spit on straight hardcore dudes’ faces”! VITAL IDLES from Glasgow talk about their sound and creating DIY art in the modern age. We also hear from PERRA VIDA, a killer hardcore band from Lima, Peru, and PORVENIR OSCURO from NYC via Colombia, whose raging sound incorporates classic elements of Finnish hardcore and Spanish punk. Experimental post-punk trio COME HOLY SPIRIT discuss life in their home city Pittsburgh, PA, while the UK veterans in SIGNAL CRIMES give us the lowdown on their latest project (and yes, they do mention Thatcher and Reagan!). MRR says goodbye to club owner and all around San Francisco legend Tom Guido. We talk with LA’s Denée Segall about her newest band the CIA, and with MOLAR, a band from all over the place geographically and musically. Indonesia’s KATASTROV share their views on exploitation, fundamentalism, and Motörhead! Of course there’s our usual big-ass record reviews section as well as demo and book reviews, and a big announcement from MRR (which you’ve probably heard if you have the internet) along with a bountiful letters section on that topic.\\
+\\
+[more info](http://www.maximumrocknroll.com){:target="_blank"}

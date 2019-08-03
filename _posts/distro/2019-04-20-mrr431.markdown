@@ -1,0 +1,19 @@
+---
+layout: itemdistro
+name: "Maximum Rocknroll #431"
+subtitle: april 2019
+sku: MRR #431
+category: [zine, distro]
+price: "5.50"
+idcart:
+soldout:
+date: 2019-04-20 01:20:17 +0100
+cover: http://maximumrocknroll.com/wp-content/uploads/2019/03/mrr_431_cvr.jpg
+image: http://maximumrocknroll.com/wp-content/uploads/2019/03/mrr_431_cvr.jpg
+thumbnail: http://maximumrocknroll.com/wp-content/uploads/2019/03/mrr_431_cvr.jpg
+
+---
+
+OUT NOW at a supermarket checkout stand near you: the scandal-packed second-to-last issue of Maximum Rocknroll! All the latest tawdry punk gossip from your favorite columnists, the usual packed review section with the latest records, books, demos, zines, and punk movies, PLUS: Cruising through the brittle reality of life in a broken colony with TERRY; Portland, Oregon noise merchants LEBENDEN TOTEN; raw punk mania from Finland’s YDINASEETON POHJOLA; from Brazil, a scene report from Belém in the Amazon region, and melancholic post-punk from COMPLETERS. Not enough for you? We catch up with Navajo punks WEEDRAT, bratty anarcho sounds from Australia’s UBIK, feral QUEEN superfans CHILD’S POSE from London, pessimistic Russian hardcore from CENTRAL, and Italian punks IMPULSO. That’s not all! MRR cub reporter Mitch Cardwell digs behind the scenes of the production of the CRIME documentary, San Francisco’s first and only rock’n’roll movie. Additionally, we hear about the DIY ethos of Chicago’s Not Normal label. Ever wonder what it’s like for a Scottish teenager to bring her dad’s past-it thrash band on tour? Find out in the BRATAKUS/SEDITION Japanese tour diary. If that’s not enough, freak out on the eye-bleeding photo spreads from Karoline Collins and David Carcerán. There will only be one more print edition of MRR after this. Can you afford to pass this up?\\
+\\
+[more info](http://www.maximumrocknroll.com){:target="_blank"}

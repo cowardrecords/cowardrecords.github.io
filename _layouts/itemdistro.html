@@ -5,15 +5,7 @@ layout: default
 <div class="item" {% if page.bgimage contains 'http' %} style="background-image: url({{ page.bgimage }})" {% else %} style="background-image: url(/img/{{ page.bgimage }})" {% endif %}>
 
 
-
-	<div class="large-8 columns show-for-large-up">
-	  <hr>
-	</div>
-	<div class="large-4 columns show-for-large-up">
-	  <hr>
-	</div>
-
-	<div class="large-4 medium-9 small-12 columns" >
+	<div class="large-4 medium-6 small-12 columns itemborder" >
 		<h2 class="randomcolor">{{page.name}}</h2>
 		<p class="randomcolor">{{page.artist}}</p>
   		<h5 class="randomcolor">{{page.subtitle}}</h5>
@@ -31,13 +23,15 @@ layout: default
 		{% include shopbutton.html %}
 		<hr>
 		{% include socialshare.html %}
+		<hr>
 	</div>
 	
-	<div class="large-4 medium-5 small-12 columns" id="itemimages">
+	<div class="large-6 medium-6 small-12 columns end" id="itemimages">
+		<br>
 		{% if page.image contains 'http' %}
           <img  src="{{ page.image }}" alt="{{ page.name }}"/>
         {% else %}
-          <img  src="/img/{{ page.image }}" alt="{{ page.name }}"/>
+          <img  src="/img/distro/{{ page.image }}" alt="{{ page.name }}"/>
       	{% endif %}		
 		<ul class="clearing-thumbs small-block-grid-3" data-clearing >
 			 {% for item in page.imagethumb %}
@@ -48,9 +42,9 @@ layout: default
 	<br>
 	</div>
 
-	<div class="small-12 medium-12 large-4 columns show-for-medium-up">
-	<h6>LATEST RELEASES</h6>
-	<ul class="small-block-grid-4 medium-block-grid-4 large-block-grid-4">
+	<!--<div class="small-12 medium-12 large-2 columns show-for-large-up">
+	// <h6>LATEST RELEASES</h6>
+	 <ul class="small-block-grid-4 medium-block-grid-4 large-block-grid-4">
 	  {% for post in site.categories.release limit:12%} 
 	        <li>
 	          <hr>
@@ -70,7 +64,36 @@ layout: default
 	  {% endfor %}
 	</ul>
 	<a id="underline" href="/releases"><p>all releases</p></a>
-	</div>
+	</div> 
+	<div data-aos="zoom-in-left"
+	    data-aos-offset="200"
+	    data-aos-delay="50"
+	    data-aos-duration="1000"
+	    
+	    data-aos-once="false">
+
+			// <h6 class="underline">Our Release</h6>
+		    <ul class="example-orbit" data-orbit data-options="animation:'fade'; bullets:false; navigation_arrows:false; slide_number:false; resume_on_mouseout:true;">
+	      	{% for post in site.categories.release %} 
+			  <li>
+			  	<a href="{{ post.url | prepend: site.baseurl }}">
+		            <h6>{{ post.title | strip_html | truncate: 10 }}</h6>
+		            <p>{{post.artist}}</p>
+		            {% if post.image contains 'http' %}
+		                <img src="{{ post.cover }}" alt="{{ post.name }}"/>
+		              {% else %}
+		                <img src="/img/{{ post.cover }}" alt="{{ post.name }}"/>
+		            {% endif %} 
+		        </a>
+			  </li>
+			{% endfor %}  
+			</ul>
+		</div>	
+	</div>-->
+
+
+
+
 </div>
 
 <div class="row"></div> <!-- trick per andare a capo -->

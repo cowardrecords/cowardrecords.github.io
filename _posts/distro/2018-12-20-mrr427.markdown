@@ -1,0 +1,19 @@
+---
+layout: itemdistro
+name: "Maximum Rocknroll #427"
+subtitle: december 2018
+sku: MRR #427
+category: [zine, distro]
+price: "5.50"
+idcart: "2ZRUVTJ7FJD966C98D7VP15077"
+soldout:
+date: 2018-12-20 01:20:17 +0100
+cover: http://maximumrocknroll.com/wp-content/uploads/2018/11/mrr_427_cvr.jpg
+image: http://maximumrocknroll.com/wp-content/uploads/2018/11/mrr_427_cvr.jpg
+thumbnail: http://maximumrocknroll.com/wp-content/uploads/2018/11/mrr_427_cvr.jpg
+
+---
+
+Tell your boss you won’t be coming in today, the latest Maximum Rocknroll is here! Issue 427, our December 2018 edition, is filled to the brim with the content you crave. We’ve got New York’s CHOKED UP and long-distance band JABBER dispelling pop punk myths and New York’s GIANT PEACH and Melbourne’s THE SHIFTERS on the importance of place (whether it’s your home or another country!). Vancouver’s LIÉ and long-distance band MARRÓN both discuss the effects of fascism on music, while Montreal’s PINK NOISE and Boston’s ANCIENT FILTH dish on their long, long histories as bands. Not enough? Why not check out THE FUNS’ pontifications on living and working in an abandoned funeral home in Illinois, or take PROTO IDIOT’s advice on lowering your expectations for touring the UK, where they live. And if you’re still looking for more, we of course have the best columns and reviews in the game! Order today to make sure you’re the first on the block to get the latest, greatest issue of the best punk magazine to ever exist… Maximum Rocknroll! \\
+\\
+[more info](http://www.maximumrocknroll.com){:target="_blank"}

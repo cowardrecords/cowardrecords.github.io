@@ -22,8 +22,8 @@ layout: default
 </div>
 <div class="item"  itemscope itemtype="http://schema.org/Product" >
 	
-		<div class="large-4 medium-4 small-12 columns">
-			<hr>
+		<div class="large-4 medium-4 small-11 small-centered medium-uncentered large-uncentered columns itemborder">
+			
 			<div class="itemtitle">
 				<div class="large-6 columns nomargin">
 					{% if page.cover contains 'http' %}
@@ -72,19 +72,6 @@ layout: default
 			
 			<br>
 			<br>
-
-			<!-- <ul class="clearing-thumbs small-block-grid-3" data-clearing >
-			{% if page.imagethumb %}
-				 {% for item in page.imagethumb %}
-				 {% if item.link contains 'http' %}
-		              <li><img src="{{ item.link }}" alt="{{ page.subtitle }}"/></li>
-		            {% else %}
-		              <li><img src="/img/{{ item.link }}" alt="{{ page.subtitle }}"/></li>
-		          	{% endif %}
-	      		 {% endfor %}
-	      	{% else%}	
-	      	{% endif%}	 
-			</ul>  -->
 		</div>
 		
 		<div class="small-12 columns gallery">
@@ -101,22 +88,5 @@ layout: default
 	      	{% endif%}	 
 		</ul>
 		</div>
-		<!-- <div class="large-4 medium-12 small-12 columns">
-		
-			{% if page.sound  %}
-			<hr>
-				<iframe width="100%" height="166" scrolling="no" frameborder="no" src={{ page.sound }}></iframe>	
-				<br>
-			{% else %}	
-			<br>
-			{% endif %}
-			{% if page.video  %}
-				<div class="videoWrapper">
-					<iframe width="100%" height="auto" src={{page.video}} frameborder="0" allowfullscreen></iframe>
-				</div>
-			{% endif %}
-		</div>
-		 -->
-</div>
 
-<!--<div class="row hide-for-medium-only hide-for-small-only" style="width: 800px"></div>  soluzione per andare a capo -->
+</div>

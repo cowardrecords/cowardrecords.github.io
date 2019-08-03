@@ -10,16 +10,22 @@
   {%if page.tags %}
   <meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
   {%endif %}
-
-  <link rel="shortcut icon" type="image/png" href="{{ "/img/favicon.png" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/css/app.css" | prepend: site.baseurl }}">
   
+  {% if page.layout == 'amazon' %}
+    <link rel="shortcut icon" type="image/png" href="{{ "/img/favicon-amz.png" | prepend: site.baseurl }}">
+    {% else %}
+    <link rel="shortcut icon" type="image/png" href="{{ "/img/favicon.png" | prepend: site.baseurl }}">
+  {% endif %}
+  {% if page.title == 'Breakfast Club' %}
+    <link rel="shortcut icon" type="image/png" href="{{ "/img/favicon_bc.png" | prepend: site.baseurl }}">
+    {% else %}
+    <link rel="shortcut icon" type="image/png" href="{{ "/img/favicon.png" | prepend: site.baseurl }}">
+  {% endif %}
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <script src="{{ "/bower_components/jquery/dist/jquery.min.js" | prepend: site.baseurl }}"></script>
   
   <!-- modal -->
-  <link rel="stylesheet" type="text/css" href="{{ "/css/subscribe-better.css" | prepend: site.baseurl }}">
-  <script type="text/javascript" src="{{ "/js/jquery.subscribe-better.js" | prepend: site.baseurl }}"></script>
+  <script type="text/javascript" src="{{ "plugin/js/jquery.subscribe-better.js" | prepend: site.baseurl }}"></script>
   
   <!-- scroll reveal JS -->
   <script src="https://unpkg.com/scrollreveal"></script>
@@ -39,13 +45,17 @@
   <link rel="stylesheet" type="text/css" href="{{ "/plugin/css/mediaBoxes.css" | prepend: site.baseurl }}">
   <!-- MEDIA BOX  end-->
   {% endif %}
-
-  <!-- SNIPCART
   
-  <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="MGMyYTVjOGQtNjgyNS00NmFkLWIzZWYtY2M4NDAyOWI5M2M5NjM2ODA5MDA4OTg0OTc5NDk4"></script>
-  <script>Snipcart.execute('config', 'show_continue_shopping', true);</script>
-  <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
-  -->
+  
+  <link rel="stylesheet" type="text/css"  href="{{"/plugin/css/slick.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" type="text/css" href="{{"/plugin/css/slick-theme.css" | prepend: site.baseurl }}">
+
+
+  <link rel="stylesheet" href="{{ "/css/app.css" | prepend: site.baseurl }}">
+  
+  <!-- scroll animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
   {% include opengraph.html %}
 </head>

@@ -1,6 +1,5 @@
 <div class="footer hide-for-small-only">
 
-
    	<div class="large-2 small-12 medium-12 columns show-for-large-up">
     <h5><br></h5>
     <hr>
@@ -59,10 +58,10 @@
 </div>       
 
 <div class="footer show-for-small-only">
-  <div class="small-12 columns ">
+  <div class="small-12 columns">
     <h5>contacts</h5>  
      <hr>
-      <strong>mail: </strong><a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
      <hr>
      <form style="padding:3px;text-align:left;" action="https://tinyletter.com/coward" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/coward_records', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
 
@@ -76,16 +75,3 @@
      </form>
   </div>
 </div>
-
-<!-- type js -->
-<script src="{{ "/js/typed.js"| prepend: site.baseurl }}"></script>
-<script>
- $(function(){
-    $("#typed").typed({
-        stringsElement: $('#typed-strings'),
-        backDelay: 2500,
-        loop: true
-    });
-  });
-</script>
-<!-- end type js -->

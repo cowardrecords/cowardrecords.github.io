@@ -3,7 +3,6 @@ layout: default
 title: Blog
 permalink: /blog/
 summary: Coward stories & news
-published: false
 ---
 <br>
 <div class="small-12 columns">
@@ -21,7 +20,7 @@ published: false
 			      	{% if post.image contains 'http' %}
 		          	  	<img src="{{ post.image }}" alt="{{ post.tile }}"/>
 			          	{% else %}
-						 <img src="/img/{{ post.image }}" alt="{{ post.tile }}"/>
+						 <img src="/img/blog/{{ post.image }}" alt="{{ post.tile }}"/>
 			        {% endif %}
 			        </div>
                     

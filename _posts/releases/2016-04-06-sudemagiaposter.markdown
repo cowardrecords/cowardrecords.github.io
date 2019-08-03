@@ -2,7 +2,7 @@
 layout: item
 name: "Sud e Magia"
 artist: "Lantern & Girless"
-subtitle: POSTER
+subtitle: Poster
 sku: S&M
 category: [release, miscellaneous]
 price: "8.00"

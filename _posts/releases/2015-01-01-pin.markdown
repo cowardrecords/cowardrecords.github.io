@@ -1,28 +1,21 @@
 ---
 layout: item
-name: "Enamel Pin"
+name: "Ghost Pin"
 artist:
-subtitle:
+subtitle: Enamel Pin
 sku: CWRD
 category: [release, miscellaneous ]
-price: "12.00"
+price: "5.00"
 slug: "Enamel Pin"
 date: 2015-01-01 01:15:17 +0100
 image: pin.jpg
 cover: pin.jpg
 thumbnail: pin.jpg
-bgimage: glow-bg.jpg
+bgimage: pin-bg.jpg
 homepage: true
 homesmall: true
 ---
 
-Limited edition of 150 copies \\
-Photographic zine with previously unreleased tracks on flexi 7" format
-
-Recorded, mixed & mastered by *Steve Scanu* \\
-Video directed by *Erica Terenzi*
-
-November/December 2015
-
-This item is on  **Preorder**, you can order your copy,
-we'll start to ship on January 22th 2016
+This is an enamel pin\\
+Approximate measurements 3.5 cm x 4 cm\\
+Fixing with a metal clutch

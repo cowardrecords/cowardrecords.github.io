@@ -1,7 +1,7 @@
 ---
 layout: blog
 slug: "CRV"
-bgimage: https://c7.staticflickr.com/8/7182/27394860350_6d8e2d9994_o.jpg
+bgimage: crv-bg.jpg
 date: 2015-11-03 00:00:00 +0100
 image: crv.png
 thumbnail: crv.png

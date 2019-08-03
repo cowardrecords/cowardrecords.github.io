@@ -4,7 +4,6 @@ title: Distro
 permalink: /distro/
 summary: Distro for records, zine and other stuff from international partners.
 tags:
-published: false
 ---
 
 <br>
@@ -15,7 +14,7 @@ published: false
   
    <div class="filters-container contain-to-grid sticky">
 
-      <ul class="media-boxes-filter text-center" id="filter">
+      <ul class="media-boxes-filter text-center filter">
         <li><a class="selected" href="#" data-filter="*">All</a></li>
         <li><a href="#" data-filter=".Category1">zine</a></li>
         <li><a href="#" data-filter=".Category2">flexi</a></li>
@@ -57,7 +56,7 @@ published: false
         {% if post.image contains 'http' %}
             <img src="{{ post.image }}" alt="{{ post.tile }}"/>
           {% else %}
-            <img src="/img/{{ post.image }}" alt="{{ post.tile }}"/>
+            <img src="/img/distro/{{ post.image }}" alt="{{ post.tile }}"/>
         {% endif %}
         </div>
        {% if post.soldout == true %}

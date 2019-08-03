@@ -3,15 +3,17 @@ layout: default
 title: Shipping & Payment Info
 permalink: /shippingpaymentinfo/
 summary: How to pay and get your stuff.
-published: false
 ---
 
 <div class="small-12 columns">
-	<div class="large-6 medium-12 small-12 large-centered columns about">
+	<h4 class="text-center">{{ page.title }}</h4>
+
+	<div class="large-4 medium-5  small-12 columns about">
+		  <img src="/img/shippinglogo.svg">
+	</div>
+	<div class="large-8 medium-7 small-12 columns about">
 		
-		 <h4>{{ page.title }}</h4>
-		  
-		
+		 
 		 <hr>
 			<h2>PURCHASE button</h2>
 			<h4>combined items</h4>
@@ -20,7 +22,6 @@ published: false
 			shipments are made by courier and tracking number is always supplied when possible. shipping fees depend on your location.<br>
 			When we get the payment you’ll get a notification and in few days your items are on their way.<br>		
 			</p>		 
-		
 		<hr>
 			<h2>MAILORDER</h2>
 			<h4>combined items</h4>
@@ -30,4 +31,5 @@ published: false
 			<br>
 			<br>
 	</div>
+	
 </div>

@@ -17,6 +17,7 @@ imagethumb:
 thumbnail: volta_vinyl.jpg
 mp3: fauxblood.mp3
 homepage: true
+homebig: true
 ---
 
 Limited edition of 50 copies \\

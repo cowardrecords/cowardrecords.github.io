@@ -1,229 +1,106 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  {% if page.summary %}
-  <meta name="description" content="{{ page.summary | escape }}">
-  {% endif %}
-  {%if page.tags %}
-  <meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
-  {%endif %}
-
-  <link rel="shortcut icon" type="image/png" href="{{ "/img/favicon.png" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/css/appamazon.css" | prepend: site.baseurl }}">
-  
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <script src="{{ "/bower_components/jquery/dist/jquery.min.js" | prepend: site.baseurl }}"></script>
-  
-  <!-- modal -->
-  <link rel="stylesheet" type="text/css" href="{{ "/css/subscribe-better.css" | prepend: site.baseurl }}">
-  <script type="text/javascript" src="{{ "/js/jquery.subscribe-better.js" | prepend: site.baseurl }}"></script>
-  
-  <!-- scroll reveal JS -->
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <!-- <script>
-      ScrollReveal({ reset: true });
-  </script> -->
-  
-  <!-- google font -->
-  <link href="https://fonts.googleapis.com/css?family=Work+Sans:200" rel="stylesheet"> 
-  <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet"> 
-
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-
-
-  {%if page.title == "Releases" or page.title == "Distro" %}
-  <!-- MEDIA BOX -->
-  <link rel="stylesheet" type="text/css" href="{{ "/plugin/css/mediaBoxesamazon.css" | prepend: site.baseurl }}">
-  <!-- MEDIA BOX  end-->
-  {% endif %}
-
-  <!-- SNIPCART
-  
-  <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="MGMyYTVjOGQtNjgyNS00NmFkLWIzZWYtY2M4NDAyOWI5M2M5NjM2ODA5MDA4OTg0OTc5NDk4"></script>
-  <script>Snipcart.execute('config', 'show_continue_shopping', true);</script>
-  <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
-  -->
-
-  {% include opengraph.html %}
-</head>
+  {% include head.html %}
 
   <body itemscope itemtype="http://schema.org/WebPage">
-   <header>
-	  <div class="contain-to-grid">
-	    <nav class="top-bar" data-topbar role="navigation">
+    {% include header.html %}
 
-	      <ul class="title-area">
+<div class="small-12 columns amazon">     
+ 
+    <div class="large-2 medium-3 small-6 large-uncentered medium-uncentered small-centered columns">
+       <span> <img id="logoAmz" src="/img/comazon.png"> </span> 
+    </div>
+    <div class="large-10 medium-9 small-12 columns amzsearchblock">  
+         <div id="amzLeft">
+           <a class="categoryamz1" data-dropdown="drop0" aria-controls="drop0" aria-expanded="false"><strong style="color: grey;">All</strong></a>
+          <ul id="drop0" class="f-dropdown filter" data-dropdown-content aria-hidden="true" tabindex="-1">
+            <li><a class="selected" href="#" data-filter="*"><strong>All</strong></a></li>
+            <li><a href="#" data-filter=".Category5"><strong>5"</strong></a></li>
+            <li><a href="#" data-filter=".Category1"><strong>7"</strong></a></li>
+            <li><a href="#" data-filter=".Category6"><strong>12"</strong></a></li>
+            <li><a href="#" data-filter=".Category2"><strong>flexi</strong></a></li>
+            <li><a href="#" data-filter=".Category3"><strong>zine</strong></a></li>
+            <li><a href="#" data-filter=".Category4"><strong>tape</strong></a></li>
+            <li><a href="#" data-filter=".Category7"><strong>miscellaneous</strong></a></li>
+          </ul>
+         </div> 
+        <div class="media-boxes-search-amz" ><input type="text" id="search" " placeholder="Search By Keyword"></div>
+        <div id="amzLente"><img src="/img/lente.png"></div>
+    </div>
+ 
+<div class="row"><br></div>
 
-	        <li>
-	         <a href="{{ site.baseurl }}/">  <span> <img id="logoAmz" src="/img/comazon.png"> </span> </a>
-	        </li>
-	         <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-	        <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
-	      </ul>
+  
+    <div class="large-2 medium-3 hide-for-small-only columns">
+          <span id="localization"><img src="/img/localization.png"></span><span class="smaller">We know Where</span><br style="display: block;  margin: -3px 0;"><span style="display: block;  margin-left: 25px;">you are</span>
+    </div>
+    <div class="large-6 medium-5 hide-for-small-only columns">
+      <ul class="inline-list">
+        <li class="has-dropdown">
+          <a class="categoryamz" data-dropdown="drop1" aria-controls="drop1" aria-expanded="false"><span>choose by </span><br style="display: block; margin: -3px 0;"><span><strong>category</strong></span></a>
+          <ul id="drop1" class="f-dropdown filter" data-dropdown-content aria-hidden="true" tabindex="-1"  aria-autoclose="false">
+            <li><a class="selected" href="#" data-filter="*"><strong>All</strong></a></li>
+            <li><a href="#" data-filter=".Category5"><strong>5"</strong></a></li>
+            <li><a href="#" data-filter=".Category1"><strong>7"</strong></a></li>
+            <li><a href="#" data-filter=".Category6"><strong>12"</strong></a></li>
+            <li><a href="#" data-filter=".Category2"><strong>flexi</strong></a></li>
+            <li><a href="#" data-filter=".Category3"><strong>zine</strong></a></li>
+            <li><a href="#" data-filter=".Category4"><strong>tape</strong></a></li>
+            <li><a href="#" data-filter=".Category7"><strong>miscellaneous</strong></a></li>
+          </ul>
+        </li>
+        <li class="amzfakemenu"><span>Il mio Amazon</span></li>
+        <li class="amzfakemenu"><span>Offerte</span></li>
+        <li class="amzfakemenu"><span>Buoni regalo</span></li>
+        <li class="amzfakemenu"><span>Vendere</span></li>
+        <li class="amzfakemenu"><span>Aiuto</span></li>
+      </ul>
+    </div>
 
-	      <section class="top-bar-section">
-	        <!-- Right Nav Section -->
-	        <ul class="left">
-	         <!--  {% for link in site.data.navigation.masthead %}    
-	           <li> <a href="{{ link.url | prepend: site.baseurl }}"> {{ link.title }} </a></li>
-	          {% endfor %} -->
-	          <li class="media-boxes-search" ><input type="text" id="search" " placeholder="Search By Keyword" style="min-height: 2.5rem"></li>
-            <li id="lente"><img src="/img/lente.png"></li>
+    <div class="large-4 medium-4 small-12 columns cartamz">
+      <span><strong>Ordini</strong></span>
+      <span><strong>Account | </strong></span>
+      <span><strong>Lista</strong></span>
+         <a style="text-decoration: none;" href="#"><span><img class="icoCartamz" src="/img/cartamazon.svg" alt="cart"> </span><span><strong>Carrello</strong></span></a>
+    </div>
+              
+</div>
 
-	           <!-- <li class="show-for-small-only"><a href="{{ site.baseurl }}/breakfastclub">breakfast club</a> --></li>
-	          
-	        </ul>
-	        <br><br>
-	        <ul class="left" style="margin-top: -20px;">
-	          <li id="firstelement">
-              <a href="#"><span id="localization"><img src="/img/localization.png"></span><span class="smaller">Invia a</span> </a>
-            </li>
-	          <li class="has-dropdown">
-  	          <a href="#"><span class="smaller">scegli per </span><br><strong>categoria</strong></a>
-  		        <ul class="dropdown media-boxes-filter" id="filter">
-  		          <li><a class="selected" href="#" data-filter="*">All</a></li>
-    			      <li><a href="#" data-filter=".Category5">5"</a></li>
-    			      <li><a href="#" data-filter=".Category1">7"</a></li>
-    			      <li><a href="#" data-filter=".Category6">12"</a></li>
-    			      <li><a href="#" data-filter=".Category2">flexi</a></li>
-    			      <li><a href="#" data-filter=".Category3">zine</a></li>
-    			      <li><a href="#" data-filter=".Category4">tape</a></li>
-    			      <li><a href="#" data-filter=".Category7">miscellaneous</a></li>
-  		        </ul>
-	          </li>
-            <li class="amzfakemenu"><span>Il mio Amazon</span></li>
-            <li class="amzfakemenu"><span>Offerte</span></li>
-            <li class="amzfakemenu"><span>Buoni regalo</span></li>
-            <li class="amzfakemenu"><span>Vendere</span></li>
-            <li class="amzfakemenu"><span>Aiuto</span></li>
-	        </ul>	        
-	        <ul class="right" style="margin-top: -20px;">
-	          <!-- <li><a href="{{ site.baseurl }}/breakfastclub" class="randomcolor">breakfast club</a></li> -->
-            <li>
-               <a style="text-decoration: none;" href="#"><span><img class="icoCart" src="/img/cartamazon.svg" alt="cart"> </span><span style="margin-left:5px;">Carrello</span></a>
-            </li>
-	        </ul>
-
-
-	      </section>
-	    </nav>
-	  </div>
-	</header>
-    <div class="maincont">
+<div class="row"></div>
+    <div class="maincontamz">
       
-        <p>test 1</p>
+       <p> <span>results for</span><span class="amzoange"> "superfluous stuff"</span></p>
   
     </div>
     
-      <div class="large-2 columns amzside">
-        <ul>
-          <li>test</li>
-        </ul>
+      <div class="large-2 medium-2 columns hide-for-small-only amzside">
+         <ul class="no-bullet">
+          <li><strong>Releases</strong></li>
+         </ul> 
+          <ul class="no-bullet filter amzsideinner">
+            <li><a class="selected" href="#" data-filter="*">All</a></li>
+            <li><a href="#" data-filter=".Category5">5"</a></li>
+            <li><a href="#" data-filter=".Category1">7"</a></li>
+            <li><a href="#" data-filter=".Category6">12"</a></li>
+            <li><a href="#" data-filter=".Category2">flexi</a></li>
+            <li><a href="#" data-filter=".Category3">zine</a></li>
+            <li><a href="#" data-filter=".Category4">tape</a></li>
+            <li><a href="#" data-filter=".Category7">miscellaneous</a></li>
+           <!--  <li><input type="text" id="search" class="media-boxes-search" placeholder="Search By Keyword" style="margin-bottom: -0.7rem; height: 2rem;"></li>
+        </ul> -->
+        
       </div>
-      <div class="large-10 columns">
+
+      <div class="large-10 medium-10 small-12 columns">
         {{ content }}
       </div>
-         
-	      <div class="footer hide-for-small-only">
-
-
-			   	<div class="large-2 small-12 medium-12 columns show-for-large-up">
-			    <h5><br></h5>
-			    <hr>
-			    <div class="text-center ">
-			      <img src=" /img/rolling_black.gif" >
-			    </div>
-
-			   	</div>
-			   	<div class="large-6 small-12 medium-6  columns">
-			   	  <h5>contacts</h5>
-			   	  
-			   	  <hr>
-			   	  <div class="small-4  large-6 columns nomargin">
-			  		  <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-			  		  <p>{{ site.description }}</p>
-			  	  </div>
-			      {% if page.title == "Breakfast Club"%}
-			      <div class="small-6 large-6 columns ">
-			            <div id="typed-strings">
-			              <p>ciao...</p>
-			              <p>se vuoi rimanere aggiornato</p>
-			              <p>sulle prossime colazioni</p>
-			              <p>metti qui la tua email --> </p>
-			            </div>
-			            <span id="typed"></span>
-			      </div>
-			      {% else %}
-			  	  <div class="small-6 large-6 columns ">
-			  	        <div id="typed-strings">
-			  	          <p>hi, it's nice to see you here</p>
-			  	          <p>feel free to write us for any questions...</p>
-			  	          <p>if you wanna stay update</p>
-			  	          <p>sign up for our newsletter --> </p>
-			  	        </div>
-			          	<span id="typed"></span>
-			  	  </div>
-			      {% endif %}
-			  	</div>  
-
-			  	<div class="large-4 small-12 medium-6 columns">
-			  	   <h5>newsletter</h5>
-			  	   
-			   	   <hr>
-			  	   <form style="padding:3px;text-align:left;" action="https://tinyletter.com/coward" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/coward_records', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-
-			  		   	<div class="small-8 columns nomargin">
-			  		   		<input type="text" style="width:100%" name="email" id="tlemail" placeholder="Enter your email address"/>
-			  		   	</div>
-			  		   	<div class="small-4 columns">
-			  		   	<input type="hidden" value="1" name="embed"/>
-			  		   	<input  class="button"  style="width:100%; background-color: white; color:inherit; font-size: 130%; margin-left: 0p; padding:0; margin-top:5px;" type="submit" value="Subscribe" />
-			  		    </div>
-			  	   </form>
-			    </div>
-
-			</div>       
-
-			<div class="footer show-for-small-only">
-			  <div class="small-12 columns ">
-			    <h5>contacts</h5>  
-			     <hr>
-			      <strong>mail: </strong><a href="mailto:{{ site.email }}">{{ site.email }}</a>
-			     <hr>
-			     <form style="padding:3px;text-align:left;" action="https://tinyletter.com/coward" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/coward_records', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-
-			        <div class="small-8 columns nomargin">
-			          <input type="text" style="width:100%" name="email" id="tlemail" placeholder="Newsletter"/>
-			        </div>
-			        <div class="small-4 columns">
-			        <input type="hidden" value="1" name="embed"/>
-			        <input  class="button"  style="width:100%; background-color: white; color:inherit; font-size: 130%; margin-left: 0p; padding:0; margin-top:5px;" type="submit" value="Subscribe" />
-			        </div>
-			     </form>
-			  </div>
-			</div>
-
-			<!-- type js -->
-			<script src="{{ "/js/typed.js"| prepend: site.baseurl }}"></script>
-			<script>
-			 $(function(){
-			    $("#typed").typed({
-			        stringsElement: $('#typed-strings'),
-			        backDelay: 2500,
-			        loop: true
-			    });
-			  });
-			</script>
-			<!-- end type js -->
+<div class="row">
+</div>
+{% include footer.html %}
        
 
-     <script src="{{ "/bower_components/foundation/js/foundation.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/bower_components/foundation/js/foundation.min.js" | prepend: site.baseurl }}"></script>
      <script src="{{ "/bower_components/modernizr/modernizr.js" | prepend: site.baseurl }}"></script>
      <script src="{{ "/js/app.js" | prepend: site.baseurl }}"></script> 
 
@@ -240,8 +117,8 @@
 
             <script>
                 $('#grid').mediaBoxes({
-                  filterContainer: '#filter',
-                  columns: 1,
+                  filterContainer: '.filter',
+                  columns: 5,
                   boxesToLoadStart: 10,
                   boxesToLoad: 5,
                   horizontalSpaceBetweenBoxes: 10,
@@ -252,8 +129,92 @@
             </script>
       <!-- Media Boxes JS files -->
       {% endif %}
+      
+      <!-- slick carousel -->
 
-     
+      <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+      <script type="text/javascript"  src="{{ "/plugin/js/slick.min.js" | prepend: site.baseurl }}"> </script>
+      <script>
+         $('.responsive').slick({
+          dots: true,
+          arrows: false,
+          infinite: true,
+          speed: 300,
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          autoplay: true,
+          autoplaySpeed: 2000,
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+          ]
+        });
+         $('.slickdistro').slick({
+          dots: false,
+          arrows: false,
+          infinite: true,
+          speed: 300,
+          slidesToShow: 5,
+          slidesToScroll: 3,
+          autoplay: true,
+          autoplaySpeed: 1400,
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                infinite: true,
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                infinite: true,
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+              }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+          ]
+        });
+       </script>
+  
+    
 
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
@@ -414,9 +375,14 @@
     audioTrack.addEventListener('ended', finish, false);
     </script>
     {% endif %}
-
+    
+    <!-- scroll animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    
     <!-- random color -->
-    {% if page.layout == "item"  or page.layout == "itemdistro" %}
     <script>
       $(document).ready(function() {
           var text = $('.randomcolor');
@@ -427,12 +393,23 @@
           var originalbtn = btn.css('background-color');
           var originalbrd =  brd.css('border-color');
           var originalsvg =  svg.css('fill');
-          var colors = ["#007a99", "#ff99bb", "#990099", "#4dffd2", "#cc9900"];
+          var colors = ["#91c1e3", "#ff54ac", "#fa5cfa", "#4dffd2", "#ffdd75"];
           var col = Math.floor(Math.random() * colors.length);
           text.css('color', colors[col]);
           btn.css('background-color', colors[col]);
           brd.css('border-color', colors[col]);
           svg.css('fill', colors[col]);
+      });
+    </script>
+    
+    
+    {% if page.layout == "blog" %}
+    <script>
+      $(document).ready(function() {
+          var link = $('.randomcolor');
+          var colors = ["#007a99", "#ff99bb", "#990099", "#4dffd2", "#cc9900"];
+          var col = Math.floor(Math.random() * colors.length);
+          link.css('color', colors[col]);
       });
     </script>
     {% endif %}
@@ -441,6 +418,20 @@
     <script>
       ScrollReveal().reveal('.reveal', { delay: 690 })
     </script>
+
+
+    <!-- type js -->
+    <script src="{{ "/plugin/js/typed.js"| prepend: site.baseurl }}"></script>
+    <script>
+     $(function(){
+        $("#typed").typed({
+            stringsElement: $('#typed-strings'),
+            backDelay: 2500,
+            loop: true
+        });
+      });
+    </script>
+    <!-- end type js -->
    
    </body>
 </html>

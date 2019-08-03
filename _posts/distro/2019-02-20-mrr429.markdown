@@ -1,0 +1,25 @@
+---
+layout: itemdistro
+name: "Maximum Rocknroll #429"
+subtitle: february 2019
+sku: MRR #429
+category: [zine, distro]
+price: "5.50"
+idcart:
+soldout:
+date: 2019-02-20 01:20:17 +0100
+cover: http://maximumrocknroll.com/wp-content/uploads/2019/01/mrr_429_cvr.jpg
+image: http://maximumrocknroll.com/wp-content/uploads/2019/01/mrr_429_cvr.jpg
+thumbnail: http://maximumrocknroll.com/wp-content/uploads/2019/01/mrr_429_cvr.jpg
+
+---
+
+The best part of your year is already here: it’s our 2018 Year-End Top Ten Issue! MRR #429, our February 2019 issue, will clue you in on all the rad shit you missed out on over the course of 2018.
+
+We’ve also got Farrah Skeiky and Angela Owens giving us their top 10 photos of the year, plus Angela gives us a visual rundown of this year’s Not Dead Yet fest!
+
+After reading CONSTANT MONGREL‘s name so many times in our Top Ten lists, you’ll be primed and ready to read their interview in this issue! We’ve also got the scoop on Austin punks DAMAK and Canadian no wavers RUBY KARINTO, two very different sounding bands who both discuss how being first-generation immigrants affects their music. Plus you can check out what’s going on in Beočin, Serbia, where the local political party may have shut down the underground venue, but they’ll never stop the punks.
+
+Don’t delay! Pick this one up today and dazzle your friends by pretending you already knew about all this stuff!\\
+\\
+[more info](http://www.maximumrocknroll.com){:target="_blank"}

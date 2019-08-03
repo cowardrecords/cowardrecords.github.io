@@ -1,0 +1,21 @@
+---
+layout: itemdistro
+name: "Maximum Rocknroll #421"
+subtitle: june 2018
+sku: MRR #421
+category: [zine, distro]
+price: "5.50"
+idcart: "DBKQ0U8OLY05SGZHH1RLP15074"
+soldout:
+date: 2018-06-20 01:20:17 +0100
+cover: http://maximumrocknroll.com/wp-content/uploads/2018/05/mrr_421_cvr-750x955.jpg
+image: http://maximumrocknroll.com/wp-content/uploads/2018/05/mrr_421_cvr-750x955.jpg
+thumbnail: http://maximumrocknroll.com/wp-content/uploads/2018/05/mrr_421_cvr-750x955.jpg
+
+---
+
+Hot off the press, it’s the latest Maximum Rocknroll! Our June issue, MRR #421, brings you the hot gossip on all your favorite bands. Vancouver’s FASHIONISM has a nun fetish, for example, while Berlin’s CUNTROACHES shit themselves onstage, and New York’s MORAL PANIC may have pissed the couch. Too scandalous for you? Read APPRAISE‘s opinions on the Spanish sXe scene and Catalan independence, Portland’s MR. WRONG on their social responsibilities as a band, Mexico’s CRUZ DE NAVAJAS discussing the femicides in their country, or Australia’s EXEK contemplating tomorrow’s lunch.
+
+Plus we’ve got DURS COEURS on the Ottawa scene, North Carolina’s NO LOVE admitting their most embarrassing shows, and, oh yeah, Japanese legends FIRESTARTER preparing for their only US show! If that’s not enough for you, check out some sick photos from DC’s Damaged City festival, our new DIY recording tips section, and all the columns and reviews that you love to get mad about every month. It’s right here in the newest issue of Maximum Rocknroll!\\
+\\
+[more info](http://www.maximumrocknroll.com){:target="_blank"}

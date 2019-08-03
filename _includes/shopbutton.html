@@ -14,7 +14,7 @@
 {% endif %}
 
 <button
-    class="snipcart-add-item randomcolorbtn"
+    class="snipcart-add-item randomcolor randomcolorbrd"
     data-item-id="{{ page.sku }}"
     data-item-image="{% if page.cover contains 'http' %}
               {{ page.cover }}
@@ -24,6 +24,6 @@
     data-item-name="{{ page.name }}"
     data-item-price="{{ page.price }}"
     data-item-url="{{site.url}}{{ page.url }}">
-     Shop Now 
+     <a href="mailto:mail@cowardrecords.com"</a>
 </button>
 		

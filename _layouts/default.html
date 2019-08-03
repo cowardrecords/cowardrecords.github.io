@@ -27,7 +27,7 @@
 
             <script>
                 $('#grid').mediaBoxes({
-                  filterContainer: '#filter',
+                  filterContainer: '.filter',
                   columns: 5,
                   boxesToLoadStart: 10,
                   boxesToLoad: 5,
@@ -39,8 +39,92 @@
             </script>
       <!-- Media Boxes JS files -->
       {% endif %}
+      
+      <!-- slick carousel -->
 
-     
+      <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+      <script type="text/javascript"  src="{{ "/plugin/js/slick.min.js" | prepend: site.baseurl }}"> </script>
+      <script>
+         $('.responsive').slick({
+          dots: true,
+          arrows: false,
+          infinite: true,
+          speed: 300,
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          autoplay: true,
+          autoplaySpeed: 2000,
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+          ]
+        });
+         $('.slickdistro').slick({
+          dots: false,
+          arrows: false,
+          infinite: true,
+          speed: 300,
+          slidesToShow: 5,
+          slidesToScroll: 3,
+          autoplay: true,
+          autoplaySpeed: 1400,
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                infinite: true,
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                infinite: true,
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+              }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+          ]
+        });
+       </script>
+  
+    
 
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
@@ -201,9 +285,14 @@
     audioTrack.addEventListener('ended', finish, false);
     </script>
     {% endif %}
-
+    
+    <!-- scroll animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    
     <!-- random color -->
-    {% if page.layout == "item"  or page.layout == "itemdistro" %}
     <script>
       $(document).ready(function() {
           var text = $('.randomcolor');
@@ -214,12 +303,23 @@
           var originalbtn = btn.css('background-color');
           var originalbrd =  brd.css('border-color');
           var originalsvg =  svg.css('fill');
-          var colors = ["#007a99", "#ff99bb", "#990099", "#4dffd2", "#cc9900"];
+          var colors = ["#91c1e3", "#ff54ac", "#fa5cfa", "#4dffd2", "#ffdd75"];
           var col = Math.floor(Math.random() * colors.length);
           text.css('color', colors[col]);
           btn.css('background-color', colors[col]);
           brd.css('border-color', colors[col]);
           svg.css('fill', colors[col]);
+      });
+    </script>
+    
+    
+    {% if page.layout == "blog" %}
+    <script>
+      $(document).ready(function() {
+          var link = $('.randomcolor');
+          var colors = ["#007a99", "#ff99bb", "#990099", "#4dffd2", "#cc9900"];
+          var col = Math.floor(Math.random() * colors.length);
+          link.css('color', colors[col]);
       });
     </script>
     {% endif %}
@@ -228,6 +328,20 @@
     <script>
       ScrollReveal().reveal('.reveal', { delay: 690 })
     </script>
+
+
+    <!-- type js -->
+    <script src="{{ "/plugin/js/typed.js"| prepend: site.baseurl }}"></script>
+    <script>
+     $(function(){
+        $("#typed").typed({
+            stringsElement: $('#typed-strings'),
+            backDelay: 2500,
+            loop: true
+        });
+      });
+    </script>
+    <!-- end type js -->
    
    </body>
 </html>
