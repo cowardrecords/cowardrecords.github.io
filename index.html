@@ -12,9 +12,6 @@ sentence5: now I will start over again...
 bgvideo: 
 ---
 
-
-<!-- bgvideo: vectoroftheself.mp4 -->
-
 <div id="indexHeader" {% if page.bgimage contains 'http' %} style="background-image: url({{ page.bgimage }})" {% else %} style="background-image: url(/img/{{ page.bgimage }})" {% endif %}> 
   {% if page.bgvideo %}
     <video autoplay muted loop  poster="/img/{{ page.poster }}" id="myVideo">
