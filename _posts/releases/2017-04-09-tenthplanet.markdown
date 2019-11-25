@@ -21,7 +21,7 @@ homepage: true
 Limited edition of 35 copies \\
 Zine with previously unreleased tracks on flexi 7" format
 
-recorded at **cosabeat studio** (FC)
+recorded at **cosabeat studio** (FC)\\
 mixed at **la distilleria studio** (VI) in 2016
 
 this song was originally written and recorded by **Solid Space** in 1982

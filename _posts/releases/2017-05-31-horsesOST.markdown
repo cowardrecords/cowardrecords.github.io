@@ -18,7 +18,6 @@ imagethumb:
   - link: horses-3.jpg
   - link: horses-4.jpg
 homepage: true
-homebig: true
 mp3: florence.mp3
 
 ---
@@ -33,5 +32,5 @@ Performed by *Alessandro Polidori*
 
 
 
-Poster Illustration by **Nicolò Pellizzon** from the comicbook [**Horses**](http://www.canicola.net/libri/horses/){:target="_blank"}, published By Canicola
+Poster Illustration by **Nicolò Pellizzon** from the comicbook [**Horses**](http://www.canicola.net/libri/horses/){:target="_blank"}, published By Canicola\\
 May 2017

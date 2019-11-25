@@ -29,10 +29,6 @@ Tracklisting:
 
 01. 無常 Anitya Ma(sk), **feat. Zona MC**
 02. Time in eternity, eternity in time 
-
 03. Elastic Bandages, **feat. Giacomo Baldelli** [Only on digital format]
 
 November 2016
-
-This item is on  **Preorder**, you can order your copy,
-we'll start to ship on January 2017

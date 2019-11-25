@@ -1,7 +1,7 @@
 ---
 layout: item
 name: "Ghost Pin"
-artist:
+artist: Coward Records
 subtitle: Enamel Pin
 sku: CWRD
 category: [release, miscellaneous ]

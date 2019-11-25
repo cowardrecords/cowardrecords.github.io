@@ -2,148 +2,133 @@
 layout: default
 title: Coward Records
 summary: Coward Records - ATMOSFERA
-bgimage:
-roundimage: vectorsoftheself_vinyl.jpg
-news-link: /Vectors-of-the-self/
-news-title: Vectors of the self
-news-summary: Body of reverbs
-news-info: Out now
-molkkybgimage: molkky.jpg
-molkkyroundimage: home.png
-bgvideo: vectoroftheself.mp4
+bgimage: homepage.jpg
+molkkybgimage: molkky-bg.jpg
+sentence1: hello!
+sentence2: welcome to our official web store
+sentence3: this is all I wanted to say 
+sentence4: with this nice typewriter effect
+sentence5: now I will start over again...
+bgvideo: 
 ---
+
+
+<!-- bgvideo: vectoroftheself.mp4 -->
 
 <div id="indexHeader" {% if page.bgimage contains 'http' %} style="background-image: url({{ page.bgimage }})" {% else %} style="background-image: url(/img/{{ page.bgimage }})" {% endif %}> 
   {% if page.bgvideo %}
-    <video autoplay muted loop  id="myVideo">
-      <source src="/video/{{page.bgvideo}}" type="video/mp4">
+    <video autoplay muted loop  poster="/img/{{ page.poster }}" id="myVideo">
+       <source src="/video/{{page.bgvideo}}" type="video/mp4">
     </video>
   {% endif %}
-   <div class="testata randomcolorbrd ">
-    {% if page.roundimage %} 
-      <div class="minitest randomcolorbrd" {% if page.roundimage contains 'http' %} style="background-image: url({{ page.roundimage }})" {% else %} style="background-image: url(/img/{{ page.roundimage }})" {% endif %}>
-      </div>
-    {% endif %}
-    <a href="{{page.news-link}}">{% if page.news-title %}<h1 class="randomcolor"><strong>{{page.news-title}}</strong></h1> {% endif %}
-      {% if page.news-summary %}
-        <h6 class="randomcolor"> <strong>{{page.news-summary}}</strong></h6>
-      {% endif %}
-      <br>
-      {% if page.news-link %}
-        <button class="randomcolor randomcolorbrd">
-         {{ page.news-info}}
-        </button>
-      {% endif %}  
+
+
+  <h1>
+    <a class="typewrite randomcolor" data-period="2000" data-type='[ "{{ page.sentence1 }}", "{{page.sentence2}}", "{{page.sentence3}}", "{{page.sentence4}}", "{{page.sentence5}}" ]'>
+      <span class="wrap"></span>
     </a>
-  </div>
+  </h1>
+
 </div> 
   
-<div id="index">
-  <div id="homepage">
-    <div class="grid">
-      <div class="grid-sizer"></div>
-      {% for post in site.categories.release %}
-        {% if post.homepage %}
-          <div class="grid-item {% if post.homesmall %} grid-item-2 {% endif %} {% if post.homebig %} grid-item-3 {% endif %}">
-            <a href="{{ post.url | prepend: site.baseurl }}">
-              {% if post.cover contains 'http' %}
-                <img class="indeximg" src="{{ post.image }}" alt="{{ post.slug }}"/>
-                  {% else %}
-                <img class="indeximg" src="/img/{{ post.image }}" alt="{{ post.slug }}"/>
-              {% endif %}
-                <div class="middle">
-                  <div class="text">
-                    <div class="tileblock">
-                      <h3>{{ post.slug | strip_html | truncatewords:20  }}</h3>
-                      {% if post.artist %}{{post.artist}} {% else %}{% endif%}
-                      {% if post.sku %}<h6>{{post.sku}}</h6> {% endif%}
-                    </div>
-                  </div>
-                </div>
-            </a>
-          </div>
-        {% endif %}
-      {% endfor %}
-        <div class="grid-item">
-          <a href="{{ site.baseurl }}/breakfastclub">
-              <img src="/img/breakfast.jpg" alt="breakfastclub"/>
-          </a>
-        </div>
+
+<div id="homepage">
+    {% for post in site.categories.release %}
+    <div>
+      
+      {% if post.homepage %}
+          <hr>
+         
+            <div class="small-6 medium-4  large-2 columns">
+              <div class="verticaltext">
+                  <h6>{{ post.date | date: "%-d %B %Y" }}</h6>
+              </div>
+              <ul class="clearing-thumbs small-block-grid-2" >  
+                  {% if post.cover contains 'http' %}
+                  <li><img class="indeximg" src="{{ post.image }}" alt="{{ post.slug }}"/></li>
+                    {% else %}
+                  <li><img class="indeximg" src="/img/{{ post.image }}" alt="{{ post.slug }}"/></li>
+                  {% endif %}
+                  {% if post.imagethumb %}
+                      {% for item in post.imagethumb %}
+                      {% if item.link contains 'http' %}
+                            <li><img src="{{ item.link }}" alt="{{ post.subtitle }}"/></li>
+                            {% else %}
+                            <li><img src="/img/{{ item.link }}" alt="{{ post.subtitle }}"/></li>
+                            {% endif %}
+                          {% endfor %}
+                      {% else%}	
+                  {% endif%}   
+              </ul>
+            </div>
+
+            <div class="hide-for-small-only medium-4 large-4 columns">
+              <a href="{{ post.url | prepend: site.baseurl }}">{% if post.content %}<p>{{post.content | strip_html | truncatewords: 40, "  ➥"}}</p> {% endif%}</a>
+            </div>
+
+            <div class="small-6 medium-4  large-6 columns textblock">
+                <a href="{{ post.url | prepend: site.baseurl }}"><h3>{{ post.slug | strip_html | truncatewords: 20  }}</h3></a>
+                <hr/>
+                <a href="{{ post.url | prepend: site.baseurl }}">{% if post.artist %}<h6>{{post.artist}}</h6><hr/>{% else %}{% endif%}</a>
+                <a href="{{ post.url | prepend: site.baseurl }}">{% if post.sku %}<h6>{{post.sku}}</h6> {% endif%}</a>
+            </div> 
+
+      </div>
+      {% endif %}
+      
+    {% endfor %}
+    <hr/>
+    <!-- <div class="row">
+      <a href="{{ site.baseurl }}/breakfastclub">
+        <img src="/img/breakfast.jpg" alt="breakfastclub"/>
+      </a>
+    </div> -->
+</div>
+<section id="distro"><!-- distro section -->
+  <!-- <hr>
+  <h3 class="randomcolor text-center">distro</h3>
+  <hr> -->
+  <div class="slickdistro">
+     {% for post in site.categories.distro %} 
+    <div class="subpanel">
+     <a href="{{ post.url | prepend: site.baseurl }}">
+          {% if post.image contains 'http' %}
+              <img class="itemborder" src="{{ post.image }}" alt="{{ post.tile }}"/>
+            {% else %}
+              <img class="itemborder" src="/img/distro/{{ post.image }}" alt="{{ post.tile }}"/>
+          {% endif %}
+         {% if post.soldout == true %}
+          <p class="text-center soldout">sold out</p>
+          {% else %}
+          <p class="text-center">{{ post.price }} EU</p>   
+         {% endif %}
+        </a>  
     </div>
+     {% endfor%} 
   </div>
+</section>
 
 
 
   <!-- MOLKKY section -->
-  <section id="molkky">
-    <div id="indexHeader" class="reveal" {% if page.molkkybgimage contains 'http' %} style="background-image: url({{ page.molkkybgimage }})" {% else %} style="background-image: url(/img/{{ page.molkkybgimage }})" {% endif %}> 
-       <div class="testata randomcolorbrd ">
-        <div class="minitest randomcolorbrd" {% if page.roundimage contains 'http' %} style="background-image: url({{ page.molkkyroundimage }})" {% else %} style="background-image: url(/img/{{ page.molkkyroundimage }})" {% endif %}>
-        
-        </div>
+<section id="molkky">
+    <div id="indexmolkkyHeader" {% if page.molkkybgimage contains 'http' %} style="background-image: url({{ page.molkkybgimage }})" {% else %} style="background-image: url(/img/{{ page.molkkybgimage }})" {% endif %}> 
+      <div class="molkycontent">
         <!-- <a href="{{ "/mölkky" | prepend: site.baseurl }}"> -->
         <h1 class="randomcolor"><strong>Join our Mölkky League</strong></h1>
           <h6 class="randomcolor"> <strong>Coward Records Mölkky League</strong></h6>
           <br>
-          <button class="randomcolor randomcolorbrd">
-            More info coming soon
-          </button>
+          <!-- <a href="/mölkky/">-->
+            <button class="randomcolor randomcolorbrd">
+              More info coming soon...
+            </button>
+          <!-- </a> -->
         <!-- </a> -->
-      </div>
+       </div>  
     </div>
-    
-  </section>
-  <section id="distro"><!-- distro section -->
-    <hr>
-    <h3 class="randomcolor text-center">distro</h3>
-    <hr>
-    <div class="slickdistro">
-       {% for post in site.categories.distro %} 
-      <div class="subpanel">
-       <a href="{{ post.url | prepend: site.baseurl }}">
-            {% if post.image contains 'http' %}
-                <img class="itemborder" src="{{ post.image }}" alt="{{ post.tile }}"/>
-              {% else %}
-                <img class="itemborder" src="/img/distro/{{ post.image }}" alt="{{ post.tile }}"/>
-            {% endif %}
-           {% if post.soldout == true %}
-            <p class="text-center soldout">sold out</p>
-            {% else %}
-            <p class="text-center">{{ post.price }} EU</p>   
-           {% endif %}
-          </a>  
-      </div>
-       {% endfor%} 
-    </div>
-  </section>
-  <section id="blog">
-    <hr><!-- distro section --><!-- blog section -->
-    <h3 class="randomcolor text-center">blog</h3>
-    <hr>
-    <br>
-    {% for post in site.categories.blog limit:5 %}
-    <div id="indexHeader" class="reveal" {% if post.image contains 'http' %} style="background-image: url({{ post.image }})" {% else %} style="background-image: url(/img/blog/{{ post.image }})" {% endif %}> 
-       <div class="testatablog randomcolorbrd ">
-         
-        <a href="{{ post.url | prepend: site.baseurl }}"><h1 class="randomcolor">{{post.title}}</h1>
-           <hr class="randomcolorbrd">
-          <h6> <small class="randomcolor">{{post.date | date: "%b %-d, %Y"}}</small></h6>
-         
-          <button class="randomcolor randomcolorbrd">
-            Read more
-          </button>
-        </a>
-      </div>
-    </div> 
-    {% endfor %}
+</section>
+  
 
-    <div class="btn-wrapper randomcolorbrd  reveal">
-      <div class="btn-wrapper__container randomcolorbrd ">
-        <div class="btn-inner randomcolorbrd ">
-          <a class="btn-inner__text randomcolor" href="{{ site.baseurl }}/blog">see all entries</a>
-        </div>
-      </div>
-    </div>
-  </section>
   {% include subscribemodal.html %}
-</div>
+
+

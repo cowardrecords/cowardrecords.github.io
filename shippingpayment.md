@@ -5,7 +5,7 @@ permalink: /shippingpaymentinfo/
 summary: How to pay and get your stuff.
 ---
 
-<div class="small-12 columns">
+<div class="small-12 columns page">
 	<h4 class="text-center">{{ page.title }}</h4>
 
 	<div class="large-4 medium-5  small-12 columns about">

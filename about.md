@@ -5,12 +5,10 @@ permalink: /about/
 summary: Records and publications, limited editions, experimental formats and much more.
 ---
 
-<div class="fullWidth">
-  <br>
 
+<br>
 
-	<div class="small-12 columns">
-		<div class="large-6 medium-12 small-12 large-centered columns about">
+<div class="large-6 medium-12 small-12 large-centered columns page">
 
 	        <h4>{{ page.title}}</h4> 
 	        <hr>		
@@ -44,7 +42,7 @@ summary: Records and publications, limited editions, experimental formats and mu
   / , _/ _// /__/ /_/ / , _/ // /\ \
  /_/|_/___/\___/\____/_/|_/____/___/
             </pre> 
-		</div>
-		
-	</div>
 </div>
+		
+
+

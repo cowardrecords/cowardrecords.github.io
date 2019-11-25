@@ -8,7 +8,7 @@ tags:
 
 <br>
 
-<div class="grid-section">
+<div class="grid-section page">
 
    <div class="content grid-container">
   

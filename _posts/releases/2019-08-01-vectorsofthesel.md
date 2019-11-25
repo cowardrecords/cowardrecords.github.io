@@ -18,7 +18,6 @@ bgimage: vectorsoftheself-bg.jpg
 thumbnail: vectorsoftheself_vinyl.jpg
 mp3: vectorsoftheself.mp3
 homepage: true
-homebig: true
 permalink: /Vectors-of-the-self/
 ---
 

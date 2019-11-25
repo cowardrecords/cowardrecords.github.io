@@ -17,12 +17,12 @@ imagethumb:
 thumbnail: volta_vinyl.jpg
 mp3: fauxblood.mp3
 homepage: true
-homebig: true
 ---
 
 Limited edition of 50 copies \\
 Cooproducted with [Coypu Records](http://coypurecords.com/){:target="_blank"}\\
 5" special format, hand-cutted on CD-r\\
 This hybrid format includes entire Volta's album *Remap* in digital audio format and a previously unreleased track cut directly on CD's surface.\\
-supplied with hole adapter for turntable, it comes with screen printed packaging and riso printed insert.\\
+supplied with hole adapter for turntable, it comes with screen printed packaging and riso printed insert.
+
 Autumn 2017.

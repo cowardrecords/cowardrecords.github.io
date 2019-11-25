@@ -3,7 +3,7 @@
 <a href="#close" class="sb-close-btn"><strong>X</strong></a>
   <img src="/img/coward.svg">
        <br>
-       <h5>Subscribe to our newsletter,<br>Join our inner circe</h5>
+       <h5>Subscribe to our newsletter,<br>Join our inner circle</h5>
        <form style="padding:3px;text-align:left;" action="https://tinyletter.com/coward" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/coward_records', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
 
           <div class="small-12 columns nomargin">
@@ -18,6 +18,9 @@
 
 <script type="text/javascript">
   $(document).ready( function() {
-    $(".subscribe-me").subscribeBetter();
+    $(".subscribe-me").subscribeBetter({
+      trigger: "atendpage",
+      showOnce: true
+    });
   });
 </script>

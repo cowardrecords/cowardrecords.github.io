@@ -3,18 +3,17 @@
 
   {% include head.html %}
 
-  <body itemscope itemtype="http://schema.org/WebPage">
+  <body itemscope itemtype="http://schema.org/WebPage" class="randomcolorbg">
     {% include header.html %}
-    
-          {{ content }}
-	        {% include footer.html %}
+    {{ content }}
+	  {% include footer.html %}
        
 
      <script src="{{ "/bower_components/foundation/js/foundation.min.js" | prepend: site.baseurl }}"></script>
      <script src="{{ "/bower_components/modernizr/modernizr.js" | prepend: site.baseurl }}"></script>
      <script src="{{ "/js/app.js" | prepend: site.baseurl }}"></script> 
 
-      {%if page.title == "Releases" or page.title == "Distro" %}
+      {% if page.title == "Releases" or page.title == "Distro" %}
       <!-- Media Boxes JS files -->
             <script src="../plugin/js/jquery.isotope.min.js"></script>
             <script src="../plugin/js/jquery.imagesLoaded.min.js"></script>
@@ -145,56 +144,7 @@
     <script id="dsq-count-scr" src="//www-cowardrecords-com.disqus.com/count.js" async></script>
     <!--end disqus-->
 
-    <script>
-      var stickySidebar = $('.stickyside');
-      if (stickySidebar.length > 0) { 
-        var stickyHeight = stickySidebar.height(),
-            sidebarTop = stickySidebar.offset().top;
-      }
-
-      // on scroll move the sidebar
-
-      $(window).scroll(function () {
-        if (stickySidebar.length > 0) { 
-          var scrollTop = $(window).scrollTop();
-          if (sidebarTop < scrollTop) {
-            stickySidebar.css('top', scrollTop - sidebarTop);
-            // stop the sticky sidebar at the footer to avoid overlapping
-            var sidebarBottom = stickySidebar.offset().top + stickyHeight,
-                stickyStop = $('.main-content').offset().top + $('.main-content').height();
-            if (stickyStop < sidebarBottom) {
-              var stopPosition = $('.main-content').height() - stickyHeight;
-              stickySidebar.css('top', stopPosition);
-            }
-          }
-
-          else {
-            stickySidebar.css('top', '0');
-          } 
-        }
-      });
-
-      $(window).resize(function () {
-        if (stickySidebar.length > 0) { 
-          stickyHeight = stickySidebar.height();
-        }
-      });
-    </script>
-
-    {% if page.layout == "item" or page.layout == "itemdistro"  %}
-    <!-- show price on scroll -->
-    <script>
-      $(document).scroll(function () {
-          var y = $(this).scrollTop();
-          if (y > 1300) {
-              $('.bottomMenu').fadeIn();
-          } else {
-              $('.bottomMenu').fadeOut();
-          }
-
-      });
-    </script>
-    {% endif %} 
+    
 
     
     
@@ -303,7 +253,7 @@
           var originalbtn = btn.css('background-color');
           var originalbrd =  brd.css('border-color');
           var originalsvg =  svg.css('fill');
-          var colors = ["#91c1e3", "#ff54ac", "#fa5cfa", "#4dffd2", "#ffdd75"];
+          var colors = ["#ff54ac", "#fa5cfa", "#4dffd2", "#ffdd75"];
           var col = Math.floor(Math.random() * colors.length);
           text.css('color', colors[col]);
           btn.css('background-color', colors[col]);
@@ -324,24 +274,111 @@
     </script>
     {% endif %}
 
-
+    <!-- typewriter -->
     <script>
-      ScrollReveal().reveal('.reveal', { delay: 690 })
+      ScrollReveal().reveal('.reveal', { delay: 350 })
     </script>
 
-
-    <!-- type js -->
-    <script src="{{ "/plugin/js/typed.js"| prepend: site.baseurl }}"></script>
     <script>
-     $(function(){
-        $("#typed").typed({
-            stringsElement: $('#typed-strings'),
-            backDelay: 2500,
-            loop: true
+        var TxtType = function(el, toRotate, period) {
+            this.toRotate = toRotate;
+            this.el = el;
+            this.loopNum = 0;
+            this.period = parseInt(period, 10) || 2000;
+            this.txt = '';
+            this.tick();
+            this.isDeleting = false;
+        };
+
+        TxtType.prototype.tick = function() {
+            var i = this.loopNum % this.toRotate.length;
+            var fullTxt = this.toRotate[i];
+
+            if (this.isDeleting) {
+            this.txt = fullTxt.substring(0, this.txt.length - 1);
+            } else {
+            this.txt = fullTxt.substring(0, this.txt.length + 1);
+            }
+
+            this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+            var that = this;
+            var delta = 200 - Math.random() * 100;
+
+            if (this.isDeleting) { delta /= 2; }
+
+            if (!this.isDeleting && this.txt === fullTxt) {
+            delta = this.period;
+            this.isDeleting = true;
+            } else if (this.isDeleting && this.txt === '') {
+            this.isDeleting = false;
+            this.loopNum++;
+            delta = 500;
+            }
+
+            setTimeout(function() {
+            that.tick();
+            }, delta);
+        };
+
+        window.onload = function() {
+            var elements = document.getElementsByClassName('typewrite');
+            for (var i=0; i<elements.length; i++) {
+                var toRotate = elements[i].getAttribute('data-type');
+                var period = elements[i].getAttribute('data-period');
+                if (toRotate) {
+                  new TxtType(elements[i], JSON.parse(toRotate), period);
+                }
+            }
+            // INJECT CSS
+            var css = document.createElement("style");
+            css.type = "text/css";
+            css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+            document.body.appendChild(css);
+        };
+      </script>
+      <!-- end typewriter -->
+  
+
+    
+    <!-- cookies -->
+    <script>
+        $("#accept").on("click", function() {
+          if ($.trim($(".cookieone").text()) === 'By clicking “accept” you agree to the use of cookies and other similar technologies to enhance your browsing experience, analyse and measure your engagement with our content. You can withdraw your consent at any time.') {
+                  $(".cookieone").text('The last time you visited our website, you agreed to the use of cookies and other similar technologies to enhance your browsing experience. You can withdraw your consent at any time.');
+              }
+              else {
+                  $(".cookieone").text('The last time you visited our website, you agreed to the use of cookies and other similar technologies to enhance your browsing experience. You can withdraw your consent at any time.');
+              }    
+        
+          if ($("#accept").text() === 'Accept') {
+                  $("#accept").text('Deny');
+                  $("#deny").css("display", "none");
+              }
+              else {
+                  $("#accept").text('Accept');
+                  $(".cookieone").text('By clicking “accept” you agree to the use of cookies and other similar technologies to enhance your browsing experience, analyse and measure your engagement with our content. You can withdraw your consent at any time.');
+                  $("#deny").css("display", "inline");
+              }    
         });
-      });
-    </script>
-    <!-- end type js -->
-   
+      
+        $("#deny").on("click", function() {
+          if ($.trim($(".cookieone").text()) === 'By clicking “accept” you agree to the use of cookies and other similar technologies to enhance your browsing experience, analyse and measure your engagement with our content. You can withdraw your consent at any time.') {
+                  $(".cookieone").text('The last time you visited our website, you did not consent to the use of cookies and other similar technologies to enhance your browsing experience. You can change this setting by giving your consent at any time.');
+              }
+              else {
+                  $(".cookieone").text('The last time you visited our website, you did not consent to the use of cookies and other similar technologies to enhance your browsing experience. You can change this setting by giving your consent at any time.');
+              }    
+        
+          if ($("#deny").text() === 'Deny') {
+                  $("#deny").text('Accept');
+                  $("#accept").css("display", "none");
+              }
+              else {
+                  $("#deny").text('Deny');
+                  $(".cookieone").text('The last time you visited our website, you agreed to the use of cookies and other similar technologies to enhance your browsing experience. You can withdraw your consent at any time.');   
+              }    
+        });
+      </script>
    </body>
 </html>
