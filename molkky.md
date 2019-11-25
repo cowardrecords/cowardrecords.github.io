@@ -5,7 +5,6 @@ permalink: /mölkky/
 summary: Coward Records Mölkky League!
 bgimage:
 bgvideo:
-published: false
 ---
 
 <div id="molkkyHeader" {% if page.molkkybgimage contains 'http' %} style="background-image: url({{ page.molkkybgimage }})" {% else %} style="background-image: url(/img/{{ page.molkkybgimage }})" {% endif %}> 
