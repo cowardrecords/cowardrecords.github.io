@@ -1,0 +1,26 @@
+{
+  "name": "cowardrecords",
+  "version": "1.0.0",
+  "description": "coward records web site",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cowardrecords/cowardrecords.github.io.git"
+  },
+  "author": "coward records",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cowardrecords/cowardrecords.github.io/issues"
+  },
+  "homepage": "https://github.com/cowardrecords/cowardrecords.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^3.9.1",
+    "gulp-compass": "^2.1.0",
+    "gulp-shell": "^0.5.2",
+    "lodash": "^4.17.15"
+  }
+}
