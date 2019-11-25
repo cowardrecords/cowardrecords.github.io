@@ -3,10 +3,10 @@
   <channel>
     <title>COWARD RECORDS</title>
     <description>Coward Records | ATMOSFERA</description>
-    <link>https://www.cowardrecords.com/</link>
-    <atom:link href="https://www.cowardrecords.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 26 Nov 2019 00:08:34 +0100</pubDate>
-    <lastBuildDate>Tue, 26 Nov 2019 00:08:34 +0100</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 26 Nov 2019 00:22:13 +0100</pubDate>
+    <lastBuildDate>Tue, 26 Nov 2019 00:22:13 +0100</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -20,8 +20,8 @@ A film by Demertio Giacomelli&lt;/p&gt;
 &lt;p&gt;October  2019.&lt;/p&gt;
 </description>
         <pubDate>Tue, 01 Oct 2019 02:16:17 +0200</pubDate>
-        <link>https://www.cowardrecords.com/l-uomo-raccoglitore/</link>
-        <guid isPermaLink="true">https://www.cowardrecords.com/l-uomo-raccoglitore/</guid>
+        <link>http://localhost:4000/l-uomo-raccoglitore/</link>
+        <guid isPermaLink="true">http://localhost:4000/l-uomo-raccoglitore/</guid>
         
         
         <category>release</category>
@@ -45,8 +45,8 @@ Recorded and engineered by &lt;em&gt;Enrico Bozzato&lt;/em&gt; at Ekar records s
 &lt;p&gt;June 2019.&lt;/p&gt;
 </description>
         <pubDate>Thu, 01 Aug 2019 02:16:17 +0200</pubDate>
-        <link>https://www.cowardrecords.com/Vectors-of-the-self/</link>
-        <guid isPermaLink="true">https://www.cowardrecords.com/Vectors-of-the-self/</guid>
+        <link>http://localhost:4000/Vectors-of-the-self/</link>
+        <guid isPermaLink="true">http://localhost:4000/Vectors-of-the-self/</guid>
         
         
         <category>release</category>
@@ -66,8 +66,8 @@ Recorded and engineered by &lt;em&gt;Enrico Bozzato&lt;/em&gt; at Ekar records s
 &lt;a href=&quot;http://www.maximumrocknroll.com&quot; target=&quot;_blank&quot;&gt;more info&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 20 Apr 2019 02:20:17 +0200</pubDate>
-        <link>https://www.cowardrecords.com/zine/distro/mrr432/</link>
-        <guid isPermaLink="true">https://www.cowardrecords.com/zine/distro/mrr432/</guid>
+        <link>http://localhost:4000/zine/distro/mrr432/</link>
+        <guid isPermaLink="true">http://localhost:4000/zine/distro/mrr432/</guid>
         
         
         <category>zine</category>
@@ -83,8 +83,8 @@ Recorded and engineered by &lt;em&gt;Enrico Bozzato&lt;/em&gt; at Ekar records s
 &lt;a href=&quot;http://www.maximumrocknroll.com&quot; target=&quot;_blank&quot;&gt;more info&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 20 Apr 2019 02:20:17 +0200</pubDate>
-        <link>https://www.cowardrecords.com/zine/distro/mrr431/</link>
-        <guid isPermaLink="true">https://www.cowardrecords.com/zine/distro/mrr431/</guid>
+        <link>http://localhost:4000/zine/distro/mrr431/</link>
+        <guid isPermaLink="true">http://localhost:4000/zine/distro/mrr431/</guid>
         
         
         <category>zine</category>
@@ -100,8 +100,8 @@ Recorded and engineered by &lt;em&gt;Enrico Bozzato&lt;/em&gt; at Ekar records s
 &lt;a href=&quot;http://www.maximumrocknroll.com&quot; target=&quot;_blank&quot;&gt;more info&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 20 Mar 2019 01:20:17 +0100</pubDate>
-        <link>https://www.cowardrecords.com/zine/distro/mrr430/</link>
-        <guid isPermaLink="true">https://www.cowardrecords.com/zine/distro/mrr430/</guid>
+        <link>http://localhost:4000/zine/distro/mrr430/</link>
+        <guid isPermaLink="true">http://localhost:4000/zine/distro/mrr430/</guid>
         
         
         <category>zine</category>
@@ -123,8 +123,8 @@ Recorded and engineered by &lt;em&gt;Enrico Bozzato&lt;/em&gt; at Ekar records s
 &lt;a href=&quot;http://www.maximumrocknroll.com&quot; target=&quot;_blank&quot;&gt;more info&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 20 Feb 2019 01:20:17 +0100</pubDate>
-        <link>https://www.cowardrecords.com/zine/distro/mrr429/</link>
-        <guid isPermaLink="true">https://www.cowardrecords.com/zine/distro/mrr429/</guid>
+        <link>http://localhost:4000/zine/distro/mrr429/</link>
+        <guid isPermaLink="true">http://localhost:4000/zine/distro/mrr429/</guid>
         
         
         <category>zine</category>
@@ -140,8 +140,8 @@ Recorded and engineered by &lt;em&gt;Enrico Bozzato&lt;/em&gt; at Ekar records s
 &lt;a href=&quot;http://www.maximumrocknroll.com&quot; target=&quot;_blank&quot;&gt;more info&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 20 Jan 2019 01:20:17 +0100</pubDate>
-        <link>https://www.cowardrecords.com/zine/distro/mrr428/</link>
-        <guid isPermaLink="true">https://www.cowardrecords.com/zine/distro/mrr428/</guid>
+        <link>http://localhost:4000/zine/distro/mrr428/</link>
+        <guid isPermaLink="true">http://localhost:4000/zine/distro/mrr428/</guid>
         
         
         <category>zine</category>
@@ -157,8 +157,8 @@ Recorded and engineered by &lt;em&gt;Enrico Bozzato&lt;/em&gt; at Ekar records s
 &lt;a href=&quot;http://www.maximumrocknroll.com&quot; target=&quot;_blank&quot;&gt;more info&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 20 Dec 2018 01:20:17 +0100</pubDate>
-        <link>https://www.cowardrecords.com/zine/distro/mrr427/</link>
-        <guid isPermaLink="true">https://www.cowardrecords.com/zine/distro/mrr427/</guid>
+        <link>http://localhost:4000/zine/distro/mrr427/</link>
+        <guid isPermaLink="true">http://localhost:4000/zine/distro/mrr427/</guid>
         
         
         <category>zine</category>
@@ -174,8 +174,8 @@ Recorded and engineered by &lt;em&gt;Enrico Bozzato&lt;/em&gt; at Ekar records s
 &lt;a href=&quot;http://www.maximumrocknroll.com&quot; target=&quot;_blank&quot;&gt;more info&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 20 Nov 2018 01:20:17 +0100</pubDate>
-        <link>https://www.cowardrecords.com/zine/distro/mrr426/</link>
-        <guid isPermaLink="true">https://www.cowardrecords.com/zine/distro/mrr426/</guid>
+        <link>http://localhost:4000/zine/distro/mrr426/</link>
+        <guid isPermaLink="true">http://localhost:4000/zine/distro/mrr426/</guid>
         
         
         <category>zine</category>
@@ -191,8 +191,8 @@ Recorded and engineered by &lt;em&gt;Enrico Bozzato&lt;/em&gt; at Ekar records s
 &lt;a href=&quot;http://www.maximumrocknroll.com&quot; target=&quot;_blank&quot;&gt;more info&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 20 Oct 2018 02:20:17 +0200</pubDate>
-        <link>https://www.cowardrecords.com/zine/distro/mrr425/</link>
-        <guid isPermaLink="true">https://www.cowardrecords.com/zine/distro/mrr425/</guid>
+        <link>http://localhost:4000/zine/distro/mrr425/</link>
+        <guid isPermaLink="true">http://localhost:4000/zine/distro/mrr425/</guid>
         
         
         <category>zine</category>
