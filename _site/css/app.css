@@ -9157,7 +9157,7 @@ Class Definitions
   position: fixed;
   height: 100%;
   padding: 10% 30px 65px;
-  background-position: center center;
+  background-position: center top;
   background-repeat: no-repeat;
   background-color: #0000;
   -webkit-background-size: cover;
@@ -9173,7 +9173,7 @@ Class Definitions
 #molkky #indexmolkkyHeader {
   height: 100vh;
   padding: 10% 30px 65px;
-  background-position: center right;
+  background-position: center top;
   background-repeat: no-repeat;
   background-color: #0000;
   -webkit-background-size: cover;
