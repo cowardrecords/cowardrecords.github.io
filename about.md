@@ -1,4 +1,4 @@
----
+--—
 layout: default
 title: About
 permalink: /about/
@@ -16,7 +16,7 @@ summary: Records and publications, limited editions, experimental formats and mu
 		    <br>
 		    
 			 <p class="text-justify">
-			records and publications in limited edition, experimental formats and much more.
+			Records and publications in limited edition, experimental formats and much more.
 			</p>
 			<p class="text-justify">
 			every product, both in paper form and in musical form, is completely DIY.
