@@ -9,7 +9,7 @@ category: [release, flexi, zine, 7"]
 price: "16.00"
 date: 2017-03-09 01:16:17 +0100
 bgimage: rientro-bg.jpg
-cover: rientro_zine.gif
+cover: rientro_zine.jpg
 image: rientro.jpg
 imagethumb:
   - link: rientro-2.jpg

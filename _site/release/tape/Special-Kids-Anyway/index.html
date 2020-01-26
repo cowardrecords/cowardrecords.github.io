@@ -30,10 +30,10 @@
       ScrollReveal({ reset: true });
   </script> -->
   
-  <!-- google font -->
+  <!-- google font 
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:200" rel="stylesheet"> 
   <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet"> 
-
+  -->
   <link rel="alternate" type="application/rss+xml" title="COWARD RECORDS" href="https://www.cowardrecords.com/feed.xml">
 
 
@@ -102,21 +102,6 @@
 </header>
     <!-- audioplayer -->
 <div class="bgplyer"  style=" background-image: url(/img/specialkidsanyway_bg.jpg);" >
-
-	
-	<figure id="audioplayer" class="stikplayer" itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
-		<figcaption class="randomcolor randomcolorbrd" >
-			<div class="randomcolor randomcolorbrd">Extract from<span itemprop="name" class="randomcolor">Special Kids Anyway</span></div>
-			<div id="album" class="randomcolor randomcolorbrd">Code<span itemprop="inAlbum" class="randomcolor">CWRD 05</span></div>
-			<div id="artist" class="randomcolor randomcolorbrd">Artist<span itemprop="byArtist" class="randomcolor">Skingarov</span></div>
-			<div id="time" class="randomcolor randomcolorbrd">Time<span id="playbacktime" class="randomcolor randomcolorbrd">00:00</span></div>
-			<meta itemprop="duration" content="PT2M29S">
-			<div id="playback" class="randomcolor randomcolorbrd"></div>
-			<div id="fader" class="randomcolor randomcolorbrd" ></div>		
-		</figcaption>
-		<audio controls src="/audio/gentalyn.mp3" id="audiotrack" preload="auto" itemprop="audio"></audio>
-	</figure>
-	
 </div>
 <div class="item"  itemscope itemtype="http://schema.org/Product" >
 	
@@ -368,98 +353,6 @@ Live session recording and mixing: Francesco Castrovilli</p>
     <!--disqus-->
     <script id="dsq-count-scr" src="//www-cowardrecords-com.disqus.com/count.js" async></script>
     <!--end disqus-->
-
-    
-
-    
-    
-    
-    <!-- audio player -->
-    <script>
-    function player() {
-      if (audioTrack.paused) {
-      setText(this, "Pause");
-      audioTrack.play();
-      } else {
-      setText(this,"Play");
-      audioTrack.pause(); 
-      }
-    }
-
-    function setText(el,text) {
-      el.innerHTML = text;
-    }
-
-    function finish() {
-        audioTrack.currentTime = 0;
-        setText(playButton,"Play");
-    }
-
-    function updatePlayhead() { 
-      playhead.value = audioTrack.currentTime;
-      var s = parseInt(audioTrack.currentTime % 60);
-        var m = parseInt((audioTrack.currentTime / 60) % 60);
-        s = (s >= 10) ? s : "0" + s;
-        m = (m >= 10) ? m : "0" + m;
-        playbacktime.innerHTML = m + ':' + s ;
-        
-    }
-
-    function volumizer() {
-      if (audioTrack.volume == 0) { setText(muteButton,"volume"); }
-      else { setText(muteButton,"volumehigh"); }
-    }
-
-    function muter() {
-      if (audioTrack.volume == 0) {
-        audioTrack.volume = restoreValue;
-        volumeSlider.value = restoreValue;
-      } else {
-        audioTrack.volume = 0;
-        restoreValue = volumeSlider.value;
-        volumeSlider.value = 0;
-      }
-    }
-
-    function setAttributes(el, attrs) {
-      for(var key in attrs){
-        el.setAttribute(key, attrs[key]);
-      }
-    }
-
-    var audioPlayer = document.getElementById("audioplayer"),
-    fader = document.getElementById("fader"),
-    playback = document.getElementById("playback"),
-    audioTrack = document.getElementById("audiotrack"),
-    playbackTime = document.getElementById("playbacktime"),
-    playButton = document.createElement("button"),
-    muteButton = document.createElement("button"),
-    playhead = document.createElement("progress")
-    volumeSlider = document.createElement("input");
-    setText(playButton, "Play");
-    setText(muteButton, "volumehigh");
-    setAttributes(playButton, { "type": "button", "class": "ss-icon" });
-    setAttributes(muteButton, { "type": "button", "class": "ss-icon" });
-    muteButton.style.display = "inline";
-    setAttributes(volumeSlider, { "type": "range", "min": "0", "max": "1", "step": "any", "value": "1", "orient": "orizontal", "id": "volumeSlider" });
-    var duration = audioTrack.duration;
-    setAttributes(playhead, { "min": "0", "max": "100", "value": "0", "id": "playhead", "class": "randomcolorbtn" });
-    setAttributes(playButton, { "class": "ss-icon randomcolor" });
-    setAttributes(muteButton, { "class": "ss-icon randomcolor" });
-    fader.appendChild(volumeSlider);
-    fader.appendChild(muteButton);
-    playback.appendChild(playButton);
-    playback.appendChild(playhead);
-    audioTrack.removeAttribute("controls");
-    playButton.addEventListener("click", player, false);
-    muteButton.addEventListener("click", muter, false);
-    volumeSlider.addEventListener("input", function(){ audioTrack.volume = volumeSlider.value; }, false);
-    audioTrack.addEventListener('volumechange', volumizer, false);
-    audioTrack.addEventListener('playing', function(){ playhead.max = audioTrack.duration; }, false);
-    audioTrack.addEventListener('timeupdate', updatePlayhead, false);
-    audioTrack.addEventListener('ended', finish, false);
-    </script>
-    
     
     <!-- scroll animation -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

@@ -78,4 +78,4 @@ DEPENDENCIES
   sass (~> 3.4, >= 3.4.19)
 
 BUNDLED WITH
-   1.12.5
+   2.1.4

@@ -8208,13 +8208,6 @@ html {
   overflow-y: scroll;
 }
 
-@font-face {
-  font-family: 'NeueHaasGroteskText Pro Md';
-  src: url("../font/NHaasGroteskTXPro-65Md.eot");
-  src: url("../font/NHaasGroteskTXPro-65Md.eot?#iefix") format("embedded-opentype"), url("../font/NHaasGroteskTXPro-65Md.woff2") format("woff2"), url("../font/NHaasGroteskTXPro-65Md.woff") format("woff"), url("../font/NHaasGroteskTXPro-65Md.ttf") format("truetype"), url("../font/NHaasGroteskTXPro-65Md.svg#NHaasGroteskTXPro-65Md") format("svg");
-  font-weight: 500;
-  font-style: normal;
-}
 img .cover {
   width: 100%;
   height: auto;
@@ -8224,7 +8217,7 @@ body {
   background: white;
   color: black;
   /*font-family: 'Inconsolata', ;*/
-  font-family: 'Work Sans', sans-serif;
+  font-family: sans-serif;
 }
 body .contain-to-grid {
   background: white;
@@ -8238,7 +8231,8 @@ body hr {
 body h1, body h2, body h3, body h4, body h5, body h6 {
   color: inherit;
   /*font-family: 'Montserrat', sans-serif;*/
-  font-family: 'NeueHaasGroteskText Pro Md';
+  font-family: inherit;
+  font-weight: bold;
   text-transform: uppercase;
 }
 body a {
@@ -8313,7 +8307,6 @@ body button:hover {
   background: inherit;
 }
 .contain-to-grid .top-bar li a {
-  font-family: 'NeueHaasGroteskText Pro Md';
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -8561,7 +8554,7 @@ body button:hover {
   text-transform: none;
 }
 .blogtext p {
-  font-family: 'Crimson Text', serif;
+  font-family: serif;
   font-size: 17px;
 }
 .blogtext p .small {
@@ -8579,7 +8572,7 @@ body button:hover {
   width: 50%;
   line-height: 1;
   text-align: center;
-  font-family: 'NeueHaasGroteskText Pro Md';
+  font-family: sans-serif;
 }
 
 #blogHeader {
@@ -8627,174 +8620,6 @@ body button:hover {
   margin-bottom: 0px;
 }
 
-/*audioplayer*/
-.bgplyer {
-  height: 100vh;
-  padding-top: 12%;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -ms-background-size: cover;
-  -o-background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center top;
-}
-
-@font-face {
-  font-family: "SSStandard";
-  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/ss-standard.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-.ss-icon, .ss-icon.ss-standard {
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: none;
-  white-space: nowrap;
-  font-feature-settings: "liga","dlig";
-}
-
-.ss-icon, .ss-icon.ss-standard {
-  font-family: "SSStandard";
-}
-
-figure#audioplayer {
-  background-color: black;
-  overflow: hidden;
-  width: 23rem;
-  padding: 0;
-  margin: 0 auto;
-}
-
-figure#audioplayer audio {
-  width: 0;
-  height: 0;
-}
-
-figure#audioplayer figcaption {
-  /* width: 21.5rem; */
-  font-size: 0;
-  margin: .45rem;
-  /*background: #000;*/
-  float: left;
-  border: 1px solid #555;
-}
-
-figure#audioplayer figcaption div {
-  /*background: #000;*/
-  /*color: #fff;*/
-  padding: .8rem;
-  text-transform: uppercase;
-  font-size: .8rem;
-  display: inline-block;
-}
-
-figure#audioplayer figcaption div span {
-  display: block;
-  font-size: 1.3rem;
-  text-indent: 1rem;
-}
-
-div#album {
-  border-top: 1px solid #555;
-  border-bottom: 1px solid #555;
-  width: 100%;
-}
-
-div#time {
-  width: 7.55rem;
-  border-left: 1px solid #555;
-}
-
-input#volumeSlider {
-  margin-left: 1rem;
-  width: 13rem;
-  height: 25px;
-  cursor: pointer;
-}
-
-figure#audioplayer button {
-  width: 4rem;
-  height: 4rem;
-  background: transparent;
-  /*color: #fff; */
-  border: none;
-}
-
-#playback {
-  width: 100%;
-  border-top: 1px solid #555;
-  display: inline-block;
-  clear: both;
-}
-
-div#fader {
-  width: 100%;
-  border-top: 1px solid #555;
-  display: inline-block;
-}
-div#fader input {
-  margin-top: 30px;
-}
-
-#playback progress {
-  margin-left: 1rem;
-  width: 13rem;
-  height: 12px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  /*background-color: #888;*/
-  border: none;
-  color: red;
-}
-
-progress::-webkit-progress-bar, progress::-moz-progress-bar, progress::progress-bar {
-  background: #e0a500;
-}
-
-progress::-webkit-progress-value {
-  background: #e0a500;
-}
-
-progress::-moz-progress-bar {
-  background-color: white;
-}
-
-@media screen and (max-width: 500px) {
-  div#time {
-    display: block !important;
-    border-top: 1px solid #555;
-    width: 100%;
-  }
-
-  figure#audioplayer {
-    width: 100%;
-    padding: .2rem;
-  }
-
-  figure#audioplayer figcaption div {
-    padding: .4rem;
-  }
-}
-@media screen and (max-width: 450px) {
-  figure#audioplayer {
-    max-width: 430px;
-  }
-
-  figure#audioplayer figcaption {
-    max-width: 430px;
-  }
-}
-@media screen and (max-width: 380px) {
-  figure#audioplayer {
-    max-width: 360px;
-  }
-
-  figure#audioplayer figcaption {
-    max-width: 360px;
-  }
-}
 .itemborder {
   border-style: solid;
   border-width: 1px;
@@ -8871,13 +8696,9 @@ img {
 .bgFullcolor .textcont a {
   color: black;
 }
-.bgFullcolor .textcont h1, .bgFullcolor .textcont h2, .bgFullcolor .textcont h3, .bgFullcolor .textcont h4, .bgFullcolor .textcont h5, .bgFullcolor .textcont h6 {
-  color: black;
-  font-family: 'NeueHaasGroteskText Pro Md';
-}
 .bgFullcolor .textcont p {
   color: black;
-  font-family: 'Crimson Text', serif;
+  font-family: serif;
   font-size: 1.5rem;
 }
 .bgFullcolor .textcont p::first-letter {
@@ -8891,7 +8712,7 @@ img {
   width: 50%;
   line-height: 1;
   text-align: center;
-  font-family: 'NeueHaasGroteskText Pro Md';
+  font-family: sans-serif;
 }
 .bgFullcolor .imagecontent {
   text-align: center;
@@ -8906,7 +8727,7 @@ img {
   padding: 3em;
 }
 .bgFullimage .panel p {
-  font-family: 'Crimson Text', serif;
+  font-family: serif;
   font-size: 1.5rem;
 }
 .bgFullimage .panel p::first-letter {
@@ -8920,7 +8741,7 @@ img {
   width: 50%;
   line-height: 1;
   text-align: center;
-  font-family: proxima-nova,sans-serif;
+  font-family: sans-serif;
 }
 
 .item {
