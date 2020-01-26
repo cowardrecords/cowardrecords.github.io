@@ -15,7 +15,6 @@ imagethumb:
   - link: defunto-3.jpg
   - link: defunto-2.jpg  
 thumbnail: defunto_vinyl.jpg
-mp3: defunto.mp3
 homepage: true
 ---
 

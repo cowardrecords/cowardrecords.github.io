@@ -18,7 +18,6 @@ imagethumb:
   - link: horses-3.jpg
   - link: horses-4.jpg
 homepage: true
-mp3: florence.mp3
 
 ---
 

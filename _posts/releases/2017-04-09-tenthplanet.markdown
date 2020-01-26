@@ -14,7 +14,6 @@ image: tenthplanet.jpg
 imagethumb:
   - link: tenthplanet-3.jpg
 thumbnail: tenthplanet_zine_thumbnail.png
-mp3: tenthplanet.mp3
 homepage: true
 ---
 

@@ -17,7 +17,6 @@ imagethumb:
   - link: glow-2.jpg
   - link: glow-3.jpg
   - link: glow-4.jpg
-mp3: glow.mp3
 homepage: true
 ---
 

@@ -12,7 +12,6 @@ bgimage: yourselfie-bg.jpg
 cover: yourselfie_tape.jpg
 image: yourselfie.jpg
 thumbnail: yourselfie_tape.jpg
-mp3: feelsick.mp3
 imagethumb:
   - link: yourselfie-2.jpg
 homepage: true

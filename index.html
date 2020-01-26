@@ -9,16 +9,9 @@ sentence2: welcome to our official web store
 sentence3: this is all I wanted to say 
 sentence4: with this nice typewriter effect
 sentence5: now I will start over again...
-bgvideo: 
 ---
 
 <div id="indexHeader" {% if page.bgimage contains 'http' %} style="background-image: url({{ page.bgimage }})" {% else %} style="background-image: url(/img/{{ page.bgimage }})" {% endif %}> 
-  {% if page.bgvideo %}
-    <video autoplay muted loop  poster="/img/{{ page.poster }}" id="myVideo">
-       <source src="/video/{{page.bgvideo}}" type="video/mp4">
-    </video>
-  {% endif %}
-
 
   <h1>
     <a class="typewrite randomcolor" data-period="2000" data-type='[ "{{ page.sentence1 }}", "{{page.sentence2}}", "{{page.sentence3}}", "{{page.sentence4}}", "{{page.sentence5}}" ]'>

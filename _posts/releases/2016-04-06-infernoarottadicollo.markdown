@@ -16,7 +16,6 @@ bgimage: infernoarottadicollo-bg.jpg
 imagethumb:
   - link: infernoarottadicollo-2.jpg
   - link: infernoarottadicollo-4.jpg 
-mp3: infernoarottadicollo.mp3
 homepage: true
 ---
 

@@ -14,7 +14,6 @@ cover: velvetdress_flexi.jpg
 image: velvetdress.jpg
 homepage: true
 thumbnail: velvetdress_flexi.jpg
-mp3: velvetdress.mp3
 ---
 
 Limited edition of 25 copies\\

@@ -16,7 +16,6 @@ imagethumb:
   - link: suboxone-4.jpg
   - link: suboxone-2.jpg
   - link: suboxone-3.jpg
-mp3: suboxone.mp3
 homepage: true
 ---
 

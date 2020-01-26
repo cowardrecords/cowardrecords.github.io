@@ -8,11 +8,10 @@ category: [release, vinyl, 12"]
 price: "15.00"
 slug: "Beyond Your Inner Sea"
 date: 2016-11-24 01:16:17 +0100
-bgimage:
+bgimage: beyondyourinnersea_vinyl.jpg
 cover: beyondyourinnersea_vinyl.jpg
 image: beyondyourinnersea.jpg
 thumbnail: beyondyourinnersea.jpg
-mp3: beyondyourinnersea.mp3
 homepage: true
 
 ---

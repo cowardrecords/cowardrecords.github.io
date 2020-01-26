@@ -13,7 +13,6 @@ cover: pin.jpg
 thumbnail: pin.jpg
 bgimage: pin-bg.jpg
 homepage: true
-homesmall: true
 ---
 
 This is an enamel pin\\

@@ -16,7 +16,6 @@ imagethumb:
   - link: rientro-4.jpg
   - link: rientro-3.jpg
 thumbnail: rientro_zine_thumbnail.png
-mp3: rientro.mp3
 homepage: true
 ---
 

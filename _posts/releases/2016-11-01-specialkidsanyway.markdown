@@ -14,7 +14,6 @@ thumbnail: specialkidsanyway_tape.jpg
 imagethumb:
   - link: specialkidsanyway-2.jpg
 category: [release, tape]
-mp3: gentalyn.mp3
 homepage: true
 ---
 

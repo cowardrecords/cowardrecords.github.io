@@ -14,7 +14,6 @@ cover: matilde_flexi.jpg
 image: matilde.jpg
 homepage: true
 thumbnail: matilde_flexi.jpg
-mp3: matilde.mp3
 
 ---
 
