@@ -8,9 +8,8 @@ price: "8.50"
 idcart: "XOJNM3RDPBJPWC5OU7MEP13425"
 soldout:
 date: 2016-04-09 01:16:17 +0100
-cover: http://www.perkoro.com/cover/nofriends.3.jpg
-image: http://www.perkoro.com/cover/nofriends.3.jpg
-thumbnail: http://www.perkoro.com/cover/nofriends.3.jpg
+cover: no_friends3.jpg
+image: no_friends3.jpg
 ---
 
 Issue #3 has interviews with Oakland art-damaged, weirdo punks Violence Creeps, bleak Icelandic post-punks Börn, Los Angeles (by way of Chicago) stand-up comedian Kyle Kinane, ringleader behind Halo of Flies Records and Protestant -- Corey Von Bohlen, angular’n’dancey English punks Shopping, the composer of the soundtrack to the film It Follows – Disasterpeace, Vermont’s queer-centric record label Stickshift Records, comedian Caitlin Gill, long running zine editor and cartoonist Robin Bougie of Cinema Sewer fanzine, international DIY documentarian John Yingling of the World Underground series – focusing on East Asian DIY music and arts communites, Buffalo, NY’s one-woman lo-fi punk powerhouse Jamie and the Debt.

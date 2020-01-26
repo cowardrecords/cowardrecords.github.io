@@ -8,10 +8,8 @@ price: "5.50"
 idcart: "WFETURA740OCPGA2DQKLP13415"
 soldout:
 date: 2017-07-20 01:16:17 +0100
-cover: http://www.maximumrocknroll.com/wp-content/uploads/2017/08/mrr_411_cvr.jpg
-image: http://www.maximumrocknroll.com/wp-content/uploads/2017/08/mrr_411_cvr.jpg
-thumbnail: http://www.maximumrocknroll.com/wp-content/uploads/2017/08/mrr_411_cvr.jpg
-
+cover: mrr_411_cvr.jpg
+image: mrr_411_cvr.jpg
 ---
 
 It’s time for Maximum Rocknroll #411, the August 2017 issue — our first-ever Pinoy Punk Special! This issue is absolutely packed with bands, activists, history, scene reports, and everything in between covering punk in the Philippines and beyond. Check out interviews with the organizers of Aklasan Fest — a Bay Area-based punk festival featuring all Pinoy bands, Manila infoshop Etniko Bandido, DIY organizers in the Flowergrave Collective, Quezon City environmental activist Chuck Baclagon, NYC migrant worker organizer Gary Kadena, and an extensive history of autonomous spaces and infoshops in the Philippines going back to the early ’90s. Zine coverage includes a conversation between femme zinesters elena corinne of Brown Recluse Zine Distro and Honey Andres, an interview with Bamboo Girl zine, and a rundown of some of the Philippines’ most interesting DIY zines and resources. On top of that we have interviews with bands including NYC’s MATERIAL SUPPORT and NAMATAY SA INGAY, Manila’s VEILS, THROW, the Bay Area’s HAFNER, and an update on grindcore across the Philippines. Oh, and did we mention a massive scene report covering a dozen different cities? All this, plus all your favorite columnists and all the reviews fit to print can be yours. Order today!\\

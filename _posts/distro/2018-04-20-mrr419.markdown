@@ -8,10 +8,8 @@ price: "5.50"
 idcart: "WD82MWK52XE80BN61N2GP13423"
 soldout:
 date: 2018-04-20 01:20:17 +0100
-cover: http://www.maximumrocknroll.com/wp-content/uploads/2018/03/mrr_419_cvr_4.jpg
-image: http://www.maximumrocknroll.com/wp-content/uploads/2018/03/mrr_419_cvr_4.jpg
-thumbnail: http://www.maximumrocknroll.com/wp-content/uploads/2018/03/mrr_419_cvr_4.jpg
-
+cover: mrr_419_cvr.jpg
+image: mrr_419_cvr.jpg
 ---
 
 It’s the moment you’ve been waiting for: the latest issue of Maximum Rocknroll is here! MRR #419, our April 2018 issue, brings you old-school style with an all cut ‘n’ paste layout. Inside, we bring you the scoop on all your new (and old!) favorite punks: Spain’s RATA NEGRA refuse to just go for the easy joke, while Florida’s PROTOCOL insist you can’t be serious all the time. Who’s right? They both are, of course! We teach you some history lessons with a rundown of rare Finnish KBD punk and an interview with Wyoming’s COWS—if punk made it to small-town Finland and Wyoming in the ’70s, then punk can make it anywhere. That includes rural Italy, where DOTS are getting people dancing to their funky punk as we speak, and Sweden, where KATASTROF do their part to keep the Uppsala hardcore scene strong.

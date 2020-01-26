@@ -8,9 +8,8 @@ price: "5.50"
 idcart: "KWTDH9YWLASYD3DN2CKRP13406"
 soldout:
 date: 2016-11-01 01:16:17 +0100
-cover: http://www.maximumrocknroll.com/wp-content/uploads/2016/10/mrr_402_cvr.jpg
-image: http://www.maximumrocknroll.com/wp-content/uploads/2016/10/mrr_402_cvr.jpg
-thumbnail: http://www.maximumrocknroll.com/wp-content/uploads/2016/10/mrr_402_cvr.jpg
+cover: mrr_402_cvr.jpg
+image: mrr_402_cvr.jpg
 ---
 
 

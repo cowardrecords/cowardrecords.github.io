@@ -8,10 +8,8 @@ price: "5.50"
 idcart: "PSTOZXNGENXPRO3EV0KQP13422"
 soldout:
 date: 2018-03-20 01:20:17 +0100
-cover: http://www.maximumrocknroll.com/wp-content/uploads/2018/02/mrr_418_cvr_2.jpg
-image: http://www.maximumrocknroll.com/wp-content/uploads/2018/02/mrr_418_cvr_2.jpg
-thumbnail: http://www.maximumrocknroll.com/wp-content/uploads/2018/02/mrr_418_cvr_2.jpg
-
+cover: mrr_418_cvr.jpg
+image: mrr_418_cvr.jpg
 ---
 
 Maximum Rocknroll is here to help you navigate the wild world of punk with MRR #418, the March 2018 issue!

@@ -8,10 +8,8 @@ price: "5.50"
 idcart: "BDVAT7NJPXM77FMQSQACP13414"
 soldout:
 date: 2017-05-20 02:16:17 +0100
-cover: http://www.maximumrocknroll.com/wp-content/uploads/2017/06/mrr_410_July-2017.jpg
-image: http://www.maximumrocknroll.com/wp-content/uploads/2017/06/mrr_410_July-2017.jpg
-thumbnail: http://www.maximumrocknroll.com/wp-content/uploads/2017/06/mrr_410_July-2017.jpg
-
+cover: mrr_410_cvr.jpg
+image: mrr_410_cvr.jpg
 ---
 
 Maximum Rocknroll #410, the July 2017 issue, has arrived! We hang out with Mexico City’s RIÑA and talk art and politics with Iceland’s hardcore punks DAUÐYFLIN and their US tourmates, Olympia’s XYLITOL. We have interviews with Berlin supergroup LIFE FUCKER, the creator of Exotic, a documentary covering sex work in Guam, and Hiro the Aggression from the legendary DISCLOSE. Garage punkers REPTILIANS FROM ANDROMEDA tell us about the scene in Istanbul, in fair Verona we meet LOS FASTIDIOS, no wave femme-punk heroines Y PANTS reflect on the occasion of their recently reissued back catalogue, IN FLUX mix powerviolence and D-beat in Portland, and MYDOLLS are still at it playing feminist punk in Houston and recording new music nearly 40 years into their life as a band. All of this plus photo spreads from Waynze World III in Kansas City and Olympia’s Book Your Own Fest, as well as an interview with collective members organizing Chicago’s queercore Fed Up Fest. And that’s not all — we’ve also got the biggest record, zine, demo and film review section in punk. What are you waiting for?\\

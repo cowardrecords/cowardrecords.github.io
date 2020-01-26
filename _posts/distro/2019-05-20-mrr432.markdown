@@ -8,10 +8,8 @@ price: "5.50"
 idcart:
 soldout:
 date: 2019-04-20 01:20:17 +0100
-cover: http://maximumrocknroll.com/wp-content/uploads/2019/04/mrr_432_cvr2.jpg
-image: http://maximumrocknroll.com/wp-content/uploads/2019/04/mrr_432_cvr2.jpg
-thumbnail: http://maximumrocknroll.com/wp-content/uploads/2019/04/mrr_432_cvr2.jpg
-
+cover: mrr_432_cvr.jpg
+image: mrr_432_cvr.jpg
 ---
 
 It’s the final print issue of Maximum Rocknroll! Time for a eulogy? Or time to demonstrate the life eternal that is worldwide DIY punk from MRR’s inception till the end of time… MRR #432, May 2019, is a mammoth issue, featuring savage, falling apart damage from London’s FORRA, we got an interview with insurrectionary artist Winston Smith, mutant NYC snarl from EXOTICA, raging ex-Yugo-inspired punk courtesy of APSURD from Serbia, UKDIY meets desert dream via Austin TX’s CHRONOPHAGE, NYC no wave punk funk eternals BUSH TETRAS, raw punk destrucción from Barcelona’s PIÑÉN, the shit-fi sound of CIEMO, catchy classic punk sounds from Oaklands DESEOS PRIMITIVOS, radical queer femme power pop from Los Angeles’ SUSAN, and dubby post-punk from Oakland’s THE WORLD. We talk to Mindaugas Bagdon, the beatnik punk filmmaker behind the classic SF punk expose Louder Faster Shorter; there’s some radical Oakland hardcore c/o PROVOKE, playful revolutionary London grrrl sound from DREAM NAILS, dense catchy metallic HC from Oakland’s KHIIS, filmmaker Kim Garcia takes inspiration from punk, a look at DIY record store Faith/Void, and a look into homeless services in Olympia, Washington. All of this plus a Rio Grande Valley scene report, photo spreads from Jesse Ponkamo and George Argyropoulos, and yes, all the reviews and columns that you hate to love… Final cover art by the inimitable Martin Sprouse.\\

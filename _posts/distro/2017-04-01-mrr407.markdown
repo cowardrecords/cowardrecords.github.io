@@ -8,10 +8,8 @@ price: "5.50"
 idcart: "E0RSP5LK0BM4USDMWME9P13411"
 soldout:
 date: 2017-04-01 01:16:17 +0100
-cover: http://www.maximumrocknroll.com/wp-content/uploads/2017/03/mrr_407_cvr.jpg
-image: http://www.maximumrocknroll.com/wp-content/uploads/2017/03/mrr_407_cvr.jpg
-thumbnail: http://www.maximumrocknroll.com/wp-content/uploads/2017/03/mrr_407_cvr.jpg
-
+cover: mrr_407_cvr.jpg
+image: mrr_407_cvr.jpg
 ---
 
 We talk to Brazil’s **FUTURO**, who are about to set out on a full US tour; L.A.’s **GENERACION SUICIDA** give us the report from their UK/Ireland jaunt, **OHYDA** talk bringing delay-drenched hardcore to Poland, and **ULTRA** clue us into punk life in Barcelona in advance of their first US tour. **THE CAVEMEN** get nuts in London via New Zealand, **CROOKED BANGS** make dark punk in Austin, Finland’s **KOVAA RASVAA** teach us about their steady diet of Discharge, pork fat, and alcohol, and Icelandic duo **ROHT** find the sweet spot between powerviolence and punk. Plus, we have a **scene report from Cleveland** that proves it’s not “The Most Miserable Place to Live,” and we speak to **K9-67**, the most mysterious-guy hardcore band of them all! All this plus the best film, record, book, demo, and zine review sections going. Order today!\\

@@ -8,10 +8,8 @@ price: "5.50"
 idcart: "2ZRUVTJ7FJD966C98D7VP15077"
 soldout:
 date: 2018-09-20 01:20:17 +0100
-cover: http://maximumrocknroll.com/wp-content/uploads/2018/08/mrr_424_cvr.jpg
-image: http://maximumrocknroll.com/wp-content/uploads/2018/08/mrr_424_cvr.jpg
-thumbnail: http://maximumrocknroll.com/wp-content/uploads/2018/08/mrr_424_cvr.jpg
-
+cover: mrr_424_cvr.jpg
+image: mrr_424_cvr.jpg
 ---
 
 Hold onto your butts, Maximum Rocknroll #424, the September 2018 issue is here! In our latest issue, we’ve got NYC bands HARAM on the importance of having challenging conversations and GREAT WIGHT on finding a sense of belonging. COLOR TV of Minneapolis/Portland discuss the trials of being a long-distance band, while HEAVY LIDS, JUDY AND THE JERKS, and MOTORSAV dish on the character of their hometowns of New Orleans, Hattiesburg, and Copenhagen, respectively. Hint: only one of them has Mardi Gras. Italy’s SECT MARK has a concept album about suicide, Olympia’s B/\GG/\GE write about the importance of keeping queer and trans people safe, and Cardiff’s DISJOY has a new album dedicated to the memory of a member’s father, who died in an accident while helping build a DIY space. Oh, and they’re not a “Dis-band.” We’ve also got a tribute to the dearly departed Steve Soto, plus all the columns and reviews you could possibly ask for. And a lengthy letters section to boot! What are you waiting for? Order your copy now!\\

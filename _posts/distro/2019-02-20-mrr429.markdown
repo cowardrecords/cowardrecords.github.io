@@ -8,10 +8,8 @@ price: "5.50"
 idcart:
 soldout:
 date: 2019-02-20 01:20:17 +0100
-cover: http://maximumrocknroll.com/wp-content/uploads/2019/01/mrr_429_cvr.jpg
-image: http://maximumrocknroll.com/wp-content/uploads/2019/01/mrr_429_cvr.jpg
-thumbnail: http://maximumrocknroll.com/wp-content/uploads/2019/01/mrr_429_cvr.jpg
-
+cover: mrr_429_cvr.jpg
+image: mrr_429_cvr.jpg
 ---
 
 The best part of your year is already here: it’s our 2018 Year-End Top Ten Issue! MRR #429, our February 2019 issue, will clue you in on all the rad shit you missed out on over the course of 2018.
