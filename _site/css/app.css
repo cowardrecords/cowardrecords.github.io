@@ -8571,7 +8571,6 @@ body button:hover {
 
 #blogHeader {
   padding: 195px 30px 65px;
-  background-image: url("../img/bg-defauolt.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-color: #0000;
@@ -8602,13 +8601,13 @@ body button:hover {
 
 @media only screen and (max-width: 400px) {
   .bgplyer {
-    width: 100%;
-    max-height: 100%;
-    /* To compensate for mobile browser address bar space */
-    background-size: fill;
-    -webkit-background-size: fill;
-    -moz-background-size: fill;
-    -o-background-size: fill;
+    height: 60vh;
+    background: no-repeat top center fixed;
+    background-color: #0000;
+    -webkit-background-size: auto 70%;
+    -moz-background-size: auto 70%;
+    -o-background-size: auto 70%;
+    background-size: auto 70%;
   }
 }
 .nomarginlarge {
