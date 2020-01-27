@@ -8592,6 +8592,7 @@ body button:hover {
 
 .bgplyer {
   height: 100vh;
+  width: auto;
   background: no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -8599,6 +8600,17 @@ body button:hover {
   background-size: cover;
 }
 
+@media only screen and (max-width: 400px) {
+  .bgplyer {
+    width: 100%;
+    max-height: 100%;
+    /* To compensate for mobile browser address bar space */
+    background-size: fill;
+    -webkit-background-size: fill;
+    -moz-background-size: fill;
+    -o-background-size: fill;
+  }
+}
 .nomarginlarge {
   padding-left: 0px;
   padding-right: 0px;
