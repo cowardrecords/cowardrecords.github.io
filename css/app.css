@@ -8590,26 +8590,13 @@ body button:hover {
 }
 
 .bgplyer {
-  height: 100vh;
-  width: auto;
-  background: no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-color: black;
+  background-position: center center;
   background-size: cover;
+  height: 100%;
+  overflow: hidden;
 }
 
-@media only screen and (max-width: 400px) {
-  .bgplyer {
-    height: 60vh;
-    background: no-repeat top center fixed;
-    background-color: #0000;
-    -webkit-background-size: auto 70%;
-    -moz-background-size: auto 70%;
-    -o-background-size: auto 70%;
-    background-size: auto 70%;
-  }
-}
 .nomarginlarge {
   padding-left: 0px;
   padding-right: 0px;
@@ -8640,6 +8627,7 @@ body button:hover {
   box-shadow: 10px 10px 5px #dedede;
   margin-bottom: 15px;
   margin-top: 15px;
+  padding-top: 15px;
 }
 
 .itemtitle {
@@ -8763,13 +8751,6 @@ img {
   height: auto;
   min-width: 100%;
   min-height: 800px;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -ms-background-size: cover;
-  -o-background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center top;
 }
 .item button {
   border: 2px solid black;
