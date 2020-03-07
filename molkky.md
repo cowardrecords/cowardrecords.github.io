@@ -3,21 +3,12 @@ layout: default
 title: Mölkky
 permalink: /mölkky/
 summary: Coward Records Mölkky League!
-bgimage:
-bgvideo:
+
 ---
 
-<div id="molkkyHeader" {% if page.molkkybgimage contains 'http' %} style="background-image: url({{ page.molkkybgimage }})" {% else %} style="background-image: url(/img/{{ page.molkkybgimage }})" {% endif %}> 
-  {% if page.bgvideo %}
-    <video autoplay muted loop  id="myVideo">
-      <source src="/video/{{page.bgvideo}}" type="video/mp4">
-    </video>
-  {% endif %}
-</div>
 <div id="molkky" class="small-12 columns">
-	<div class="medium-12 small-12 large-centered">
-		<h4>{{ page.title}}</h4> 	
-		<ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
+	<div class="medium-12 small-12 large-centered">	
+		<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4">
 			{% for post in site.categories.molkky %}
 			<li>
 				<a href="{{ post.url | prepend: site.baseurl }}">

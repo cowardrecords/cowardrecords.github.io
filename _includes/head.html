@@ -29,14 +29,7 @@
   
   <!-- scroll reveal JS -->
   <script src="https://unpkg.com/scrollreveal"></script>
-  <!-- <script>
-      ScrollReveal({ reset: true });
-  </script> -->
-  
-  <!-- google font 
-  <link href="https://fonts.googleapis.com/css?family=Work+Sans:200" rel="stylesheet"> 
-  <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet"> 
-  -->
+ 
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
 
@@ -52,9 +45,10 @@
 
   <link rel="stylesheet" href="{{ "/css/app.css" | prepend: site.baseurl }}">
   
-  <!-- scroll animation -->
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- zoom -->
+  <link rel="stylesheet" type="text/css" href="{{"/plugin/css/zoom.css" | prepend: site.baseurl }}">
 
+ 
 
   {% include opengraph.html %}
 </head>

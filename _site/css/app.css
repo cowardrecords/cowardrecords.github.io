@@ -8252,9 +8252,16 @@ body a:visited {
 body button {
   border: 2px solid black;
   background-color: transparent;
+  color: inherit;
 }
 body button:hover {
   background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+body button:visited {
+  border: 2px solid black;
+  background-color: transparent;
+  color: inherit;
 }
 
 .has-tip {
@@ -8523,6 +8530,10 @@ body button:hover {
 }
 .btn-wrapper__container .btn-inner__text {
   text-decoration: none;
+}
+
+#blogMain {
+  margin-bottom: 4rem;
 }
 
 @media only screen and (min-width: 64.063em) {
@@ -8804,6 +8815,13 @@ img {
   max-width: 400px;
 }
 
+pre {
+  margin-top: 4rem;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .page {
   min-height: 100vh;
   padding-top: 2rem;
@@ -8953,19 +8971,6 @@ Class Definitions
   cursor: pointer;
 }
 
-#molkkyHeader {
-  position: fixed;
-  height: 100%;
-  padding: 10% 30px 65px;
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-color: #0000;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 #molkky {
   padding-top: 2rem;
   min-height: 100vh;
@@ -8982,15 +8987,12 @@ Class Definitions
   background-size: cover;
 }
 #molkky .molkycontent {
-  padding-top: 2rem;
-  max-width: 300px;
+  padding-top: 12rem;
+  max-width: 450px;
 }
 #molkky .molkycontent h1, #molkky .molkycontent h2, #molkky .molkycontent h3, #molkky .molkycontent h4, #molkky .molkycontent h5, #molkky .molkycontent h6 {
-  text-transform: lowercase;
-}
-#molkky li {
   background: white;
-  border: 2px solid black;
+  text-transform: lowercase;
 }
 
 .code {

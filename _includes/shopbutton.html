@@ -1,4 +1,4 @@
-<h2 class="randomcolor" item_price">{{ page.price }} {% if page.price != null %}€{% endif %}</h2>
+<h2>{{ page.price }} {% if page.price != null %}€{% endif %}</h2>
 
 {% if page.select %}
 	<div class="inlinelist">
@@ -13,19 +13,6 @@
 	<INPUT style="display: none" TYPE="radio" NAME="select" VALUE="default">
 {% endif %}
 
-<!-- <button
-    class="snipcart-add-item randomcolor randomcolorbrd"
-    data-item-id="{{ page.sku }}"
-    data-item-image="{% if page.cover contains 'http' %}
-              {{ page.cover }}
-            {% else %}
-              {{site.url}}/img/{{ page.cover }}
-          	{% endif %}"
-    data-item-name="{{ page.name }}"
-    data-item-price="{{ page.price }}"
-    data-item-url="{{site.url}}{{ page.url }}">
-     Shop Now 
-</button>-->
 
-<button class="randomcolor randomcolorbrd"><a href="mailto:mail@cowardrecords.com"><h5>mailorder</h5></a></button>
+<button><a href="mailto:mail@cowardrecords.com"><h5>mailorder</h5></a></button>
 <p>our shopping cart is in maintenance, you can order via email. shipping costs are 8,00 EU for italy, 17,00 EU for europe, 24,00 for the rest of the world</p>

@@ -91,7 +91,7 @@ tags: lathe cuts, vinyl, limited editions,
                  </div>
           
                 <p>
-                  <span class="amzbold randomcolor">Department: </span>{{post.subtitle}}<br>
+                  <span class="amzbold">Department: </span>{{post.subtitle}}<br>
 
                   {% if post.soldout == true %}
                    sold out

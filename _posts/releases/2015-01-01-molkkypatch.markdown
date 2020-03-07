@@ -2,7 +2,7 @@
 layout: item
 name: "Mölkky League Patch"
 artist:
-subtitle: Coward Records Mölkky League official apparel
+subtitle: Coward Records Mölkky League official
 sku:
 category: [ molkky ]
 price: "5.00"
@@ -15,6 +15,5 @@ bgimage: molkkypatch-bg.jpg
 homepage: true
 ---
 
-This is an enamel pin\\
-Approximate measurements 3.5 cm x 4 cm\\
-Fixing with a metal clutch
+Emboried patch,\\
+approximate diameter 5 cm

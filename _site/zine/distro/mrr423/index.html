@@ -26,14 +26,7 @@
   
   <!-- scroll reveal JS -->
   <script src="https://unpkg.com/scrollreveal"></script>
-  <!-- <script>
-      ScrollReveal({ reset: true });
-  </script> -->
-  
-  <!-- google font 
-  <link href="https://fonts.googleapis.com/css?family=Work+Sans:200" rel="stylesheet"> 
-  <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet"> 
-  -->
+ 
   <link rel="alternate" type="application/rss+xml" title="COWARD RECORDS" href="https://www.cowardrecords.com/feed.xml">
 
 
@@ -45,16 +38,17 @@
 
   <link rel="stylesheet" href="/css/app.css">
   
-  <!-- scroll animation -->
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- zoom -->
+  <link rel="stylesheet" type="text/css" href="/plugin/css/zoom.css">
 
+ 
 
   <meta property="og:title" content=' Mrr423   ' />
 <meta property="og:type" content="website" />
 <meta property="og:image" content='http://cowardrecords.com/img/coward.png'>
 
 
-	<meta property="og:description" content="    August 2018   " />
+	<meta property="og:description" content="  Atmosfera  " />
 
 </head>
 
@@ -66,7 +60,7 @@
       <ul class="title-area">
 
         <li>
-         <a href="/">  <span> <img id="logo" src="/img/logo.png"> </span> </a>
+         <a href="/">  <span> <img id="logo" src="/img/logo.png" alt="Coward Records Logo"> </span> </a>
         </li>
          <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
         <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
@@ -104,9 +98,9 @@
 
 
 	<div class="large-4 medium-6 small-12 columns itemborder" >
-		<h2 class="randomcolor">Maximum Rocknroll #423</h2>
-		<p class="randomcolor"></p>
-  		<h5 class="randomcolor">August 2018</h5>
+		<h2>Maximum Rocknroll #423</h2>
+		<p></p>
+  		<h5>August 2018</h5>
   		
 
   		<hr>
@@ -119,26 +113,16 @@
 			
 		<br>
 
-		<h2 class="randomcolor" item_price">5.50 €</h2>
+		<h2>5.50 €</h2>
 
 
 	<INPUT style="display: none" TYPE="radio" NAME="select" VALUE="default">
 
 
-<!-- <button
-    class="snipcart-add-item randomcolor randomcolorbrd"
-    data-item-id="MRR"
-    data-item-image="
-              https://www.cowardrecords.com/img/mrr_423_cvr.jpg
-          	"
-    data-item-name="Maximum Rocknroll #423"
-    data-item-price="5.50"
-    data-item-url="https://www.cowardrecords.com/zine/distro/mrr423/">
-     Shop Now 
-</button>-->
 
-<button class="randomcolor randomcolorbrd"><a href="mailto:mail@cowardrecords.com"><h5>mailorder</h5></a></button>
+<button><a href="mailto:mail@cowardrecords.com"><h5>mailorder</h5></a></button>
 <p>our shopping cart is in maintenance, you can order via email. shipping costs are 8,00 EU for italy, 17,00 EU for europe, 24,00 for the rest of the world</p>
+
 		<hr>
 		
 	</div>
@@ -560,7 +544,7 @@
 </div>
 
 <div class="row"></div> <!-- trick per andare a capo -->
-	  <div class="row"></div>
+	  
 <div class="footer">
 
    	<div class="large-2 small-12 medium-12 columns show-for-large-up">
@@ -612,7 +596,6 @@
        
 
      <script src="/bower_components/foundation/js/foundation.min.js"></script>
-     <script src="/bower_components/modernizr/modernizr.js"></script>
      <script src="/js/app.js"></script> 
 
       
@@ -700,62 +683,11 @@
           ]
         });
        </script>
-  
-    
 
-    <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-      var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-      (function(){
-      var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-      s1.async=true;
-      s1.src='https://embed.tawk.to/57fa145e1e35c727dcf777a1/default';
-      s1.charset='UTF-8';
-      s1.setAttribute('crossorigin','*');
-      s0.parentNode.insertBefore(s1,s0);
-      })();
-    </script>
-    <!--End of Tawk.to Script-->
-
-
-    <!--disqus-->
-    <script id="dsq-count-scr" src="//www-cowardrecords-com.disqus.com/count.js" async></script>
-    <!--end disqus-->
-    
-    <!-- scroll animation -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-    
-    <!-- random color -->
-    <script>
-      $(document).ready(function() {
-          var text = $('.randomcolor');
-          var btn = $('.randomcolorbtn');
-          var brd = $('.randomcolorbrd');
-          var svg  = $('.randomcolorsvg');
-          var original = text.css('color');
-          var originalbtn = btn.css('background-color');
-          var originalbrd =  brd.css('border-color');
-          var originalsvg =  svg.css('fill');
-          var colors = ["#ff54ac", "#fa5cfa", "#4dffd2", "#ffdd75"];
-          var col = Math.floor(Math.random() * colors.length);
-          text.css('color', colors[col]);
-          btn.css('background-color', colors[col]);
-          brd.css('border-color', colors[col]);
-          svg.css('fill', colors[col]);
-      });
-    </script>
-    
-    
-    
+    <!-- Zom Js--> 
+    <script src="../plugin/js/zoom.min.js"></script>  
 
     <!-- typewriter -->
-    <script>
-      ScrollReveal().reveal('.reveal', { delay: 350 })
-    </script>
-
     <script>
         var TxtType = function(el, toRotate, period) {
             this.toRotate = toRotate;

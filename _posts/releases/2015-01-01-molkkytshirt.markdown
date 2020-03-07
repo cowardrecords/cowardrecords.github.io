@@ -2,7 +2,7 @@
 layout: item
 name: "Mölkky League T-Shirt"
 artist:
-subtitle: Coward Records Mölkky League official apparel
+subtitle: Coward Records Mölkky League official
 sku:
 category: [ molkky ]
 price: "10.00"
@@ -19,6 +19,6 @@ select:
  - value: l
 ---
 
-This is an enamel pin\\
-Approximate measurements 3.5 cm x 4 cm\\
-Fixing with a metal clutch
+Coward Records Mölkky League official apparel\\
+White print on black cotton
+

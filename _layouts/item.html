@@ -2,23 +2,9 @@
 layout: default
 ---
 
-<!-- audioplayer -->
 <div class="bgplyer" {% if page.bgimge%} style="color:white;" {% endif %}{% if page.bgimage contains 'http' %} style=" background-image: url({{ page.bgimage }}); " {% else %} style=" background-image: url(/img/{{ page.bgimage }});" {% endif %}>
 
-	<!-- {% if page.mp3  %}
-	<figure id="audioplayer" class="stikplayer" itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
-		<figcaption class="randomcolor randomcolorbrd" >
-			<div class="randomcolor randomcolorbrd">Extract from<span itemprop="name" class="randomcolor">{{ page.name }}</span></div>
-			<div id="album" class="randomcolor randomcolorbrd">Code<span itemprop="inAlbum" class="randomcolor">{{page.sku}}</span></div>
-			<div id="artist" class="randomcolor randomcolorbrd">Artist<span itemprop="byArtist" class="randomcolor">{{page.artist}}</span></div>
-			<div id="time" class="randomcolor randomcolorbrd">Time<span id="playbacktime" class="randomcolor randomcolorbrd">00:00</span></div>
-			<meta itemprop="duration" content="PT2M29S">
-			<div id="playback" class="randomcolor randomcolorbrd"></div>
-			<div id="fader" class="randomcolor randomcolorbrd" ></div>		
-		</figcaption>
-		<audio controls src="/audio/{{page.mp3}}" id="audiotrack" preload="auto" itemprop="audio"></audio>
-	</figure>
-	{% endif %} -->
+
 </div>
 <div class="item"  itemscope itemtype="http://schema.org/Product" >
 	
@@ -34,9 +20,9 @@ layout: default
 				</div>
 
 				<div class="large-6 columns nomarginlarge">
-					<h2 class="randomcolor" itemprop="name">{{page.name}}</h2>
-					<p class="randomcolor">{{page.artist}}</p>
-		  			<h6 class="randomcolor">{{page.sku}}  // {{page.subtitle}}</h6>
+					<h2>{{page.name}}</h2>
+					<p>{{page.artist}}</p>
+		  			<h6>{{page.sku}}  // {{page.subtitle}}</h6>
 		  		</div>
 	  		</div>
 	  		<br>
@@ -46,7 +32,7 @@ layout: default
 			<br>
 			<!-- <hr> -->
 			{% if page.soldout == true %}
-				<h6 class="randomcolor" >sold out</h6>
+				<h >sold out</h6>
 			{% else if %}	
 				{% include shopbutton.html %}
 			{% endif %}	
