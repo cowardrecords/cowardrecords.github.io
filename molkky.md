@@ -12,7 +12,7 @@ summary: Coward Records Mölkky League!
 			{% for post in site.categories.molkky %}
 			<li>
 				<a href="{{ post.url | prepend: site.baseurl }}">
-				<h4>{{ post.name }}</h4>   
+				<!-- <h4>{{ post.name }}</h4>    -->
 				{% if post.image contains 'http' %}
 					<img src="{{ post.image }}" alt="{{ post.name }}"/>
 					{% else %}
@@ -21,7 +21,7 @@ summary: Coward Records Mölkky League!
 				{% if post.soldout == true %}
 					<h6 class="text-center soldout">sold out</h6>
 					{% else %}
-					<h6 class="text-center">{{ post.price }} EU</h6>   
+					<!-- <h6 class="text-center">{{ post.price }} EU</h6>    -->
 				{% endif %}      	
 				</a>
 			</li> 
