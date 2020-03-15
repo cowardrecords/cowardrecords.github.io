@@ -4,18 +4,13 @@ title: Thanks
 permalink: /thanks/
 ---
 
-<div class="fullWidth">
-  <br>
-  <div class="small-12 columns">
+<div class="small-12 columns">
     <div class="large-5 medium-10 small-12 large-centered columns about text-center">
-    
       <img src="http://www.animatedimages.org/data/media/466/animated-thank-you-image-0024.gif" alt="thank you">
       <br>
       <br>
-      
       <p class="text-justify"> Thanks for you support! Your order it's been accepted. We will email you when you order will be dispatched (generally it dosn't take more than 2-3 days). Feel free to <strong><a href="mailto:{{ site.email }}">contact us</a></strong> for any doubt or question.</p>
       <p>sincerely,</p>
-      
 <pre>
    _________ _      _____   ___  ___
   / ___/ __ \ | /| / / _ | / _ \/ _ \
@@ -25,10 +20,7 @@ permalink: /thanks/
    / _ \/ __/ ___/ __ \/ _ \/ _ \/ __/
   / , _/ _// /__/ /_/ / , _/ // /\ \
  /_/|_/___/\___/\____/_/|_/____/___/
-
-
-
 </pre>
-   </div>
   </div>
 </div>
+

@@ -8262,6 +8262,10 @@ body button:visited {
   color: inherit;
 }
 
+.main {
+  padding-top: 3rem;
+}
+
 .has-tip {
   border-bottom: dotted 1px white;
   color: white;
@@ -8288,79 +8292,106 @@ body button:visited {
   margin-top: 80px;
 }
 
-.top-bar {
-  background: inherit;
-  height: 2.8125rem;
-  line-height: 2.8125rem;
-  margin-bottom: 0;
-  overflow: hidden;
-  position: relative;
+.nav {
+  z-index: 99;
+  height: 50px;
+  width: 100%;
+  background-color: white;
+  position: fixed;
 }
 
-.top-bar.expanded .title-area {
-  background: inherit;
+.nav > .nav-header {
+  display: inline;
 }
 
-.contain-to-grid {
-  z-index: 101;
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  padding: 8px 8px 8px 8px;
 }
-
-.contain-to-grid .top-bar {
-  min-width: 100%;
-  z-index: 100;
-  margin: 0px auto;
-  max-width: 1280px;
-}
-.contain-to-grid .top-bar li {
-  background: inherit;
-}
-.contain-to-grid .top-bar li a {
-  text-transform: uppercase;
-  text-decoration: none;
-}
-.contain-to-grid .top-bar .top-bar-section ul li > a {
-  background: inherit;
-  color: inherit;
-}
-.contain-to-grid .top-bar .top-bar-section ul li > a:hover {
-  background: inherit;
-  color: inherit;
-  text-decoration: underline;
-}
-.contain-to-grid .top-bar #logo {
-  width: auto;
+.nav > .nav-header > .nav-title img {
   max-height: 35px;
+  width: auto;
 }
-.contain-to-grid .top-bar .left {
-  text-align: center;
-  margin-bottom: 10px;
+
+.nav > .nav-btn {
+  display: none;
 }
-.contain-to-grid .top-bar .right {
-  margin-left: 50px;
-  padding-right: 12px;
-  text-align: center;
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
 }
-.contain-to-grid .top-bar .right li a {
+
+.nav > .nav-links > a {
+  font-size: 80%;
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav > .nav-links > a:hover {
   text-decoration: underline;
 }
-@media only screen and (max-width: 40em) {
-  .contain-to-grid .top-bar .right {
-    margin-top: 37px;
+
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .nav {
+    position: relative;
+  }
+
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid black;
+  }
+
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: white;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+
+  .nav > .nav-links > a {
+    padding-left: 1.5rem;
+    display: block;
+    width: 100%;
+  }
+
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
   }
 }
-
-.top-bar .toggle-topbar.menu-icon a span::after {
-  content: "";
-  display: block;
-  height: 0;
-  position: absolute;
-  margin-top: -8px;
-  top: 50%;
-  right: 0.9375rem;
-  box-shadow: 0 0 0 1px #000000, 0 7px 0 1px #000000, 0 14px 0 1px #000000;
-  width: 16px;
-}
-
 #indexHeader {
   height: 100vh;
   padding: 10% 30px 65px;
@@ -8893,6 +8924,7 @@ pre {
 Class Definitions
 =================================================*/
 .modalcontainer {
+  padding: 2rem;
   max-width: 350px;
   margin-left: auto;
   margin-right: auto;

@@ -6,8 +6,6 @@ summary: Records and publications, limited editions, experimental formats and mu
 ---
 
 
-<br>
-
 <div class="large-6 medium-12 small-12 large-centered columns page">
 
 	

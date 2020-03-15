@@ -6,9 +6,8 @@ summary: Distro for records, zine and other stuff from international partners.
 tags:
 ---
 
-<br>
-
-<div class="small-12 columns">
+<div class="small-12 columns page">
+<div class="small-12 columns ">
  <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4">   
   {% for post in site.categories.distro %}  
     <li>            

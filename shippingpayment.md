@@ -7,13 +7,10 @@ summary: How to pay and get your stuff.
 
 <div class="small-12 columns page">
 	<h4 class="text-center">{{ page.title }}</h4>
-
 	<div class="large-4 medium-5  small-12 columns about">
 		  <img src="/img/shippinglogo.svg">
 	</div>
-	<div class="large-8 medium-7 small-12 columns about">
-		
-		 
+	<div class="large-8 medium-7 small-12 columns about">	 
 		 <hr>
 			<h2>PURCHASE button</h2>
 			<h4>combined items</h4>
@@ -28,6 +25,5 @@ summary: How to pay and get your stuff.
 		    </p>
 			<br>
 			<br>
-	</div>
-	
+	</div>	
 </div>

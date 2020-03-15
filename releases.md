@@ -5,9 +5,8 @@ permalink: /releases/
 summary: Online store. records, publications & much more.
 tags: lathe cuts, vinyl, limited editions, 
 ---
-<br>
 
-<div class="small-12 columns">
+<div class="small-12 columns page">
  <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4">   
   {% for post in site.categories.release %}   
     {% if page.layout == 'amazon' %}

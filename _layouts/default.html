@@ -5,15 +5,10 @@
 
   <body itemscope itemtype="http://schema.org/WebPage">
     {% include header.html %}
-    {{ content }}
-	  {% include footer.html %}
-       
-     <script type="text/javascript" src="{{ "/plugin/js/jquery-1.11.3.min.js" | prepend: site.baseurls }}"></script>
-     <script src="{{ "/bower_components/foundation/js/foundation.min.js" | prepend: site.baseurl }}"></script>
-     <script src="{{ "/js/app.js" | prepend: site.baseurl }}"></script> 
-      
-      
-
+    <div class="main"> 
+     {{ content }}
+    </div>
+	{% include footer.html %}
     <!-- typewriter -->
     <script>
         var TxtType = function(el, toRotate, period) {
@@ -74,47 +69,5 @@
         };
       </script>
       <!-- end typewriter -->
-  
-
-    
-    <!-- cookies -->
-    <script>
-        $("#accept").on("click", function() {
-          if ($.trim($(".cookieone").text()) === 'By clicking “accept” you agree to the use of cookies and other similar technologies to enhance your browsing experience, analyse and measure your engagement with our content. You can withdraw your consent at any time.') {
-                  $(".cookieone").text('The last time you visited our website, you agreed to the use of cookies and other similar technologies to enhance your browsing experience. You can withdraw your consent at any time.');
-              }
-              else {
-                  $(".cookieone").text('The last time you visited our website, you agreed to the use of cookies and other similar technologies to enhance your browsing experience. You can withdraw your consent at any time.');
-              }    
-        
-          if ($("#accept").text() === 'Accept') {
-                  $("#accept").text('Deny');
-                  $("#deny").css("display", "none");
-              }
-              else {
-                  $("#accept").text('Accept');
-                  $(".cookieone").text('By clicking “accept” you agree to the use of cookies and other similar technologies to enhance your browsing experience, analyse and measure your engagement with our content. You can withdraw your consent at any time.');
-                  $("#deny").css("display", "inline");
-              }    
-        });
-      
-        $("#deny").on("click", function() {
-          if ($.trim($(".cookieone").text()) === 'By clicking “accept” you agree to the use of cookies and other similar technologies to enhance your browsing experience, analyse and measure your engagement with our content. You can withdraw your consent at any time.') {
-                  $(".cookieone").text('The last time you visited our website, you did not consent to the use of cookies and other similar technologies to enhance your browsing experience. You can change this setting by giving your consent at any time.');
-              }
-              else {
-                  $(".cookieone").text('The last time you visited our website, you did not consent to the use of cookies and other similar technologies to enhance your browsing experience. You can change this setting by giving your consent at any time.');
-              }    
-        
-          if ($("#deny").text() === 'Deny') {
-                  $("#deny").text('Accept');
-                  $("#accept").css("display", "none");
-              }
-              else {
-                  $("#deny").text('Deny');
-                  $(".cookieone").text('The last time you visited our website, you agreed to the use of cookies and other similar technologies to enhance your browsing experience. You can withdraw your consent at any time.');   
-              }    
-        });
-      </script>
    </body>
 </html>

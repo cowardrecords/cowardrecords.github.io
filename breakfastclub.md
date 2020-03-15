@@ -3,13 +3,8 @@ layout: default
 title: Breakfast Club
 permalink: /breakfastclub/
 thumbnail: breakfastclub.jpg
-exclude: true
 summary: Breakfast Club
 bgimage: breakfastclub.jpg
-news-link:
-news-title: 
-news-summary:
-
 ---
 
 <div id="indexHeader" {% if page.bgimage contains 'http' %} style="background-image: url({{ page.bgimage }})" {% else %} style="background-image: url(/img/{{ page.bgimage }})" {% endif %}> 
