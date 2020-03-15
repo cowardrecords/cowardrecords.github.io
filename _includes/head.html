@@ -22,33 +22,11 @@
     <link rel="shortcut icon" type="image/png" href="{{ "/img/favicon.png" | prepend: site.baseurl }}">
   {% endif %}
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <script src="{{ "/bower_components/jquery/dist/jquery.min.js" | prepend: site.baseurl }}"></script>
+  <!-- <script src="{{ "/bower_components/jquery/dist/jquery.min.js" | prepend: site.baseurl }}"></script> -->
   
-  <!-- modal -->
-  <script type="text/javascript" src="{{ "plugin/js/jquery.subscribe-better.js" | prepend: site.baseurl }}"></script>
-  
-  <!-- scroll reveal JS -->
-  <script src="https://unpkg.com/scrollreveal"></script>
- 
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
-
-  {%if page.title == "Releases" or page.title == "Distro" %}
-  <!-- MEDIA BOX -->
-  <link rel="stylesheet" type="text/css" href="{{ "/plugin/css/mediaBoxes.css" | prepend: site.baseurl }}">
-  <!-- MEDIA BOX  end-->
-  {% endif %}
-    
-  <link rel="stylesheet" type="text/css"  href="{{"/plugin/css/slick.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" type="text/css" href="{{"/plugin/css/slick-theme.css" | prepend: site.baseurl }}">
-
-
   <link rel="stylesheet" href="{{ "/css/app.css" | prepend: site.baseurl }}">
-  
-  <!-- zoom -->
-  <link rel="stylesheet" type="text/css" href="{{"/plugin/css/zoom.css" | prepend: site.baseurl }}">
-
- 
 
   {% include opengraph.html %}
 </head>

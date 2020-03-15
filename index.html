@@ -35,16 +35,16 @@ sentence5: now I will start over again...
               </div>
               <ul class="clearing-thumbs small-block-grid-2" >  
                   {% if post.cover contains 'http' %}
-                  <li><img class="indeximg" src="{{ post.image }}" alt="{{ post.slug }}"  data-action="zoom"/></li>
+                  <li><img class="indeximg" src="{{ post.image }}" alt="{{ post.slug }}"/></li>
                     {% else %}
-                  <li><img class="indeximg" src="/img/{{ post.image }}" alt="{{ post.slug }}"  data-action="zoom"/></li>
+                  <li><img class="indeximg" src="/img/{{ post.image }}" alt="{{ post.slug }}"/></li>
                   {% endif %}
                   {% if post.imagethumb %}
                       {% for item in post.imagethumb %}
                       {% if item.link contains 'http' %}
-                            <li><img src="{{ item.link }}" alt="{{ post.subtitle }}"  data-action="zoom"/></li>
+                            <li><img src="{{ item.link }}" alt="{{ post.subtitle }}"/></li>
                             {% else %}
-                            <li><img src="/img/{{ item.link }}" alt="{{ post.subtitle }}"  data-action="zoom"/></li>
+                            <li><img src="/img/{{ item.link }}" alt="{{ post.subtitle }}"/></li>
                             {% endif %}
                           {% endfor %}
                       {% else%}	
@@ -69,27 +69,8 @@ sentence5: now I will start over again...
     {% endfor %}
     <hr/>
 </div>
-<section id="distro"><!-- distro section -->
-  <div class="slickdistro">
-     {% for post in site.categories.distro %} 
-    <div class="subpanel">
-     <a href="{{ post.url | prepend: site.baseurl }}">
-          {% if post.image contains 'http' %}
-              <img class="itemborder" src="{{ post.image }}" alt="{{ post.tile }}"/>
-            {% else %}
-              <img class="itemborder" src="/img/distro/{{ post.image }}" alt="{{ post.tile }}"/>
-          {% endif %}
-         {% if post.soldout == true %}
-          <p class="text-center soldout">sold out</p>
-          {% else %}
-          <p class="text-center">{{ post.price }} EU</p>   
-         {% endif %}
-        </a>  
-    </div>
-     {% endfor %} 
-  </div>
-</section>
 
+{% include subscribemodal.html %}
 
 
 <!-- MOLKKY section -->
@@ -103,5 +84,3 @@ sentence5: now I will start over again...
        </div>  
     </div>
 </section>
-  
-{% include subscribemodal.html %}

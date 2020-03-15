@@ -6,11 +6,11 @@ comments: true
 <div id="blogHeader"{% if page.bgimage contains 'http' %} style="background-image: url({{ page.bgimage }})" {% else %} style="background-image: url(/img/blog/{{ page.bgimage }})" {% endif %}>
 	
 	<div class="testata">
-		<h1 class="randomcolor">{{ page.title }}</h1>
+		<h1><span class="bg">{{ page.title }}</span></h1>
 
-		<i class="randomcolor">{{ page.date | date: "%b %-d, %Y" }}</i>
+		<i>{{ page.date | date: "%b %-d, %Y" }}</i>
 		{% if page.author %}
-		<h5 class="randomcolor">{{ page.author}}</h5>
+		<h5>{{ page.author}}</h5>
 		
 		{% endif %}
 

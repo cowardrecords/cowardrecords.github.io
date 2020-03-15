@@ -1,7 +1,9 @@
-<br>
-<div class="subscribe-me">
-<a href="#close" class="sb-close-btn"><strong>X</strong></a>
-  <img src="/img/coward.svg">
+<!-- <div class="button-container">
+  <button id="click-me" class="subscribe">Subscribe</button>
+</div> -->
+<div class="modalcontainer" id="show">
+  <div class="sb-close-btn"><strong>X</strong></div>
+  <img src="/img/coward.svg" alt="subscribe newsletter">
        <br>
        <h5>Subscribe to our newsletter,<br>Join our inner circle</h5>
        <form style="padding:3px;text-align:left;" action="https://tinyletter.com/coward" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/coward_records', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
@@ -16,11 +18,18 @@
        </form>
 </div>
 
-<script type="text/javascript">
-  $(document).ready( function() {
-    $(".subscribe-me").subscribeBetter({
-      trigger: "atendpage",
-      showOnce: true
+<!-- <script>
+  $( "#click-me" ).click(function() {
+    $( "#show" ).toggle( "slow", function() {
+    });
+    $( "#click-me" ).toggle( "slow", function() {
     });
   });
-</script>
+  
+  $( ".sb-close-btn" ).click(function() {
+    $( ".modalcontainer" ).toggle( "slow", function() {
+    });
+    $( "#click-me" ).toggle( "slow", function() {
+    });
+  });
+</script> -->

@@ -41,58 +41,7 @@ layout: default
 	<br>
 	</div>
 
-	<!--<div class="small-12 medium-12 large-2 columns show-for-large-up">
-	// <h6>LATEST RELEASES</h6>
-	 <ul class="small-block-grid-4 medium-block-grid-4 large-block-grid-4">
-	  {% for post in site.categories.release limit:12%} 
-	        <li>
-	          <hr>
-	          <a href="{{ post.url | prepend: site.baseurl }}">
-	            <div class="tileblock">
-	              <h6>{{ post.title | strip_html | truncate: 10 }}</h6>
-	              <p>{{post.artist}}</p>
-	            </div>
-	            {% if post.image contains 'http' %}
-	                <img src="{{ post.cover }}" alt="{{ post.name }}"/>
-	              {% else %}
-	                <img src="/img/{{ post.cover }}" alt="{{ post.name }}"/>
-	            {% endif %} 
-	          </a>
-	          <br>
-	        </li> 
-	  {% endfor %}
-	</ul>
-	<a id="underline" href="/releases"><p>all releases</p></a>
-	</div> 
-	<div data-aos="zoom-in-left"
-	    data-aos-offset="200"
-	    data-aos-delay="50"
-	    data-aos-duration="1000"
-	    
-	    data-aos-once="false">
-
-			// <h6 class="underline">Our Release</h6>
-		    <ul class="example-orbit" data-orbit data-options="animation:'fade'; bullets:false; navigation_arrows:false; slide_number:false; resume_on_mouseout:true;">
-	      	{% for post in site.categories.release %} 
-			  <li>
-			  	<a href="{{ post.url | prepend: site.baseurl }}">
-		            <h6>{{ post.title | strip_html | truncate: 10 }}</h6>
-		            <p>{{post.artist}}</p>
-		            {% if post.image contains 'http' %}
-		                <img src="{{ post.cover }}" alt="{{ post.name }}"/>
-		              {% else %}
-		                <img src="/img/{{ post.cover }}" alt="{{ post.name }}"/>
-		            {% endif %} 
-		        </a>
-			  </li>
-			{% endfor %}  
-			</ul>
-		</div>	
-	</div>-->
-
-
-
-
+	
 </div>
 
 <div class="row"></div> <!-- trick per andare a capo -->

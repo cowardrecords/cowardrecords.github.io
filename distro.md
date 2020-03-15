@@ -8,41 +8,10 @@ tags:
 
 <br>
 
-<div class="grid-section page">
-
-   <div class="content grid-container">
-  
-   <div class="filters-container contain-to-grid sticky">
-
-      <ul class="media-boxes-filter text-center filter">
-        <li><a class="selected" href="#" data-filter="*">All</a></li>
-        <li><a href="#" data-filter=".Category1">zine</a></li>
-        <li><a href="#" data-filter=".Category2">flexi</a></li>
-        <li><a href="#" data-filter=".Category3">miscellaneous</a></li>
-        <li><input type="text" id="search" class="media-boxes-search" placeholder="Search By Keyword" style="margin-bottom: -0.7rem; height: 2rem;"></li>  
-      </ul>
-
-   </div>      
-
-   <br>
-
-<div id="grid" style="padding: 20px">
-  {% for post in site.categories.distro %}      
-    <div class="media-box 
-     {% if post.categories contains 'zine' %} 
-       Category1
-     {% else %}
-     {% endif %}
-     {% if post.categories contains 'flexi' %} 
-       Category2
-     {% else %}
-     {% endif %}
-     {% if post.categories contains 'miscellaneous' %} 
-       Category3
-     {% else %}
-     
-     {% endif %}">
-        
+<div class="small-12 columns">
+ <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4">   
+  {% for post in site.categories.distro %}  
+    <li>            
       <a href="{{ post.url | prepend: site.baseurl }}">
       <!-- <hr> -->
       	<div class="maintitle">
@@ -50,7 +19,6 @@ tags:
 	        <!-- <p>{{ post.sku }}</p> -->
         </div>
       </a>
-
       <a href="{{ post.url | prepend: site.baseurl }}">
         <div class="imageblockDistro">
         {% if post.image contains 'http' %}
@@ -65,10 +33,7 @@ tags:
         <p class="text-center">{{ post.price }} EU</p>   
        {% endif %}
       </a>
-
-    </div>  
+    </li>
   {% endfor %}
-  </div>
-
-  </div>
+  </ul> 
 </div>

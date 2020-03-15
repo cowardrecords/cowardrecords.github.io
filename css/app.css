@@ -8216,7 +8216,6 @@ img .cover {
 body {
   background: white;
   color: black;
-  /*font-family: 'Inconsolata', ;*/
   font-family: sans-serif;
 }
 body .contain-to-grid {
@@ -8230,7 +8229,6 @@ body hr {
 }
 body h1, body h2, body h3, body h4, body h5, body h6 {
   color: inherit;
-  /*font-family: 'Montserrat', sans-serif;*/
   font-family: inherit;
   font-weight: bold;
   text-transform: uppercase;
@@ -8255,7 +8253,7 @@ body button {
   color: inherit;
 }
 body button:hover {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: black;
   color: white;
 }
 body button:visited {
@@ -8599,6 +8597,10 @@ body button:visited {
   margin-right: auto;
   margin-left: auto;
 }
+#blogHeader .testata .bg {
+  padding: 1rem;
+  background-color: white;
+}
 
 .bgplyer {
   background-color: black;
@@ -8805,10 +8807,6 @@ img {
   height: auto;
 }
 
-.subscribe-me {
-  margin-top: 30%;
-}
-
 .blocktext {
   margin-left: auto;
   margin-right: auto;
@@ -8894,80 +8892,18 @@ pre {
 /*=================================================
 Class Definitions
 =================================================*/
-.sb {
-  display: none;
-  position: fixed;
-  top: 40%;
-  left: 50%;
-  margin-left: -150px;
-  margin-top: -150px;
-  width: 300px;
-  height: auto;
-  background: white;
-  color: black;
-  padding: 20px;
-  padding-top: 30px;
-  padding-bottom: 5px;
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.9);
-  -moz-box-shadow: 0 8px 12px rgba(0, 0, 0, 0.9);
-  -webkit-box-shadow: 0 8px 12px rgba(0, 0, 0, 0.9);
-  z-index: 1999;
-  opacity: 0;
-}
-.sb h1, .sb h2, .sb h3, .sb h4, .sb h5, .sb h6 {
-  text-transform: none;
-  text-decoration: none;
+.modalcontainer {
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.sb .sb-close-btn {
-  position: absolute;
+.sb-close-btn {
+  display: none;
+  float: right;
   right: 7px;
   top: 5px;
   color: black;
-}
-
-.sb.sb-withoverlay {
-  position: absolute;
-  top: 200px;
-  left: 50%;
-  margin-left: -250px;
-}
-
-.sb-open.sb-open-with-overlay {
-  overflow: hidden;
-}
-
-.sb-open .sb-overlay {
-  opacity: 1;
-}
-
-.sb-open .sb {
-  opacity: 1;
-}
-
-.sb-overlay {
-  height: 100%;
-  width: 100%;
-  /* background: rgba(10, 0, 20, 0.7);*/
-  opacity: 0;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  z-index: 100;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-  overflow: auto;
-}
-
-.sb-close-backdrop {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
   cursor: pointer;
 }
 

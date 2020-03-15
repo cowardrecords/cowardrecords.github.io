@@ -3,44 +3,17 @@
 
   {% include head.html %}
 
-  <body itemscope itemtype="http://schema.org/WebPage" class="randomcolorbg">
+  <body itemscope itemtype="http://schema.org/WebPage">
     {% include header.html %}
     {{ content }}
 	  {% include footer.html %}
        
-
+     <script type="text/javascript" src="{{ "/plugin/js/jquery-1.11.3.min.js" | prepend: site.baseurls }}"></script>
      <script src="{{ "/bower_components/foundation/js/foundation.min.js" | prepend: site.baseurl }}"></script>
      <script src="{{ "/js/app.js" | prepend: site.baseurl }}"></script> 
-
-      {% if page.title == "Releases" or page.title == "Distro" %}
-      <!-- Media Boxes JS files -->
-            <script src="../plugin/js/jquery.isotope.min.js"></script>
-            <script src="../plugin/js/jquery.imagesLoaded.min.js"></script>
-            <script src="../plugin/js/jquery.transit.min.js"></script>
-            <script src="../plugin/js/jquery.easing.js"></script>
-            <script src="../plugin/js/waypoints.min.js"></script>
-            <script src="../plugin/js/modernizr.custom.min.js"></script>
-            <script src="../plugin/js/jquery.magnific-popup.min.js"></script>
-            <script src="../plugin/js/jquery.mediaBoxes.js"></script>
-
-            <script>
-                $('#grid').mediaBoxes({
-                  filterContainer: '.filter',
-                  columns: 5,
-                  boxesToLoadStart: 10,
-                  boxesToLoad: 5,
-                  horizontalSpaceBetweenBoxes: 10,
-                    verticalSpaceBetweenBoxes: 10,
-                  search: '#search',
-                  searchTarget: '.maintitle',
-                }); 
-            </script>
-      <!-- Media Boxes JS files -->
-      {% endif %}
       
+      {% if page.title == "Coward Records" %}
       <!-- slick carousel -->
-
-      <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
       <script type="text/javascript"  src="{{ "/plugin/js/slick.min.js" | prepend: site.baseurl }}"> </script>
       <script>
          $('.responsive').slick({
@@ -121,9 +94,7 @@
           ]
         });
        </script>
-
-    <!-- Zom Js--> 
-    <script src="../plugin/js/zoom.min.js"></script>  
+       {% endif %}
 
     <!-- typewriter -->
     <script>
