@@ -8,10 +8,8 @@ comments: true
 	<div class="testata">
 		<h1><span class="bg">{{ page.title }}</span></h1>
 
-		<i>{{ page.date | date: "%b %-d, %Y" }}</i>
+		<i><span class="bg">{{ page.date | date: "%b %-d, %Y" }}</span></i>
 		{% if page.author %}
-		<h5>{{ page.author}}</h5>
-		
 		{% endif %}
 
 	</div>

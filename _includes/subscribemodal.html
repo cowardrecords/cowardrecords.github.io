@@ -3,7 +3,18 @@
 </div> -->
 <div class="modalcontainer" id="show">
   <div class="sb-close-btn"><strong>X</strong></div>
-  <img src="/img/coward.svg" alt="subscribe newsletter">
+  <picture>
+    <source 
+      srcset="/img/coward-white.svg"
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="/img/coward.svg"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <img src="/img/coward.svg"  alt="Coward Records Newsletter" loading="lazy" />
+  </picture>
+  
        <br>
        <h5>Subscribe to our newsletter,<br>Join our inner circle</h5>
        <form style="padding:3px;text-align:left;" action="https://tinyletter.com/coward" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/coward_records', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
@@ -13,23 +24,7 @@
           </div>
           <div class="newsbtn">
           <input type="hidden" value="1" name="embed"/>
-          <input  class="button tiny"  style="width:100%; background-color: black; ;font-size: 120%; margin-left: 0px; margin-top: 10px; padding:3;" type="submit" value="Subscribe" />
+          <input  class="button tiny"  style="width:100%; border: 2px solid var(--color); color:var(--color); background-color: var(--background); font-size: 120%; margin-left: 0px; margin-top: 10px; padding:3;" type="submit" value="Subscribe" />
           </div>
        </form>
 </div>
-
-<!-- <script>
-  $( "#click-me" ).click(function() {
-    $( "#show" ).toggle( "slow", function() {
-    });
-    $( "#click-me" ).toggle( "slow", function() {
-    });
-  });
-  
-  $( ".sb-close-btn" ).click(function() {
-    $( ".modalcontainer" ).toggle( "slow", function() {
-    });
-    $( "#click-me" ).toggle( "slow", function() {
-    });
-  });
-</script> -->

@@ -1,11 +1,19 @@
-
-
 // GENERAL
 
-html{
-  overflow-y: scroll; 
+:root {
+  --background: white;
+  --color: black;
 }
 
+@media (prefers-color-scheme: dark) {
+
+  :root {
+    --background: black;
+    --color: white;
+  }
+
+
+}
 
 $row-maxwidth: 1280px;
 
@@ -17,18 +25,14 @@ img{
 }
 
 body{
-	background: white;
-  color: black;
-	.contain-to-grid {
-	 background: white;
-	}
-
+  background-color: var(--background);
+  color: var(--color);
 	.row {
 	    max-width: $row-maxwidth;
 	}
 
 	hr{
-		color: black;
+		color: var(--color);
 	}
 
 	font-family: sans-serif;
@@ -56,7 +60,7 @@ body{
 	}
 
   button {
-   border: 2px solid black;
+   border: 2px solid var(--color);
    background-color: transparent;
    color: inherit;
   }
@@ -81,14 +85,6 @@ body{
   }
 }
 
-.has-tip {
-    border-bottom: dotted 1px white;
-    color: white;
-    cursor: help;
-    font-weight: bold;
-
-}
-
 
 
 // HR
@@ -106,7 +102,7 @@ body{
   z-index: 100;
   height: 50px;
   width: 100%;
-  background-color: white;
+  background: var(--background);
   position: fixed;
 }
 
@@ -116,7 +112,7 @@ body{
 
 .nav > .nav-header > .nav-title {
   display: inline-block;
-  padding: 8px 8px 6px 6px;
+  padding: 2px 8px 6px 6px;
 
   img{
     max-height: 35px;
@@ -140,7 +136,7 @@ body{
   display: inline-block;
   padding: 13px 10px 13px 10px;
   text-decoration: none;
-  color: black
+  
 }
 
 .nav > .nav-links > a:hover {
@@ -172,13 +168,13 @@ body{
     display: block;
     width: 25px;
     height: 10px;
-    border-top: 2px solid black;
+    border-top: 2px solid var(--color);
   }
   .nav > .nav-links {
     position: absolute;
     display: block;
     width: 100%;
-    background-color: white;
+    background-color: var(--background);
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
@@ -208,7 +204,7 @@ body{
   padding: 10% 30px 65px;
   background-position: center center;
   background-repeat: no-repeat;
-  background-color: #0000;
+  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -217,7 +213,7 @@ body{
   .typewrite{
     font-size: 180%;
     text-transform: lowercase;
-    background: white;
+    background: var(--background);
   }
 }
 
@@ -255,14 +251,13 @@ body{
   }
 
 img:hover{
-    border: 1px solid black;
+    border: 1px solid currentColor;
   }
 
 a:hover{
   text-decoration: underline;
 }
 }
-
 
 // BLOG
 #blogMain{
@@ -273,7 +268,7 @@ a:hover{
 
 	@media only screen and (min-width: 64.063em) {
 	max-width: 80%;
-    margin-right: auto;
+  margin-right: auto;
 	margin-left: auto;}	
 }
 .left-in{
@@ -282,8 +277,7 @@ a:hover{
 
 .icoClock{
 	width: 14px;
-	height: auto;
-	color: inherit;
+  height: auto;	
 }
 
 .blogtext{
@@ -322,7 +316,7 @@ a:hover{
 	padding: 195px 30px 65px;
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-color: #0000;
+	background-color:  var(--background);
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -334,28 +328,18 @@ a:hover{
 		/*@media only screen and (min-width: 64.063em) {
 		max-width: 80hv;
 		}*/
-
+    
 		margin-right: auto;
     margin-left: auto;
     
     .bg{
       padding: 1rem;
-      background-color: white;
+      background-color: var(--background);
     }
 
    
 	}
 }
-
-.bgplyer{
-  background-color: black;
-  background-position: center center;
-  background-size: cover;
-  height: 100vh;
-  overflow: hidden;
-
-}
-
 
 // ITEM
 
@@ -394,7 +378,7 @@ a:hover{
 .itemborder{
   border-style: solid;
   border-width: 1px;
-  box-shadow: 10px 10px 5px #dedede;
+  box-shadow: 10px 10px 5px gray;
   margin-bottom: 15px;
   margin-top: 15px;
   padding-top:15px;
@@ -466,82 +450,6 @@ max-width: 45px;
 	}
 }
 
-// bg full
-
-.bgFullcolor{
-	color: black;
-	background: white;
-	.textcont{
- 	background: white;
- 	padding: 3em;
- 	
- 	a{
- 	color: black;
- 	}
-
- 	p{
- 	color: black;
- 	font-family: serif;
- 	font-size: 1.5rem;
-    }
- 	
- 	p::first-letter  {
-
-    font-size: 8em;
-    color: grey;
-    font-weight: 700;
-    display: inline-block;
-    line-height: 1em;
-    letter-spacing: 0.2em;
-    float: left;
-    width: 50%;
-    line-height: 1;
-    text-align: center;
-    font-family: sans-serif;
-	}	
-
- }
- .imagecontent{
-
- 	text-align: center;
- 	img{
- 		width: 100%;
- 		max-width: 350px;
- 	}
- }
-}
-
-
-
-.bgFullimage{
- .panel{
- 	background: white;
- 	padding: 3em;
- 	p{
- 	font-family: serif;
- 	font-size: 1.5rem;
-    }
- 	
- 	p::first-letter  {
-
-    font-size: 8em;
-    color: #cd1232;
-    font-weight: 700;
-    display: inline-block;
-    line-height: 1em;
-    letter-spacing: 0.2em;
-    float: left;
-    width: 50%;
-    line-height: 1;
-    text-align: center;
-    font-family: sans-serif;
-	}	
-
- }
-}
-
-
-
 .item{
 
 	width: 100%;
@@ -551,12 +459,12 @@ max-width: 45px;
 
 
  button {
-  border: 2px solid black;
-  background-color: white;
+  border: 2px solid var(--color);
+  background-color: var(--background);
   }
 
   button:hover {
-    background-color: black;
+    background-color: var(--background);
   }
 }
 
@@ -642,7 +550,7 @@ pre{
 // FOOTER
 
 .footer{
-  background:white;
+  background:var(--background);
 
 	img{
 	max-width: 100px;
@@ -651,23 +559,7 @@ pre{
   
 }
 
-.cookie{  
-  button{
-    border: 2px solid black;
-    background-color:transparent;
-    color:black;
-  }
 
-  button:hover{
-    background: black;
-    color:white;
-  }
-
-  h1,h2,h3,h4,h5,h6{
-    text-transform: lowercase;
-    font-size:90%;
-  }  
-}
 
 .nomargin{
 	padding-left: 0px;
@@ -730,7 +622,7 @@ Class Definitions
   float: right;
   right: 7px;
   top: 5px;
-  color: black;
+  color: var(--color);
   cursor: pointer;
 }
 
@@ -747,7 +639,7 @@ Class Definitions
     padding: 10% 30px 65px;
     background-position: center top;
     background-repeat: no-repeat;
-    background-color: #0000;
+    background-color: var(--background);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -759,7 +651,7 @@ Class Definitions
     margin-left: auto;
     margin-right: auto;
     max-width: 350px;
-    background: white;
+    background: var(--background);
     padding: 1rem;
    
   }

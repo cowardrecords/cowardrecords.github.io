@@ -8204,28 +8204,32 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-html {
-  overflow-y: scroll;
+:root {
+  --background: white;
+  --color: black;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: black;
+    --color: white;
+  }
+}
 img .cover {
   width: 100%;
   height: auto;
 }
 
 body {
-  background: white;
-  color: black;
+  background-color: var(--background);
+  color: var(--color);
   font-family: sans-serif;
-}
-body .contain-to-grid {
-  background: white;
 }
 body .row {
   max-width: 1280px;
 }
 body hr {
-  color: black;
+  color: var(--color);
 }
 body h1, body h2, body h3, body h4, body h5, body h6 {
   color: inherit;
@@ -8248,7 +8252,7 @@ body a:visited {
   color: inherit;
 }
 body button {
-  border: 2px solid black;
+  border: 2px solid var(--color);
   background-color: transparent;
   color: inherit;
 }
@@ -8271,13 +8275,6 @@ body button:visited {
     padding-top: 0.5rem;
   }
 }
-.has-tip {
-  border-bottom: dotted 1px white;
-  color: white;
-  cursor: help;
-  font-weight: bold;
-}
-
 .separation {
   border: 0;
   height: 0.7px;
@@ -8290,7 +8287,7 @@ body button:visited {
   z-index: 100;
   height: 50px;
   width: 100%;
-  background-color: white;
+  background: var(--background);
   position: fixed;
 }
 
@@ -8300,7 +8297,7 @@ body button:visited {
 
 .nav > .nav-header > .nav-title {
   display: inline-block;
-  padding: 8px 8px 6px 6px;
+  padding: 2px 8px 6px 6px;
 }
 .nav > .nav-header > .nav-title img {
   max-height: 35px;
@@ -8322,7 +8319,6 @@ body button:visited {
   display: inline-block;
   padding: 13px 10px 13px 10px;
   text-decoration: none;
-  color: black;
 }
 
 .nav > .nav-links > a:hover {
@@ -8356,14 +8352,14 @@ body button:visited {
     display: block;
     width: 25px;
     height: 10px;
-    border-top: 2px solid black;
+    border-top: 2px solid var(--color);
   }
 
   .nav > .nav-links {
     position: absolute;
     display: block;
     width: 100%;
-    background-color: white;
+    background-color: var(--background);
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
@@ -8391,7 +8387,6 @@ body button:visited {
   padding: 10% 30px 65px;
   background-position: center center;
   background-repeat: no-repeat;
-  background-color: #0000;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -8400,7 +8395,7 @@ body button:visited {
 #indexHeader .typewrite {
   font-size: 180%;
   text-transform: lowercase;
-  background: white;
+  background: var(--background);
 }
 
 /* ---- grid ---- */
@@ -8428,7 +8423,7 @@ body button:visited {
   word-wrap: break-word;
 }
 #homepage img:hover {
-  border: 1px solid black;
+  border: 1px solid currentColor;
 }
 #homepage a:hover {
   text-decoration: underline;
@@ -8453,7 +8448,6 @@ body button:visited {
 .icoClock {
   width: 14px;
   height: auto;
-  color: inherit;
 }
 
 .blogtext h1, .blogtext h2, .blogtext h3, .blogtext h4, .blogtext h5, .blogtext h6 {
@@ -8486,7 +8480,7 @@ body button:visited {
   padding: 195px 30px 65px;
   background-position: center center;
   background-repeat: no-repeat;
-  background-color: #0000;
+  background-color: var(--background);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -8503,15 +8497,7 @@ body button:visited {
 }
 #blogHeader .testata .bg {
   padding: 1rem;
-  background-color: white;
-}
-
-.bgplyer {
-  background-color: black;
-  background-position: center center;
-  background-size: cover;
-  height: 100vh;
-  overflow: hidden;
+  background-color: var(--background);
 }
 
 .nomarginlarge {
@@ -8541,7 +8527,7 @@ body button:visited {
 .itemborder {
   border-style: solid;
   border-width: 1px;
-  box-shadow: 10px 10px 5px #dedede;
+  box-shadow: 10px 10px 5px gray;
   margin-bottom: 15px;
   margin-top: 15px;
   padding-top: 15px;
@@ -8601,65 +8587,6 @@ img {
   margin-right: 20px;
 }
 
-.bgFullcolor {
-  color: black;
-  background: white;
-}
-.bgFullcolor .textcont {
-  background: white;
-  padding: 3em;
-}
-.bgFullcolor .textcont a {
-  color: black;
-}
-.bgFullcolor .textcont p {
-  color: black;
-  font-family: serif;
-  font-size: 1.5rem;
-}
-.bgFullcolor .textcont p::first-letter {
-  font-size: 8em;
-  color: grey;
-  font-weight: 700;
-  display: inline-block;
-  line-height: 1em;
-  letter-spacing: 0.2em;
-  float: left;
-  width: 50%;
-  line-height: 1;
-  text-align: center;
-  font-family: sans-serif;
-}
-.bgFullcolor .imagecontent {
-  text-align: center;
-}
-.bgFullcolor .imagecontent img {
-  width: 100%;
-  max-width: 350px;
-}
-
-.bgFullimage .panel {
-  background: white;
-  padding: 3em;
-}
-.bgFullimage .panel p {
-  font-family: serif;
-  font-size: 1.5rem;
-}
-.bgFullimage .panel p::first-letter {
-  font-size: 8em;
-  color: #cd1232;
-  font-weight: 700;
-  display: inline-block;
-  line-height: 1em;
-  letter-spacing: 0.2em;
-  float: left;
-  width: 50%;
-  line-height: 1;
-  text-align: center;
-  font-family: sans-serif;
-}
-
 .item {
   width: 100%;
   height: auto;
@@ -8667,11 +8594,11 @@ img {
   min-height: 800px;
 }
 .item button {
-  border: 2px solid black;
-  background-color: white;
+  border: 2px solid var(--color);
+  background-color: var(--background);
 }
 .item button:hover {
-  background-color: black;
+  background-color: var(--background);
 }
 
 @media only screen and (max-width: 40em) {
@@ -8735,24 +8662,10 @@ pre {
 }
 
 .footer {
-  background: white;
+  background: var(--background);
 }
 .footer img {
   max-width: 100px;
-}
-
-.cookie button {
-  border: 2px solid black;
-  background-color: transparent;
-  color: black;
-}
-.cookie button:hover {
-  background: black;
-  color: white;
-}
-.cookie h1, .cookie h2, .cookie h3, .cookie h4, .cookie h5, .cookie h6 {
-  text-transform: lowercase;
-  font-size: 90%;
 }
 
 .nomargin {
@@ -8805,7 +8718,7 @@ Class Definitions
   float: right;
   right: 7px;
   top: 5px;
-  color: black;
+  color: var(--color);
   cursor: pointer;
 }
 
@@ -8818,7 +8731,7 @@ Class Definitions
   padding: 10% 30px 65px;
   background-position: center top;
   background-repeat: no-repeat;
-  background-color: #0000;
+  background-color: var(--background);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -8829,7 +8742,7 @@ Class Definitions
   margin-left: auto;
   margin-right: auto;
   max-width: 350px;
-  background: white;
+  background: var(--background);
   padding: 1rem;
 }
 

@@ -38,7 +38,19 @@
   <input type="checkbox" id="nav-check">
   <div class="nav-header">
     <div class="nav-title">
-      <a href="/"> <img src="/img/logo.png" alt="Coward Records Logo"/> </a>
+      <a href="/">
+        <picture>
+          <source 
+            srcset="/img/logo-white.png"
+            media="(prefers-color-scheme: dark)"
+          />
+          <source
+            srcset="/img/logo.png"
+            media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+          />
+          <img src="/img/logo.png"  alt="Coward Records Logo" loading="lazy" />
+        </picture>
+      </a>
     </div>
   </div>
   <div class="nav-btn">
@@ -132,7 +144,18 @@ Summer 2016</p>
     	<h5><br></h5>
     	<hr>
 		<div class="text-center hide-for-small-only">
-			<img src=" /img/rolling_black.gif" alt="logo roll" >
+			<picture>
+				<source 
+					srcset="/img/rolling-white.gif"
+					media="(prefers-color-scheme: dark)"
+				/>
+				<source
+					srcset="/img/rolling-black.gif"
+					media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+				/>
+				<img src="/img/rolling-black.gif"  alt="Coward Records Logo" loading="lazy" />
+			</picture>
+			
 		</div>
    	</div>
    	<div class="large-6 small-12 medium-6  columns">
@@ -158,7 +181,6 @@ Summer 2016</p>
   		   	</div>
   		   	<div class="small-4 columns">
   		   		<input type="hidden" value="1" name="embed"/>
-					 <!-- <input  class="button"  style="width:100%; background-color: white; color:inherit; font-size: 130%; margin-left: 0p; padding:0; margin-top:5px;" type="submit" value="Subscribe" /> -->
 					 <button style="margin-left: 0p; padding:0.45rem; " type="submit" value="Subscribe" >Subscibe</button>
 
   		    </div>
