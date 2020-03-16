@@ -4,7 +4,6 @@ title: Coward Records
 summary: Coward Records - ATMOSFERA
 bgimage: homepage.jpg
 molkkybgimage: molkky-bg.jpg
-molkkyimage: molkky.jpg
 sentence1: hello!
 sentence2: welcome to our official web store
 sentence3: this is all I wanted to say 
@@ -80,7 +79,19 @@ sentence5: now I will start over again...
       <div class="molkycontent">
         <!-- <a href="{{ "/mölkky" | prepend: site.baseurl }}"> -->
        <a href="/mölkky/"><h2><span class="bg">Join our Mölkky League</span></h2></a> 
-       <a href="/mölkky/"><img src="/img/{{page.molkkyimage}}" alt="molkky"></a> 
+       <a href="/mölkky/">
+        <picture>
+          <source 
+            srcset="/img/molkky-white.png"
+            media="(prefers-color-scheme: dark)"
+          />
+          <source
+            srcset="/img/molkky-black.png"
+            media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+          />
+          <img src="/img/molkky-black.png"  alt="Coward Records Newsletter" loading="lazy" />
+        </picture>
+      </a> 
        
          
        </div>  

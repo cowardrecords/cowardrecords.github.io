@@ -1021,7 +1021,19 @@ Fixing with a metal clutch
       <div class="molkycontent">
         <!-- <a href="/mölkky"> -->
        <a href="/mölkky/"><h2><span class="bg">Join our Mölkky League</span></h2></a> 
-       <a href="/mölkky/"><img src="/img/molkky.jpg" alt="molkky"></a> 
+       <a href="/mölkky/">
+        <picture>
+          <source 
+            srcset="/img/molkky-white.png"
+            media="(prefers-color-scheme: dark)"
+          />
+          <source
+            srcset="/img/molkky-black.png"
+            media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+          />
+          <img src="/img/molkky-black.png"  alt="Coward Records Newsletter" loading="lazy" />
+        </picture>
+      </a> 
        
          
        </div>  
