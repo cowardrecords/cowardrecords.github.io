@@ -3,7 +3,7 @@ layout: default
 comments: true
 ---
 
-<div id="blogHeader"{% if page.bgimage contains 'http' %} style="background-image: url({{ page.bgimage }})" {% else %} style="background-image: url(/img/blog/{{ page.bgimage }})" {% endif %}>
+<div class="blogHeader"{% if page.bgimage contains 'http' %} style="background-image: url({{ page.bgimage }})" {% else %} style="background-image: url(/img/blog/{{ page.bgimage }})" {% endif %}>
 	
 	<div class="testata">
 		<h1><span class="bg">{{ page.title }}</span></h1>

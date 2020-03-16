@@ -312,8 +312,10 @@ a:hover{
 }
 }
 
-#blogHeader{
-	padding: 195px 30px 65px;
+.blogHeader{
+  display: flex;
+  align-items: center;
+  min-height: 90vh;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-color:  var(--background);
@@ -324,6 +326,7 @@ a:hover{
 	margin-bottom: 30px;
 
 	.testata {
+    align-items: center;
 		text-align:center;
 		/*@media only screen and (min-width: 64.063em) {
 		max-width: 80hv;
