@@ -8266,6 +8266,11 @@ body button:visited {
   padding-top: 3rem;
 }
 
+@media (max-width: 600px) {
+  .main {
+    padding-top: 1rem;
+  }
+}
 .has-tip {
   border-bottom: dotted 1px white;
   color: white;
@@ -8273,17 +8278,6 @@ body button:visited {
   font-weight: bold;
 }
 
-.stickyside {
-  position: relative;
-  top: 0;
-}
-
-@media only screen and (max-width: 40em) {
-  .stickyside {
-    position: static;
-    top: 0;
-  }
-}
 .separation {
   border: 0;
   height: 0.7px;

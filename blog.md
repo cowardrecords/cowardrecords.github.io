@@ -6,7 +6,7 @@ summary: Coward stories & news
 ---
 
 <div class="small-12 columns page">
-	<div class="small-12 medium-8 large-10 columns">
+	<div class="small-12 medium-12 large-10 columns">
 	 <h4>{{ page.title}}</h4>
 	    <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4">
 	      {% for post in site.categories.blog %}
@@ -33,7 +33,7 @@ summary: Coward stories & news
 	    </ul>
 	</div>
 
-	<div class="small-12 medium-4 large-2 columns hide-for-small-only">
+	<div class="small-12 large-2 columns">
 		<h4>Archive</h4>
 		<ul class="no-bullet">
 		<hr>
