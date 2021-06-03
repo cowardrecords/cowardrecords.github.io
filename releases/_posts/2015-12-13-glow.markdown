@@ -1,0 +1,25 @@
+---
+layout: item
+artist: "Be Forest"
+subtitle: zine + flexi 7-inch
+sku: CWRD 01
+category: [release, flexi, zine, 7-inch]
+price: "12.00"
+slug: Glow
+soldout: true
+date: 2015-12-13 01:16:17 +0100
+image: glow.jpg
+cover: glow_zine.jpg
+thumbnail: glow_zine_thumbnail.png
+bgimage: glow-bg.jpg
+imagethumb:
+  - link: glow-2.jpg
+  - link: glow-3.jpg
+  - link: glow-4.jpg
+---
+
+Photographic zine with previously unreleased tracks on flexi 7" format. Photos was shooted during an excursion at [The Frasassi Caves (Italian: Grotte di Frasassi)](https://en.wikipedia.org/wiki/Frasassi_Caves) 
+
+*Glow* was recorded, mixed & mastered by Steve Scanu.
+
+November/December 2015

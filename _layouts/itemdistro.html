@@ -3,45 +3,42 @@ layout: default
 ---
 
 <div class="item" {% if page.bgimage contains 'http' %} style="background-image: url({{ page.bgimage }})" {% else %} style="background-image: url(/img/{{ page.bgimage }})" {% endif %}>
-
-
-	<div class="large-4 medium-6 small-12 columns itemborder" >
-		<h2>{{page.name}}</h2>
-		<p>{{page.artist}}</p>
-  		<h5>{{page.subtitle}}</h5>
-  		{% if page.author %}
-  			<i>{{page.sku}}</i>
-  		{% endif %}
+	<div class="itemborder" >
+		<div class="itemtitle">
+			<h2>{{page.name}}</h2>
+			<p>{{page.artist}}</p>
+  			<h5>{{page.subtitle}}</h5>
+  			{% if page.author %}
+  				<i>{{page.sku}}</i>
+  			{% endif %}
+		</div>
 
   		<hr>
-  		<div>
+  		<div class="itemdescr">
 			{{ content }}
 		</div>
 			
 		<br>
-
-		{% include shopbutton.html %}
-		<hr>
-		
+		{% if page.soldout == true %}
+			<div class="shopbutton">
+				<h4 >sold out</h4>
+			</div>
+			{% else if %}
+			<div class="shopbutton">
+				{% include shopbutton.html %}
+			</div>
+		{% endif %}	
 	</div>
 	
-	<div class="large-6 medium-6 small-12 columns end" id="itemimages">
-		<br>
+	<div class="gallery">
 		{% if page.image contains 'http' %}
           <img  src="{{ page.image }}" alt="{{ page.name }}"/>
         {% else %}
           <img  src="/img/distro/{{ page.image }}" alt="{{ page.name }}"/>
       	{% endif %}		
-		<ul class="clearing-thumbs small-block-grid-3" data-clearing >
-			 {% for item in page.imagethumb %}
-       			 <li><img src="{{ item.link }}" alt="{{ page.subtitle }}"/></li>
-      		 {% endfor %}
-		</ul> 
-	<br>
-	<br>
+
+		{% for item in page.imagethumb %}
+       	  <img src="{{ item.link }}" alt="{{ page.subtitle }}"/>
+      	{% endfor %}
 	</div>
-
-	
 </div>
-
-<div class="row"></div> <!-- trick per andare a capo -->

@@ -1,0 +1,71 @@
+---
+layout: default
+comments: true
+---
+
+<div class="blogHeader"{% if page.bgimage contains 'http' %} style="background-image: url({{ page.bgimage }})" {% else %} style="background-image: url(/img/wiki/{{ page.bgimage }})" {% endif %}>
+	
+	<div class="testata">
+		<h1><span class="bg">{{ page.title }}</span></h1>
+	</div>
+
+</div>
+
+<div class="columns" id="blogMain">
+	<div class="small-12 medium-12 large-8 large-offset-2 columns">
+		<div class="small-12 columns">
+			<div class="blogtext">
+				<br>
+				<ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-6">
+				{% if page.sublink %}
+					{% for item in page.sublink %}
+					<li>- <a href="#{{item.link}}">{{ item.link}}</a></li>
+					{% endfor %}
+				{% endif%}	
+				</ul>
+				<div class="blogcontent">
+					{{ content }}
+					{% if page.title == "Mölkky League" %}
+					<div class="post-categories">
+						<ul class="small-block-grid-2 medium-block-grid-2 large-block-grid-4">  
+							{% for post in site.categories.molkky %}  
+							<li>
+								<a href="{{ post.url | prepend: site.baseurl }}">
+									<h6>{{ post.slug }}</h6>
+								</a>
+								<a href="{{ post.url | prepend: site.baseurl }}">
+								{% if post.cover contains 'http' %}
+									<img src="{{ post.cover }}" alt="{{ post.title }}"/>
+									{% else %}
+									<img src="/img/{{ post.cover }}" alt="{{ post.title }}"/>
+								{% endif %}  
+								{% if post.soldout == true %}
+								<h6 class="text-center soldout">sold out</h6>
+								{% else %}
+								<h6 class="text-center">{{ post.price }} EU</h6>   
+								{% endif %}
+								</a>
+							</li>
+							{% endfor %}
+						</ul> 
+					</div>
+					{% endif %}
+				</div>
+				
+				<div class="post-categories">
+					<hr>
+					{% if post %}
+					{% assign categories = post.categories %}
+					{% else %}
+					{% assign categories = page.categories %}
+					{% endif %}
+					{% for category in categories %}
+					<a href="{{site.baseurl}}/{{category|slugize}}"> {{category}}</a>
+					{% unless forloop.last %}&nbsp;{% endunless %}
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	

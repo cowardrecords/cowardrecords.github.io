@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
 
   {% include head.html %}
 
-  <body itemscope itemtype="http://schema.org/WebPage">
+  <body>
     {% include header.html %}
     <div class="main"> 
      {{ content }}
@@ -68,6 +68,68 @@
             document.body.appendChild(css);
         };
       </script>
-      <!-- end typewriter -->
+     <!-- end typewriter -->
+
+	 	<script>
+		  function showDiv() {
+			   document.getElementById('cart').style.display = "block";
+			   document.getElementById('opencart').style.display = "none";
+			}
+		  function hideDiv(){
+			   document.getElementById('cart').style.display = "none";
+			   document.getElementById('opencart').style.display = "block";
+		   }
+		   function showBuy(){
+			   document.getElementById('buy-options').style.display = "block";
+		   }
+		</script>
+        
+	  <!-- SnappyCeckout -->
+	  <SCRIPT>
+		//*  snappyCheckout_CartItemCountChanged                                                   
+        function snappyCheckout_CartItemCountChanged(count)
+
+        {   Checkout.Utils.setDiv("CartCount", count);
+		
+            if (count === 0)
+            {   Checkout.Utils.removeClass("CartCount", "CartFullNumber");
+                Checkout.Utils.addClass("CartCount", "CartEmptyNumber");				
+                Checkout.Utils.setClass("Cart", "CartEmpty");
+				document.getElementById('cart').style.display = "none";
+				document.getElementById('opencart').style.display = "block";
+            }
+            else
+            {   Checkout.Utils.removeClass("CartCount", "CartEmptyNumber");
+                Checkout.Utils.addClass("CartCount", "CartFullNumber");
+                Checkout.Utils.setClass("Cart", "CartFull");
+				document.getElementById('cart').style.display = "block";
+				document.getElementById('opencart').style.display = "none";
+				
+            }
+        }
+        //*  getDropdownText                                                                      
+        //function getDropdownText(strDropdownId)
+        //{   var strText = "";
+        //    var dropdownBox = document.getElementById(strDropdownId);
+        //    if (dropdownBox)
+        //    {   if (dropdownBox.options.length > 0)
+        //        {   strText = dropdownBox.options[dropdownBox.selectedIndex].text;
+        //        }
+        //    }                      
+        //   return strText;
+        //}
+        //*  getRadioButton                                                                        
+        function getRadioButton(strName) 
+        {   try 
+            {   return document.querySelector('input[name = "' + strName + '"]:checked').value;
+            }
+            catch(ex) 
+            {   return "";
+            }
+        }
+    </SCRIPT>
+	
+	  <script src="https://s3.amazonaws.com/snappycheckout/Button.js"></script>
+	  <!-- end SnappyCeckout -->
    </body>
 </html>

@@ -1,0 +1,15 @@
+---
+layout: wiki
+title: "Workshop"
+bgimage: break-fast-club.jpg
+date: 2020-03-01 00:00:00 +0100
+hidden: true
+category: [cowardrecords]
+---
+
+# workshop
+## bla bla bla
+
+paragrafo descrittivo i workshop possono essere mobili [link alla nomadology](/nomadology) - [link risograph](/risoprinting)
+
+[link a lathe cutting tool](/lathecutting) di cui abbiamo fatto una [lathe cutting zine](/lathecuttingzine) 

@@ -1,0 +1,26 @@
+---
+layout: item
+name: "Remap"
+artist: "Volta"
+subtitle: Audio CD + 5-inch
+sku: CWRD 13
+slug: "Remap"
+category: [release, vinyl, 5-inch]
+price: "10.00"
+date: 2017-10-31 01:16:17 +0100
+bgimage: remap_vinyl.jpg
+cover: remap_vinyl.jpg
+image: remap.jpg
+imagethumb:
+  - link: remap-2.jpg
+  - link: remap-3.jpg
+thumbnail: remap_vinyl.jpg
+---
+
+Limited edition of 50 copies \\
+Cooproducted with [Coypu Records](http://coypurecords.com/){:target="_blank"}\\
+5" special format, hand-cutted on CD-r\\
+This hybrid format includes entire Volta's album *Remap* in digital audio format and a previously unreleased track cut directly on CD's surface.\\
+supplied with hole adapter for turntable, it comes with screen printed packaging and riso printed insert.
+
+Autumn 2017.

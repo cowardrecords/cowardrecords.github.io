@@ -1,3 +1,4 @@
+<!-- <div class="row"></div>
 <div class="footer">
    	<div class="large-2 small-12 medium-12 columns show-for-large-up">
     	<h5><br></h5>
@@ -13,8 +14,7 @@
 					media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
 				/>
 				<img src="/img/rolling-black.gif"  alt="Coward Records Logo" loading="lazy" />
-			</picture>
-			
+			</picture>	
 		</div>
    	</div>
    	<div class="large-6 small-12 medium-6  columns">
@@ -26,7 +26,8 @@
   	  </div>
 	  <div class="small-12 large-6 columns nomargin">
 		<hr class="show-for-small-only">
-		<p><a href="https://www.instagram.com/cowardrecords/">Instagram</a></p>      
+		<a href="https://www.instagram.com/cowardrecords/">[Instagram]</a></br>  
+		<a href="https://validator.w3.org/feed/check.cgi?url=https%3A//www.cowardrecords.com/feed.xml">[Valid RSS]</a>    
 	  </div>
   	</div>  
 
@@ -45,11 +46,23 @@
   		    </div>
   	   </form>
     </div>  
-   <!--  <hr>
-	<div class="row cookie">
-		<div class="small-12 columns">
-			<h6 class="cookieone">by browsing this site you agree to the use of cookies and other similar technologies to enhance this experience.
-			 You will find more information setting here: | <a href="{{ site.baseurl }}/privacycookiepolicy" >privacy & cookie policy</a></h6>
-		</div>
-	</div> -->
-</div> 
+</div> -->
+<div class="footer">
+	
+	<picture>
+		<source 
+			srcset="/img/rolling-white.gif"
+			media="(prefers-color-scheme: dark)"
+		/>
+		<source
+			srcset="/img/rolling-black.gif"
+			media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+		/>
+		<img src="/img/rolling-black.gif"  alt="Coward Records Logo" loading="lazy" />
+	</picture>	
+	
+  	{{ site.description }}
+	<a href="mailto:{{ site.email }}">{{ site.email }}</a>
+	<a href="https://www.instagram.com/cowardrecords/">[Instagram]</a>
+	<a href="https://validator.w3.org/feed/check.cgi?url=https%3A//www.cowardrecords.com/feed.xml">[Valid RSS]</a> 
+</div>

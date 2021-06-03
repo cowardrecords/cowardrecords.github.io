@@ -29,6 +29,13 @@
     {% for link in site.data.navigation.masthead %}    
       <a href="{{ link.url | prepend: site.baseurl }}"> {{ link.title }} </a>
     {% endfor %}
-      <a href="{{ site.baseurl }}/breakfastclub">breakfast club</a>
+  </div>
+  <div id="cart">
+	<a id="Cart" class="CartEmpty" ONCLICK="Checkout.cart.purchase('QNYVK3UVVQ25LEAAM5ZG201', true, true); return true;">view cart</a> 
+	<a id="CartCount" class="CartEmptyNumber NoSelect"></a><a id="close" onclick="hideDiv();" ><strong class="closecarticon">X</strong></a><br>
+	<a ONCLICK="Checkout.cart.clear(); return false;">clear cart</a>
+  </div>
+  <div id="opencart">
+	<a onclick="showDiv();"><img class="carticon" src="/img/cart.svg"></a>
   </div>
 </div>

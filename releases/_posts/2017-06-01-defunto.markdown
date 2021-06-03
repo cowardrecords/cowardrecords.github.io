@@ -1,0 +1,27 @@
+---
+layout: item
+name: "Defunto"
+subtitle: 5-inch
+slug: "Defunto"
+sku: "CWRD 12"
+category: [release, vinyl, 5-inch]
+price: "20.00"
+date: 2017-10-31 01:16:17 +0100
+cover: defunto_vinyl.jpg
+image: defunto.jpg
+bgimage: defunto-bg.jpg
+imagethumb:
+  - link: defunto-3.jpg
+  - link: defunto-2.jpg  
+thumbnail: defunto_vinyl.jpg
+homepage: true
+---
+
+5" special format, hand-cutted on empty CD-r \\
+supplied with hole adapter, it comes with screen printed packaging and riso printed insert.\\
+Defunto means Dead, Defunto are Dead
+
+Limited edition of 15 copies
+
+
+

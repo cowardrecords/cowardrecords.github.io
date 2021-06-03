@@ -2,11 +2,3 @@
 masthead:
  - title: releases
    url: /releases
- # - title: subscription
- #   url: /subscription
- - title: blog
-   url: /blog
- - title: distro
-   url: /distro  
- - title: about
-   url: /about

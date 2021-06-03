@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
 
   <head>
   <meta charset="utf-8">
+  <meta name='author' content='lcsrbn'>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Breakfast Club</title>
   
-  <meta name="description" content="Breakfast Club">
+  <meta name="description" content="Attaccarsi a quello che sentiamo come vero. Partire da lì.">
   
+  
+  <meta name="keywords" content=""/>
   
   
   
@@ -18,22 +21,13 @@
   
     <link rel="shortcut icon" type="image/png" href="/img/favicon_bc.png">
     
-  <link rel="canonical" href="https://www.cowardrecords.com/breakfastclub/">
-  
-  <link rel="alternate" type="application/rss+xml" title="COWARD RECORDS" href="https://www.cowardrecords.com/feed.xml">
-
+  <link rel="canonical" href="http://localhost:4000/breakfastclub/">
+  <link rel="alternate" type="application/rss+xml" title="COWARD RECORDS" href="http://localhost:4000/feed.xm">
   <link rel="stylesheet" href="/css/app.css">
-
-  <meta property="og:title" content=' Breakfast Club   ' />
-<meta property="og:type" content="website" />
-<meta property="og:image" content='https://www.cowardrecords.com/img/breakfastclub.jpg  '>
-
-
-	<meta property="og:description" content="  Breakfast Club  " />
-
+  
 </head>
 
-  <body itemscope itemtype="http://schema.org/WebPage">
+  <body>
     <div class="nav">
   <input type="checkbox" id="nav-check">
   <div class="nav-header">
@@ -64,32 +58,71 @@
   <div class="nav-links">
         
       <a href="/releases"> releases </a>
-        
-      <a href="/blog"> blog </a>
-        
-      <a href="/distro"> distro </a>
-        
-      <a href="/about"> about </a>
     
-      <a href="/breakfastclub">breakfast club</a>
+  </div>
+  <div id="cart">
+	<a id="Cart" class="CartEmpty" ONCLICK="Checkout.cart.purchase('QNYVK3UVVQ25LEAAM5ZG201', true, true); return true;">view cart</a> 
+	<a id="CartCount" class="CartEmptyNumber NoSelect"></a><a id="close" onclick="hideDiv();" ><strong class="closecarticon">X</strong></a><br>
+	<a ONCLICK="Checkout.cart.clear(); return false;">clear cart</a>
+  </div>
+  <div id="opencart">
+	<a onclick="showDiv();"><img class="carticon" src="/img/cart.svg"></a>
   </div>
 </div>
     <div class="main"> 
-     <div id="indexHeader" style="background-image: url(/img/breakfastclub.jpg)"> 
-   <div class="testata "> 
-    <!-- <a href=""><h1 class="randomcolor"><strong></strong></h1>
-      <h6 class="randomcolor"> <strong></strong></h6>
-      <br>
-      <button class="randomcolor randomcolorbrd">
-        More info
-      </button>
-    </a> -->
-  </div>
+     <div class="blogHeader" style="background-image: url(/img/wiki/breakfastclub-bg.jpg)" >
+	
+	<div class="testata">
+		<h1><span class="bg">Breakfast Club</span></h1>
+	</div>
+
 </div>
 
+<div class="columns" id="blogMain">
+	<div class="small-12 medium-12 large-8 large-offset-2 columns">
+		<div class="small-12 columns">
+			<div class="blogtext">
+				<br>
+				<ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-6">
+					
+				</ul>
+				<div class="blogcontent">
+					<h1 id="trovarsi">TROVARSI.</h1>
+<h2 id="attaccarsi-a-quello-che-sentiamo-come-vero-partire-da-lì">Attaccarsi a quello che sentiamo come vero. Partire da lì.</h2>
 
+<p style="margin-top: 2rem">Descrizione Breakfast Club <a href="">link alla pagina filosofia</a></p>
+
+<p><a href="">link Pagina Store breakfast club</a></p>
+
+<p>“Un incontro, una scoperta, un’estesa ondata di scioperi, un terremoto: qualsiasi avvenimento produce verità, alterando la nostra maniera di stare al mondo. Al contrario, un’analisi che ci è indifferente, che ci lascia immutati, che non porta a niente, non merita ancora il nome di verità. Vi è una verità dietro ogni gesto, ogni pratica, ogni relazione, ogni situazione. L’abitudine è quella di eludere, di gestire tutto ciò, il che produce lo smarrimento caratteristico dei più, in quest’epoca. Di fatto però, tutto si lega a tutto. Il sentimento di vivere nella menzogna è comunque una verità. Si tratta di non lasciarla andare, anzi, di partire da lì. Una verità non è un’opinione sul mondo, ma quello che ci tiene legati ad esso in una maniera irriducibile. Una verità non è qualcosa che deteniamo, ma qualcosa che ci sostiene. È essa a farmi e a disfarmi, a costituirmi e a decostituirmi in quanto individuo, ad allontanarmi e ad avvicinarmi agli altri che la percepiscono. L’individuo isolato che vi si attacca, incontra fatalmente qualcuno dei suoi simili. Infatti, ogni processo insurrezionale scaturisce da una verità sulla quale non possiamo cedere.”</p>
+<blockquote>
+  <p>Estratto da: <em>L’insurrezione che viene</em><br />
+Collettivo invisibile</p>
+</blockquote>
+
+
+					
+				</div>
+				
+				<div class="post-categories">
+					<hr>
+					
+					
+					<a href="/wiki"> wiki</a>
+					&nbsp;
+					
+					<a href="/breakfastclub"> breakfastclub</a>
+					
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	
     </div>
-	<div class="footer">
+	<!-- <div class="row"></div>
+<div class="footer">
    	<div class="large-2 small-12 medium-12 columns show-for-large-up">
     	<h5><br></h5>
     	<hr>
@@ -104,8 +137,7 @@
 					media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
 				/>
 				<img src="/img/rolling-black.gif"  alt="Coward Records Logo" loading="lazy" />
-			</picture>
-			
+			</picture>	
 		</div>
    	</div>
    	<div class="large-6 small-12 medium-6  columns">
@@ -117,7 +149,8 @@
   	  </div>
 	  <div class="small-12 large-6 columns nomargin">
 		<hr class="show-for-small-only">
-		<p><a href="https://www.instagram.com/cowardrecords/">Instagram</a></p>      
+		<a href="https://www.instagram.com/cowardrecords/">[Instagram]</a></br>  
+		<a href="https://validator.w3.org/feed/check.cgi?url=https%3A//www.cowardrecords.com/feed.xml">[Valid RSS]</a>    
 	  </div>
   	</div>  
 
@@ -136,14 +169,26 @@
   		    </div>
   	   </form>
     </div>  
-   <!--  <hr>
-	<div class="row cookie">
-		<div class="small-12 columns">
-			<h6 class="cookieone">by browsing this site you agree to the use of cookies and other similar technologies to enhance this experience.
-			 You will find more information setting here: | <a href="/privacycookiepolicy" >privacy & cookie policy</a></h6>
-		</div>
-	</div> -->
-</div> 
+</div> -->
+<div class="footer">
+	
+	<picture>
+		<source 
+			srcset="/img/rolling-white.gif"
+			media="(prefers-color-scheme: dark)"
+		/>
+		<source
+			srcset="/img/rolling-black.gif"
+			media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+		/>
+		<img src="/img/rolling-black.gif"  alt="Coward Records Logo" loading="lazy" />
+	</picture>	
+	
+  	Coward Records | ATMOSFERA
+	<a href="mailto:mail@cowardrecords.com">mail@cowardrecords.com</a>
+	<a href="https://www.instagram.com/cowardrecords/">[Instagram]</a>
+	<a href="https://validator.w3.org/feed/check.cgi?url=https%3A//www.cowardrecords.com/feed.xml">[Valid RSS]</a> 
+</div>
     <!-- typewriter -->
     <script>
         var TxtType = function(el, toRotate, period) {
@@ -203,6 +248,68 @@
             document.body.appendChild(css);
         };
       </script>
-      <!-- end typewriter -->
+     <!-- end typewriter -->
+
+	 	<script>
+		  function showDiv() {
+			   document.getElementById('cart').style.display = "block";
+			   document.getElementById('opencart').style.display = "none";
+			}
+		  function hideDiv(){
+			   document.getElementById('cart').style.display = "none";
+			   document.getElementById('opencart').style.display = "block";
+		   }
+		   function showBuy(){
+			   document.getElementById('buy-options').style.display = "block";
+		   }
+		</script>
+        
+	  <!-- SnappyCeckout -->
+	  <SCRIPT>
+		//*  snappyCheckout_CartItemCountChanged                                                   
+        function snappyCheckout_CartItemCountChanged(count)
+
+        {   Checkout.Utils.setDiv("CartCount", count);
+		
+            if (count === 0)
+            {   Checkout.Utils.removeClass("CartCount", "CartFullNumber");
+                Checkout.Utils.addClass("CartCount", "CartEmptyNumber");				
+                Checkout.Utils.setClass("Cart", "CartEmpty");
+				document.getElementById('cart').style.display = "none";
+				document.getElementById('opencart').style.display = "block";
+            }
+            else
+            {   Checkout.Utils.removeClass("CartCount", "CartEmptyNumber");
+                Checkout.Utils.addClass("CartCount", "CartFullNumber");
+                Checkout.Utils.setClass("Cart", "CartFull");
+				document.getElementById('cart').style.display = "block";
+				document.getElementById('opencart').style.display = "none";
+				
+            }
+        }
+        //*  getDropdownText                                                                      
+        //function getDropdownText(strDropdownId)
+        //{   var strText = "";
+        //    var dropdownBox = document.getElementById(strDropdownId);
+        //    if (dropdownBox)
+        //    {   if (dropdownBox.options.length > 0)
+        //        {   strText = dropdownBox.options[dropdownBox.selectedIndex].text;
+        //        }
+        //    }                      
+        //   return strText;
+        //}
+        //*  getRadioButton                                                                        
+        function getRadioButton(strName) 
+        {   try 
+            {   return document.querySelector('input[name = "' + strName + '"]:checked').value;
+            }
+            catch(ex) 
+            {   return "";
+            }
+        }
+    </SCRIPT>
+	
+	  <script src="https://s3.amazonaws.com/snappycheckout/Button.js"></script>
+	  <!-- end SnappyCeckout -->
    </body>
 </html>

@@ -3,69 +3,56 @@ layout: default
 ---
 
 <div class="blogHeader" {% if page.bgimge%} style="color:white;" {% endif %}{% if page.bgimage contains 'http' %} style=" background-image: url({{ page.bgimage }}); " {% else %} style=" background-image: url(/img/{{ page.bgimage }});" {% endif %}>
-
-
 </div>
-<div class="item"  itemscope itemtype="http://schema.org/Product" >
-	
-		<div class="large-4 medium-4 small-11 small-centered medium-uncentered large-uncentered columns itemborder">
-			
+<div class="item"  >
+		<div class="itemborder">
+			{% if page.cover contains 'http' %}
+			<img src="{{ page.cover }}" alt="{{ page.slug }}"/>
+			{% else %}
+			<img src="/img/{{ page.cover }}" alt="{{ page.slug }}" />
+			{% endif %}
 			<div class="itemtitle">
-				<div class="large-6 columns nomargin">
-					{% if page.cover contains 'http' %}
-		              <img src="{{ page.cover }}" alt="{{ page.name }}" itemprop="image"/>
-		            {% else %}
-		              <img src="/img/{{ page.cover }}" alt="{{ page.name }}" itemprop="image"/>
-		          	{% endif %}
-				</div>
-
-				<div class="large-6 columns nomarginlarge">
-					<h2>{{page.name}}</h2>
-					<p>{{page.artist}}</p>
-		  			<h6>{{page.sku}}  // {{page.subtitle}}</h6>
-		  		</div>
-	  		</div>
+				<h2>{{page.slug}}</h2>
+				<p>{{page.artist}}</p>
+				<h6>{{page.sku}}  / {{page.subtitle}}</h6>
+			</div>
 	  		<br>
 	  		<hr>
-	  		
+			  <div class="itemdescr">
 				{{ content }}
+			  </div>
 			<br>
-			<!-- <hr> -->
-			{% if page.soldout == true %}
-				<h >sold out</h6>
-			{% else if %}	
+
+			{% if page.shop %}
+			<div class="shopbutton">
 				{% include shopbutton.html %}
+			</div>
+			{% else%}	
+			<div class="shopbutton">
+				<h4>sold out</h4>
+			</div>
 			{% endif %}	
-			<hr>
-			
 		</div>
 		
-
-		<div class="large-8 medium-8 small-12 columns">
-			<hr class="hide-for-small-only">
-
+		<div class="gallery">
+		
 			{% if page.image contains 'http' %}
-              <img src="{{ page.image }}" alt="{{ page.name }}" itemprop="image"/>
+              <img src="{{ page.image }}" alt="{{ page.slug }}" />
             {% else %}
-              <img src="/img/{{ page.image }}" alt="{{ page.name }}" itemprop="image"/>
+			  <img src="/img/{{ page.image }}" alt="{{ page.slug }}" />
           	{% endif %}
-			
-
-		</div>
 		
-		<div class="small-12 columns gallery">
-		<ul class="clearing-thumbs large-block-grid-2 medium-block-grid-2 small-block-grid-1" >
+		
 			{% if page.imagethumb %}
 				 {% for item in page.imagethumb %}
 				 {% if item.link contains 'http' %}
-		              <li><img src="{{ item.link }}" alt="{{ page.subtitle }}"/></li>
+		              <img src="{{ item.link }}" alt="{{ page.subtitle }}"/>
 		            {% else %}
-		              <li><img src="/img/{{ item.link }}" alt="{{ page.subtitle }}"/></li>
+		              <img src="/img/{{ item.link }}" alt="{{ page.subtitle }}"/>
 		          	{% endif %}
 	      		 {% endfor %}
 	      	{% else%}	
 	      	{% endif%}	 
-		</ul>
 		</div>
 
 </div>

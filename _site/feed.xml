@@ -3,201 +3,240 @@
   <channel>
     <title>COWARD RECORDS</title>
     <description>Coward Records | ATMOSFERA</description>
-    <link>https://www.cowardrecords.com/</link>
-    <atom:link href="https://www.cowardrecords.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 17 Mar 2020 00:57:05 +0100</pubDate>
-    <lastBuildDate>Tue, 17 Mar 2020 00:57:05 +0100</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 04 Jun 2021 01:16:30 +0200</pubDate>
+    <lastBuildDate>Fri, 04 Jun 2021 01:16:30 +0200</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
-        <title>Uomoraccoglitore</title>
-        <description>&lt;p&gt;Limited edition of 12 copies &lt;br /&gt;
-This box set contains 3 clear 7” and a 5” postcard disc&lt;/p&gt;
+        <title>Cicatricefantasmaperfifia</title>
+        <description>&lt;p&gt;Limited edition of 20 copies&lt;/p&gt;
 
-&lt;p&gt;Music by Hermes Rendina &lt;br /&gt;
-A film by Demertio Giacomelli&lt;/p&gt;
+&lt;p&gt;This box set contains 3 5” 1/2 cardboard discs&lt;/p&gt;
+
+&lt;p&gt;April  2021.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 02 Apr 2021 02:16:17 +0200</pubDate>
+        <link>http://localhost:4000/cicatrice-fantasma-perfidia/</link>
+        <guid isPermaLink="true">http://localhost:4000/cicatrice-fantasma-perfidia/</guid>
+        
+        
+        <category>releases</category>
+        
+        <category>release</category>
+        
+        <category>vinyl</category>
+        
+      </item>
+    
+      <item>
+        <title>Amuleto</title>
+        <description>&lt;p&gt;This box set contains 3 transparent 7-inch discs and a 5-inch disc for postcards, it comes with a screen printex box and various &lt;a href=&quot;/risoprinting&quot;&gt;riso printed&lt;/a&gt;. inserts&lt;/p&gt;
+
+&lt;p&gt;These songs constitute the OST of the homonymous film directed by &lt;strong&gt;Demertio Giacomelli&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Music by &lt;strong&gt;Hermes Rendina&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;October  2019.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 01 Apr 2021 02:16:17 +0200</pubDate>
+        <link>http://localhost:4000/amuleto/</link>
+        <guid isPermaLink="true">http://localhost:4000/amuleto/</guid>
+        
+        
+        <category>releases</category>
+        
+        <category>release</category>
+        
+        <category>vinyl</category>
+        
+      </item>
+    
+      <item>
+        <title>Flowmytears</title>
+        <description>&lt;p&gt;Screenprinted poster 31x56 cm with clear flexi 7”&lt;/p&gt;
+
+&lt;p&gt;Limited edition of 6&lt;/p&gt;
+
+&lt;p&gt;Flow my tears single has a twin called &lt;a href=&quot;http://localhost:4000/policeman&quot;&gt;Policeman&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;January 2021.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Jan 2021 01:16:17 +0100</pubDate>
+        <link>http://localhost:4000/flow-my-tears/</link>
+        <guid isPermaLink="true">http://localhost:4000/flow-my-tears/</guid>
+        
+        
+        <category>releases</category>
+        
+        <category>release</category>
+        
+        <category>vinyl</category>
+        
+        <category>poster</category>
+        
+      </item>
+    
+      <item>
+        <title>Policeman</title>
+        <description>&lt;p&gt;Screenprinted poster 31x56 cm with clear flexi 7”&lt;/p&gt;
+
+&lt;p&gt;Limited edition of 6&lt;/p&gt;
+
+&lt;p&gt;Policeman single has a twin called &lt;a href=&quot;http://localhost:4000/flow-my-tears&quot;&gt;Flow my tears&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;January 2021.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Jan 2021 01:16:15 +0100</pubDate>
+        <link>http://localhost:4000/policeman/</link>
+        <guid isPermaLink="true">http://localhost:4000/policeman/</guid>
+        
+        
+        <category>releases</category>
+        
+        <category>release</category>
+        
+        <category>vinyl</category>
+        
+        <category>poster</category>
+        
+      </item>
+    
+      <item>
+        <title>Workshop</title>
+        <description>&lt;h1 id=&quot;workshop&quot;&gt;workshop&lt;/h1&gt;
+&lt;h2 id=&quot;bla-bla-bla&quot;&gt;bla bla bla&lt;/h2&gt;
+
+&lt;p&gt;paragrafo descrittivo i workshop possono essere mobili &lt;a href=&quot;/nomadology&quot;&gt;link alla nomadology&lt;/a&gt; - &lt;a href=&quot;/risoprinting&quot;&gt;link risograph&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/lathecutting&quot;&gt;link a lathe cutting tool&lt;/a&gt; di cui abbiamo fatto una &lt;a href=&quot;/lathecuttingzine&quot;&gt;lathe cutting zine&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Mar 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/workshop/</link>
+        <guid isPermaLink="true">http://localhost:4000/workshop/</guid>
+        
+        
+        <category>wiki</category>
+        
+        <category>realtanuova</category>
+        
+        <category>cowardrecords</category>
+        
+      </item>
+    
+      <item>
+        <title>Risoprinter</title>
+        <description>&lt;h1 id=&quot;riso-printing&quot;&gt;Riso printing&lt;/h1&gt;
+
+&lt;p&gt;la stampa risograph fa parte degli &lt;a href=&quot;/diytoolbox&quot;&gt;attrezzi&lt;/a&gt; che utilizziamo nelle nostre produzioni. praticamente è un ciclostilo 
+economica, ecologica
+paragrafo descrittivo i workshop possono essere mobili &lt;a href=&quot;/workshop&quot;&gt;link ai workshop&lt;/a&gt; - &lt;a href=&quot;/diytoolbox&quot;&gt;DIY toolbox&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Mar 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/risoprinting/</link>
+        <guid isPermaLink="true">http://localhost:4000/risoprinting/</guid>
+        
+        
+        <category>wiki</category>
+        
+        <category>realtanuova</category>
+        
+        <category>workshop</category>
+        
+        <category>diytoolbox</category>
+        
+      </item>
+    
+      <item>
+        <title>Realtà Nuova</title>
+        <description>&lt;h1 id=&quot;realtà-nuova&quot;&gt;Realtà Nuova&lt;/h1&gt;
+
+&lt;p&gt;descrizione —&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/workshop&quot;&gt;link Pagina workshop&lt;/a&gt; — &lt;a href=&quot;/lathecutting&quot;&gt;link lathe cutting tools&lt;/a&gt; —&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/diytoolbox&quot;&gt;Pagina diy tools&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;. &lt;a href=&quot;&quot;&gt;pagina concerti&lt;/a&gt; — &lt;a href=&quot;&quot;&gt;link store limited to 1&lt;/a&gt; &lt;a href=&quot;/risoprinting&quot;&gt;link risograph&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Mar 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/realtanuova/</link>
+        <guid isPermaLink="true">http://localhost:4000/realtanuova/</guid>
+        
+        
+        <category>wiki</category>
+        
+        <category>realtanuova</category>
+        
+      </item>
+    
+      <item>
+        <title>Lathe cutting Zine</title>
+        <description>&lt;h2 id=&quot;pagine-della-lathe-cutting-zine&quot;&gt;pagine della lathe cutting zine&lt;/h2&gt;
+&lt;p&gt;links ai links
+pagine&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Mar 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/lathecuttingzine/</link>
+        <guid isPermaLink="true">http://localhost:4000/lathecuttingzine/</guid>
+        
+        
+        <category>wiki</category>
+        
+        <category>realtanuova</category>
+        
+        <category>cowardrecords</category>
+        
+        <category>lathecutting</category>
+        
+        <category>workshop</category>
+        
+        <category>diytoolbox</category>
+        
+      </item>
+    
+      <item>
+        <title>Cronache di FK</title>
+        <description>&lt;h1 id=&quot;cronache-di-fk-newsletter&quot;&gt;Cronache di FK Newsletter&lt;/h1&gt;
+
+&lt;p&gt;Benvenuti, questo è il primo numero di Cronache di FK, una saga a fumetti di Andrea Petrucci, curata ed edita da Coward Records.&lt;/p&gt;
+
+&lt;p&gt;Cronache di FK esce tutte le domeniche direttamente sulla tua casella di posta elettronica. Per saperne di più vai su cowardrecords.com/fk oppure scrivici rispondendo direttamente a questa email.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Mar 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/cronachedifk/</link>
+        <guid isPermaLink="true">http://localhost:4000/cronachedifk/</guid>
+        
+        
+        <category>wiki</category>
+        
+        <category>cronachedifk</category>
+        
+      </item>
+    
+      <item>
+        <title>Uomoraccoglitore</title>
+        <description>&lt;p&gt;This box set contains 3 transparent 7-inch discs and a 5-inch disc for postcards, it comes with a screen printex box and various riso printed . inserts&lt;/p&gt;
+
+&lt;p&gt;These songs constitute the OST of the homonymous film directed by &lt;strong&gt;Demertio Giacomelli&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Music by &lt;strong&gt;Hermes Rendina&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;October  2019.&lt;/p&gt;
 </description>
         <pubDate>Tue, 01 Oct 2019 02:16:17 +0200</pubDate>
-        <link>https://www.cowardrecords.com/l-uomo-raccoglitore/</link>
-        <guid isPermaLink="true">https://www.cowardrecords.com/l-uomo-raccoglitore/</guid>
+        <link>http://localhost:4000/l-uomo-raccoglitore/</link>
+        <guid isPermaLink="true">http://localhost:4000/l-uomo-raccoglitore/</guid>
         
         
-        <category>release</category>
-        
-        <category>vinyl</category>
-        
-        <category>7&quot;</category>
-        
-      </item>
-    
-      <item>
-        <title>Vectorsofthesel</title>
-        <description>&lt;p&gt;Limited edition of 100 copies &lt;br /&gt;
-This box set contains 4 screen printed 7” Flexi discs &lt;br /&gt;
-Riso printed poster &amp;amp; inserts&lt;/p&gt;
-
-&lt;p&gt;Performed and conceived by &lt;em&gt;Michele Servadio&lt;/em&gt;&lt;br /&gt;
-Sonified by &lt;em&gt;PRG3&lt;/em&gt;&lt;br /&gt;
-Recorded and engineered by &lt;em&gt;Enrico Bozzato&lt;/em&gt; at Ekar records studio in Berlins&lt;/p&gt;
-
-&lt;p&gt;June 2019.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 01 Aug 2019 02:16:17 +0200</pubDate>
-        <link>https://www.cowardrecords.com/Vectors-of-the-self/</link>
-        <guid isPermaLink="true">https://www.cowardrecords.com/Vectors-of-the-self/</guid>
-        
+        <category>releases</category>
         
         <category>release</category>
         
         <category>vinyl</category>
         
-        <category>7&quot;</category>
-        
-        <category>flexi</category>
-        
-      </item>
-    
-      <item>
-        <title>Mrr432</title>
-        <description>&lt;p&gt;It’s the final print issue of Maximum Rocknroll! Time for a eulogy? Or time to demonstrate the life eternal that is worldwide DIY punk from MRR’s inception till the end of time… MRR #432, May 2019, is a mammoth issue, featuring savage, falling apart damage from London’s FORRA, we got an interview with insurrectionary artist Winston Smith, mutant NYC snarl from EXOTICA, raging ex-Yugo-inspired punk courtesy of APSURD from Serbia, UKDIY meets desert dream via Austin TX’s CHRONOPHAGE, NYC no wave punk funk eternals BUSH TETRAS, raw punk destrucción from Barcelona’s PIÑÉN, the shit-fi sound of CIEMO, catchy classic punk sounds from Oaklands DESEOS PRIMITIVOS, radical queer femme power pop from Los Angeles’ SUSAN, and dubby post-punk from Oakland’s THE WORLD. We talk to Mindaugas Bagdon, the beatnik punk filmmaker behind the classic SF punk expose Louder Faster Shorter; there’s some radical Oakland hardcore c/o PROVOKE, playful revolutionary London grrrl sound from DREAM NAILS, dense catchy metallic HC from Oakland’s KHIIS, filmmaker Kim Garcia takes inspiration from punk, a look at DIY record store Faith/Void, and a look into homeless services in Olympia, Washington. All of this plus a Rio Grande Valley scene report, photo spreads from Jesse Ponkamo and George Argyropoulos, and yes, all the reviews and columns that you hate to love… Final cover art by the inimitable Martin Sprouse.&lt;br /&gt;
-&lt;br /&gt;
-&lt;a href=&quot;http://www.maximumrocknroll.com&quot; target=&quot;_blank&quot;&gt;more info&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 20 Apr 2019 02:20:17 +0200</pubDate>
-        <link>https://www.cowardrecords.com/zine/distro/mrr432/</link>
-        <guid isPermaLink="true">https://www.cowardrecords.com/zine/distro/mrr432/</guid>
-        
-        
-        <category>zine</category>
-        
-        <category>distro</category>
-        
-      </item>
-    
-      <item>
-        <title>Mrr431</title>
-        <description>&lt;p&gt;OUT NOW at a supermarket checkout stand near you: the scandal-packed second-to-last issue of Maximum Rocknroll! All the latest tawdry punk gossip from your favorite columnists, the usual packed review section with the latest records, books, demos, zines, and punk movies, PLUS: Cruising through the brittle reality of life in a broken colony with TERRY; Portland, Oregon noise merchants LEBENDEN TOTEN; raw punk mania from Finland’s YDINASEETON POHJOLA; from Brazil, a scene report from Belém in the Amazon region, and melancholic post-punk from COMPLETERS. Not enough for you? We catch up with Navajo punks WEEDRAT, bratty anarcho sounds from Australia’s UBIK, feral QUEEN superfans CHILD’S POSE from London, pessimistic Russian hardcore from CENTRAL, and Italian punks IMPULSO. That’s not all! MRR cub reporter Mitch Cardwell digs behind the scenes of the production of the CRIME documentary, San Francisco’s first and only rock’n’roll movie. Additionally, we hear about the DIY ethos of Chicago’s Not Normal label. Ever wonder what it’s like for a Scottish teenager to bring her dad’s past-it thrash band on tour? Find out in the BRATAKUS/SEDITION Japanese tour diary. If that’s not enough, freak out on the eye-bleeding photo spreads from Karoline Collins and David Carcerán. There will only be one more print edition of MRR after this. Can you afford to pass this up?&lt;br /&gt;
-&lt;br /&gt;
-&lt;a href=&quot;http://www.maximumrocknroll.com&quot; target=&quot;_blank&quot;&gt;more info&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 20 Apr 2019 02:20:17 +0200</pubDate>
-        <link>https://www.cowardrecords.com/zine/distro/mrr431/</link>
-        <guid isPermaLink="true">https://www.cowardrecords.com/zine/distro/mrr431/</guid>
-        
-        
-        <category>zine</category>
-        
-        <category>distro</category>
-        
-      </item>
-    
-      <item>
-        <title>Mrr430</title>
-        <description>&lt;p&gt;Maximum Rocknroll #430, the March 2019 issue, is here! This month our cover features Monterrey, Mexico’s HETEROFOBIA, who interviewer Violeta Hinojosa says “makes you want to dance and spit on straight hardcore dudes’ faces”! VITAL IDLES from Glasgow talk about their sound and creating DIY art in the modern age. We also hear from PERRA VIDA, a killer hardcore band from Lima, Peru, and PORVENIR OSCURO from NYC via Colombia, whose raging sound incorporates classic elements of Finnish hardcore and Spanish punk. Experimental post-punk trio COME HOLY SPIRIT discuss life in their home city Pittsburgh, PA, while the UK veterans in SIGNAL CRIMES give us the lowdown on their latest project (and yes, they do mention Thatcher and Reagan!). MRR says goodbye to club owner and all around San Francisco legend Tom Guido. We talk with LA’s Denée Segall about her newest band the CIA, and with MOLAR, a band from all over the place geographically and musically. Indonesia’s KATASTROV share their views on exploitation, fundamentalism, and Motörhead! Of course there’s our usual big-ass record reviews section as well as demo and book reviews, and a big announcement from MRR (which you’ve probably heard if you have the internet) along with a bountiful letters section on that topic.&lt;br /&gt;
-&lt;br /&gt;
-&lt;a href=&quot;http://www.maximumrocknroll.com&quot; target=&quot;_blank&quot;&gt;more info&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 20 Mar 2019 01:20:17 +0100</pubDate>
-        <link>https://www.cowardrecords.com/zine/distro/mrr430/</link>
-        <guid isPermaLink="true">https://www.cowardrecords.com/zine/distro/mrr430/</guid>
-        
-        
-        <category>zine</category>
-        
-        <category>distro</category>
-        
-      </item>
-    
-      <item>
-        <title>Mrr429</title>
-        <description>&lt;p&gt;The best part of your year is already here: it’s our 2018 Year-End Top Ten Issue! MRR #429, our February 2019 issue, will clue you in on all the rad shit you missed out on over the course of 2018.&lt;/p&gt;
-
-&lt;p&gt;We’ve also got Farrah Skeiky and Angela Owens giving us their top 10 photos of the year, plus Angela gives us a visual rundown of this year’s Not Dead Yet fest!&lt;/p&gt;
-
-&lt;p&gt;After reading CONSTANT MONGREL‘s name so many times in our Top Ten lists, you’ll be primed and ready to read their interview in this issue! We’ve also got the scoop on Austin punks DAMAK and Canadian no wavers RUBY KARINTO, two very different sounding bands who both discuss how being first-generation immigrants affects their music. Plus you can check out what’s going on in Beočin, Serbia, where the local political party may have shut down the underground venue, but they’ll never stop the punks.&lt;/p&gt;
-
-&lt;p&gt;Don’t delay! Pick this one up today and dazzle your friends by pretending you already knew about all this stuff!&lt;br /&gt;
-&lt;br /&gt;
-&lt;a href=&quot;http://www.maximumrocknroll.com&quot; target=&quot;_blank&quot;&gt;more info&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 20 Feb 2019 01:20:17 +0100</pubDate>
-        <link>https://www.cowardrecords.com/zine/distro/mrr429/</link>
-        <guid isPermaLink="true">https://www.cowardrecords.com/zine/distro/mrr429/</guid>
-        
-        
-        <category>zine</category>
-        
-        <category>distro</category>
-        
-      </item>
-    
-      <item>
-        <title>Mrr428</title>
-        <description>&lt;p&gt;Holy moly, it’s another spectacular issue of Maximum Rocknroll already! MRR #428, the January 2019 issue, is jam packed with interviews and features to thrill you. We dive deep into the fascinating history of the amazing, steam-powered Cascade Record Pressing, get an overview of what’s what in a Belgium scene report, and learn about two rad fests in Texas: the recent Black and Brown Punk Fest TX in San Antonio and the upcoming return of This Is Austin, Not That Great in, uh, Austin. What’s that? You’re here for the bands? Not to worry, we’ve got you covered! Singapore’s SIAL dish on their local scene, Florida’s BITE MARKS let their personalities come out full force, and we get a rundown of CHIMERA, one of Russia’s greatest bands of the ’90s. Plus we’ve got Atlanta’s Scavenger of Death on the history of their all-hits label, and cartoonist Liz Suburbia on her new Cyanide Milkshake book! If that’s not enough for you, we’ve got all your favorite columns and reviews, a hearty letters section, and, as a bonus, a reprint of some material from issue #427. What are you waiting for? Hit that button now and order your copy today!&lt;br /&gt;
-&lt;br /&gt;
-&lt;a href=&quot;http://www.maximumrocknroll.com&quot; target=&quot;_blank&quot;&gt;more info&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 20 Jan 2019 01:20:17 +0100</pubDate>
-        <link>https://www.cowardrecords.com/zine/distro/mrr428/</link>
-        <guid isPermaLink="true">https://www.cowardrecords.com/zine/distro/mrr428/</guid>
-        
-        
-        <category>zine</category>
-        
-        <category>distro</category>
-        
-      </item>
-    
-      <item>
-        <title>Mrr427</title>
-        <description>&lt;p&gt;Tell your boss you won’t be coming in today, the latest Maximum Rocknroll is here! Issue 427, our December 2018 edition, is filled to the brim with the content you crave. We’ve got New York’s CHOKED UP and long-distance band JABBER dispelling pop punk myths and New York’s GIANT PEACH and Melbourne’s THE SHIFTERS on the importance of place (whether it’s your home or another country!). Vancouver’s LIÉ and long-distance band MARRÓN both discuss the effects of fascism on music, while Montreal’s PINK NOISE and Boston’s ANCIENT FILTH dish on their long, long histories as bands. Not enough? Why not check out THE FUNS’ pontifications on living and working in an abandoned funeral home in Illinois, or take PROTO IDIOT’s advice on lowering your expectations for touring the UK, where they live. And if you’re still looking for more, we of course have the best columns and reviews in the game! Order today to make sure you’re the first on the block to get the latest, greatest issue of the best punk magazine to ever exist… Maximum Rocknroll! &lt;br /&gt;
-&lt;br /&gt;
-&lt;a href=&quot;http://www.maximumrocknroll.com&quot; target=&quot;_blank&quot;&gt;more info&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 20 Dec 2018 01:20:17 +0100</pubDate>
-        <link>https://www.cowardrecords.com/zine/distro/mrr427/</link>
-        <guid isPermaLink="true">https://www.cowardrecords.com/zine/distro/mrr427/</guid>
-        
-        
-        <category>zine</category>
-        
-        <category>distro</category>
-        
-      </item>
-    
-      <item>
-        <title>Mrr426</title>
-        <description>&lt;p&gt;Yippee-Ki-Yay, pardner! It’s another rootin’ tootin’ issue of Maximum Rocknroll, hot off the presses! It’s MRR #426, the November 2018 issue, where our cover features Fresno’s FATTY CAKES AND THE PUFF PASTRIES, who bless us all with their feminist gold. Inside, Seattle’s CASUAL HEX discuss their love of checkerboard (and how that relates to ska), Richmond’s GUMMING love pop and country music, and Portland’s LAVENDER FLU are a bunch of Deadheads—but don’t worry, these are all punk bands! Internationally, Germany’s ATMEN, WEITER… are a bunch of provocateurs, WARWOUND want you to know they’re not a cover band, and the Je Me Souviens label is doing its best to represent an overlooked segment of Quebec’s punk history. Speaking of labels, we’ve got an in-depth interview with New York’s ever/never, and if you crave more non-band content, you’re gonna love reading Bay Area author Soup discussing his latest book, Mombasa Radio Radio, and how his schizophrenia played a part in its creation. Plus we’ve got Miami’s ANTIFACES repping their overlooked scene and Baltimore’s SYRINGE on fighting bigotry and working towards representation in theirs. Still not enough for you? Seems a little greedy, but okay, fine, we’ll also keep delivering the best reviews and columns in the biz. So what are you waiting for, cowboy? Order your copy today!&lt;br /&gt;
-&lt;br /&gt;
-&lt;a href=&quot;http://www.maximumrocknroll.com&quot; target=&quot;_blank&quot;&gt;more info&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 20 Nov 2018 01:20:17 +0100</pubDate>
-        <link>https://www.cowardrecords.com/zine/distro/mrr426/</link>
-        <guid isPermaLink="true">https://www.cowardrecords.com/zine/distro/mrr426/</guid>
-        
-        
-        <category>zine</category>
-        
-        <category>distro</category>
-        
-      </item>
-    
-      <item>
-        <title>Mrr425</title>
-        <description>&lt;p&gt;Whoa, is it time for a new issue of Maximum Rocknroll already? The October 2018 issue, MRR #425, is here! We’re excited to feature an interview with Greek post-punkers CHAIN CULT, fresh off the release of their new EP for La Vida Es Un Mus Records! We also include an interview with the recently broken-up French band VEUVE SS, who speak a lot about their art choices and their role in their musical endeavors. Also included are two interviews with organizers of different fests: Rayna Fayez of Yallapunk, which focuses on MENA (Middle Eastern and North African)-led music and culture, and AJ Santos of Migra Punk Fest, which highlights the voices of immigrant punks. This month also includes two features on California: Oakland heartthrobs DON’T ASK, who have been inspiring big feelings among their fans, and Arcata’s Outer Space, a non-profit Do It Together all-ages arts and music community space, who spill about their successes and their Lost Coast Fest, which kicks off October 5th. We’ve got Pittsburgh’s HET WARD COLLECTIVE, who use their heavy music to actively fight to uplift queer punks, Seattle’s FUCKED AND BOUND, a porn-loving feminist act, Spain’s TROIKA, who speak about their criticism of anti-authoritarian political spaces, and Olympia’s HOARDER, who prove to be more than just a feminist band. But that’s not all: there’s also a riveting interview with TIM AND THE BOYS from Sydney where they compare punk to the Jehovah’s Witnesses. Add to this all of the letters, columns, and reviews, and you’ve got enough reading material to make it through this upcoming changing of the seasons.&lt;br /&gt;
-&lt;br /&gt;
-&lt;a href=&quot;http://www.maximumrocknroll.com&quot; target=&quot;_blank&quot;&gt;more info&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 20 Oct 2018 02:20:17 +0200</pubDate>
-        <link>https://www.cowardrecords.com/zine/distro/mrr425/</link>
-        <guid isPermaLink="true">https://www.cowardrecords.com/zine/distro/mrr425/</guid>
-        
-        
-        <category>zine</category>
-        
-        <category>distro</category>
+        <category>7-inch</category>
         
       </item>
     

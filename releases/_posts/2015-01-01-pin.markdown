@@ -1,0 +1,19 @@
+---
+layout: item
+artist: Coward Records
+subtitle: affiliation mark
+slug: Ghost Pin
+category: [release, pin]
+price: "5.00"
+date: 2015-01-01 01:15:17 +0100
+image: pin.jpg
+cover: pin.jpg
+thumbnail: pin.jpg
+bgimage: pin-bg.jpg
+homepage: true
+
+---
+
+Enamel pin\\
+Approximate measurements 3.5 cm x 4 cm\\
+Fixing with a metal clutch.

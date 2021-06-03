@@ -4,8 +4,8 @@ title: Thanks
 permalink: /thanks/
 ---
 
-<div class="small-12 columns">
-    <div class="large-5 medium-10 small-12 large-centered columns about text-center">
+<div>
+    <div class="thanks">
       <img src="http://www.animatedimages.org/data/media/466/animated-thank-you-image-0024.gif" alt="thank you">
       <br>
       <br>
