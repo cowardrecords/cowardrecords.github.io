@@ -20,6 +20,6 @@
     "browser-sync": "^2.26.7",
     "gulp-compass": "^2.1.0",
     "gulp-shell": "^0.5.2",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.21"
   }
 }
