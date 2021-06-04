@@ -90,14 +90,13 @@ body{
    }
     
    button {
-      width:100%; 
+      
       border: 2px solid var(--color); 
-      height: 30px;
       color:var(--color); 
       background-color: var(--background); 
       font-size: 120%; margin-left: 0px; 
       margin-top: 30px; 
-      padding:2rem;
+      padding:0.5rem;
       border-radius: 0 !important;
     }
 
