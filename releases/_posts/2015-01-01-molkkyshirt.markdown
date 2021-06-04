@@ -10,7 +10,7 @@ cover: molkkytshirt.jpg
 thumbnail: molkkytshirt.jpg
 bgimage: molkkytshirt-bg.jpg
 homepage: true
-shop: 5CAD3CE0V8OKR5K7HSESP23521
+
 select:
  - value: S
  - value: M
