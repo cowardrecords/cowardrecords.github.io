@@ -108,7 +108,7 @@ body input {
   height: 30px;
   padding: 3;
   border-radius: 0 !important;
-  text-align: center;
+  text-align: center !important;
 }
 
 /* line 128, ../_scss/_custom.scss */
