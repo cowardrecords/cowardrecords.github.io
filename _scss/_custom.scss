@@ -88,11 +88,21 @@ body{
     background-color: transparent;
     color: inherit;
    }
+   
    ul{
-    list-style-type:none;
+    list-style-type:none !important;
     margin: 0;
     padding:0;
+
+    li{
+      list-style:none !important;
+    }
    }
+
+   input[type=text], input[type=button] {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+  }
 }
 
 
@@ -220,7 +230,7 @@ input[type="radio"]:disabled:after {
   padding: 13px 10px 13px 10px;  
 }
 .carticon{
-	width:30px;
+	width:30px !important;
 	}
 	
 .closecarticon{
@@ -231,6 +241,7 @@ input[type="radio"]:disabled:after {
 	position: absolute;
 	right: 0;
 	background: inherit;
+  display: block;
 	padding: 0.9rem;
 	padding-top: 0.3rem;
 	

@@ -80,31 +80,40 @@ body button:visited {
   background-color: transparent;
   color: inherit;
 }
-/* line 91, ../_scss/_custom.scss */
+/* line 92, ../_scss/_custom.scss */
 body ul {
-  list-style-type: none;
+  list-style-type: none !important;
   margin: 0;
   padding: 0;
 }
-
+/* line 97, ../_scss/_custom.scss */
+body ul li {
+  list-style: none !important;
+}
 /* line 102, ../_scss/_custom.scss */
+body input[type=text], body input[type=button] {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+
+/* line 112, ../_scss/_custom.scss */
 #buy-options {
   display: none;
 }
 
-/* line 107, ../_scss/_custom.scss */
+/* line 117, ../_scss/_custom.scss */
 .inlinelist #margin {
   margin-right: 20px;
 }
 
-/* line 112, ../_scss/_custom.scss */
+/* line 122, ../_scss/_custom.scss */
 span.options {
   padding: 5px;
   display: inline-block;
   vertical-align: middle;
 }
 
-/* line 118, ../_scss/_custom.scss */
+/* line 128, ../_scss/_custom.scss */
 input[type="radio"] {
   cursor: pointer;
   width: 20px;
@@ -115,46 +124,46 @@ input[type="radio"] {
   border-radius: 0%;
 }
 
-/* line 129, ../_scss/_custom.scss */
+/* line 139, ../_scss/_custom.scss */
 input[type="radio"]:checked {
   background: gray;
   color: white;
 }
 
-/* line 134, ../_scss/_custom.scss */
+/* line 144, ../_scss/_custom.scss */
 input[type="checkbox"]:hover {
   filter: brightness(90%);
 }
 
-/* line 138, ../_scss/_custom.scss */
+/* line 148, ../_scss/_custom.scss */
 input[type="checkbox"]:disabled {
   background: black;
   opacity: 0.6;
   pointer-events: none;
 }
 
-/* line 144, ../_scss/_custom.scss */
+/* line 154, ../_scss/_custom.scss */
 input[type="radio"]:checked:after {
   display: none;
 }
 
-/* line 148, ../_scss/_custom.scss */
+/* line 158, ../_scss/_custom.scss */
 input[type="radio"]:disabled:after {
   border-color: gray;
 }
 
-/* line 153, ../_scss/_custom.scss */
+/* line 163, ../_scss/_custom.scss */
 .main {
   padding-top: 3rem;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 157, ../_scss/_custom.scss */
+  /* line 167, ../_scss/_custom.scss */
   .main {
     padding-top: 0.5rem;
   }
 }
-/* line 162, ../_scss/_custom.scss */
+/* line 172, ../_scss/_custom.scss */
 .anchorlink::before {
   display: block;
   content: " ";
@@ -164,7 +173,7 @@ input[type="radio"]:disabled:after {
   pointer-events: none;
 }
 
-/* line 173, ../_scss/_custom.scss */
+/* line 183, ../_scss/_custom.scss */
 .separation {
   border: 0;
   height: 0.7px;
@@ -173,7 +182,7 @@ input[type="radio"]:disabled:after {
   margin-top: 80px;
 }
 
-/* line 182, ../_scss/_custom.scss */
+/* line 192, ../_scss/_custom.scss */
 .nav {
   z-index: 100;
   height: 50px;
@@ -184,75 +193,76 @@ input[type="radio"]:disabled:after {
   left: 0 !important;
 }
 
-/* line 192, ../_scss/_custom.scss */
+/* line 202, ../_scss/_custom.scss */
 .nav > .nav-header {
   display: inline;
 }
 
-/* line 196, ../_scss/_custom.scss */
+/* line 206, ../_scss/_custom.scss */
 .nav > .nav-header > .nav-title {
   display: inline-block;
   padding: 6px 2px 6px 4px;
 }
-/* line 200, ../_scss/_custom.scss */
+/* line 210, ../_scss/_custom.scss */
 .nav > .nav-header > .nav-title img {
   max-height: 35px;
   width: auto;
 }
 
-/* line 207, ../_scss/_custom.scss */
+/* line 217, ../_scss/_custom.scss */
 .nav > .nav-btn {
   display: none;
 }
 
-/* line 211, ../_scss/_custom.scss */
+/* line 221, ../_scss/_custom.scss */
 .nav > .nav-links {
   display: inline;
   float: right;
   font-size: 18px;
 }
 
-/* line 217, ../_scss/_custom.scss */
+/* line 227, ../_scss/_custom.scss */
 .nav > .nav-links > a {
   font-size: 80%;
   display: inline-block;
   padding: 13px 10px 13px 10px;
 }
 
-/* line 222, ../_scss/_custom.scss */
+/* line 232, ../_scss/_custom.scss */
 .carticon {
-  width: 30px;
+  width: 30px !important;
 }
 
-/* line 226, ../_scss/_custom.scss */
+/* line 236, ../_scss/_custom.scss */
 .closecarticon {
   color: gray;
 }
 
-/* line 230, ../_scss/_custom.scss */
+/* line 240, ../_scss/_custom.scss */
 #cart {
   position: absolute;
   right: 0;
   background: inherit;
+  display: block;
   padding: 0.9rem;
   padding-top: 0.3rem;
   display: none;
 }
-/* line 237, ../_scss/_custom.scss */
+/* line 248, ../_scss/_custom.scss */
 #cart #close {
   margin-left: 10px;
   text-decoration: none;
   font-size: 150%;
 }
 
-/* line 244, ../_scss/_custom.scss */
+/* line 255, ../_scss/_custom.scss */
 #CartCount {
   margin-left: 4px;
   text-decoration: none;
   color: gray;
 }
 
-/* line 250, ../_scss/_custom.scss */
+/* line 261, ../_scss/_custom.scss */
 #opencart {
   position: absolute;
   right: 0;
@@ -260,30 +270,30 @@ input[type="radio"]:disabled:after {
   padding: 0.9rem;
   padding-top: 0 px;
 }
-/* line 257, ../_scss/_custom.scss */
+/* line 268, ../_scss/_custom.scss */
 #opencart a {
   padding-top: 0 px;
   margin-top: 0px;
   font-size: 200%;
   text-decoration: none;
 }
-/* line 263, ../_scss/_custom.scss */
+/* line 274, ../_scss/_custom.scss */
 #opencart a:hover {
   text-decoration: none;
 }
 
-/* line 268, ../_scss/_custom.scss */
+/* line 279, ../_scss/_custom.scss */
 .nav > #nav-check {
   display: none;
 }
 
 @media (max-width: 600px) {
-  /* line 273, ../_scss/_custom.scss */
+  /* line 284, ../_scss/_custom.scss */
   .nav {
     position: relative;
   }
 
-  /* line 276, ../_scss/_custom.scss */
+  /* line 287, ../_scss/_custom.scss */
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
@@ -291,7 +301,7 @@ input[type="radio"]:disabled:after {
     top: 0px;
   }
 
-  /* line 283, ../_scss/_custom.scss */
+  /* line 294, ../_scss/_custom.scss */
   .nav > .nav-btn > label {
     display: inline-block;
     width: 50px;
@@ -300,7 +310,7 @@ input[type="radio"]:disabled:after {
     padding-right: 0;
   }
 
-  /* line 291, ../_scss/_custom.scss */
+  /* line 302, ../_scss/_custom.scss */
   .nav > .nav-btn > label > span {
     display: block;
     width: 100%;
@@ -308,7 +318,7 @@ input[type="radio"]:disabled:after {
     border-top: 2px solid var(--color);
   }
 
-  /* line 298, ../_scss/_custom.scss */
+  /* line 309, ../_scss/_custom.scss */
   .nav > .nav-links {
     position: absolute;
     display: block;
@@ -321,25 +331,25 @@ input[type="radio"]:disabled:after {
     left: 0px;
   }
 
-  /* line 309, ../_scss/_custom.scss */
+  /* line 320, ../_scss/_custom.scss */
   .nav > .nav-links > a {
     padding-left: 1.5rem;
     display: block;
     width: 100%;
   }
 
-  /* line 314, ../_scss/_custom.scss */
+  /* line 325, ../_scss/_custom.scss */
   .nav > #nav-check:not(:checked) ~ .nav-links {
     height: 0px;
   }
 
-  /* line 317, ../_scss/_custom.scss */
+  /* line 328, ../_scss/_custom.scss */
   .nav > #nav-check:checked ~ .nav-links {
     height: calc(100vh - 50px);
     overflow-y: auto;
   }
 }
-/* line 325, ../_scss/_custom.scss */
+/* line 336, ../_scss/_custom.scss */
 .modalcontainer {
   padding: 2rem;
   padding-top: 6rem;
@@ -348,7 +358,7 @@ input[type="radio"]:disabled:after {
   margin-right: auto;
 }
 
-/* line 333, ../_scss/_custom.scss */
+/* line 344, ../_scss/_custom.scss */
 .sb-close-btn {
   display: none;
   float: right;
@@ -358,7 +368,7 @@ input[type="radio"]:disabled:after {
   cursor: pointer;
 }
 
-/* line 343, ../_scss/_custom.scss */
+/* line 354, ../_scss/_custom.scss */
 #indexHeader {
   height: 100vh;
   padding: 10% 30px 65px;
@@ -369,18 +379,18 @@ input[type="radio"]:disabled:after {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 354, ../_scss/_custom.scss */
+/* line 365, ../_scss/_custom.scss */
 #indexHeader .typewrite {
   font-size: 180%;
   background: var(--background);
 }
 
 /* ---- release ---- */
-/* line 364, ../_scss/_custom.scss */
+/* line 375, ../_scss/_custom.scss */
 #homepage img {
   width: 200px;
 }
-/* line 367, ../_scss/_custom.scss */
+/* line 378, ../_scss/_custom.scss */
 #homepage .container {
   display: flex;
   flex-direction: row;
@@ -388,89 +398,89 @@ input[type="radio"]:disabled:after {
   justify-content: flex-start;
   min-height: 175px;
 }
-/* line 379, ../_scss/_custom.scss */
+/* line 390, ../_scss/_custom.scss */
 #homepage .textblock {
   width: 400px;
   margin-left: 1rem;
   margin-right: 1rem;
 }
-/* line 383, ../_scss/_custom.scss */
+/* line 394, ../_scss/_custom.scss */
 #homepage .textblock h1, #homepage .textblock h2, #homepage .textblock h3, #homepage .textblock h4, #homepage .textblock h5, #homepage .textblock h6 {
   word-wrap: break-word;
 }
-/* line 388, ../_scss/_custom.scss */
+/* line 399, ../_scss/_custom.scss */
 #homepage img:hover {
   border: 1px solid currentColor;
 }
 
-/* line 395, ../_scss/_custom.scss */
+/* line 406, ../_scss/_custom.scss */
 .molkky-list ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-/* line 401, ../_scss/_custom.scss */
+/* line 412, ../_scss/_custom.scss */
 .molkky-list li {
   display: inline-block;
   width: 24%;
 }
 
-/* line 409, ../_scss/_custom.scss */
+/* line 420, ../_scss/_custom.scss */
 .distro {
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
-/* line 413, ../_scss/_custom.scss */
+/* line 424, ../_scss/_custom.scss */
 .distro ul {
   display: flex;
   flex-wrap: wrap;
 }
-/* line 418, ../_scss/_custom.scss */
+/* line 429, ../_scss/_custom.scss */
 .distro li {
   margin-top: 1rem;
 }
 
-/* line 425, ../_scss/_custom.scss */
+/* line 436, ../_scss/_custom.scss */
 .wikihome {
   display: block;
   justify-content: center;
   text-align: center;
 }
 
-/* line 431, ../_scss/_custom.scss */
+/* line 442, ../_scss/_custom.scss */
 #blogMain {
   margin-bottom: 4rem;
 }
 
-/* line 436, ../_scss/_custom.scss */
+/* line 447, ../_scss/_custom.scss */
 .left-in {
   padding-top: 10%;
 }
 
-/* line 440, ../_scss/_custom.scss */
+/* line 451, ../_scss/_custom.scss */
 .icoClock {
   width: 14px;
   height: auto;
 }
 
 @media only screen and (min-width: 64.063em) {
-  /* line 445, ../_scss/_custom.scss */
+  /* line 456, ../_scss/_custom.scss */
   .blogtext {
     max-width: 80%;
     margin-right: auto;
     margin-left: auto;
   }
 }
-/* line 452, ../_scss/_custom.scss */
+/* line 463, ../_scss/_custom.scss */
 .blogtext p {
   font-family: serif;
   font-size: 17px;
 }
-/* line 456, ../_scss/_custom.scss */
+/* line 467, ../_scss/_custom.scss */
 .blogtext p .small {
   font-size: 12px;
 }
-/* line 461, ../_scss/_custom.scss */
+/* line 472, ../_scss/_custom.scss */
 .blogtext .blogcontent > p:first-of-type:first-letter {
   font-size: 4em;
   text-transform: uppercase;
@@ -486,7 +496,7 @@ input[type="radio"]:disabled:after {
   text-align: center;
   font-family: sans-serif;
 }
-/* line 479, ../_scss/_custom.scss */
+/* line 490, ../_scss/_custom.scss */
 .blogtext .blogcontent h1::before {
   display: block;
   content: " ";
@@ -495,7 +505,7 @@ input[type="radio"]:disabled:after {
   visibility: hidden;
   pointer-events: none;
 }
-/* line 487, ../_scss/_custom.scss */
+/* line 498, ../_scss/_custom.scss */
 .blogtext .blogcontent h2::before {
   display: block;
   content: " ";
@@ -504,7 +514,7 @@ input[type="radio"]:disabled:after {
   visibility: hidden;
   pointer-events: none;
 }
-/* line 495, ../_scss/_custom.scss */
+/* line 506, ../_scss/_custom.scss */
 .blogtext .blogcontent h3::before {
   display: block;
   content: " ";
@@ -513,7 +523,7 @@ input[type="radio"]:disabled:after {
   visibility: hidden;
   pointer-events: none;
 }
-/* line 503, ../_scss/_custom.scss */
+/* line 514, ../_scss/_custom.scss */
 .blogtext .blogcontent h4::before {
   display: block;
   content: " ";
@@ -522,7 +532,7 @@ input[type="radio"]:disabled:after {
   visibility: hidden;
   pointer-events: none;
 }
-/* line 511, ../_scss/_custom.scss */
+/* line 522, ../_scss/_custom.scss */
 .blogtext .blogcontent h5::before {
   display: block;
   content: " ";
@@ -531,7 +541,7 @@ input[type="radio"]:disabled:after {
   visibility: hidden;
   pointer-events: none;
 }
-/* line 519, ../_scss/_custom.scss */
+/* line 530, ../_scss/_custom.scss */
 .blogtext .blogcontent h6::before {
   display: block;
   content: " ";
@@ -541,7 +551,7 @@ input[type="radio"]:disabled:after {
   pointer-events: none;
 }
 
-/* line 532, ../_scss/_custom.scss */
+/* line 543, ../_scss/_custom.scss */
 .blogHeader {
   display: flex;
   align-items: center;
@@ -555,7 +565,7 @@ input[type="radio"]:disabled:after {
   background-size: cover;
   margin-bottom: 30px;
 }
-/* line 545, ../_scss/_custom.scss */
+/* line 556, ../_scss/_custom.scss */
 .blogHeader .testata {
   align-items: center;
   text-align: center;
@@ -565,29 +575,29 @@ input[type="radio"]:disabled:after {
   margin-right: auto;
   margin-left: auto;
 }
-/* line 555, ../_scss/_custom.scss */
+/* line 566, ../_scss/_custom.scss */
 .blogHeader .testata .bg {
   padding: 1rem;
   background-color: var(--background);
 }
 
-/* line 564, ../_scss/_custom.scss */
+/* line 575, ../_scss/_custom.scss */
 .post-categories {
   padding-top: 2rem;
 }
 
-/* line 572, ../_scss/_custom.scss */
+/* line 583, ../_scss/_custom.scss */
 #blog {
   padding-bottom: 60px;
   margin-bottom: 0px;
 }
 
-/* line 581, ../_scss/_custom.scss */
+/* line 592, ../_scss/_custom.scss */
 img {
   width: 100%;
 }
 
-/* line 585, ../_scss/_custom.scss */
+/* line 596, ../_scss/_custom.scss */
 .logoTrama {
   max-width: 200px;
   margin-right: auto;
@@ -618,7 +628,7 @@ img {
     -o-transform: rotate(360deg);
   }
 }
-/* line 620, ../_scss/_custom.scss */
+/* line 631, ../_scss/_custom.scss */
 .item {
   display: flex;
   align-items: flex-start;
@@ -628,7 +638,7 @@ img {
   min-height: 800px;
 }
 
-/* line 632, ../_scss/_custom.scss */
+/* line 643, ../_scss/_custom.scss */
 .itemborder {
   flex: 0 0 33.33%;
   border-style: solid;
@@ -639,37 +649,37 @@ img {
   padding: 0;
 }
 
-/* line 642, ../_scss/_custom.scss */
+/* line 653, ../_scss/_custom.scss */
 .shopbutton {
   padding: 0.8rem;
 }
-/* line 644, ../_scss/_custom.scss */
+/* line 655, ../_scss/_custom.scss */
 .shopbutton h4 {
   text-decoration: line-through;
 }
 
 @media only screen and (max-width: 800px) {
-  /* line 651, ../_scss/_custom.scss */
+  /* line 662, ../_scss/_custom.scss */
   .item {
     display: block;
   }
 
-  /* line 654, ../_scss/_custom.scss */
+  /* line 665, ../_scss/_custom.scss */
   .itemborder {
     min-width: 100%;
   }
 
-  /* line 657, ../_scss/_custom.scss */
+  /* line 668, ../_scss/_custom.scss */
   .gallery {
     display: block;
     margin-bottom: 3rem;
   }
-  /* line 660, ../_scss/_custom.scss */
+  /* line 671, ../_scss/_custom.scss */
   .gallery img {
     min-width: 100%;
   }
 }
-/* line 666, ../_scss/_custom.scss */
+/* line 677, ../_scss/_custom.scss */
 .gallery {
   display: flex;
   align-items: flex-start;
@@ -677,42 +687,42 @@ img {
   flex: 0 0 60%;
 }
 
-/* line 677, ../_scss/_custom.scss */
+/* line 688, ../_scss/_custom.scss */
 .itemtitle {
   padding: 0.8rem;
 }
-/* line 679, ../_scss/_custom.scss */
+/* line 690, ../_scss/_custom.scss */
 .itemtitle h1, .itemtitle h2, .itemtitle h3, .itemtitle h4, .itemtitle h5, .itemtitle h6, .itemtitle p {
   overflow: visible;
   word-break: break-word;
 }
 
-/* line 685, ../_scss/_custom.scss */
+/* line 696, ../_scss/_custom.scss */
 .itemdescr {
   padding: 0.8rem;
 }
-/* line 687, ../_scss/_custom.scss */
+/* line 698, ../_scss/_custom.scss */
 .itemdescr h1, .itemdescr h2, .itemdescr h3, .itemdescr h4, .itemdescr h5, .itemdescr h6, .itemdescr p {
   overflow: visible;
   word-break: break-word;
 }
 
-/* line 696, ../_scss/_custom.scss */
+/* line 707, ../_scss/_custom.scss */
 .soldout {
   text-decoration: line-through;
 }
 
-/* line 699, ../_scss/_custom.scss */
+/* line 710, ../_scss/_custom.scss */
 .buttonPaypall {
   max-height: 35px;
 }
 
-/* line 708, ../_scss/_custom.scss */
+/* line 719, ../_scss/_custom.scss */
 .clearing-assembled .clearing-container .carousel {
   margin-top: 0px;
 }
 
-/* line 717, ../_scss/_custom.scss */
+/* line 728, ../_scss/_custom.scss */
 #Cart {
   text-align: center;
 }
@@ -721,13 +731,13 @@ img {
 #CartCount{
 	text-align:center;
 }*/
-/* line 726, ../_scss/_custom.scss */
+/* line 737, ../_scss/_custom.scss */
 .icoCart {
   width: 19px;
   height: auto;
 }
 
-/* line 734, ../_scss/_custom.scss */
+/* line 745, ../_scss/_custom.scss */
 .thanks {
   display: block;
   max-width: 400px;
@@ -737,14 +747,14 @@ img {
   margin-right: auto;
 }
 
-/* line 743, ../_scss/_custom.scss */
+/* line 754, ../_scss/_custom.scss */
 .blocktext {
   margin-left: auto;
   margin-right: auto;
   max-width: 400px;
 }
 
-/* line 750, ../_scss/_custom.scss */
+/* line 761, ../_scss/_custom.scss */
 pre {
   margin-top: 4rem;
   width: 250px;
@@ -752,23 +762,23 @@ pre {
   margin-right: auto;
 }
 
-/* line 757, ../_scss/_custom.scss */
+/* line 768, ../_scss/_custom.scss */
 .page {
   min-height: 100vh;
   padding-top: 2rem;
 }
 
-/* line 765, ../_scss/_custom.scss */
+/* line 776, ../_scss/_custom.scss */
 .responsive {
   margin: 0px;
 }
 
-/* line 768, ../_scss/_custom.scss */
+/* line 779, ../_scss/_custom.scss */
 .subpanel {
   padding: 7px;
 }
 
-/* line 774, ../_scss/_custom.scss */
+/* line 785, ../_scss/_custom.scss */
 .footer {
   background: var(--background);
   display: flex;
@@ -777,16 +787,16 @@ pre {
   font-weight: 100;
   margin-top: 2rem;
 }
-/* line 781, ../_scss/_custom.scss */
+/* line 792, ../_scss/_custom.scss */
 .footer img {
   max-width: 100px;
 }
-/* line 784, ../_scss/_custom.scss */
+/* line 795, ../_scss/_custom.scss */
 .footer a {
   margin-left: 5px;
 }
 
-/* line 791, ../_scss/_custom.scss */
+/* line 802, ../_scss/_custom.scss */
 .newsbtn {
   padding: 3px;
   max-width: 120px;
@@ -795,21 +805,21 @@ pre {
   margin-right: auto;
 }
 
-/* line 800, ../_scss/_custom.scss */
+/* line 811, ../_scss/_custom.scss */
 .centered {
   padding-top: 30px;
   text-align: center;
 }
-/* line 803, ../_scss/_custom.scss */
+/* line 814, ../_scss/_custom.scss */
 .centered svg {
   max-width: 400px;
 }
-/* line 806, ../_scss/_custom.scss */
+/* line 817, ../_scss/_custom.scss */
 .centered h1 {
   font-size: 120px;
 }
 
-/* line 813, ../_scss/_custom.scss */
+/* line 824, ../_scss/_custom.scss */
 .amazon {
   background: #232f3e;
   padding-top: 0.5rem;
@@ -817,22 +827,22 @@ pre {
   overflow: visible;
   color: white;
 }
-/* line 821, ../_scss/_custom.scss */
+/* line 832, ../_scss/_custom.scss */
 .amazon #localization img {
   width: 20px;
   margin-right: 3px;
 }
-/* line 827, ../_scss/_custom.scss */
+/* line 838, ../_scss/_custom.scss */
 .amazon #logoAmz {
   max-width: 145px;
   max-height: auto;
   margin-left: 20px;
 }
-/* line 834, ../_scss/_custom.scss */
+/* line 845, ../_scss/_custom.scss */
 .amazon .amzsearchblock {
   width: 60%;
 }
-/* line 837, ../_scss/_custom.scss */
+/* line 848, ../_scss/_custom.scss */
 .amazon .amzsearchblock .media-boxes-search-amz {
   height: 35px;
   display: inline;
@@ -842,11 +852,11 @@ pre {
   /*min-width: 500px;*/
   width: 80%;
 }
-/* line 846, ../_scss/_custom.scss */
+/* line 857, ../_scss/_custom.scss */
 .amazon .amzsearchblock .media-boxes-search-amz input, .amazon .amzsearchblock .media-boxes-search-amz textarea {
   border-width: 0px;
 }
-/* line 855, ../_scss/_custom.scss */
+/* line 866, ../_scss/_custom.scss */
 .amazon .amzsearchblock #amzLente {
   float: right;
   display: inline;
@@ -861,17 +871,17 @@ pre {
   -webkit-border-radius: 0px 5px 5px 0px;
   -khtml-border-radius: 0px 5px 5px 0px;
 }
-/* line 868, ../_scss/_custom.scss */
+/* line 879, ../_scss/_custom.scss */
 .amazon .amzsearchblock #amzLente img {
   width: auto;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 874, ../_scss/_custom.scss */
+/* line 885, ../_scss/_custom.scss */
 .amazon .amzsearchblock #amzLente:hover {
   background-color: #f3a847;
 }
-/* line 878, ../_scss/_custom.scss */
+/* line 889, ../_scss/_custom.scss */
 .amazon .amzsearchblock #amzLeft {
   float: left;
   display: inline;
@@ -886,31 +896,31 @@ pre {
   -webkit-border-radius: 5px 0px 0px 5px;
   -khtml-border-radius: 5px 0px 0px 5px;
 }
-/* line 892, ../_scss/_custom.scss */
+/* line 903, ../_scss/_custom.scss */
 .amazon .amzsearchblock #amzLente:hover {
   background-color: #f3a847;
 }
 @media only screen and (max-width: 40em) {
-  /* line 900, ../_scss/_custom.scss */
+  /* line 911, ../_scss/_custom.scss */
   .amazon .amzsearchblock {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 905, ../_scss/_custom.scss */
+  /* line 916, ../_scss/_custom.scss */
   .amazon .amzsearchblock #amzLente {
     width: 15%;
   }
-  /* line 908, ../_scss/_custom.scss */
+  /* line 919, ../_scss/_custom.scss */
   .amazon .amzsearchblock .media-boxes-search-amz {
     width: 70%;
   }
-  /* line 911, ../_scss/_custom.scss */
+  /* line 922, ../_scss/_custom.scss */
   .amazon .amzsearchblock #amzLeft {
     width: 15%;
   }
 }
-/* line 917, ../_scss/_custom.scss */
+/* line 928, ../_scss/_custom.scss */
 .amazon .categoryamz1:after {
   border: inset 5px;
   content: "";
@@ -924,7 +934,7 @@ pre {
   top: 50%;
   right: 0;
 }
-/* line 930, ../_scss/_custom.scss */
+/* line 941, ../_scss/_custom.scss */
 .amazon .categoryamz:after {
   border: inset 5px;
   content: "";
@@ -939,37 +949,37 @@ pre {
   top: 50%;
   right: 0;
 }
-/* line 945, ../_scss/_custom.scss */
+/* line 956, ../_scss/_custom.scss */
 .amazon .f-dropdown {
   color: black;
 }
-/* line 948, ../_scss/_custom.scss */
+/* line 959, ../_scss/_custom.scss */
 .amazon .amzfakemenu {
   color: #ccc;
   margin-top: 7px;
 }
-/* line 951, ../_scss/_custom.scss */
+/* line 962, ../_scss/_custom.scss */
 .amazon .amzfakemenu span {
   margin-right: 15px;
 }
-/* line 956, ../_scss/_custom.scss */
+/* line 967, ../_scss/_custom.scss */
 .amazon .cartamz {
   padding-right: 20px;
   text-align: right;
   font-size: 110%;
 }
-/* line 962, ../_scss/_custom.scss */
+/* line 973, ../_scss/_custom.scss */
 .amazon .cartamz .icoCartamz {
   width: 40px;
   height: auto;
   padding-bottom: 10px;
 }
-/* line 966, ../_scss/_custom.scss */
+/* line 977, ../_scss/_custom.scss */
 .amazon .cartamz .icoCartamz img {
   width: 40px;
 }
 @media only screen and (max-width: 40em) {
-  /* line 972, ../_scss/_custom.scss */
+  /* line 983, ../_scss/_custom.scss */
   .amazon .cartamz {
     text-align: center;
     padding-right: 0px;
@@ -977,7 +987,7 @@ pre {
   }
 }
 
-/* line 980, ../_scss/_custom.scss */
+/* line 991, ../_scss/_custom.scss */
 .amzside {
   padding-left: 10px;
   margin-top: 20px;
@@ -986,31 +996,31 @@ pre {
   font-weight: 700;
 }
 
-/* line 990, ../_scss/_custom.scss */
+/* line 1001, ../_scss/_custom.scss */
 .amzstar {
   max-width: 75px;
 }
 
-/* line 993, ../_scss/_custom.scss */
+/* line 1004, ../_scss/_custom.scss */
 .amzbold {
   font-weight: 700;
   /*color: #0066c0;*/
 }
 
-/* line 998, ../_scss/_custom.scss */
+/* line 1009, ../_scss/_custom.scss */
 .amzoange {
   font-weight: 700;
   color: #c45500;
 }
 
-/* line 1003, ../_scss/_custom.scss */
+/* line 1014, ../_scss/_custom.scss */
 .amzsideinner {
   padding-left: 10px;
   font-size: 93%;
   font-weight: 700;
 }
 
-/* line 1009, ../_scss/_custom.scss */
+/* line 1020, ../_scss/_custom.scss */
 .maincontamz {
   margin: 0;
   padding-left: 1.2rem;
@@ -1023,7 +1033,7 @@ pre {
   -moz-box-shadow: 0 0 10px #ddd;
 }
 
-/* line 1022, ../_scss/_custom.scss */
+/* line 1033, ../_scss/_custom.scss */
 .media-box-container {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
