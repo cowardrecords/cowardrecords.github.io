@@ -21,7 +21,7 @@ permalink: /policeman/
 shop: U2UZDYL4TSEP99JTGZGEP27971
 ---
 
-Screenprinted poster 31x56 cm with clear flexi 7"
+Screenprinted poster 31x56 cm with clear flexi 7" + 3" locked groove.
 
 Limited edition of 6
 

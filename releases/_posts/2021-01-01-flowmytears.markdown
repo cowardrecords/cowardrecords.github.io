@@ -20,7 +20,7 @@ homepage: true
 permalink: /flow-my-tears/
 shop: J3XD3CF4A3NUDAE5H3XEP27970
 ---
-Screenprinted poster 31x56 cm with clear flexi 7"
+Screenprinted poster 31x56 cm with clear flexi 7" + 3" locked groove.
 
 Limited edition of 6
 
