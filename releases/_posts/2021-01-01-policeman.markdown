@@ -18,7 +18,6 @@ bgimage: policeman_bg.jpg
 thumbnail: policeman_vinyl.jpg
 homepage: true
 permalink: /policeman/
-shop: U2UZDYL4TSEP99JTGZGEP27971
 ---
 
 Screenprinted poster 31x56 cm with clear flexi 7" + 3" locked groove.

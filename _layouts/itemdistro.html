@@ -19,13 +19,13 @@ layout: default
 		</div>
 			
 		<br>
-		{% if page.soldout == true %}
-			<div class="shopbutton">
-				<h4 >sold out</h4>
-			</div>
-			{% else if %}
+		{% if page.shop %}
 			<div class="shopbutton">
 				{% include shopbutton.html %}
+			</div>
+			{% else%}	
+			<div class="shopbutton">
+				<h4>sold out</h4>
 			</div>
 		{% endif %}	
 	</div>

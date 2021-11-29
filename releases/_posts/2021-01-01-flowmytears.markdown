@@ -18,7 +18,6 @@ bgimage: flow_my_tears_bg.jpg
 thumbnail: flow_my_tears.jpg
 homepage: true
 permalink: /flow-my-tears/
-shop: J3XD3CF4A3NUDAE5H3XEP27970
 ---
 Screenprinted poster 31x56 cm with clear flexi 7" + 3" locked groove.
 

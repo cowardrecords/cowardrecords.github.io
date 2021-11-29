@@ -17,7 +17,6 @@ bgimage: cicatrice_fantasma_perfidia_bg.png
 thumbnail: cicatrice_fantasma_perfidia.png
 homepage: true
 permalink: /cicatrice-fantasma-perfidia/
-shop: JJ1N3JB199JSEO6TMKZ6P27969
 ---
 
 Limited edition of 20 copies
