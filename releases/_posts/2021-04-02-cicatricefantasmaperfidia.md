@@ -21,6 +21,6 @@ permalink: /cicatrice-fantasma-perfidia/
 
 Limited edition of 20 copies
 
-This box set contains 3 5" 1/2 cardboard discs
+This box set contains 3 5" 1/2 cardboard disc
 
 April  2021.
