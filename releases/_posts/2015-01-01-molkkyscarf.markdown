@@ -10,7 +10,6 @@ cover: molkkyscarf.jpg
 thumbnail: molkkyscarf.jpg
 bgimage: molkkyscarf-bg.jpg
 homepage: true
-shop: M742ZPLS4A6ZD0U7K3SQP27967
 ---
 
 Double sided knit scarf.\\
