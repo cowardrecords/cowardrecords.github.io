@@ -10,7 +10,6 @@ cover: molkkypatch.jpg
 thumbnail: molkkypatch.jpg
 bgimage: molkkypatch-bg.jpg
 homepage: true
-shop: ETVUNQO6WY1BKS8VLC28P27968
 ---
 
 Emboried patch,\\
