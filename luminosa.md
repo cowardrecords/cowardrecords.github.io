@@ -15,8 +15,8 @@ permalink: /luminosa/
     <br>
     <audio style="width: 318px; margin-left:auto; margin-right:auto;"
         controls
-        src="{{'/audio/luminosa.mp3' | prepend: site.baseurl }}">
-            <a href="{{'/audio/luminosa.mp3' | prepend: site.baseurl }}">
+        src="{{'/audio/Luminosa.mp3' | prepend: site.baseurl }}">
+            <a href="{{'/audio/Luminosa.mp3' | prepend: site.baseurl }}">
                 Download audio
             </a>
     </audio>
