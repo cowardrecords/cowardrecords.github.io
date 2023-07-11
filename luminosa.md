@@ -13,7 +13,7 @@ permalink: /luminosa/
 
 <figure>
     <br>
-    <audio style="width: 315px;"
+    <audio style="width: 320px; margin-left:auto; margin-right:auto;"
         controls
         src="{{'/audio/luminosa.mp3' | prepend: site.baseurl }}">
             <a href="{{'/audio/luminosa.mp3' | prepend: site.baseurl }}">
@@ -22,7 +22,7 @@ permalink: /luminosa/
     </audio>
 </figure>
 
-<pre style="width: 300px;">
+<pre style="width:300px;">
    _________ _      _____   ___  ___
   / ___/ __ \ | /| / / _ | / _ \/ _ \
  / /__/ /_/ / |/ |/ / __ |/ , _/ // /
