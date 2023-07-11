@@ -11,7 +11,7 @@ permalink: /luminosa/
       <br>
       <h4 class="text-center"> Ascolta Luminosa</h4>
 
-<figure stye="margin-inline-start: 0px; margin-inline-end: 0px;">
+<figure stye="margin-inline-start: 0px; margin-inline-end: 0px; text-align:center">
     <br>
     <audio style="width: 318px; margin-left:auto; margin-right:auto;"
         controls
