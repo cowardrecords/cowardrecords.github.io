@@ -9,11 +9,11 @@ permalink: /luminosa/
       <img src="{{'/img/luminosa.png' | prepend: site.baseurl }}" alt="luminosa">
       <br>
       <br>
-      <h4 class="text-center"> Ascolta Luminosa</h4>
+      <h4 class="text-center">Ascolta Luminosa</h4>
 
-<figure stye="margin-inline-start: 0px; margin-inline-end: 0px; text-align:center">
+<figure style="text-align:center">
     <br>
-    <audio style="width: 318px; margin-left:auto; margin-right:auto;"
+    <audio  style="width:275px; margin-left:auto; margin-right:auto;"
         controls
         src="{{'/audio/Luminosa.mp3' | prepend: site.baseurl }}">
             <a href="{{'/audio/Luminosa.mp3' | prepend: site.baseurl }}">
