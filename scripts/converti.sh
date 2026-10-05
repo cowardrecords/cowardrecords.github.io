@@ -1,12 +1,13 @@
 #!/bin/sh
 # Converte i file di originali/ in versioni leggere per il sito dentro media/.
 #
-#   video (mp4, mov, m4v, 3gp)       -> mp4 H.264 + audio AAC, lato lungo max 1920px, pronto per lo streaming
+#   video (mp4, mov, m4v, 3gp)       -> mp4 H.264 + audio AAC, lato lungo max 1280px, pronto per lo streaming
 #   immagini (jpg, png, webp, heic)  -> webp, lato lungo max 2560px, raddrizzate
 #                                       secondo i dati EXIF del telefono (trasparenza mantenuta)
 #   gif, avif                        -> copiati così come sono
 #
-# Converte solo i file nuovi o modificati. Se un originale viene cancellato,
+# Converte solo i file nuovi o modificati, oppure tutti quelli di un tipo se cambi
+# le impostazioni qui sotto. Se un originale viene cancellato,
 # sparisce anche la sua versione in media/.
 #
 # Sicurezza: lo script tiene in media/.generati l'elenco dei file che ha creato
@@ -17,8 +18,15 @@
 
 SRC=originali
 DST=media
-VIDEO_MAX=1920
+VIDEO_MAX=1280
+VIDEO_CRF=26
+AUDIO_RATE=96k
 IMAGE_MAX=2560
+IMAGE_QUALITY=75
+
+# "firma" delle impostazioni: se cambia, i file di quel tipo vengono riconvertiti
+VIDEO_SIG="v$VIDEO_MAX-$VIDEO_CRF-$AUDIO_RATE"
+IMAGE_SIG="i$IMAGE_MAX-$IMAGE_QUALITY"
 
 MANIFEST="$DST/.generati"
 NEW_MANIFEST="$DST/.generati.new"
@@ -35,6 +43,14 @@ touch "$MANIFEST"
 TAB=$(printf '\t')
 
 lower() { printf '%s' "$1" | tr 'A-Z' 'a-z'; }
+
+sig_for() {
+  case "$(lower "${1##*.}")" in
+    mp4|mov|m4v|3gp)             echo "$VIDEO_SIG" ;;
+    jpg|jpeg|png|webp|heic|heif) echo "$IMAGE_SIG" ;;
+    *)                           echo "copia" ;;
+  esac
+}
 
 # nome del file in media/ per un originale (vuoto se il tipo non è supportato)
 target_for() {
@@ -61,14 +77,14 @@ convert() {
     mp4|mov|m4v|3gp)
       ffmpeg -nostdin -loglevel error -y -i "$in" \
         -vf "scale='min($VIDEO_MAX,iw)':'min($VIDEO_MAX,ih)':force_original_aspect_ratio=decrease:force_divisible_by=2" \
-        -c:v libx264 -preset medium -crf 26 -pix_fmt yuv420p \
-        -c:a aac -b:a 96k \
+        -c:v libx264 -preset medium -crf $VIDEO_CRF -pix_fmt yuv420p \
+        -c:a aac -b:a $AUDIO_RATE \
         -movflags +faststart \
         "$tmp" ;;
     jpg|jpeg|png|webp|heic|heif)
       magick "$in[0]" -auto-orient -strip \
         -resize "${IMAGE_MAX}x${IMAGE_MAX}>" \
-        -quality 75 -define webp:method=6 \
+        -quality $IMAGE_QUALITY -define webp:method=6 \
         "$tmp" ;;
     *)
       cp "$in" "$tmp" ;;
@@ -93,10 +109,11 @@ while IFS= read -r in; do
   echo "$out" >> "$TAKEN"
 
   mtime=$(stat -c %Y "$in")
-  line="$out$TAB$in$TAB$mtime"
+  line="$out$TAB$in$TAB$mtime$TAB$(sig_for "$in")"
   old=$(manifest_line "$out")
 
-  if [ -z "$old" ] && [ -e "$out" ]; then
+  # (controllo sull'elenco della cartella: più affidabile di -e su Docker per Mac)
+  if [ -z "$old" ] && ls -A "$DST" | grep -Fxq "$(basename "$out")"; then
     echo "ATTENZIONE: $out esiste già e non l'ho creato io, non lo sovrascrivo ($in)"
     continue
   fi
@@ -115,7 +132,7 @@ while IFS= read -r in; do
 done
 
 # 2. toglie da media/ solo i file creati dallo script il cui originale non c'è più
-while IFS="$TAB" read -r out in mtime; do
+while IFS="$TAB" read -r out in rest; do
   [ -z "$out" ] && continue
   if ! awk -F'\t' -v o="$out" '$1 == o { found = 1 } END { exit !found }' "$NEW_MANIFEST"; then
     echo "rimuovo: $out (originale cancellato: $in)"
