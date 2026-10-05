@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="lcsrbn">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ site.description | escape }}">
+  <link rel="shortcut icon" type="image/png" href="{{ '/img/favicon.png' | prepend: site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="stylesheet" href="{{ '/css/onepage.css' | prepend: site.baseurl }}">
+</head>
+<body>
+
+  <header class="top">
+    <a href="{{ site.baseurl }}/">
+      <picture>
+        <source srcset="{{ '/img/logo-white.png' | prepend: site.baseurl }}" media="(prefers-color-scheme: dark)">
+        <img src="{{ '/img/logo.png' | prepend: site.baseurl }}" alt="Coward Records">
+      </picture>
+    </a>
+  </header>
+
+  <main class="stream">
+    {% for item in site.data.feed %}
+    <figure class="item">
+      {% if item.link %}<a href="{{ item.link | prepend: site.baseurl }}">{% endif %}
+      {% if item.type == 'video' %}
+        <video muted loop playsinline preload="none"
+          {% if item.poster %}poster="{{ item.poster | prepend: site.baseurl }}"{% endif %}>
+          <source src="{{ item.src | prepend: site.baseurl }}" type="video/mp4">
+        </video>
+      {% else %}
+        <img src="{{ item.src | prepend: site.baseurl }}" alt="{{ item.alt | escape }}" loading="lazy">
+      {% endif %}
+      {% if item.link %}</a>{% endif %}
+      {% if item.title %}<figcaption>{{ item.title }}</figcaption>{% endif %}
+    </figure>
+    {% endfor %}
+    {{ content }}
+  </main>
+
+  <footer class="bottom">
+    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    <a href="https://www.instagram.com/cowardrecords/">[Instagram]</a>
+  </footer>
+
+  <!-- i video partono quando entrano nello schermo e si fermano quando escono -->
+  <script>
+    if ('IntersectionObserver' in window) {
+      var observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) { e.target.play().catch(function () {}); }
+          else { e.target.pause(); }
+        });
+      }, { threshold: 0.25 });
+      document.querySelectorAll('.stream video').forEach(function (v) { observer.observe(v); });
+    } else {
+      document.querySelectorAll('.stream video').forEach(function (v) { v.autoplay = true; v.load(); });
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+# Contenuti della home, mostrati dall'alto verso il basso in questo ordine.
+#
+# Campi:
+#   type:   image | video
+#   src:    percorso del file (immagini in /img, video in /video)
+#   poster: (solo video, facoltativo) immagine mostrata finché il video non parte
+#   alt:    descrizione breve (per le immagini)
+#   title:  (facoltativo) didascalia sotto il contenuto
+#   link:   (facoltativo) cliccando sul contenuto si apre questo indirizzo
+#
+# Video: mp4 (H.264), muti, pochi MB l'uno. Partono da soli quando entrano
+# nello schermo e si fermano quando escono.
+
+- type: image
+  src: /img/luminosa.png
+  alt: Luminosa
+  title: Luminosa
+  link: /luminosa/
+
+- type: image
+  src: /img/glow.jpg
+  alt: Glow
+
+# - type: video
+#   src: /video/esempio.mp4
+#   poster: /img/esempio.jpg
+#   title: Esempio di video
+
+- type: image
+  src: /img/defunto.jpg
+  alt: Defunto
+
+- type: image
+  src: /img/horses.jpg
+  alt: Horses
