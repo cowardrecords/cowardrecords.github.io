@@ -17,4 +17,4 @@ permalink: /:title/
 # Build settings
 markdown: kramdown
 
-exclude: [node_modules, gulpfile.js, docker-compose.yml]
+exclude: [node_modules, gulpfile.js, docker-compose.yml, originali, scripts]

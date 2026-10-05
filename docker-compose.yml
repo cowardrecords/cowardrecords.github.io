@@ -1,4 +1,7 @@
 # Sito in locale: docker compose up  →  http://localhost:3000
+#
+# jekyll: il sito, si aggiorna da solo quando modifichi i file
+# media:  converte da solo i file messi in originali/ e li mette in media/
 services:
   jekyll:
     image: ruby:2.7
@@ -16,5 +19,16 @@ services:
     volumes:
       - .:/site
       - bundle:/usr/local/bundle
+
+  media:
+    build:
+      dockerfile_inline: |
+        FROM alpine:3.20
+        RUN apk add --no-cache ffmpeg imagemagick imagemagick-webp imagemagick-heic imagemagick-jpeg
+    working_dir: /site
+    command: ["sh", "-c", "while true; do sh scripts/converti.sh; sleep 10; done"]
+    volumes:
+      - .:/site
+
 volumes:
   bundle:

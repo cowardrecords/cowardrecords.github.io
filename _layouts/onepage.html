@@ -12,52 +12,149 @@
 </head>
 <body>
 
-  <header class="top">
-    <a href="{{ site.baseurl }}/">
-      <picture>
-        <source srcset="{{ '/img/logo-white.png' | prepend: site.baseurl }}" media="(prefers-color-scheme: dark)">
-        <img src="{{ '/img/logo.png' | prepend: site.baseurl }}" alt="Coward Records">
-      </picture>
-    </a>
-  </header>
+  <main class="screen" id="screen">
+    <div class="bg" id="bg"></div>
 
-  <main class="stream">
-    {% for item in site.data.feed %}
-    <figure class="item">
-      {% if item.link %}<a href="{{ item.link | prepend: site.baseurl }}">{% endif %}
-      {% if item.type == 'video' %}
-        <video muted loop playsinline preload="none"
-          {% if item.poster %}poster="{{ item.poster | prepend: site.baseurl }}"{% endif %}>
-          <source src="{{ item.src | prepend: site.baseurl }}" type="video/mp4">
-        </video>
-      {% else %}
-        <img src="{{ item.src | prepend: site.baseurl }}" alt="{{ item.alt | escape }}" loading="lazy">
-      {% endif %}
-      {% if item.link %}</a>{% endif %}
-      {% if item.title %}<figcaption>{{ item.title }}</figcaption>{% endif %}
-    </figure>
-    {% endfor %}
-    {{ content }}
+    <div class="center">
+      <img class="logo" src="{{ '/img/logo-white.png' | prepend: site.baseurl }}" alt="Coward Records">
+      {% if page.tagline %}<p class="tagline">{{ page.tagline }}</p>{% endif %}
+    </div>
+
+    <nav class="social">
+      <a href="#" id="sound">audio: off</a>
+      <a href="https://www.instagram.com/cowardrecords/">instagram</a>
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    </nav>
   </main>
 
-  <footer class="bottom">
-    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-    <a href="https://www.instagram.com/cowardrecords/">[Instagram]</a>
-  </footer>
-
-  <!-- i video partono quando entrano nello schermo e si fermano quando escono -->
+  {% comment %}
+    Tutti i file dentro /media diventano contenuti: immagini (jpg, png, gif, webp, avif) e video mp4.
+  {% endcomment %}
+  {% assign media_exts = '.jpg,.jpeg,.png,.gif,.webp,.avif,.mp4' | split: ',' %}
   <script>
-    if ('IntersectionObserver' in window) {
-      var observer = new IntersectionObserver(function (entries) {
-        entries.forEach(function (e) {
-          if (e.isIntersecting) { e.target.play().catch(function () {}); }
-          else { e.target.pause(); }
+    var MEDIA = [
+      {% for file in site.static_files %}{% assign ext = file.extname | downcase %}{% if file.path contains '/media/' and media_exts contains ext %}
+      { src: {{ file.path | prepend: site.baseurl | jsonify }}, video: {% if ext == '.mp4' %}true{% else %}false{% endif %} },{% endif %}{% endfor %}
+    ];
+  </script>
+  <script>
+    (function () {
+      var bg = document.getElementById('bg');
+      var screen = document.getElementById('screen');
+      var last = -1;
+      var soundBtn = document.getElementById('sound');
+      // i browser permettono l'audio solo dopo un'interazione: si parte muti, il primo click lo attiva
+      var sound = false;
+      var touched = false;
+
+      function setSound(on) {
+        sound = on;
+        soundBtn.textContent = 'audio: ' + (on ? 'on' : 'off');
+        if (current && current.tagName === 'VIDEO') current.muted = !on;
+      }
+
+      function playVideo(v) {
+        var p = v.play();
+        if (p && p.catch) p.catch(function () {
+          // audio bloccato dal browser: riprova muto
+          if (!v.muted) { v.muted = true; setSound(false); v.play().catch(function () {}); }
         });
-      }, { threshold: 0.25 });
-      document.querySelectorAll('.stream video').forEach(function (v) { observer.observe(v); });
-    } else {
-      document.querySelectorAll('.stream video').forEach(function (v) { v.autoplay = true; v.load(); });
-    }
+      }
+
+      function pick() {
+        if (MEDIA.length < 2) return 0;
+        var i;
+        do { i = Math.floor(Math.random() * MEDIA.length); } while (i === last);
+        return i;
+      }
+
+      var current = null;
+
+      function remove(el) {
+        if (!el || !el.parentNode) return;
+        if (el.tagName === 'VIDEO') { el.pause(); el.removeAttribute('src'); el.load(); }
+        el.parentNode.removeChild(el);
+      }
+
+      function show() {
+        if (!MEDIA.length) return;
+        last = pick();
+        var item = MEDIA[last];
+        var el, done = false;
+
+        if (item.video) {
+          el = document.createElement('video');
+          el.muted = !sound;
+          el.loop = true;
+          el.autoplay = true;
+          el.playsInline = true;
+          if (!sound) el.setAttribute('muted', '');
+          el.setAttribute('playsinline', '');
+          el.preload = 'auto';
+        } else {
+          el = document.createElement('img');
+          el.alt = '';
+        }
+        el.className = 'layer';
+
+        // i livelli ancora in caricamento (click veloci) vengono scartati
+        Array.prototype.forEach.call(bg.querySelectorAll('.layer:not(.on)'), remove);
+
+        var reveal = function () {
+          if (done || !el.parentNode) return;
+          done = true;
+          el.classList.add('on');
+          var old = current;
+          current = el;
+          if (old) setTimeout(function () { remove(old); }, 600);
+        };
+        var fail = function () {
+          if (done) return;
+          done = true;
+          remove(el);
+          if (MEDIA.length > 1) show();
+        };
+
+        el.addEventListener('error', fail);
+        if (item.video) {
+          el.addEventListener('playing', reveal);
+          el.addEventListener('loadeddata', reveal);
+        } else {
+          el.addEventListener('load', reveal);
+        }
+
+        // il video deve stare nella pagina per caricarsi (Safari), resta invisibile finché non parte
+        bg.appendChild(el);
+        el.src = item.src;
+        if (item.video) {
+          playVideo(el);
+        } else if (el.complete && el.naturalWidth) {
+          reveal();
+        }
+      }
+
+      screen.addEventListener('click', function (e) {
+        if (e.target.closest('a')) return;
+        if (!touched) { touched = true; setSound(true); }
+        show();
+      });
+      document.addEventListener('keydown', function (e) {
+        if (e.target.closest && e.target.closest('a')) return;
+        if (e.key === ' ' || e.key === 'ArrowRight' || e.key === 'Enter') {
+          e.preventDefault();
+          if (!touched) { touched = true; setSound(true); }
+          show();
+        }
+      });
+      soundBtn.addEventListener('click', function (e) {
+        e.preventDefault();
+        touched = true;
+        setSound(!sound);
+        if (sound && current && current.tagName === 'VIDEO') playVideo(current);
+      });
+
+      show();
+    })();
   </script>
 </body>
 </html>

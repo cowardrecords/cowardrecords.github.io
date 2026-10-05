@@ -2,3 +2,9 @@ bundle update_site
 .sass-cache
 .jekyll-metadata
 node_modules
+originali
+media/.doppioni*
+media/.presi.tmp
+media/.converti-*
+media/.generati.new
+.DS_Store
